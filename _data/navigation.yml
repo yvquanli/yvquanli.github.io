@@ -1,20 +1,20 @@
 # main links links
 main:
-  - title: "About Me"
+  - title: "简介"
     url: "/#about-me"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "教育经历"
+    url: "/#educations"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "学术论文"
+    url: "/#publications"
 
-  - title: "Jobs"
-    url: "/#-jobs"
+  - title: "工作经历"
+    url: "/#jobs"
 
-  - title: "Competitions"
-    url: "/#-competitions"
+  - title: "竞赛经历"
+    url: "/#competitions"
 
-  - title: "Rewards"
-    url: "/#-rewards"
+  - title: "奖项荣誉"
+    url: "/#rewards"
 
