@@ -100,6 +100,7 @@ redirect_from:
 - *2018.6* MCM/ICM数学建模竞赛 `Meritorious Winner奖` ，工业与应用数学学会举办。
 - *2018.4* “蓝桥杯〞软件和信息技术专业人才大赛 `赛区一等奖`，中国工业和信息化部主办。
 - *2018.2* Kaggle餐厅访客预测竞赛 `排名117/2158`，Kaggle机器学习竞赛平台。 [[链接]](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/leaderboard#:~:text=263-,yuquan.li,-0.51811)
+- *2017.11* 全国大学生数学建模竞赛 `赛区一等奖`，中国工业与应用数学学会。
 
 <span class='anchor' id='rewards'></span>
 # 🎉 奖项荣誉
