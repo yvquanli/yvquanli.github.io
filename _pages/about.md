@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-黎育权目前是兰大在读博士研究生。科研上着力于将AI的能力应用于临床前药物发现，如自动机器学习应用于分子相互作用和分子性质预测等，以第一作者身份发表Nature子刊论文一篇(Nature Machine Intelligence)，总发表SCI论文10篇(其中主要作者身份4篇顶刊)，谷歌H-index 5，论文总引用157次。先后于腾讯公司量子实验室、智源人工智能研究院付杰课题组任算法实习生。获得MCM/ICM数学建模竞赛Meritorious Winner奖、蓝桥杯算法设计竞赛赛区一等奖。曾获唐敖庆化学奖学金、博士生国家奖学金。参与导师国家自然基金项目两项。担任Brefings in Bioinfomatics审稿人，为中国人工智能学会会员，中国计算机学会会员，中国化学会会员。
+黎育权目前是兰大在读博士研究生。科研上着力于将AI的能力应用于临床前药物发现，如自动机器学习应用于分子相互作用和分子性质预测等，以第一作者身份发表Nature子刊论文一篇(Nature Machine Intelligence)，总发表SCI论文10篇(其中主要作者身份4篇顶刊)，谷歌H-index 5，论文总引用157次。获得MCM/ICM数学建模竞赛Meritorious Winner奖、蓝桥杯软件和信息技术专业人才大赛赛区一等奖。曾获唐敖庆化学奖学金、博士生国家奖学金。参与导师国家自然基金项目两项。担任Brefings in Bioinfomatics审稿人，为中国人工智能学会会员，中国计算机学会会员，中国化学会会员。
 
 <!-- <a href='https://scholar.google.com/citations?user=lCJi22EAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
@@ -57,6 +57,7 @@ redirect_from:
 [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/RetroPrime.pdf)
 
 - 论文简介：过去的有机化学逆合成预测工作，容易出现输出多样性不足和化学上的不可信赖性问题。RetroPrime通过集成化学家的逆合成策略，通过Transformer模型预测反应中心，从而将分子分解为合成子，然后通过另一个Transformer将合成子转换成反应物。
+
 † Equal contribution
 
 ### 所有论文
@@ -95,8 +96,6 @@ redirect_from:
 <span class='anchor' id='competitions'></span>
 # 🏅 竞赛经历
 - *2020.3* 高能对撞粒子分类挑战赛 `排名5/256`，Biendata举办。 [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy)
-
-
 - *2018.6* MCM/ICM数学建模竞赛 `Meritorious Winner奖` ，工业与应用数学学会举办。
 - *2018.4* “蓝桥杯〞软件和信息技术专业人才大赛 `赛区一等奖`，中国工业和信息化部主办。
 - *2018.2* Kaggle餐厅访客预测竞赛 `排名117/2158`，Kaggle机器学习竞赛平台。 [[链接]](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/leaderboard#:~:text=263-,yuquan.li,-0.51811)
