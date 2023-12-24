@@ -66,21 +66,23 @@ redirect_from:
 
 
 
-- Xiaodan Yin, Xiaorui Wang, **Yuquan Li**, Jike Wang, Yuwei Wang, Yafeng Deng, Tingjun Hou, Huanxiang Liu, Pei Luo, and Xiaojun Yao. "CODD-Pred: A Web Server for Efficient Target Identification and Bioactivity Prediction of Small Molecules." **Journal of Chemical Information and Modeling** 63.20 (2023): 6169-6176. [[HTML]](https://doi.org/10.1021/acs.jcim.3c00685) [[PDF]](/pdf/2023_coddpred.pdf)
-- Jianmin Wang, Jiashun Mao, Chunyan Li, Hongxin Xiang, Xun Wang, Shuang Wang, Zixu Wang, Yangyang Chen, **Yuquan Li**, Heqi Sun, Kyoung Tai No, Tao Song, ,Xiangxiang Zeng. "An interface-based molecular generative framework for protein-protein interaction inhibitors." **bioRxiv** (2023): 2023-10.[[HTML]](https://doi.org/10.1101/2023.10.10.557742) [[PDF]](/pdf/2023_an_interface_based.pdf)
-- Ruiqiang Lu, Jun Wang, Pengyong Li, **Yuquan Li**, Shuoyan Tan, Yiting Pan, Huanxiang Liu, Peng Gao, Guotong Xie, Xiaojun Yao. "Improving drug-target affinity prediction via feature fusion and knowledge distillation." **Briefings in Bioinformatics.** 24.3 (2023): bbad145. [[HTML]](https://doi.org/10.1093/bib/bbad145) 
-- Xiaorui Wang, Chang-Yu Hsieh, Xiaodan Yin, Jike Wang, **Yuquan Li**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou, Xiaojun Yao.  "Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center." **Research** 6 (2023): 0231. [[HTML]](https://doi.org/10.1101/2023.08.01.551396) [[PDF]](/pdf/2023_generic_interpretable_reaction.pdf)
-- Shuo Liu, Jialiang Yu, Ningxi Ni, Zidong Wang, Mengyun Chen, **Yuquan Li**, Chen Xu, Yahao Ding, Jun Zhang, Xiaojun Yao, Huanxiang Liu. "A versatile framework for drug-target interaction prediction by considering domain specific features." **bioRxiv** (2023): 2023-08. [[HTML]](https://doi.org/10.34133/research.0231) [[PDF]](/pdf/2023_a_versatile_framework.pdf)
+- [2023e] Xiaodan Yin, Xiaorui Wang, **Yuquan Li**, Jike Wang, Yuwei Wang, Yafeng Deng, Tingjun Hou, Huanxiang Liu, Pei Luo, and Xiaojun Yao. "CODD-Pred: A Web Server for Efficient Target Identification and Bioactivity Prediction of Small Molecules." **Journal of Chemical Information and Modeling** 63.20 (2023): 6169-6176. [[HTML]](https://doi.org/10.1021/acs.jcim.3c00685) [[PDF]](/pdf/paper_2023e.pdf)
+- [2023d] Jianmin Wang, Jiashun Mao, Chunyan Li, Hongxin Xiang, Xun Wang, Shuang Wang, Zixu Wang, Yangyang Chen, **Yuquan Li**, Heqi Sun, Kyoung Tai No, Tao Song, ,Xiangxiang Zeng. "An interface-based molecular generative framework for protein-protein interaction inhibitors." **bioRxiv** (2023): 2023-10.[[HTML]](https://doi.org/10.1101/2023.10.10.557742) [[PDF]](/pdf/paper_2023d.pdf)
+- [2023c] Ruiqiang Lu, Jun Wang, Pengyong Li, **Yuquan Li**, Shuoyan Tan, Yiting Pan, Huanxiang Liu, Peng Gao, Guotong Xie, Xiaojun Yao. "Improving drug-target affinity prediction via feature fusion and knowledge distillation." **Briefings in Bioinformatics.** 24.3 (2023): bbad145. [[HTML]](https://doi.org/10.1093/bib/bbad145) 
+- [2023b] Xiaorui Wang, Chang-Yu Hsieh, Xiaodan Yin, Jike Wang, **Yuquan Li**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou, Xiaojun Yao.  "Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center." **Research** 6 (2023): 0231. [[HTML]](https://doi.org/10.1101/2023.08.01.551396) [[PDF]](/pdf/paper_2023b.pdf)
+- [2023a] Shuo Liu, Jialiang Yu, Ningxi Ni, Zidong Wang, Mengyun Chen, **Yuquan Li**, Chen Xu, Yahao Ding, Jun Zhang, Xiaojun Yao, Huanxiang Liu. "A versatile framework for drug-target interaction prediction by considering domain specific features." **bioRxiv** (2023): 2023-08. [[HTML]](https://doi.org/10.34133/research.0231) [[PDF]](/pdf/paper_2023a.pdf)
 
 #### 2022年度
-- Dejun Jiang, Huiyong Sun, Jike Wang, Chang-Yu Hsieh, **Yuquan Li**, Zhenxing Wu, Dongsheng Cao, Jian Wu, Tingjun Hou. "Out-of-the-box deep learning prediction of quantum-mechanical partial charges by graph representation and transfer learning." **Briefings in Bioinformatics** 23.2 (2022): bbab597. [[HTML]](https://doi.org/10.1093/bib/bbab597) [[PDF]](/pdf/2022_our_of_the_box.pdf)
-- **Yuquan Li**, Chang-Yu Hsieh, Ruiqiang Lu, Xiaoqing Gong, Xiaorui Wang, Pengyong Li, Shuo Liu, Yanan Tian, Dejun Jiang, Jiaxian Yan, Qifeng Bai, Huanxiang Liu, Shengyu Zhang & Xiaojun Yao. "An adaptive graph learning method for automated molecular interactions and properties predictions." **Nature Machine Intelligence** 4.7 (2022): 645-651. [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/GLAM.pdf)
+- [2022b] Dejun Jiang, Huiyong Sun, Jike Wang, Chang-Yu Hsieh, **Yuquan Li**, Zhenxing Wu, Dongsheng Cao, Jian Wu, Tingjun Hou. "Out-of-the-box deep learning prediction of quantum-mechanical partial charges by graph representation and transfer learning." **Briefings in Bioinformatics** 23.2 (2022): bbab597. [[HTML]](https://doi.org/10.1093/bib/bbab597) [[PDF]](/pdf/paper_2022b.pdf)
+- [2022a] **Yuquan Li**, Chang-Yu Hsieh, Ruiqiang Lu, Xiaoqing Gong, Xiaorui Wang, Pengyong Li, Shuo Liu, Yanan Tian, Dejun Jiang, Jiaxian Yan, Qifeng Bai, Huanxiang Liu, Shengyu Zhang & Xiaojun Yao. "An adaptive graph learning method for automated molecular interactions and properties predictions." **Nature Machine Intelligence** 4.7 (2022): 645-651. [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)
 
 
 #### 2021年度
-- Pengyong Li, **Yuquan Li**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song, Xiaojun Yao. "TrimNet: learning molecular representation from triplet messages for biomedicine." **Briefings in Bioinformatics** 22.4 (2021): bbaa266. [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/TrimNet.pdf)
-- Xiaorui Wang, **Yuquan Li**, Jiezhong Qiu, Guangyong Chen, Huanxiang Liu, Benben Liao, Chang-Yu Hsieh, Xiaojun Yao. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." **Chemical Engineering Journal** 420 (2021): 129845. [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/RetroPrime.pdf)
-- **Yuquan Li**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao. "Introducing block design in graph neural networks for molecular properties prediction." **Chemical Engineering Journal** 414 (2021): 128817. [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/BGNN.pdf)
+- [2021c] Pengyong Li, **Yuquan Li**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song, Xiaojun Yao. "TrimNet: learning molecular representation from triplet messages for biomedicine." **Briefings in Bioinformatics** 22.4 (2021): bbaa266. [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)
+- [2021b] Xiaorui Wang, **Yuquan Li**, Jiezhong Qiu, Guangyong Chen, Huanxiang Liu, Benben Liao, Chang-Yu Hsieh, Xiaojun Yao. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." **Chemical Engineering Journal** 420 (2021): 129845. [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)
+    
+- [2021a] **Yuquan Li**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao. "Introducing block design in graph neural networks for molecular properties prediction." **Chemical Engineering Journal** 414 (2021): 128817. [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)
+
 
 <span class='anchor' id='jobs'></span>
 # 💼 工作经历
@@ -95,11 +97,11 @@ redirect_from:
 
 <span class='anchor' id='competitions'></span>
 # 🏅 竞赛经历
-- *2020.3* 高能对撞粒子分类挑战赛 `排名5/256`，Biendata举办。 [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy)
-- *2018.6* MCM/ICM数学建模竞赛 `Meritorious Winner奖` ，工业与应用数学学会举办。
-- *2018.4* “蓝桥杯〞软件和信息技术专业人才大赛 `赛区一等奖`，中国工业和信息化部主办。
-- *2018.2* Kaggle餐厅访客预测竞赛 `排名117/2158`，Kaggle机器学习竞赛平台。 [[链接]](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/leaderboard#:~:text=263-,yuquan.li,-0.51811)
-- *2017.11* 全国大学生数学建模竞赛 `赛区一等奖`，中国工业与应用数学学会。
+- *2020.3* 高能对撞粒子分类挑战赛 `排名5/256`，Biendata举办(平台级，交叉学科竞赛)。 [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy)
+- *2018.6* MCM/ICM数学建模竞赛 `Meritorious Winner奖` ，前7%获奖，工业与应用数学学会举办(国家级，数学建模竞赛)。
+- *2018.4* “蓝桥杯〞软件和信息技术专业人才大赛java组 `赛区一等奖`，中国工业和信息化部主办(国家级，算法设计类竞赛)。
+- *2018.2* Kaggle餐厅访客预测竞赛 `排名117/2158`，Kaggle机器学习竞赛平台(平台级，机器学习竞赛)。 [[链接]](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/leaderboard#:~:text=263-,yuquan.li,-0.51811)
+- *2017.11* 2017全国大学生数学建模竞赛 `赛区一等奖`，中国工业与应用数学学会主办(国家级，数学建模竞赛)。[[获奖链接]](http://www.mcm.edu.cn/html_cn/node/47a37c00788711191a6333ef6d7f38c2.html)
 
 <span class='anchor' id='rewards'></span>
 # 🎉 奖项荣誉
