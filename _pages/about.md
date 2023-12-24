@@ -34,12 +34,12 @@ redirect_from:
 # 🎓 教育经历 
 - *2019.9 - 今* &emsp;&emsp;兰州大学 `985` `但西北偏北`  化学化工学院
   - 博士，化学信息学 (导师：姚小军教授)
-  - *2022.12* 博士生国家奖学金           
-  - *2021.12* 博士生一等学业奖学金    
+  - 获博士生国家奖学金  2022.12         
+  - 获博士生一等学业奖学金    2021.12
 - *2015.9 - 2019.6*  青海大学 `211` `但西北偏北` 计算机技术与应用系 
   - 本科，计算机科学与技术
-  - *2019.6* 优秀毕业生表彰
-  - *2019.6* 优秀学位论文表彰
+  - 获优秀毕业生表彰 2019.6
+  - 获优秀学位论文表彰 2019.6
 
 
 <span class='anchor' id='publications'></span>
@@ -108,12 +108,24 @@ redirect_from:
 
 <span class='anchor' id='competitions'></span>
 # 🏅 竞赛经历
-- *2020.3* 高能对撞粒子分类挑战赛 `排名5/256`，Biendata举办(平台级，交叉学科竞赛)。 [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy) [[PDF]](/pdf/comp_2020_3.pdf)
-- *2018.6* MCM/ICM数学建模竞赛 `Meritorious Winner奖` `(Top 3%~7% of 20602 team)`，队长，工业与应用数学学会举办(国家级，数学建模竞赛)。 [[PDF]](/pdf/comp_2018_6.pdf)
-- *2018.5* 全国高校“西普杯”信息安全铁人三项赛 `赛区三等奖`，中国教育部主办(国家级，信息安全竞赛)。 [[PDF]](/pdf/comp_2018_5.pdf)
-- *2018.4* “蓝桥杯〞软件和信息技术专业人才大赛java组 `赛区一等奖`，个人参赛，中国工业和信息化部主办(国家级，算法设计类竞赛)。 [[PDF]](/pdf/comp_2018_4.pdf) 
-- *2018.2* Kaggle餐厅访客预测竞赛 `排名117/2158`，队长，Kaggle机器学习竞赛平台(平台级，机器学习竞赛)。 [[链接]](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/leaderboard#:~:text=263-,yuquan.li,-0.51811) [[PDF]](/pdf/comp_2018_2.pdf) 
-- *2017.11* 全国大学生数学建模竞赛 `赛区一等奖`，队长，中国工业与应用数学学会主办(国家级，数学建模竞赛)。[[链接]](http://www.mcm.edu.cn/html_cn/node/47a37c00788711191a6333ef6d7f38c2.html) [[PDF]](/pdf/comp_2017_11.pdf) 
+- *2020.3* 高能对撞粒子分类挑战赛 [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy) [[PDF]](/pdf/comp_2020_3.pdf)
+  - `排名5/256`
+  - 平台级，交叉学科竞赛，Biendata举办
+- *2018.6* MCM/ICM数学建模竞赛 [[PDF]](/pdf/comp_2018_6.pdf)
+  - `Meritorious Winner奖` `(Top 3%~7% of 20602 team)`，队长身份
+  - 国家级，数学建模竞赛，工业与应用数学学会举办。 
+- *2018.5* 全国高校“西普杯”信息安全铁人三项赛 [[PDF]](/pdf/comp_2018_5.pdf)
+  - `赛区三等奖`
+  - 国家级，信息安全竞赛，中国教育部主办
+- *2018.4* “蓝桥杯〞软件和信息技术专业人才大赛java组 [[PDF]](/pdf/comp_2018_4.pdf) 
+  - `赛区一等奖`，个人参赛
+  - 国家级，算法设计类竞赛，中国工业和信息化部主办
+- *2018.2* Kaggle餐厅访客预测竞赛 [[链接]](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/leaderboard#:~:text=263-,yuquan.li,-0.51811) [[PDF]](/pdf/comp_2018_2.pdf) 
+  - `排名117/2158`，队长身份
+  - 平台级，机器学习竞赛，Kaggle机器学习竞赛平台
+- *2017.11* 全国大学生数学建模竞赛 [[链接]](http://www.mcm.edu.cn/html_cn/node/47a37c00788711191a6333ef6d7f38c2.html) [[PDF]](/pdf/comp_2017_11.pdf) 
+  - `赛区一等奖`，队长身份
+  - 国家级，数学建模竞赛，中国工业与应用数学学会主办
 
 <span class='anchor' id='rewards'></span>
 # 🎉 奖项荣誉
