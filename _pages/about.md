@@ -39,22 +39,22 @@ redirect_from:
 # 📝 学术论文
 ### 代表性论文
 [1] **Li, Yuquan†**, Hsieh, Chang-Yu†, ... & Yao, Xiaojun. "An adaptive graph learning method for automated molecular interactions and properties predictions." **Nature Machine Intelligence.** `2022 IF=23.8` `Top` 
-[[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/GLAM.pdf)
+[[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/2022a.pdf)
 
 - 论文简介：我们提出数据集自适应图学习方法，旨在无人工干预的情况下适应给定数据集并学习出一个高性能的预测器。该方法设计了一个包含架构设计、训练超参数、优化器选择、误差函数选择的图学习配置空间，并自动完成架构设计、超参数设置、优化器以及损失函数选择，最终训练出一个用于完成下游任务的高性能集成预测器。
 
 [2] **Li, Yuquan**, ... & Yao, Xiaojun. "Introducing block design in graph neural networks for molecular properties prediction." **Chemical Engineering Journal**. `2021 IF=16.7` `Top` 
-[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/BGNN.pdf)
+[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/2021a.pdf)
 
 - 论文简介：鉴于图学习方法发展并非线性，不同学者的工作所设计的图网络代码实现互相之间存在较大差异，所以我们首先提出引入带有规范化层的块设计到图网络用于分子性质预测，一方面解决网络退化问题使得网络可以更深以增加表示学习能力，另一方面为自动图学习打下图网络模块标准化和可定制的坚实基础。
 
 [3] Li, Pengyong†, **Li, Yuquan†**, ... & Yao, Xiaojun. "TrimNet : learning molecular representation from triplet messages for biomedicine." **Briefings in Bioinformatics**. `2021 IF=13.9` `Top` 
-[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/TrimNet.pdf)
+[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/2021c.pdf)
 
 - 论文简介：尽管现有的图神经网络（GNN）模型在分子表征方面取得了显著进展，但仍存在一些局限性，例如参数数量庞大、计算效率不高以及对分子结构理解的局限性。为了克服这些挑战，文章提出了一种新的GNN架构——TrimNet。TrimNet的核心创新在于其三重信息机制（Triplet Message Mechanism），该机制通过原子-键-原子的结构来有效捕获分子的关键特征。这种方法不仅减少了模型的参数数量，提高了计算效率，还增强了模型对分子结构的理解和解释能力。
 
 [4] Wang, Xiaorui.†, **Li, Yuquan†**, ... & Yao, Xiaojun. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." **Chemical Engineering Journal**. `2021 IF=16.7` `Top`
-[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/RetroPrime.pdf)
+[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/2021b.pdf)
 
 - 论文简介：过去的有机化学逆合成预测工作，容易出现输出多样性不足和化学上的不可信赖性问题。RetroPrime通过集成化学家的逆合成策略，通过Transformer模型预测反应中心，从而将分子分解为合成子，然后通过另一个Transformer将合成子转换成反应物。
 
@@ -84,28 +84,29 @@ redirect_from:
 - [2021a] **Yuquan Li**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao. "Introducing block design in graph neural networks for molecular properties prediction." **Chemical Engineering Journal** 414 (2021): 128817. [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)
 
 
-<span class='anchor' id='jobs'></span>
+<span class='anchor' id='jobs'></span> 
 # 💼 工作经历
-- 2022.7 - 2023.4 智源人工智能研究院 [付杰课题组](https://bigaidream.github.io/) 算法实习生
+- 2022.7 - 2023.4 智源人工智能研究院 算法实习生 [[链接]](https://bigaidream.github.io/)
   - 工作内容：
       1. 弱监督分子原型学习Molecular rationale learning；
       2. 基于对比学习的半监督图学习
-- 2020.8 - 2022.6 腾讯公司 [量子实验室](https://quantum.tencent.com/) 研发-算法(实习)
+- 2020.8 - 2022.6 腾讯公司 量子实验室 研发-算法(实习) [[链接]](https://quantum.tencent.com/) [[PDF]](/pdf/job_2020_8.pdf) 
   - 工作内容：
       1. 自动图学习分子性质、药物-靶标相互作用预测 `发表论文[1]`；
       2. 新型图神经网络架构研究 `发表论文[3]`
 
 <span class='anchor' id='competitions'></span>
 # 🏅 竞赛经历
-- *2020.3* 高能对撞粒子分类挑战赛 `排名5/256`，Biendata举办(平台级，交叉学科竞赛)。 [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy)
-- *2018.6* MCM/ICM数学建模竞赛 `Meritorious Winner奖` ，前7%获奖，工业与应用数学学会举办(国家级，数学建模竞赛)。
-- *2018.4* “蓝桥杯〞软件和信息技术专业人才大赛java组 `赛区一等奖`，中国工业和信息化部主办(国家级，算法设计类竞赛)。
-- *2018.2* Kaggle餐厅访客预测竞赛 `排名117/2158`，Kaggle机器学习竞赛平台(平台级，机器学习竞赛)。 [[链接]](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/leaderboard#:~:text=263-,yuquan.li,-0.51811)
-- *2017.11* 2017全国大学生数学建模竞赛 `赛区一等奖`，中国工业与应用数学学会主办(国家级，数学建模竞赛)。[[获奖链接]](http://www.mcm.edu.cn/html_cn/node/47a37c00788711191a6333ef6d7f38c2.html)
+- *2020.3* 高能对撞粒子分类挑战赛 `排名5/256`，Biendata举办(平台级，交叉学科竞赛)。 [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy) [[PDF]](/pdf/comp_2020_3.pdf)
+- *2018.6* MCM/ICM数学建模竞赛 `Meritorious Winner奖` `(Top 3%~7% of 20602 team)`，队长，工业与应用数学学会举办(国家级，数学建模竞赛)。 [[PDF]](/pdf/comp_2018_6.pdf)
+- *2018.5* 全国高校“西普杯”信息安全铁人三项赛 `赛区三等奖`，中国教育部主办(国家级，信息安全竞赛)。 [[PDF]](/pdf/comp_2018_5.pdf)
+- *2018.4* “蓝桥杯〞软件和信息技术专业人才大赛java组 `赛区一等奖`，个人参赛，中国工业和信息化部主办(国家级，算法设计类竞赛)。 [[PDF]](/pdf/comp_2018_4.pdf) 
+- *2018.2* Kaggle餐厅访客预测竞赛 `排名117/2158`，队长，Kaggle机器学习竞赛平台(平台级，机器学习竞赛)。 [[链接]](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/leaderboard#:~:text=263-,yuquan.li,-0.51811) [[PDF]](/pdf/comp_2018_2.pdf) 
+- *2017.11* 全国大学生数学建模竞赛 `赛区一等奖`，队长，中国工业与应用数学学会主办(国家级，数学建模竞赛)。[[链接]](http://www.mcm.edu.cn/html_cn/node/47a37c00788711191a6333ef6d7f38c2.html) [[PDF]](/pdf/comp_2017_11.pdf) 
 
 <span class='anchor' id='rewards'></span>
 # 🎉 奖项荣誉
 
-- *2022.12* 博士生国家奖学金
-- *2021.11* 唐敖庆化学奖学金
+- *2022.12* 博士生国家奖学金 [[链接]](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=8813)
+- *2021.11* 唐敖庆化学奖学金 [[链接]](https://www.jlu.edu.cn/info/1095/50784.htm) [[PDF]](/pdf/rewards_2021_11.pdf) 
 
