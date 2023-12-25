@@ -186,7 +186,8 @@ redirect_from:
 - *2022.12* 博士生国家奖学金 [[链接]](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=8813)
 - *2021.11* 唐敖庆化学奖学金 [[链接]](https://www.jlu.edu.cn/info/1095/50784.htm) [[PDF]](/pdf/rewards_2021_11.pdf) 
 
-# 学术共同体
+<span class='anchor' id='others'></span>
+# 👨‍👩‍👧‍👦 学术共同体
 - **审稿人**
   - Brefings in Bioinfomatics
 - **学会**

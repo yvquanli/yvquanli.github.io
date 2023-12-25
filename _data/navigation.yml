@@ -18,3 +18,5 @@ main:
   - title: "奖项荣誉"
     url: "/#rewards"
 
+  - title: "其他"
+    url: "/#others"
