@@ -46,24 +46,24 @@ redirect_from:
 # 📝 学术论文
 ### 代表性论文
 **[1]** **Li, Yuquan†**, Hsieh, Chang-Yu†, ... & Yao, Xiaojun. "An adaptive graph learning method for automated molecular interactions and properties predictions." **Nature Machine Intelligence.** `2022 IF=23.8` `Top` 
-[[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/2022a.pdf)
+[[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/2022a.pdf) [[内容介绍]](#research_project_3) 
+- [[媒体分享1 AItellU]](https://zhuanlan.zhihu.com/p/587238348) &emsp; [[媒体分享2 DrugAI]](https://zhuanlan.zhihu.com/p/533498924) &emsp; [[媒体分享3 ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg) &emsp; [[媒体分享4 ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)  &emsp; [[媒体分享5 ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA) &emsp; [[媒体分享6 今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  &emsp; [[媒体分享7 智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) 
+- [[媒体分享8 智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
 
-- 论文简介：我们提出数据集自适应图学习方法，旨在无人工干预的情况下适应给定数据集并学习出一个高性能的预测器。该方法设计了一个包含架构设计、训练超参数、优化器选择、误差函数选择的图学习配置空间，并自动完成架构设计、超参数设置、优化器以及损失函数选择，最终训练出一个用于完成下游任务的高性能集成预测器。
 
 **[2]** **Li, Yuquan**, ... & Yao, Xiaojun. "Introducing block design in graph neural networks for molecular properties prediction." **Chemical Engineering Journal**. `2021 IF=16.7` `Top` 
-[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/2021a.pdf)
+[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/2021a.pdf) [[内容介绍]](#research_project_1) 
 
-- 论文简介：鉴于图学习方法发展并非线性，不同学者的工作所设计的图网络代码实现互相之间存在较大差异，所以我们首先提出引入带有规范化层的块设计到图网络用于分子性质预测，一方面解决网络退化问题使得网络可以更深以增加表示学习能力，另一方面为自动图学习打下图网络模块标准化和可定制的坚实基础。
+
 
 **[3]** Li, Pengyong†, **Li, Yuquan†**, ... & Yao, Xiaojun. "TrimNet : learning molecular representation from triplet messages for biomedicine." **Briefings in Bioinformatics**. `2021 IF=13.9` `Top` 
-[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/2021c.pdf)
+[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/2021c.pdf) [[内容介绍]](#research_project_2)
 
-- 论文简介：尽管现有的图神经网络（GNN）模型在分子表征方面取得了显著进展，但仍存在一些局限性，例如参数数量庞大、计算效率不高以及对分子结构理解的局限性。为了克服这些挑战，文章提出了一种新的GNN架构——TrimNet。TrimNet的核心创新在于其三重信息机制（Triplet Message Mechanism），该机制通过原子-键-原子的结构来有效捕获分子的关键特征。这种方法不仅减少了模型的参数数量，提高了计算效率，还增强了模型对分子结构的理解和解释能力。
 
 **[4]** Wang, Xiaorui.†, **Li, Yuquan†**, ... & Yao, Xiaojun. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." **Chemical Engineering Journal**. `2021 IF=16.7` `Top`
 [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/2021b.pdf)
 
-- 论文简介：过去的有机化学逆合成预测工作，容易出现输出多样性不足和化学上的不可信赖性问题。RetroPrime通过集成化学家的逆合成策略，通过Transformer模型预测反应中心，从而将分子分解为合成子，然后通过另一个Transformer将合成子转换成反应物。
+
 
 † Equal contribution
 
@@ -135,6 +135,8 @@ redirect_from:
     - 本工作类似工作(SPICE)示意图：
   
       ![示意图](pdf/research_project_4*.png){:height="90%" width="90%"}
+
+  <span class='anchor' id='research_project_3'></span> 
   - **完成科研项目3：提出自适应图学习用于自动化的药物-靶标相互作用和分子性质预测** [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/2022a.pdf)
     - 时间段：2020.12 - 2021.12
     - 贡献度：80%, 其他20%由谢昌谕研究员、姚小军教授及同学提供 
@@ -144,6 +146,8 @@ redirect_from:
     - 示意图：
 
       ![示意图](pdf/research_project_3.png){:height="90%" width="90%"}
+
+  <span class='anchor' id='research_project_2'></span>
   - **完成科研项目2：基于三元消息传递机制的新型图神经网络** [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/2021c.pdf)
     - 时间段：2020.8 - 2022.12
     - 贡献度：50%, 其他50%由李鹏勇同学、谢昌谕研究员、姚小军教授及同学提供
@@ -156,6 +160,8 @@ redirect_from:
 
 
 ## 2016.6 - 2020.8 早期科研工作
+
+  <span class='anchor' id='research_project_1'></span>
   - **完成科研项目1：引入块设计网络设计的图网络，进行分子性质预测** [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/2021a.pdf)
     - 时间段：2019.9 - 2020.7（硕士一年级）
     - 贡献度：90%, 其他20%由姚小军教授及同学提供
