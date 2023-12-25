@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-黎育权目前是兰大在读博士研究生。科研上着力于将AI的能力应用于临床前药物发现，如自动机器学习应用于分子相互作用和分子性质预测等，以第一作者身份发表Nature子刊论文一篇(Nature Machine Intelligence)，总发表SCI论文10篇(其中主要作者身份4篇顶刊)，谷歌H-index 5，论文总引用157次。获得MCM/ICM数学建模竞赛Meritorious Winner奖、蓝桥杯软件和信息技术专业人才大赛赛区一等奖。曾获唐敖庆化学奖学金、博士生国家奖学金。参与导师国家自然基金项目两项。担任Brefings in Bioinfomatics审稿人，为中国人工智能学会会员，中国计算机学会会员，中国化学会会员。
+黎育权目前是兰大在读博士研究生。科研上着力于将AI的能力应用于临床前药物发现，如自动机器学习应用于分子相互作用和分子性质预测等，以第一作者身份发表Nature子刊论文一篇(Nature Machine Intelligence)，总发表SCI论文10篇(其中以主要作者身份发表4篇Top刊物)，谷歌H-index 5，论文总引用157次。获得MCM/ICM数学建模竞赛Meritorious Winner奖、蓝桥杯软件和信息技术专业人才大赛赛区一等奖。曾获唐敖庆化学奖学金、博士生国家奖学金。参与导师国家自然基金项目两项。担任Brefings in Bioinfomatics审稿人，为中国人工智能学会会员，中国计算机学会会员，中国化学会会员。
 
 <!-- <a href='https://scholar.google.com/citations?user=lCJi22EAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
