@@ -47,8 +47,7 @@ redirect_from:
 ### 代表性论文
 **[1]** **Li, Yuquan†**, Hsieh, Chang-Yu†, ... & Yao, Xiaojun. "An adaptive graph learning method for automated molecular interactions and properties predictions." **Nature Machine Intelligence.** `2022 IF=23.8` `Top` 
 [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/2022a.pdf) [[内容介绍]](#research_project_3) 
-- [[媒体分享1 AItellU]](https://zhuanlan.zhihu.com/p/587238348) &emsp; [[媒体分享2 DrugAI]](https://zhuanlan.zhihu.com/p/533498924) &emsp; [[媒体分享3 ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg) &emsp; [[媒体分享4 ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)  &emsp; [[媒体分享5 ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA) &emsp; [[媒体分享6 今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  &emsp; [[媒体分享7 智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) 
-- [[媒体分享8 智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
+[[媒体分享①-AItellU]](https://zhuanlan.zhihu.com/p/587238348) [[②-DrugAI]](https://zhuanlan.zhihu.com/p/533498924) [[③-ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg)[[④-ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)   [[⑤-ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA)  [[⑥-今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  [[⑦-智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) [[⑧-智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
 
 
 **[2]** **Li, Yuquan**, ... & Yao, Xiaojun. "Introducing block design in graph neural networks for molecular properties prediction." **Chemical Engineering Journal**. `2021 IF=16.7` `Top` 
