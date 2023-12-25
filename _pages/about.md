@@ -56,11 +56,12 @@ redirect_from:
 
 
 **[3]** Li, Pengyong†, **Li, Yuquan†**, ... & Yao, Xiaojun. "TrimNet : learning molecular representation from triplet messages for biomedicine." **Briefings in Bioinformatics**. `2021 IF=13.9` `Top` 
-[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/2021c.pdf) [[内容介绍]](#research_project_2)
+[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/2021c.pdf) [[内容介绍]](#research_project_2) [[媒体分享①-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
+
 
 
 **[4]** Wang, Xiaorui.†, **Li, Yuquan†**, ... & Yao, Xiaojun. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." **Chemical Engineering Journal**. `2021 IF=16.7` `Top`
-[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/2021b.pdf)
+[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/2021b.pdf) [[媒体分享①-智药邦]](https://mp.weixin.qq.com/s/PG-nMMH6NYVj3Mc8Lzbb9g)
 
 
 
