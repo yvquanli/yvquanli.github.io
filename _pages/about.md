@@ -231,7 +231,7 @@ redirect_from:
 - 2019.9-2020.9  团支部书记   
 - 2019.9-2020.9  研究生会文艺部部长  
 
-# 👨‍👩‍👧‍👦 学术共同体
+# 👥 学术共同体
 - **审稿人**
   - Brefings in Bioinfomatics
 - **学会**
@@ -239,11 +239,24 @@ redirect_from:
   - 中国计算机学会 会员
   - 中国化学会 会员
 
-         
-# 🔨 专业技能
+
+# 🛠 专业技能
 - **编程与算法设计** `Python`：熟练使用python进行算法设计和性能优化。
 - **图神经网络设计** `Pytorch`, `PyG`, `DGL`：熟练掌握Pytorch框架，PyTorch_Geometric和DGL图学习框架进行图学习科研工作。
 - **自动机器学习算法** `AutoML`, `NAS`：自适应学习、自动机器学习、神经架构搜索。
 - **信息学辅助药物发现** `CADD`, `AIDD`：利用化学信息学和生物信息学手段解决交叉学科中的特定问题，如活性预测、ADME/T性质评估、靶点筛选等。
 - **网站设计与开发** `Flask`, `Django`, `H5`：熟练部署和制作人工智能网页应用。
 - **提示词工程** `GPT4`, `DALL·E`：使用LLM等辅助科研和文书工作。
+
+
+# 🧑‍💻 程序网站
+
+- **CODD-Pred** 
+  - 网站：[http://codd.iddd.group/](http://codd.iddd.group/) 
+  - 贡献：参与制作该网站。[[论文]](10.1021/acs.jcim.3c00685) [[截图]](/pdf/web_server_2_codd_pred.png)
+  - 简介：Codd-pred是一个在线web服务器，其功能贯穿于药物发现的全过程，由小分子化合物靶点预测、生物活性预测和ADME/T预测三部分组成。
+
+- **IFGN** 
+  - 网站：[http://graphadmet.cn/works/IFGN](http://graphadmet.cn/works/IFGN) 
+  - 贡献：制作和部署该网站；参与该学术研究和论文写作。[[论文]](https://doi.org/10.1093/bib/bbac534) [[截图]](/pdf/web_server_1_ifgn.png) 
+  - 简介：IFGN是一个在线ADME/T性质预测网页应用。
