@@ -92,7 +92,7 @@ redirect_from:
 # 🗂 工作经历
 
 ## *2023.4 - 今*   返校科研工作
-  - **进行科研项目2：Flexible graph adaptive learning **
+  - **进行科研项目2：Flexible graph adaptive learning**
     - 贡献度：90%, 其他10%由姚小军教授及同学提供
     - 现有难题：初代自适应图学习GLAM还有一定缺陷
     - 提出办法：提出使用更灵活更强更快的GLAM2来替代初代自适应图学习GLAM。`(方法实现路径：暂不公开)`
