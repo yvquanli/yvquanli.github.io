@@ -220,6 +220,7 @@ redirect_from:
 # 🎉 奖项荣誉
 
 - *2022.12* 博士生国家奖学金 [[链接]](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=8813)
+- *2021.12* 博士生一等学业奖学金 [[链接]](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=7656)
 - *2021.11* 唐敖庆化学奖学金 [[链接]](https://www.jlu.edu.cn/info/1095/50784.htm) [[PDF]](/pdf/rewards_2021_11.pdf) 
 
 <span class='anchor' id='others'></span>
@@ -260,3 +261,5 @@ redirect_from:
   - 网站：[http://graphadmet.cn/works/IFGN](http://graphadmet.cn/works/IFGN) 
   - 贡献：制作和部署该网站；参与该学术研究和论文写作。[[论文]](https://doi.org/10.1093/bib/bbac534) [[截图]](/pdf/web_server_1_ifgn.png) 
   - 简介：IFGN是一个在线ADME/T性质预测网页应用。
+
+
