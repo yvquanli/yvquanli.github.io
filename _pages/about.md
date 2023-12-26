@@ -31,7 +31,7 @@ redirect_from:
 
 
 <span class='anchor' id='educations'></span>
-# 🎓 教育经历 
+# 🎓 教育经历
 - ***2019.9 - 今* &emsp;&emsp;兰州大学** `985` `但西北偏北`  化学化工学院
   - 博士，化学信息学 (导师：姚小军教授)
   - 获博士生国家奖学金  2022.12         
@@ -89,7 +89,7 @@ redirect_from:
 
 
 <span class='anchor' id='jobs'></span> 
-# 💼 工作经历
+# 🗂 工作经历
 
 ## *2023.4 - 今*   返校科研工作
   - **进行科研项目2：Flexible graph adaptive learning **
@@ -224,6 +224,13 @@ redirect_from:
 
 <span class='anchor' id='others'></span>
 
+
+# 📑 党政工作
+- 2020.12 &emsp;&emsp;&emsp;优秀研究生干部   荣誉 
+- 2020.9-2021.9    防疫党员先锋队
+- 2019.9-2020.9  团支部书记   
+- 2019.9-2020.9  研究生会文艺部部长  
+
 # 👨‍👩‍👧‍👦 学术共同体
 - **审稿人**
   - Brefings in Bioinfomatics
@@ -232,12 +239,6 @@ redirect_from:
   - 中国计算机学会 会员
   - 中国化学会 会员
 
-# 📃 党政工作
-
-- 2020.12 &emsp;&emsp;&emsp;优秀研究生干部   荣誉 
-- 2020.9-2021.9    防疫党员先锋队
-- 2019.9-2020.9  团支部书记   
-- 2019.9-2020.9  研究生会文艺部部长  
          
 # 🔨 专业技能
 - **编程与算法设计** `Python`：熟练使用python进行算法设计和性能优化。
