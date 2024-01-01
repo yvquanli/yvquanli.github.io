@@ -191,7 +191,8 @@ redirect_from:
     - 结果：车牌号码识别准确率提升(95.1%提升到97.2%)，并发表EI会议论文一篇
     - 示意图：
 
-      ![示意图](pdf/research_project_early_1.png){:height="90%" width="90%"} -->
+      ![示意图](pdf/research_project_early_1.png){:height="90%" width="90%"} 
+  -->
 
 
 <span class='anchor' id='competitions'></span>
