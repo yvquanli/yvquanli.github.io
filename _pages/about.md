@@ -182,17 +182,7 @@ redirect_from:
     - 示意图：
 
       ![示意图](pdf/research_project_early_2.png){:height="90%" width="90%"}
-  <!-- - **早期科研项目1：基于ResNet和DenseNet增强的卷积循环神经网络(CRNN)，用于OCR识别**
-    - 时间段：2016.6 - 2017.5 (本科大三)
-    - 贡献度：100% 
-    - 背景：2012年AlexNet夺冠，2014年VGG，2015年ResNet问世大热时本人开始关注机器学习和深度学习
-    - 现有难题：传统的OCR技术在特征提取、字符分割和识别准确率方面存在限制，尤其是邮政、物流交通系统等高精度需求领域。
-    - 提出方法：通过结合ResNet、DenseNet和GRU来改进经典CRNN模型，提高OCR的效率和准确性。
-    - 结果：车牌号码识别准确率提升(95.1%提升到97.2%)，并发表EI会议论文一篇
-    - 示意图：
 
-      ![示意图](pdf/research_project_early_1.png){:height="90%" width="90%"} 
-  -->
 
 
 <span class='anchor' id='competitions'></span>
