@@ -18,7 +18,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-黎育权目前是兰大在读博士研究生，专注于人工智能与药物发现的交叉领域。着力于研发先进的新型深度学习模型或框架，结合现有计算化学和生物信息学工具，解决临床前药物发现的一些挑战性难题，如数据样本量小、缺乏可解释性/泛化性/鲁棒性、预测性能不足等。以第一作者身份发表Nature子刊论文一篇(Nature Machine Intelligence)，总发表论文10篇(其中以主要作者身份发表4篇Top刊物)，谷歌H-index 5，论文总引用157次。获得MCM/ICM数学建模竞赛Meritorious Winner奖、蓝桥杯软件和信息技术专业人才大赛赛区一等奖。曾获唐敖庆化学奖学金、博士生国家奖学金。参与导师国家自然基金项目两项。担任《Brefings in Bioinfomatics》审稿人，为中国人工智能学会会员，中国计算机学会会员，中国化学会会员。
+黎育权目前是兰大在读博士研究生，专注于人工智能与药物发现的交叉领域。着力于研发先进的新型深度学习模型或框架，结合现有计算化学和生物信息学工具，解决临床前药物发现的一些挑战性难题，如数据样本量小、缺乏可解释性/泛化性/鲁棒性、预测性能不足等。以第一作者身份发表Nature子刊论文一篇(Nature Machine Intelligence)，总发表论文10篇(其中以主要作者身份发表4篇Top刊物)，谷歌H-index 5，论文总引用157次。获得MCM/ICM数学建模竞赛Meritorious Winner奖、蓝桥杯软件和信息技术专业人才大赛赛区一等奖。曾获唐敖庆化学奖学金、博士生国家奖学金。
+<!-- 参与导师国家自然基金项目两项。担任《Brefings in Bioinfomatics》审稿人，为中国人工智能学会会员，中国计算机学会会员，中国化学会会员。 -->
 
 <!-- <a href='https://scholar.google.com/citations?user=lCJi22EAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
@@ -203,7 +204,7 @@ redirect_from:
   - `Meritorious Winner奖` `(Top 3%~7% of 20.6k team)`，队长身份
   - 国家级，数学建模竞赛，工业与应用数学学会举办。 
 - *2018.5* 全国高校“西普杯”信息安全铁人三项赛 [[PDF]](/pdf/comp_2018_5.pdf)
-  - `赛区三等奖`
+  - `赛区三等奖`，队员参赛
   - 国家级，信息安全竞赛，中国教育部主办
 - *2018.4* “蓝桥杯〞软件和信息技术专业人才大赛java组 [[PDF]](/pdf/comp_2018_4.pdf) 
   - `赛区一等奖`，个人参赛
