@@ -261,3 +261,18 @@ redirect_from:
   - 贡献：制作和部署该网站；参与该学术研究和论文写作。[[论文]](https://doi.org/10.1093/bib/bbac534) [[截图]](/pdf/web_server_1_ifgn.png) 
   - 简介：IFGN是一个在线ADME/T性质预测网页应用。
 
+
+
+<!-- Google tag (gtag.js) -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-WRDS6KHG7Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-WRDS6KHG7Y');
+</script> -->
+
+<!-- busuanzi tag (gtag.js) -->
+<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
+  <!-- <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+  <span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv"></span>人</span> -->
