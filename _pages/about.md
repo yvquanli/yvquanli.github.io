@@ -242,7 +242,6 @@ redirect_from:
 - **网站设计与开发** `Flask`, `Django`, `H5`：熟练部署和制作人工智能网页应用。
 - **提示词工程** `GPT4`, `DALL·E`：使用LLM等辅助科研和文书工作。
 
-
 # 🧑‍💻 程序网站
 
 - **CODD-Pred** 
@@ -255,6 +254,12 @@ redirect_from:
   - 贡献：制作和部署该网站；参与该学术研究和论文写作。[[论文]](https://doi.org/10.1093/bib/bbac534) [[截图]](/pdf/web_server_1_ifgn.png) 
   - 简介：IFGN是一个在线ADME/T性质预测网页应用。
 
+# 🙌 业余爱好
+
+- **游戏**：LOL，DNF，War3 RPG
+- **吉他**
+- **摄影**
+- **乒乓**？或许算吧
 
 
 <!-- Google tag (gtag.js) -->
