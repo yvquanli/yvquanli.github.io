@@ -86,7 +86,8 @@ redirect_from:
 <span class='anchor' id='jobs'></span> 
 # 🗂 工作经历
 
-## *2023.4 - 今*   返校科研工作
+## *2023.4 - 今* 
+---
 ### **进行科研项目2：Flexible graph adaptive learning**
 - **贡献度**：90%, 其他10%由姚小军教授及同学提供
 - **现有难题**：初代自适应图学习GLAM还有一定缺陷
@@ -101,6 +102,7 @@ redirect_from:
 - **目前进展**：实验已完成，正在写论文进行投稿
 
 ## *2022.7 - 2023.4* [智源人工智能研究院](https://www.baai.ac.cn/)
+---
 - **导师**：付杰，师从2018年图灵奖得主Yoshua Bengio教授，曾获ICLR 2021 杰出论文奖
 - **部门**：[付杰课题组](https://bigaidream.github.io/)
 - **岗位**：研究型实习生
@@ -117,7 +119,8 @@ redirect_from:
   ![示意图](pdf/research_project_5.png){:height="90%" width="90%"}
 
 ## *2020.8 - 2022.6* [腾讯公司](https://www.tencent.com/) 
-<!-- [[实习证明PDF]](/pdf/job_2020_8.pdf)  -->
+---
+
 - **导师**：谢昌谕(Chang-Yu Hsieh)，现任浙江大学教授/博导，以主要作者身份发表Nature子刊8篇(Nature Computational Science 2篇, Nature Machine Intelligence 4篇, Nature Communications 2篇)。
 - **部门**：[量子实验室](https://quantum.tencent.com/) 
 - **岗位**：研究型实习生，理论组员工
@@ -156,7 +159,8 @@ redirect_from:
   ![示意图](pdf/research_project_2.png){:height="90%" width="90%"}
 
 
-## 2016.6 - 2020.8 早期科研工作
+## *2016.6 - 2020.8* 早期科研工作
+---
 
   <span class='anchor' id='research_project_1'></span>
 
