@@ -39,6 +39,7 @@ redirect_from:
   - 获优秀毕业生称号，优秀本科毕业论文。
 
 
+
 <span class='anchor' id='publications'></span>
 # 📝 学术论文
 ### 代表性论文
@@ -84,10 +85,24 @@ redirect_from:
 
 
 <span class='anchor' id='jobs'></span> 
+
 # 🗂 工作经历
 
-## *2023.4 - 今* 
----
+### *2020.8 - 2022.6* [腾讯公司](https://www.tencent.com/) 
+  - **导师**：谢昌谕(Chang-Yu Hsieh)，现任浙江大学教授/博导，以主要作者身份发表Nature子刊8篇(Nature Computational Science 2篇, Nature Machine Intelligence 4篇, Nature Communications 2篇)。
+  - **部门**：[量子实验室](https://quantum.tencent.com/) 
+  - **岗位**：研究实习生，理论组员工
+  - **工作内容**：研发先进的新型深度学习模型或框架结合现有计算化学和生物信息学工具，解决临床前药物发现的一些挑战性难题，如数据样本量小、缺乏可解释性/泛化性/鲁棒性、预测性能差等；协助参与真实场景药物筛选
+
+### *2022.7 - 2023.4* [智源人工智能研究院](https://www.baai.ac.cn/)
+  - **导师**：付杰，师从2018年图灵奖得主Yoshua Bengio教授，曾获ICLR 2021 杰出论文奖
+  - **部门**：[付杰课题组](https://bigaidream.github.io/)
+  - **岗位**：研究实习生
+  - **工作内容**：研发先进的新型深度学习模型或框架，结合现有计算化学和生物信息学工具，解决临床前药物发现的一些挑战性难题，如数据样本量小、缺乏可解释性/泛化性/鲁棒性、预测性能差等
+
+
+
+
 ### **进行科研项目2：Flexible graph adaptive learning**
 - **贡献度**：90%, 其他10%由姚小军教授及同学提供
 - **现有难题**：初代自适应图学习GLAM还有一定缺陷
@@ -102,12 +117,7 @@ redirect_from:
 - **结果**：实验结果超越预期，仅使用少量标签数据在BindingDB和LIT-PCBA达到了接近全监督学习模型的性能，以及极佳的泛化性能。
 - **目前进展**：实验已完成，正在写论文进行投稿
 
-## *2022.7 - 2023.4* [智源人工智能研究院](https://www.baai.ac.cn/)
----
-- **导师**：付杰，师从2018年图灵奖得主Yoshua Bengio教授，曾获ICLR 2021 杰出论文奖
-- **部门**：[付杰课题组](https://bigaidream.github.io/)
-- **岗位**：研究实习生
-- **工作内容**：研发先进的新型深度学习模型或框架，结合现有计算化学和生物信息学工具，解决临床前药物发现的一些挑战性难题，如数据样本量小、缺乏可解释性/泛化性/鲁棒性、预测性能差等
+
 
 
 ### **完成科研项目5：基于分子原型对比学习的弱监督分子性质预测** 
@@ -118,15 +128,8 @@ redirect_from:
 - **结果**：只需少量的标签数据即可进行对无标签数据进行较为准确的预测。BACE数据集上使用10%标签数据，在剩下90%数据上预测AUC=0.83(另一个数据集HIV为AUC=0.75)。此结果不及预期故放弃写论文。
 - 示意图：
 
-  ![示意图](pdf/research_project_5.png){:height="90%" width="90%"}
+  ![示意图](pdf/research_project_5.png){:height="80%" width="80%"}
 
-## *2020.8 - 2022.6* [腾讯公司](https://www.tencent.com/) 
----
-
-- **导师**：谢昌谕(Chang-Yu Hsieh)，现任浙江大学教授/博导，以主要作者身份发表Nature子刊8篇(Nature Computational Science 2篇, Nature Machine Intelligence 4篇, Nature Communications 2篇)。
-- **部门**：[量子实验室](https://quantum.tencent.com/) 
-- **岗位**：研究实习生，理论组员工
-- **工作内容**：研发先进的新型深度学习模型或框架结合现有计算化学和生物信息学工具，解决临床前药物发现的一些挑战性难题，如数据样本量小、缺乏可解释性/泛化性/鲁棒性、预测性能差等；协助参与真实场景药物筛选
 
 
 ### **完成科研项目4：基于语义伪标签分子聚类的弱监督分子性质预测**
@@ -137,7 +140,7 @@ redirect_from:
 - **结果**：不使用任何标签信息就可以对分子进行较为准确的分类。BBBP数据集上聚类AUC=0.741 ACC=0.750 (作为对比，普通的监督学习能到0.9左右)。此结果不及预期故放弃写论文。
 - **本工作类似工作(SPICE)示意图**：
 
-  ![示意图](pdf/research_project_4*.png){:height="90%" width="90%"}
+  ![示意图](pdf/research_project_4*.png){:height="80%" width="80%"}
 
   <span class='anchor' id='research_project_3'></span> 
 
@@ -149,7 +152,7 @@ redirect_from:
 - **结果**：在多种分子相互作用和性质预测任务上建立了新的最佳标准，相对于传统方法，在14个数据集上平均减少了18.7%的预测误差。 `发表论文GLAM[1]`于Nature Machine Intelligence期刊 `2022 IF=23.8` `Top` 
 - 示意图：
 
-  ![示意图](pdf/research_project_3.png){:height="90%" width="90%"}
+  ![示意图](pdf/research_project_3.png){:height="80%" width="80%"}
 
   <span class='anchor' id='research_project_2'></span>
 
@@ -161,11 +164,9 @@ redirect_from:
 - **结果**：在多种分子属性预测任务上取得了新的最佳性能，并显著减少了参数数量。 `发表论文TrimNet[3]`于Briefings in Bioinformatics期刊`2021 IF=13.9` `Top` 
 - **示意图**：
 
-  ![示意图](pdf/research_project_2.png){:height="90%" width="90%"}
+  ![示意图](pdf/research_project_2.png){:height="80%" width="80%"}
 
 
-## *2016.6 - 2020.8* 早期科研工作
----
 
   <span class='anchor' id='research_project_1'></span>
 
@@ -177,7 +178,7 @@ redirect_from:
 - **结果**：一方面解决网络退化问题使得网络可以更深以增加表示学习能力，另一方面为自动图学习打下图网络模块标准化和可定制的坚实基础。`发表论文BGNN[2]` 于Chemical Engineering Journal期刊 `2021 IF=16.7` `Top` 
 - **示意图**：
 
-  ![示意图](pdf/research_project_1.png){:height="90%" width="90%"}
+  ![示意图](pdf/research_project_1.png){:height="80%" width="80%"}
 
 ### **早期科研项目1：基于集成机器学习/图神经网络的蛋白质-小分子亲和力预测** 
 - **时间段**：2018.9 - 2019.6（本科大四）
@@ -188,7 +189,7 @@ redirect_from:
 - **结果**：PDBBind v2016 core set测试集上集成机器学习相关系数RMSE=1.42，Pearson R=0.775(超越当时的前沿工作RF::Vina R=0.739，但不及RF::VinaElem R=0.803)。而GNN测试集预测结果评测R=0.6917不及预期。相关工作写入本科毕业论文，获优秀本科学位论文
 - **示意图：**
 
-  ![示意图](pdf/research_project_early_2.png){:height="90%" width="90%"}
+  ![示意图](pdf/research_project_early_2.png){:height="80%" width="80%"}
 
 
 
