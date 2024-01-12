@@ -12,6 +12,9 @@ main:
   - title: "工作经历"
     url: "/#jobs"
 
+  - title: "科研经历"
+    url: "/#academic"
+
   - title: "竞赛经历"
     url: "/#competitions"
 

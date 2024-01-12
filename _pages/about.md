@@ -22,6 +22,7 @@ redirect_from:
 
 
 <!-- <a href='https://scholar.google.com/citations?user=lCJi22EAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
+<img src = "images/users-solid.svg"/> 
 
 
 主要研究兴趣包括: 
@@ -86,7 +87,7 @@ redirect_from:
 
 <span class='anchor' id='jobs'></span> 
 
-# 🗂 工作经历
+# 🧑‍💻 工作经历
 
 ### *2020.8 - 2022.6* [腾讯公司](https://www.tencent.com/) 
   - **导师**：谢昌谕(Chang-Yu Hsieh)，现任浙江大学教授/博导，以主要作者身份发表Nature子刊8篇(Nature Computational Science 2篇, Nature Machine Intelligence 4篇, Nature Communications 2篇)。
@@ -100,8 +101,9 @@ redirect_from:
   - **岗位**：研究实习生
   - **工作内容**：研发先进的新型深度学习模型或框架，结合现有计算化学和生物信息学工具，解决临床前药物发现的一些挑战性难题，如数据样本量小、缺乏可解释性/泛化性/鲁棒性、预测性能差等
 
+<span class='anchor' id='academic'></span> 
 
-
+# 🗂 科研经历
 
 ### **进行科研项目2：Flexible graph adaptive learning**
 - **贡献度**：90%, 其他10%由姚小军教授及同学提供
@@ -245,7 +247,7 @@ redirect_from:
 - **网站设计与开发** `Flask`, `Django`, `H5`：熟练部署和制作人工智能网页应用。
 - **提示词工程** `GPT4`, `DALL·E`：使用LLM等辅助科研和文书工作。
 
-# 🧑‍💻 程序网站
+# 💾 程序网站
 
 - **CODD-Pred** 
   - 网站：[http://codd.iddd.group/](http://codd.iddd.group/) 
