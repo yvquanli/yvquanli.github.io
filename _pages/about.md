@@ -116,7 +116,8 @@ redirect_from:
 
   ![示意图](pdf/research_project_5.png){:height="90%" width="90%"}
 
-## *2020.8 - 2022.6* [腾讯公司](https://www.tencent.com/) [[实习证明PDF]](/pdf/job_2020_8.pdf) 
+## *2020.8 - 2022.6* [腾讯公司](https://www.tencent.com/) 
+<!-- [[实习证明PDF]](/pdf/job_2020_8.pdf)  -->
 - **导师**：谢昌谕(Chang-Yu Hsieh)，现任浙江大学教授/博导，以主要作者身份发表Nature子刊8篇(Nature Computational Science 2篇, Nature Machine Intelligence 4篇, Nature Communications 2篇)。
 - **部门**：[量子实验室](https://quantum.tencent.com/) 
 - **岗位**：研究型实习生，理论组员工
