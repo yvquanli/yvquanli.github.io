@@ -41,16 +41,16 @@ redirect_from:
 <span class='anchor' id='publications'></span>
 # 📝 学术论文
 ### 代表性论文
-**[1]** **<font color="#e8883a">Yuquan Li†</font>**, Chang-Yu Hsieh†, Ruiqiang Lu, Xiaoqing Gong, Xiaorui Wang, Pengyong Li, Shuo Liu, Yanan Tian, Dejun Jiang, Jiaxian Yan, Qifeng Bai, Huanxiang Liu, Shengyu Zhang & Xiaojun Yao*. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence` 4.7 (2022): 645-651.  `2022 IF=23.8` `Top` 
+**[1]** **<font color="#e8883a">Yuquan Li†</font>**, Chang-Yu Hsieh†, Ruiqiang Lu, Xiaoqing Gong, Xiaorui Wang, Pengyong Li, Shuo Liu, Yanan Tian, Dejun Jiang, Jiaxian Yan, Qifeng Bai, Huanxiang Liu, Shengyu Zhang & Xiaojun Yao*. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence` 4.7 (2022): 645-651.  `2022 IF=23.8` 
 [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/2022a.pdf) [[内容介绍]](#research_project_3) 
 [[媒体分享①-AItellU]](https://zhuanlan.zhihu.com/p/587238348) [[②-DrugAI]](https://zhuanlan.zhihu.com/p/533498924) [[③-ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg)[[④-ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)   [[⑤-ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA)  [[⑥-今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  [[⑦-智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) [[⑧-智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
 
-**[2]** **<font color="#e8883a">Yuquan Li</font>**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao*. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal`414 (2021): 128817.  `2021 IF=16.7` `Top` 
+**[2]** **<font color="#e8883a">Yuquan Li</font>**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao*. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal`414 (2021): 128817.  `2021 IF=16.7` 
 [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/2021a.pdf) [[内容介绍]](#research_project_1) 
 
 
 
-**[3]** Pengyong Li†, **<font color="#e8883a">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song*, Xiaojun Yao*. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` 22.4 (2021): bbaa266. `2021 IF=13.9` `Top` 
+**[3]** Pengyong Li†, **<font color="#e8883a">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song*, Xiaojun Yao*. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` 22.4 (2021): bbaa266. `2021 IF=13.9` 
 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/2021c.pdf) [[内容介绍]](#research_project_2) [[媒体分享①-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
 
 
@@ -148,7 +148,7 @@ redirect_from:
 - **贡献度**：80%, 其他20%由谢昌谕研究员、姚小军教授及同学提供 
 - **现有难题**：现有的图学习方法在药物发现数据集上的架构和超参数已经固化，导致它们无法灵活适应新生成的数据。
 - **提出方法**：提出数据集自适应图学习方法GLAM，它能够适应任何数据集并在没有人为干预的情况下进行准确预测。该方法设计了一个包含架构设计、训练超参数、优化器选择、误差函数选择的图学习配置空间。并设计了一个自动化的管道自动从图学习配置空间中找到最适合数据集性能最高的图学习配置，最终集成出一个用于完成下游任务的高性能集成预测器。
-- **结果**：在多种分子相互作用和性质预测任务上建立了新的最佳标准，相对于传统方法，在14个数据集上平均减少了18.7%的预测误差。 `发表论文GLAM[1]`于Nature Machine Intelligence期刊 `2022 IF=23.8` `Top` 
+- **结果**：在多种分子相互作用和性质预测任务上建立了新的最佳标准，相对于传统方法，在14个数据集上平均减少了18.7%的预测误差。 `发表论文GLAM[1]`于Nature Machine Intelligence期刊 `2022 IF=23.8` 
 - 示意图：
 
   ![示意图](pdf/research_project_3.png){:height="80%" width="80%"}
@@ -160,7 +160,7 @@ redirect_from:
 - **贡献度**：50%, 其他50%由李鹏勇同学、谢昌谕研究员、姚小军教授及同学提供
 - **现有难题**：现有GNN存在参数数量庞大、计算效率不高以及对分子结构理解的局限性
 - **提出方法**：提出了一种新型的三元消息网络TrimNet，用于有效地学习分子表示，减少参数数量，并改善边信息的提取。TrimNet采用了三元消息机制，通过直接处理原子-键-原子的信息来更新神经网络的隐藏状态，从而减少了参数数量并改进了边信息的提取。这种方法强调了分子结构中原子和框架对目标属性的重要性，并提供了预测任务的清晰解释​​。
-- **结果**：在多种分子属性预测任务上取得了新的最佳性能，并显著减少了参数数量。 `发表论文TrimNet[3]`于Briefings in Bioinformatics期刊`2021 IF=13.9` `Top` 
+- **结果**：在多种分子属性预测任务上取得了新的最佳性能，并显著减少了参数数量。 `发表论文TrimNet[3]`于Briefings in Bioinformatics期刊`2021 IF=13.9` 
 - **示意图**：
 
   ![示意图](pdf/research_project_2.png){:height="80%" width="80%"}
@@ -174,7 +174,7 @@ redirect_from:
 - **贡献度**：80%, 其他20%由姚小军教授及同学提供
 - **现有难题**：物理计算分子性质变得耗时又费力，图神经网络预测方法存在网络退化问题。
 - **提出方法**：提出了一种基于带有批规范化的块设计图神经网络（BGNN），以提高分子性质预测的准确性和效率。
-- **结果**：一方面解决网络退化问题使得网络可以更深以增加表示学习能力，另一方面为自动图学习打下图网络模块标准化和可定制的坚实基础。`发表论文BGNN[2]` 于Chemical Engineering Journal期刊 `2021 IF=16.7` `Top` 
+- **结果**：一方面解决网络退化问题使得网络可以更深以增加表示学习能力，另一方面为自动图学习打下图网络模块标准化和可定制的坚实基础。`发表论文BGNN[2]` 于Chemical Engineering Journal期刊 `2021 IF=16.7` 
 - **示意图**：
 
   ![示意图](pdf/research_project_1.png){:height="80%" width="80%"}
