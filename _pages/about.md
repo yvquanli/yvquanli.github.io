@@ -50,7 +50,7 @@ redirect_from:
 
 
 
-**[3]** Pengyong Li†, **<font color="#2e5a4c">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song*, Xiaojun Yao*. "TrimNet: learning molecular representation from triplet messages for biomedicine." **<font color="#e8883a">Briefings in Bioinformatics</font>**  22.4 (2021): bbaa266. `2021 IF=13.9` `Top` 
+**[3]** Pengyong Li†, **<font color="#248b72">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song*, Xiaojun Yao*. "TrimNet: learning molecular representation from triplet messages for biomedicine." **<font color="#e8883a">Briefings in Bioinformatics</font>**  22.4 (2021): bbaa266. `2021 IF=13.9` `Top` 
 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/2021c.pdf) [[内容介绍]](#research_project_2) [[媒体分享①-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
 
 
