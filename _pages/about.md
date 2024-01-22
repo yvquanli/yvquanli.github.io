@@ -37,6 +37,21 @@ redirect_from:
   - 获优秀毕业生称号，优秀本科毕业论文。
 
 
+# 🧑‍💻 工作经历
+
+### *2022.7 - 2023.4* [智源人工智能研究院](https://www.baai.ac.cn/)
+  - **导师**：付杰，师从2018年图灵奖得主Yoshua Bengio教授，曾获ICLR 2021 杰出论文奖
+  - **部门**：[付杰课题组](https://bigaidream.github.io/)
+  - **岗位**：研究实习生
+  - **工作内容**：基于分子原型对比学习的弱监督分子性质预测
+
+### *2020.8 - 2022.6* [腾讯公司](https://www.tencent.com/) 
+  - **导师**：谢昌谕(Chang-Yu Hsieh)，现任浙江大学教授/博导，以主要作者身份发表Nature子刊8篇(Nature Computational Science 2篇, Nature Machine Intelligence 4篇, Nature Communications 2篇)。
+  - **部门**：[量子实验室](https://quantum.tencent.com/) 
+  - **岗位**：研究实习生，理论组员工
+  - **工作内容**：基于三元消息传递机制的新型图神经网络；自适应图学习药物-靶标相互作用和分子性质预测；基于语义伪标签分子聚类的弱监督分子性质预测
+
+
 
 <span class='anchor' id='publications'></span>
 # 📝 学术论文
@@ -86,19 +101,6 @@ redirect_from:
 
 <span class='anchor' id='jobs'></span> 
 
-# 🧑‍💻 工作经历
-
-### *2022.7 - 2023.4* [智源人工智能研究院](https://www.baai.ac.cn/)
-  - **导师**：付杰，师从2018年图灵奖得主Yoshua Bengio教授，曾获ICLR 2021 杰出论文奖
-  - **部门**：[付杰课题组](https://bigaidream.github.io/)
-  - **岗位**：研究实习生
-  - **工作内容**：研发先进的新型深度学习模型或框架，结合现有计算化学和生物信息学工具，解决临床前药物发现的一些挑战性难题，如数据样本量小、缺乏可解释性/泛化性/鲁棒性、预测性能差等
-
-### *2020.8 - 2022.6* [腾讯公司](https://www.tencent.com/) 
-  - **导师**：谢昌谕(Chang-Yu Hsieh)，现任浙江大学教授/博导，以主要作者身份发表Nature子刊8篇(Nature Computational Science 2篇, Nature Machine Intelligence 4篇, Nature Communications 2篇)。
-  - **部门**：[量子实验室](https://quantum.tencent.com/) 
-  - **岗位**：研究实习生，理论组员工
-  - **工作内容**：研发先进的新型深度学习模型或框架结合现有计算化学和生物信息学工具，解决临床前药物发现的一些挑战性难题，如数据样本量小、缺乏可解释性/泛化性/鲁棒性、预测性能差等；协助参与真实场景药物筛选
 
 
 
