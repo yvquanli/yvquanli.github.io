@@ -26,7 +26,7 @@ author:
   bio              : "兰州大学"
   location         : "兰州市城关区"
   employer         : #"None"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=Yuquan+Li"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=Yuquan+Li"
   googlescholar    : "https://scholar.google.com/citations?user=lCJi22EAAAAJ"
   email            : "yvquan.li@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Yuquan-Li-3"
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/yvquanli"
+  github           : "yvquanli"
   google_plus      :
   keybase          :
   instagram        :
