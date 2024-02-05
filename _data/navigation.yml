@@ -6,11 +6,11 @@ main:
   - title: "教育经历"
     url: "/#educations"
 
-  - title: "学术论文"
-    url: "/#publications"
-
   - title: "工作经历"
     url: "/#jobs"
+
+  - title: "学术论文"
+    url: "/#publications"
 
   - title: "科研经历"
     url: "/#academic"
