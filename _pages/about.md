@@ -291,18 +291,3 @@ redirect_from:
 
  
 
-  <!-- 使用utterances评论系统 -->
-<div> 
-  <section id="comments" class="comments">
-    <style>
-      .utterances{max-width: 100%;}
-    </style>
-    <script src="https://utteranc.es/client.js"
-            repo="yvquanli/yvquanli.github.io"
-            issue-term="title"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-    </script>
-  </section>  
-</div>
