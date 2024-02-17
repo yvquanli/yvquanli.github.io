@@ -42,6 +42,8 @@ redirect_from:
   - 获优秀毕业生称号，优秀本科毕业论文。
 
 
+
+<span class='anchor' id='jobs'></span> 
 # 🧑‍💻 工作经历
 
 ### *2022.7 - 2023.4* [智源人工智能研究院](https://www.baai.ac.cn/)
@@ -104,7 +106,6 @@ redirect_from:
 - **[2021a]** **<font color="#ff9933">Yuquan Li</font>**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao*. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal` 414 (2021): 128817. [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)
 
 
-<span class='anchor' id='jobs'></span> 
 
 
 
