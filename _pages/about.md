@@ -22,6 +22,7 @@ redirect_from:
 
 黎育权目前是兰大在读博士研究生，研究领域为人工智能药物发现。科研上着力于利用AI的学习和生成能力，结合现有计算化学和生物信息学工具，解决数据样本量小、缺乏可解释性/泛化性/鲁棒性、性能不足等难题，最终应用到真实临床前药物发现流程，从广袤的化学空间中快速精准地找到活性和成药性理想的药物分子。谷歌H-index 5，论文总引用160次。获得MCM/ICM数学建模竞赛Meritorious Winner奖、蓝桥杯软件和信息技术专业人才大赛赛区一等奖。曾获唐敖庆化学奖学金、博士生国家奖学金。
 
+
 主要研究兴趣包括: 
 - 图神经网络
 - 自动机器学习
@@ -71,12 +72,12 @@ redirect_from:
 
 
 
-**[3]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song*, Xiaojun Yao\*. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` `2021 IF=13.9` 
+**[3]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song\*, Xiaojun Yao\*. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` `2021 IF=13.9` 
 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf) [[内容介绍]](#research_project_2) [[媒体分享①-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
 
 
 
-**[4]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, Jiezhong Qiu, Guangyong Chen, Huanxiang Liu, Benben Liao*, Chang-Yu Hsieh*, Xiaojun Yao\*. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal`  `2021 IF=16.7`
+**[4]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, Jiezhong Qiu, Guangyong Chen, Huanxiang Liu, Benben Liao\*, Chang-Yu Hsieh\*, Xiaojun Yao\*. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal`  `2021 IF=16.7`
 [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf) [[媒体分享①-智药邦]](https://mp.weixin.qq.com/s/PG-nMMH6NYVj3Mc8Lzbb9g)
 
 
@@ -89,19 +90,19 @@ redirect_from:
 #### 2023年度
 
 - **[2023e]** Xiaodan Yin†, Xiaorui Wang†, **<font color="#ff9933">Yuquan Li</font>**, Jike Wang, Yuwei Wang, Yafeng Deng, Tingjun Hou, Huanxiang Liu, Pei Luo, and Xiaojun Yao\*. "CODD-Pred: A Web Server for Efficient Target Identification and Bioactivity Prediction of Small Molecules." `Journal of Chemical Information and Modeling` 63.20 (2023): 6169-6176. [[HTML]](https://doi.org/10.1021/acs.jcim.3c00685) [[PDF]](/pdf/paper_2023e.pdf)
-- **[2023d]** Jianmin Wang, Jiashun Mao, Chunyan Li, Hongxin Xiang, Xun Wang, Shuang Wang, Zixu Wang, Yangyang Chen, **<font color="#ff9933">Yuquan Li</font>**, Heqi Sun, Kyoung Tai No*, Tao Song*, Xiangxiang Zeng*. "An interface-based molecular generative framework for protein-protein interaction inhibitors." `bioRxiv` (2023): 2023-10.[[HTML]](https://doi.org/10.1101/2023.10.10.557742) [[PDF]](/pdf/paper_2023d.pdf) 
-- **[2023c]** Ruiqiang Lu, Jun Wang, Pengyong Li, **<font color="#ff9933">Yuquan Li</font>**, Shuoyan Tan, Yiting Pan, Huanxiang Liu, Peng Gao, Guotong Xie*, Xiaojun Yao\*. "Improving drug-target affinity prediction via feature fusion and knowledge distillation." `Briefings in Bioinformatics` 24.3 (2023): bbad145. [[HTML]](https://doi.org/10.1093/bib/bbad145) 
-- **[2023b]** Xiaorui Wang†, Chang-Yu Hsieh†, Xiaodan Yin, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou*, Xiaojun Yao\*.  "Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center." `Research` 6 (2023): 0231. [[HTML]](https://doi.org/10.1101/2023.08.01.551396) [[PDF]](/pdf/paper_2023b.pdf)
-- **[2023a]** Shuo Liu, Jialiang Yu, Ningxi Ni, Zidong Wang, Mengyun Chen, **<font color="#ff9933">Yuquan Li</font>**, Chen Xu, Yahao Ding, Jun Zhang*, Xiaojun Yao\*, Huanxiang Liu*. "A versatile framework for drug-target interaction prediction by considering domain specific features." `bioRxiv` (2023): 2023-08. [[HTML]](https://doi.org/10.34133/research.0231) [[PDF]](/pdf/paper_2023a.pdf)
+- **[2023d]** Jianmin Wang, Jiashun Mao, Chunyan Li, Hongxin Xiang, Xun Wang, Shuang Wang, Zixu Wang, Yangyang Chen, **<font color="#ff9933">Yuquan Li</font>**, Heqi Sun, Kyoung Tai No\*, Tao Song\*, Xiangxiang Zeng\*. "An interface-based molecular generative framework for protein-protein interaction inhibitors." `bioRxiv` (2023): 2023-10.[[HTML]](https://doi.org/10.1101/2023.10.10.557742) [[PDF]](/pdf/paper_2023d.pdf) 
+- **[2023c]** Ruiqiang Lu, Jun Wang, Pengyong Li, **<font color="#ff9933">Yuquan Li</font>**, Shuoyan Tan, Yiting Pan, Huanxiang Liu, Peng Gao, Guotong Xie\*, Xiaojun Yao\*. "Improving drug-target affinity prediction via feature fusion and knowledge distillation." `Briefings in Bioinformatics` 24.3 (2023): bbad145. [[HTML]](https://doi.org/10.1093/bib/bbad145) 
+- **[2023b]** Xiaorui Wang†, Chang-Yu Hsieh†, Xiaodan Yin, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou\*, Xiaojun Yao\*.  "Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center." `Research` 6 (2023): 0231. [[HTML]](https://doi.org/10.1101/2023.08.01.551396) [[PDF]](/pdf/paper_2023b.pdf)
+- **[2023a]** Shuo Liu, Jialiang Yu, Ningxi Ni, Zidong Wang, Mengyun Chen, **<font color="#ff9933">Yuquan Li</font>**, Chen Xu, Yahao Ding, Jun Zhang\*, Xiaojun Yao\*, Huanxiang Liu\*. "A versatile framework for drug-target interaction prediction by considering domain specific features." `bioRxiv` (2023): 2023-08. [[HTML]](https://doi.org/10.34133/research.0231) [[PDF]](/pdf/paper_2023a.pdf)
 
 #### 2022年度
-- **[2022b]** Dejun Jiang†, Huiyong Sun†, Jike Wang†, Chang-Yu Hsieh, **<font color="#ff9933">Yuquan Li</font>**, Zhenxing Wu, Dongsheng Cao*, Jian Wu*, Tingjun Hou*. "Out-of-the-box deep learning prediction of quantum-mechanical partial charges by graph representation and transfer learning." `Briefings in Bioinformatics` 23.2 (2022): bbab597. [[HTML]](https://doi.org/10.1093/bib/bbab597) [[PDF]](/pdf/paper_2022b.pdf)
+- **[2022b]** Dejun Jiang†, Huiyong Sun†, Jike Wang†, Chang-Yu Hsieh, **<font color="#ff9933">Yuquan Li</font>**, Zhenxing Wu, Dongsheng Cao\*, Jian Wu\*, Tingjun Hou\*. "Out-of-the-box deep learning prediction of quantum-mechanical partial charges by graph representation and transfer learning." `Briefings in Bioinformatics` 23.2 (2022): bbab597. [[HTML]](https://doi.org/10.1093/bib/bbab597) [[PDF]](/pdf/paper_2022b.pdf)
 - **[2022a]** **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh†, Ruiqiang Lu, Xiaoqing Gong, Xiaorui Wang, Pengyong Li, Shuo Liu, Yanan Tian, Dejun Jiang, Jiaxian Yan, Qifeng Bai, Huanxiang Liu, Shengyu Zhang & Xiaojun Yao\*. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence` 4.7 (2022): 645-651. [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)
 
 
 #### 2021年度
-- **[2021c]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song*, Xiaojun Yao\*. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` 22.4 (2021): bbaa266. [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)
-- **[2021b]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, Jiezhong Qiu, Guangyong Chen, Huanxiang Liu, Benben Liao*, Chang-Yu Hsieh*, Xiaojun Yao\*. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal` 420 (2021): 129845. [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)
+- **[2021c]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song\*, Xiaojun Yao\*. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` 22.4 (2021): bbaa266. [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)
+- **[2021b]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, Jiezhong Qiu, Guangyong Chen, Huanxiang Liu, Benben Liao\*, Chang-Yu Hsieh\*, Xiaojun Yao\*. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal` 420 (2021): 129845. [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)
 - **[2021a]** **<font color="#ff9933">Yuquan Li</font>**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao\*. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal` 414 (2021): 128817. [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)
 
 
@@ -113,14 +114,14 @@ redirect_from:
 
 # 🗂 科研经历
 
-### **进行工作2：Flexible graph adaptive learning**
+### 进行工作2：Flexible graph adaptive learning
 - **贡献**：90%
 - **背景**：初代自适应图学习GLAM还有一定缺陷
 - **方法**：提出使用更灵活更强更快的GLAM2来替代初代自适应图学习GLAM。`(方法实现路径：暂不公开)`
 - **结果**：BindingDB AUC=0.975等。
 - **进展**：实验结果超越预期，还差一些消融实验(ablation study),完成后将写论文投稿
 
-### **进行工作1：基于图混合对比学习的弱监督药物-靶标相互作预测**
+### 进行工作1：基于图混合对比学习的弱监督药物-靶标相互作预测
 - **贡献**：50%
 - **背景**：对于新靶点，研发人员极可能缺乏足够的药物-靶标相互作用数据来充分地监督训练一个模型。
 - **方法**：我们提出基于图混合对比学习(Graph fusion contrastive learning)来减轻药物-靶标相互作用预测任务中数据稀缺性和泛化能力的问题。`(方法实现路径：暂不公开)`
@@ -130,7 +131,7 @@ redirect_from:
 
 
 
-### **工作5：基于分子原型对比学习的弱监督分子性质预测** 
+### 工作5：基于分子原型对比学习的弱监督分子性质预测
 - **时间段**：2022.7 - 2023.4
 - **贡献**：90%
 - **背景**：新药研发时针对靶点的具有准确标签的大样本数据集较难获取。
@@ -142,7 +143,7 @@ redirect_from:
 
 
 
-### **工作4：基于语义伪标签分子聚类的弱监督分子性质预测**
+### 工作4：基于语义伪标签分子聚类的弱监督分子性质预测
 - **时间段**：2021.12 - 2022.6
 - **贡献**：90%
 - **背景**：在新靶点上进行药物研发时，很难找到大量的带标签分子数据作为深度学习的训练基础。
@@ -154,7 +155,7 @@ redirect_from:
 
   <span class='anchor' id='research_project_3'></span> 
 
-### **工作3：自适应图学习药物-靶标相互作用和分子性质预测** [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)
+### 工作3：自适应图学习药物-靶标相互作用和分子性质预测** [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)
 - **时间段**：2020.12 - 2021.12
 - **贡献**：60%
 - **背景**：现有的图学习方法在药物发现数据集上的架构和超参数已经固化，导致它们无法灵活适应新生成的数据。
@@ -166,7 +167,7 @@ redirect_from:
 
   <span class='anchor' id='research_project_2'></span>
 
-### **工作2：基于三元消息传递机制的新型图神经网络** [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)
+### 工作2：基于三元消息传递机制的新型图神经网络 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)
 - **时间段**：2020.8 - 2022.12
 - **贡献**：50%
 - **背景**：现有GNN存在参数数量庞大、计算效率不高以及对分子结构理解的局限性
@@ -180,7 +181,7 @@ redirect_from:
 
   <span class='anchor' id='research_project_1'></span>
 
-### **工作1：块设计网络设计的图网络分子性质预测** [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)
+### 工作1：块设计网络设计的图网络分子性质预测 [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)
 - **时间段**：2019.9 - 2020.7（硕士一年级）
 - **贡献**：60%
 - **背景**：物理计算分子性质变得耗时又费力，图神经网络预测方法存在网络退化问题。
@@ -190,7 +191,7 @@ redirect_from:
 
   ![示意图](pdf/research_project_1.png){:height="60%" width="60%"}
 
-### **早期工作1：基于集成机器学习/图神经网络的蛋白质-小分子亲和力预测** 
+### 早期工作1：基于集成机器学习/图神经网络的蛋白质-小分子亲和力预测
 - **时间段**：2018.9 - 2019.6（本科大四）
 - **贡献**：60%
 - **背景**：大二开始刷Ng和莫烦的ML/DL课程、TensorFlow官方教程、浪叫兽的Kaggle机器学习竞赛教程，大四保研时联系了兰大姚小军老师，相见恨晚，当即跟随姚老师进入AI Science领域科研。
