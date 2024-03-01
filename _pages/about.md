@@ -41,7 +41,6 @@ redirect_from:
 ### *2015.9 - 2019.6*  本科 - 青海大学，计算机技术与应用系(专业：计算机科学与技术)
 
 
-
 <span class='anchor' id='jobs'></span> 
 # 🧑‍💻 工作经历
 
