@@ -245,7 +245,7 @@ redirect_from:
 
 # 🎉 奖项荣誉
 
-- *2024.03* 华为奖学金 [[链接]](https://xxxy.lzu.edu.cn/tongzhigonggao/2024/0311/257358.html)
+- *2024.03* 华为奖学金 [[链接]](https://xxxy.lzu.edu.cn/tongzhigonggao/2024/0311/257358.html) (备注：华为-兰州大学协议资助，本硕博共五人/年) 
 - *2022.12* 博士生国家奖学金 [[链接]](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=8813)
 - *2021.12* 博士生一等学业奖学金 [[链接]](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=7656)
 - *2021.11* 唐敖庆化学奖学金 [[链接]](https://www.jlu.edu.cn/info/1095/50784.htm) 
