@@ -109,100 +109,126 @@ redirect_from:
 
 # 🗂 科研经历
 
-### 进行工作2：Flexible graph adaptive learning
-- **贡献**：90%
-- **背景**：初代自适应图学习GLAM还有一定缺陷
-- **方法**：提出使用更灵活更强更快的GLAM2来替代初代自适应图学习GLAM。`(方法实现路径：暂不公开)`
-- **结果**：BindingDB AUC=0.975等。
-- **进展**：实验结果超越预期，还差一些消融实验(ablation study),完成后将写论文投稿
-
-### 进行工作1：基于图混合对比学习的弱监督药物-靶标相互作预测
-- **贡献**：50%
-- **背景**：对于新靶点，研发人员极可能缺乏足够的药物-靶标相互作用数据来充分地监督训练一个模型。
-- **方法**：我们提出基于图混合对比学习(Graph fusion contrastive learning)来减轻药物-靶标相互作用预测任务中数据稀缺性和泛化能力的问题。`(方法实现路径：暂不公开)`
-- **结果**：实验结果超越预期，仅使用少量标签数据在BindingDB和LIT-PCBA达到了接近全监督学习模型的性能，以及极佳的泛化性能。
-- **进展**：实验已完成，正在写论文进行投稿
 
 
+<style>details{border:0.1px solid #aaa;border-radius:4px;padding:0.1em 1em 0.1em;width:90%;margin:20px auto;box-shadow:0 1px 2px rgba(0,0,0,0.2);}summary{user-select: none;cursor:pointer;list-style:none;margin:0;padding:10px 0;}summary::-webkit-details-marker{display:none;}.arrow{display:inline-block;margin-right:6px;font-size:1.3em;transition:transform 0.3s ease;}details[open] .arrow{transform:rotate(90deg);}details > *:not(summary){transition:max-height 0.4s ease, padding 0.4s ease, margin 0.4s ease;overflow:hidden;max-height:0;padding:0 0.5em;}details[open] > *:not(summary){max-height:2000px;padding:0.8em;}summary h3{display:inline;margin:0;font-size:1.2em;color:#333;}ul {padding-left: 30px;}</style>
 
 
-### 工作5：基于分子原型对比学习的弱监督分子性质预测
-- **时间段**：2022.7 - 2023.4
-- **贡献**：90%
-- **背景**：新药研发时针对靶点的具有准确标签的大样本数据集较难获取。
-- **方法**：提出了基于分子原型学习的弱监督学习方法，充分利用少量标签数据和大量无标签数据学习知识。该方法使用一个可训练的神经网络从分子中提取的原型(rationale)，并将其与环境(environment)分离。然后基于提取的分子原型从大规模现有药物分子空间DrugSpaceX中寻找成药性高的原型分子集合。再随后基于原型分子集合筛选找到离原分子相近(标签距离+分子相似性)的分子作为原分子的原型增强(rationale augmentation)。最后基于原型增强进行对比学习，进而进行弱监督学习(基于AdaMatch修改的适用图数据的弱监督学习框架)。
-- **结果**：只需少量的标签数据即可进行对无标签数据进行较为准确的预测。BACE数据集上使用10%标签数据，在剩下90%数据上预测AUC=0.83(另一个数据集HIV为AUC=0.75)。此结果不及预期故放弃写论文。
-- 示意图：
+<details>
+    <summary><h3><span class="arrow">></span>进行工作2：第二代分子自适应图学习框架(GLAM2)</h3></summary>
+    <ul>
+        <li><b>贡献</b>：90%</li>
+        <li><b>背景</b>：初代自适应图学习GLAM还有一定缺陷</li>
+        <li><b>方法</b>：提出使用更灵活更强更快的GLAM2来替代初代自适应图学习GLAM。(方法实现路径：暂不公开)</li>
+        <li><b>结果</b>：BindingDB AUC=0.975等。</li>
+        <li><b>进展</b>：实验结果超越预期，还差一些消融实验(ablation study)，完成后将写论文投稿</li>
+    </ul>
+</details>
 
-  ![示意图](pdf/research_project_5.png){:height="60%" width="60%"}
-
-
-
-### 工作4：基于语义伪标签分子聚类的弱监督分子性质预测
-- **时间段**：2021.12 - 2022.6
-- **贡献**：90%
-- **背景**：在新靶点上进行药物研发时，很难找到大量的带标签分子数据作为深度学习的训练基础。
-- **方法**：提出了一种基于分子语义的分类方法。首先采用预训练的方式直接从化学分子自带的信息中进行学习表示，然后根据这些表示将化学实体进行聚类。最后再通过极少量的标签数据作为探针的方式确定聚类的真实类别。
-- **结果**：不使用任何标签信息就可以对分子进行较为准确的分类。BBBP数据集上聚类AUC=0.741 ACC=0.750 (作为对比，普通的监督学习能到0.9左右)。此结果不及预期故放弃写论文。
-- **本工作类似工作(SPICE)示意图**：
-
-  ![示意图](pdf/research_project_4*.png){:height="60%" width="60%"}
-
-  <span class='anchor' id='research_project_3'></span> 
-
-### 工作3：自适应图学习药物-靶标相互作用和分子性质预测** [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)
-- **时间段**：2020.12 - 2021.12
-- **贡献**：60%
-- **背景**：现有的图学习方法在药物发现数据集上的架构和超参数已经固化，导致它们无法灵活适应新生成的数据。
-- **方法**：提出数据集自适应图学习方法GLAM，它能够适应任何数据集并在没有人为干预的情况下进行准确预测。该方法设计了一个包含架构设计、训练超参数、优化器选择、误差函数选择的图学习配置空间。并设计了一个自动化的管道自动从图学习配置空间中找到最适合数据集性能最高的图学习配置，最终集成出一个用于完成下游任务的高性能集成预测器。
-- **结果**：在多种分子相互作用和性质预测任务上建立了新的最佳标准，相对于传统方法，在14个数据集上平均减少了18.7%的预测误差。 `发表论文GLAM[1]`于Nature Machine Intelligence期刊。
-- 示意图：
-
-  ![示意图](pdf/research_project_3.png){:height="60%" width="60%"}
-
-  <span class='anchor' id='research_project_2'></span>
-
-### 工作2：基于三元消息传递机制的新型图神经网络 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)
-- **时间段**：2020.8 - 2022.12
-- **贡献**：50%
-- **背景**：现有GNN存在参数数量庞大、计算效率不高以及对分子结构理解的局限性
-- **方法**：提出了一种新型的三元消息网络TrimNet，用于有效地学习分子表示，减少参数数量，并改善边信息的提取。TrimNet采用了三元消息机制，通过直接处理原子-键-原子的信息来更新神经网络的隐藏状态，从而减少了参数数量并改进了边信息的提取。这种方法强调了分子结构中原子和框架对目标属性的重要性，并提供了预测任务的清晰解释​​。
-- **结果**：在多种分子属性预测任务上取得了新的最佳性能，并显著减少了参数数量。 `发表论文TrimNet[3]`于Briefings in Bioinformatics期刊。
-- **示意图**：
-
-  ![示意图](pdf/research_project_2.png){:height="60%" width="60%"}
+<details>
+    <summary><h3><span class="arrow">></span>进行工作1：基于图混合对比学习的弱监督药物-靶标相互作用预测</h3></summary>
+    <ul>
+        <li><b>贡献</b>：50%</li>
+        <li><b>背景</b>：对于新靶点，研发人员极可能缺乏足够的药物-靶标相互作用数据来充分地监督训练一个模型。</li>
+        <li><b>方法</b>：我们提出基于图混合对比学习(Graph fusion contrastive learning)来减轻药物-靶标相互作用预测任务中数据稀缺性和泛化能力的问题。(方法实现路径：暂不公开)</li>
+        <li><b>结果</b>：实验结果超越预期，仅使用少量标签数据在BindingDB和LIT-PCBA达到了接近全监督学习模型的性能，以及极佳的泛化性能。</li>
+        <li><b>进展</b>：实验已完成，正在写论文进行投稿</li>
+    </ul>
+</details>
 
 
+<details>
+    <summary><h3><span class="arrow">></span>工作5：基于分子原型对比学习的弱监督分子性质预测</h3></summary>
+    <ul>
+        <li><b>时间段</b>：2022.7 - 2023.4</li>
+        <li><b>贡献</b>：90%</li>
+        <li><b>背景</b>：新药研发时针对靶点的具有准确标签的大样本数据集较难获取。</li>
+        <li><b>方法</b>：提出了基于分子原型学习的弱监督学习方法，充分利用少量标签数据和大量无标签数据学习知识。该方法使用一个可训练的神经网络从分子中提取的原型(rationale)，并将其与环境(environment)分离。然后基于提取的分子原型从大规模现有药物分子空间DrugSpaceX中寻找成药性高的原型分子集合。再随后基于原型分子集合筛选找到离原分子相近(标签距离+分子相似性)的分子作为原分子的原型增强(rationale augmentation)。最后基于原型增强进行对比学习，进而进行弱监督学习(基于AdaMatch修改的适用图数据的弱监督学习框架)。</li>
+        <li><b>结果</b>：只需少量的标签数据即可进行对无标签数据进行较为准确的预测。BACE数据集上使用10%标签数据，在剩下90%数据上预测AUC=0.83(另一个数据集HIV为AUC=0.75)。此结果不及预期故放弃写论文。</li>
+        <li><b>示意图：</b></li>
+        <img src="pdf/research_project_5.png" width="100%" height="100%"/>
+    </ul>
+</details>
 
-  <span class='anchor' id='research_project_1'></span>
 
-### 工作1：块设计网络设计的图网络分子性质预测 [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)
-- **时间段**：2019.9 - 2020.7（硕士一年级）
-- **贡献**：60%
-- **背景**：物理计算分子性质变得耗时又费力，图神经网络预测方法存在网络退化问题。
-- **方法**：提出了一种基于带有批规范化的块设计图神经网络（BGNN），以提高分子性质预测的准确性和效率。
-- **结果**：一方面解决网络退化问题使得网络可以更深以增加表示学习能力，另一方面为自动图学习打下图网络模块标准化和可定制的坚实基础。`发表论文BGNN[2]` 于Chemical Engineering Journal期刊。
-- **示意图**：
+<details>
+    <summary><h3><span class="arrow">></span>工作4：基于语义伪标签的分子聚类</h3></summary>
+    <ul>
+        <li><b>时间段</b>：2021.12 - 2022.6</li>
+        <li><b>贡献</b>：90%</li>
+        <li><b>背景</b>：在新靶点上进行药物研发时，很难找到大量的带标签分子数据作为深度学习的训练基础。</li>
+        <li><b>方法</b>：提出了一种基于分子语义的分类方法。首先采用预训练的方式直接从化学分子自带的信息中进行学习表示，然后根据这些表示将化学实体进行聚类。最后再通过极少量的标签数据作为探针的方式确定聚类的真实类别。</li>
+        <li><b>结果</b>：不使用任何标签信息就可以对分子进行较为准确的分类。BBBP数据集上聚类AUC=0.741 ACC=0.750 (作为对比，普通的监督学习能到0.9左右)。此结果不及预期故放弃写论文。</li>
+        <li><b>本工作类似工作(SPICE)示意图：</b></li>
+        <img src="pdf/research_project_4*.png" width="100%" height="100%"/>
+    </ul>
+</details>
 
-  ![示意图](pdf/research_project_1.png){:height="60%" width="60%"}
+<details>
+    <summary><h3><span class="arrow">></span>工作3：分子自适应图学习框架(GLAM)</h3></summary>
+    <ul>
+        <li><b>时间段</b>：2020.12 - 2021.12</li>
+        <li><b>贡献</b>：60%</li>
+        <li><b>背景</b>：现有的图学习方法在药物发现数据集上的架构和超参数已经固化，导致它们无法灵活适应新生成的数据。</li>
+        <li><b>方法</b>：提出数据集自适应图学习方法GLAM，它能够适应任何数据集并在没有人为干预的情况下进行准确预测。该方法设计了一个包含架构设计、训练超参数、优化器选择、误差函数选择的图学习配置空间。并设计了一个自动化的管道自动从图学习配置空间中找到最适合数据集性能最高的图学习配置，最终集成出一个用于完成下游任务的高性能集成预测器。</li>
+        <li><b>结果</b>：在多种分子相互作用和性质预测任务上建立了新的最佳标准，相对于传统方法，在14个数据集上平均减少了18.7%的预测误差。</li>
+        <li><b>示意图：</b></li>
+        <img src="pdf/research_project_3.png" width="100%" height="100%"/>
+    </ul>
+</details>
 
-### 早期工作1：基于集成机器学习/图神经网络的蛋白质-小分子亲和力预测
-- **时间段**：2018.9 - 2019.6（本科大四）
-- **贡献**：60%
-- **背景**：大二开始刷Ng和莫烦的ML/DL课程、TensorFlow官方教程、浪叫兽的Kaggle机器学习竞赛教程，大四保研时联系了兰大姚小军老师，相见恨晚，当即跟随姚老师进入AI Science领域科研。
-- **背景**：现有蛋白质-小分子亲和力预测准确性不够高
-- **方法**：应用集成学习增强的多个机器学习模型，及理论上更先进的GNN算法来预测。使用MGLTools+BINANA算法获得蛋白-小分子配体描述符，如结合强度、氢键、静电相互作用、盐桥、π相互作用等。随后训练了包括LightGBM,Xgboost,决策树在内的复杂和简单模型，进行集成(Bagging)。本项目还提出使用GAT+全连接层来分别对小分子和蛋白进行表示学习，最后预测亲和力。
-- **结果**：PDBBind v2016 core set测试集上集成机器学习相关系数RMSE=1.42，Pearson R=0.775(超越当时的前沿工作RF::Vina R=0.739，但不及RF::VinaElem R=0.803)。而GNN测试集预测结果评测R=0.6917不及预期。获优秀本科学位论文。
-- **示意图：**
+<details>
+    <summary><h3><span class="arrow">></span>工作2：三元消息传递网络(TrimNet)</h3></summary>
+    <ul>
+        <li><b>时间段</b>：2020.8 - 2022.12</li>
+        <li><b>贡献</b>：50%</li>
+        <li><b>背景</b>：现有GNN存在参数数量庞大、计算效率不高以及对分子结构理解的局限性</li>
+        <li><b>方法</b>：提出了一种新型的三元消息网络TrimNet，用于有效地学习分子表示，减少参数数量，并改善边信息的提取。TrimNet采用了三元消息机制，通过直接处理原子-键-原子的信息来更新神经网络的隐藏状态，从而减少了参数数量并改进了边信息的提取。这种方法强调了分子结构中原子和框架对目标属性的重要性，并提供了预测任务的清晰解释​​。</li>
+        <li><b>结果</b>：在多种分子属性预测任务上取得了新的最佳性能，并显著减少了参数数量。</li>
+        <li><b>示意图：</b></li>
+        <img src="pdf/research_project_2.png" width="100%" height="100%"/>
+    </ul>
+</details>
 
-  ![示意图](pdf/research_project_early_2.png){:height="60%" width="60%"}
+<details>
+    <summary><h3><span class="arrow">></span>工作1：块设计图神经网络(BGNN)</h3></summary>
+    <ul>
+        <li><b>时间段</b>：2019.9 - 2020.7（硕士一年级）</li>
+        <li><b>贡献</b>：60%</li>
+        <li><b>背景</b>：物理计算分子性质变得耗时又费力，图神经网络预测方法存在网络退化问题。</li>
+        <li><b>方法</b>：提出了一种基于带有批规范化的块设计图神经网络（BGNN），以提高分子性质预测的准确性和效率。</li>
+        <li><b>结果</b>：一方面解决网络退化问题使得网络可以更深以增加表示学习能力，另一方面为自动图学习打下图网络模块标准化和可定制的坚实基础。</li>
+        <li><b>示意图：</b></li>
+        <img src="pdf/research_project_1.png" width="100%" height="100%"/>
+    </ul>
+</details>
+
+
+
+
+
+<details>
+    <summary><h3><span class="arrow">></span>早期工作1：基于集成机器学习/图神经网络的蛋白质-小分子亲和力预测</h3></summary>
+    <ul>
+        <li><b>时间段</b>：2018.9 - 2019.6（本科大四）</li>
+        <li><b>贡献</b>：60%  </li>
+        <li><b>背景</b>：大二开始刷Ng和莫烦的ML/DL课程、TensorFlow官方教程、浪叫兽的Kaggle机器学习竞赛教程，大四保研时联系了兰大姚小军老师，相见恨晚，当即跟随姚老师进入AI Science领域科研。        </li>
+        <li><b>方法</b>：应用集成学习增强的多个机器学习模型，及理论上更先进的GNN算法来预测。使用MGLTools+BINANA算法获得蛋白-小分子配体描述符，如结合强度、氢键、静电相互作用、盐桥、π相互作用等。随后训练了包括LightGBM,Xgboost,决策树在内的复杂和简单模型，进行集成(Bagging)。本项目还提出使用GAT+全连接层来分别对小分子和蛋白进行表示学习，最后预测亲和力。        </li>
+        <li><b>背景</b>：现有蛋白质-小分子亲和力预测准确性不够高        </li>
+        <li><b>结果</b>：PDBBind v2016 core set测试集上集成机器学习相关系数RMSE=1.42，Pearson R=0.775(超越当时的前沿工作RF::Vina R=0.739，但不及RF::VinaElem R=0.803)。而GNN测试集预测结果评测R=0.6917不及预期。获优秀本科学位论文。        </li>
+        <li><b>示意图：</b></li>
+        <img src="pdf/research_project_early_2.png"   width="100%" height="100%"/>
+    </ul>
+</details>
+
+
 
 
 
 <span class='anchor' id='competitions'></span>
 
 # 🏅 竞赛经历
-- *2020.3* **高能对撞粒子分类挑战赛**  `排名5/256` [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy) [[PDF]](/pdf/comp_2020_3.pdf)
+- *2020.3* **高能对撞粒子分类挑战赛** `排名5/256` [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy) [[PDF]](/pdf/comp_2020_3.pdf)
   - 队员，平台级，交叉学科竞赛，Biendata举办
 - *2018.6* **MCM/ICM数学建模竞赛** `Meritorious Winner奖` (Top 3%~7% of 20.6k team)[[PDF]](/pdf/comp_2018_6.pdf)
   - 队长，国家级，数学建模竞赛，工业与应用数学学会举办。 
