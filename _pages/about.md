@@ -294,7 +294,7 @@ redirect_from:
 
 # 🙌 其他
 
-- LOL (大乱斗启动器)，War3 RPG，DNF
+- 大乱斗，War3 RPG/RTS，DNF
 - **吉他**：传世烧火棍*5 拥有者
 - **摄影**
 
