@@ -138,7 +138,7 @@ redirect_from:
 
 
 <details>
-    <summary><h3><span class="arrow">></span>工作5：基于分子原型对比学习的弱监督分子性质预测</h3></summary>
+    <summary><h3><span class="arrow">></span>工作5：基于分子原型对比的分子弱监督学习</h3></summary>
     <ul>
         <li><b>时间段</b>：2022.7 - 2023.4</li>
         <li><b>贡献</b>：90%</li>
