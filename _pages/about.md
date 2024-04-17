@@ -299,8 +299,8 @@ redirect_from:
 # 🙌 其他
 
 - 大乱斗，War3 RPG/RTS，DNF
-- **吉他**：传世烧火棍*5 拥有者
-- **摄影**
+- 吉他：传世烧火棍*5 拥有者
+- 摄影
 
 
 <!-- Google tag (gtag.js) -->
