@@ -18,6 +18,22 @@ redirect_from:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <span class='anchor' id='about-me'></span>
 
 黎育权目前是兰大在读博士研究生，研究领域为人工智能辅助药物发现(AIDD)。科研上着力于利用AI的预测和生成能力，结合化信和生信工具，解决标签数据匮乏、解释/泛化/鲁棒性匮乏、性能不足等难题，助力药物分子生成、优化及筛选，最终落地到真实临床前药物发现流程。
@@ -29,8 +45,6 @@ redirect_from:
 - 分子生成任务
 - 图神经网络
 - 自动机器学习
-
-
 
 
 
@@ -64,17 +78,17 @@ redirect_from:
 <span class='anchor' id='publications'></span>
 # 📝 学术论文
 ### 代表性论文
-**[1]** **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh†, Ruiqiang Lu, Xiaoqing Gong, Xiaorui Wang, Pengyong Li, Shuo Liu, Yanan Tian, Dejun Jiang, Jiaxian Yan, Qifeng Bai, Huanxiang Liu, Shengyu Zhang & Xiaojun Yao\*. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence`  `2022 IF=23.8` 
+**[1]** **<font color="#ff9933">Yuquan Li†</font>**, et al. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence`  `2022 IF=23.8` 
 [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf) [[内容介绍-GLAM]](#research_project_3) 
 [[媒体分享①-AItellU]](https://zhuanlan.zhihu.com/p/587238348) [[②-DrugAI]](https://zhuanlan.zhihu.com/p/533498924) [[③-ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg)[[④-ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)   [[⑤-ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA)  [[⑥-今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  [[⑦-智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) [[⑧-智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
 
-**[2]** **<font color="#ff9933">Yuquan Li</font>**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao\*. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal`  `2021 IF=16.7` 
+**[2]** **<font color="#ff9933">Yuquan Li</font>**, et al. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal`  `2021 IF=16.7` 
 [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf) [[内容介绍-BGNN]](#research_project_1) 
 
-**[3]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song\*, Xiaojun Yao\*. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` `2021 IF=13.9` 
+**[3]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, et al. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` `2021 IF=13.9` 
 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf) [[内容介绍-TrimNet]](#research_project_2) [[媒体分享①-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
 
-**[4]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, Jiezhong Qiu, Guangyong Chen, Huanxiang Liu, Benben Liao\*, Chang-Yu Hsieh\*, Xiaojun Yao\*. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal`  `2021 IF=16.7`
+**[4]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, et al. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal`  `2021 IF=16.7`
 [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf) [[媒体分享①-智药邦]](https://mp.weixin.qq.com/s/PG-nMMH6NYVj3Mc8Lzbb9g)
 
 †Equal contribution
@@ -166,9 +180,9 @@ redirect_from:
     </ul>
 </details>
 
-<span class='anchor' id='research_project_3'></span>
 
-<details>
+
+<details> <span class='anchor' id='research_project_3'></span>
     <summary><h3><span class="arrow">></span>工作3：分子自适应图学习框架(GLAM)</h3></summary>
     <ul>
         <li><b>时间段</b>：2020.12 - 2021.12</li>
@@ -181,9 +195,9 @@ redirect_from:
     </ul>
 </details>
 
-<span class='anchor' id='research_project_2'></span>
 
-<details>
+
+<details> <span class='anchor' id='research_project_2'></span>
     <summary><h3><span class="arrow">></span>工作2：三元消息传递网络(TrimNet)</h3></summary>
     <ul>
         <li><b>时间段</b>：2020.8 - 2022.12</li>
@@ -196,8 +210,8 @@ redirect_from:
     </ul>
 </details>
 
-<span class='anchor' id='research_project_1'></span>
-<details>
+
+<details>  <span class='anchor' id='research_project_1'></span>
     <summary><h3><span class="arrow">></span>工作1：块设计图神经网络(BGNN)</h3></summary>
     <ul>
         <li><b>时间段</b>：2019.9 - 2020.7（硕士一年级）</li>
