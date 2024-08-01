@@ -64,21 +64,13 @@ redirect_from:
 <span class='anchor' id='publications'></span>
 # 📝 学术论文
 ### 代表性论文
-**[1]** **<font color="#ff9933">Yuquan Li†</font>**, et al. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence`  (第一作者，当年IF=23.8)
+**[1]** **<font color="#ff9933">Yuquan Li†</font>**, et al. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence`  2022 IF=23.8
 
-**[2]** **<font color="#ff9933">Yuquan Li</font>**, et al. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal`  (2021 IF=16.7) 
+**[2]** **<font color="#ff9933">Yuquan Li</font>**, et al. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal`  2021 IF=16.7 
 
-**[3]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, et al. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` (2021 IF=13.9) 
+**[3]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, et al. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` 2021 IF=13.9 
 
-**[4]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, et al. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal`  (2021 IF=16.7)
-
-
-[1] Yuquan Li, et al. An adaptive graph learning method for automated molecular interactions and properties predictions[J]. Nature Machine Intelligence. 2022. (第一作者，当年IF=23.8，中科院1区)
-[2] Yuquan Li, et al. Introducing block design in graph neural networks for molecular properties prediction[J]. Chemical Engineering Journal. 2021. (第一作者，当年IF=16.7，中科院1区)
-[3] Xiaorui Wang†, Yuquan Li†, et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions[J]. Chemical Engineering Journal. 2021. (共一第二，当年IF=15.1，中科院1区，) 
-[4] Pengyong Li†, Yuquan Li†, et al. TrimNet : learning molecular representation from triplet messages for biomedicine[J]. Briefings in Bioinformatics. 2021. (共一第二，当年IF=13.9，中科院2区)
-
-
+**[4]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, et al. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal`  2021 IF=16.7
 
 
 ### 主要为 

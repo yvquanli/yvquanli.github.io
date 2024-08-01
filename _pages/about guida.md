@@ -47,7 +47,7 @@ redirect_from:
 # 🎓 教育经历
 ### *2019.9 - 今* &emsp;&emsp; 硕博 - 兰州大学 (专业：化学信息学, 计算机与化学交叉，计算机为主) 
 - **学校对交叉学科支持度很高，硕博期间主修计算机课程，研究工作也以计算机为主**
-- 毕设：基于图学习的分子性质及相互作用预测 
+- 毕设：基于图学习的分子相互作用及性质预测 
   
 ### *2015.9 - 2019.6* 本科 - 青海大学 (专业：计算机科学与技术) 
 - 毕设：基于机器学习的蛋白质-小分子亲和力预测 
@@ -56,7 +56,7 @@ redirect_from:
 *2022.7 - 2023.4* 北京智源人工智能研究院   
 *2020.8 - 2022.6* 腾讯公司量子实验室(内容：AI药物发现算法及平台设计)
 # 📑 研究方向
-研究方向：基于机器学习的分子性质及相互作用预测  
+研究方向：基于AI的分子预测及生成  
 未来规划：`AI+新型农药创制`、`智慧植保` (与郝格非教授合作)
 
 
@@ -64,29 +64,23 @@ redirect_from:
 <span class='anchor' id='publications'></span>
 # 📝 学术论文
 ### 代表性论文
-**[1]** **<font color="#ff9933">Yuquan Li†</font>**, et al. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence`  (第一作者，当年IF=23.8)
+**[1]** **<font color="#ff9933">Yuquan Li†</font>**, et al. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence`  `2022 IF=23.8` 
+[[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf) [[内容介绍-GLAM]](#research_project_3) 
+[[媒体分享①-AItellU]](https://zhuanlan.zhihu.com/p/587238348) [[②-DrugAI]](https://zhuanlan.zhihu.com/p/533498924) [[③-ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg)[[④-ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)   [[⑤-ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA)  [[⑥-今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  [[⑦-智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) [[⑧-智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
 
-**[2]** **<font color="#ff9933">Yuquan Li</font>**, et al. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal`  (2021 IF=16.7) 
+**[2]** **<font color="#ff9933">Yuquan Li</font>**, et al. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal`  `2021 IF=16.7` 
+[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf) [[内容介绍-BGNN]](#research_project_1) 
 
-**[3]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, et al. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` (2021 IF=13.9) 
+**[3]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, et al. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` `2021 IF=13.9` 
+[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf) [[内容介绍-TrimNet]](#research_project_2) [[媒体分享①-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
 
-**[4]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, et al. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal`  (2021 IF=16.7)
+**[4]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, et al. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal`  `2021 IF=16.7`
+[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf) [[媒体分享①-智药邦]](https://mp.weixin.qq.com/s/PG-nMMH6NYVj3Mc8Lzbb9g)
 
+†Equal contribution
 
-[1] Yuquan Li, et al. An adaptive graph learning method for automated molecular interactions and properties predictions[J]. Nature Machine Intelligence. 2022. (第一作者，当年IF=23.8，中科院1区)
-[2] Yuquan Li, et al. Introducing block design in graph neural networks for molecular properties prediction[J]. Chemical Engineering Journal. 2021. (第一作者，当年IF=16.7，中科院1区)
-[3] Xiaorui Wang†, Yuquan Li†, et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions[J]. Chemical Engineering Journal. 2021. (共一第二，当年IF=15.1，中科院1区，) 
-[4] Pengyong Li†, Yuquan Li†, et al. TrimNet : learning molecular representation from triplet messages for biomedicine[J]. Briefings in Bioinformatics. 2021. (共一第二，当年IF=13.9，中科院2区)
+\*Corresponding authors
 
-
-
-
-### 主要为 
-
-### 代表性论文媒体分享：
-[[①-AItellU]](https://zhuanlan.zhihu.com/p/587238348) [[②-DrugAI]](https://zhuanlan.zhihu.com/p/533498924) [[③-ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg)[[④-ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)   [[⑤-ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA)  [[⑥-今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  [[⑦-智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) [[⑧-智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
-[[⑨-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
-[[⑩-智药邦]](https://mp.weixin.qq.com/s/PG-nMMH6NYVj3Mc8Lzbb9g)
 
 
 ### 所有论文
@@ -241,17 +235,18 @@ redirect_from:
 <span class='anchor' id='competitions'></span>
 
 # 🏅 竞赛经历
-
-
-
-- *2017.11* **全国大学生数学建模竞赛** `赛区一等奖` 
-  - 队长，国家级，数学建模竞赛，中国工业与应用数学学会主办
-- *2018.6* **MCM/ICM数学建模竞赛** `Meritorious Winner奖` (Top 3%~7% of 20.6k team)
+- *2020.3* **高能对撞粒子分类挑战赛** `排名5/256` [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy) [[PDF]](/pdf/comp_2020_3.pdf)
+  - 队员，平台级，交叉学科竞赛，Biendata举办
+- *2018.6* **MCM/ICM数学建模竞赛** `Meritorious Winner奖` (Top 3%~7% of 20.6k team)[[PDF]](/pdf/comp_2018_6.pdf)
   - 队长，国家级，数学建模竞赛，工业与应用数学学会举办。 
-- *2018.2* **Kaggle餐厅访客预测竞赛** `排名117/2158` 
-  - 队长，平台级，机器学习竞赛，Kaggle机器学习竞赛平台
-- *2018.4* **"蓝桥杯"软件和信息技术专业人才大赛java组** `赛区一等奖` 
+- *2018.5* **全国高校“西普杯”信息安全铁人三项赛** `赛区三等奖` [[PDF]](/pdf/comp_2018_5.pdf)
+  - 队员，国家级，信息安全竞赛，中国教育部主办
+- *2018.4* **"蓝桥杯"软件和信息技术专业人才大赛java组** `赛区一等奖` [[PDF]](/pdf/comp_2018_4.pdf) 
   - 个人，国家级，算法设计类竞赛，中国工业和信息化部主办
+- *2018.2* **Kaggle餐厅访客预测竞赛** `排名117/2158` [[链接]](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/leaderboard#:~:text=263-,yuquan.li,-0.51811) [[PDF]](/pdf/comp_2018_2.pdf) 
+  - 队长，平台级，机器学习竞赛，Kaggle机器学习竞赛平台
+- *2017.11* **全国大学生数学建模竞赛** `赛区一等奖` [[链接]](http://www.mcm.edu.cn/html_cn/node/47a37c00788711191a6333ef6d7f38c2.html) [[PDF]](/pdf/comp_2017_11.pdf) 
+  - 队长，国家级，数学建模竞赛，中国工业与应用数学学会主办
 
 <span class='anchor' id='rewards'></span>
 
