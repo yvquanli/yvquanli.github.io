@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "黎育权"
-description              : "黎育权的主页"
+description              : "贵州大学 公共大数据国家重点实验室"
 repository               : "yvquanli/yvquanli.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "黎育权"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "兰州大学"
-  location         : "兰州市城关区"
-  employer         : #"None"
+  bio              : "特聘教授"
+  location         : "贵阳市花溪区"
+  employer         : # "贵州大学 公共大数据国家重点实验室"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=Yuquan+Li"
   googlescholar    : "https://scholar.google.com/citations?user=lCJi22EAAAAJ"
   email            : "yvquan.li@gmail.com"
