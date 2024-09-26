@@ -55,11 +55,9 @@ redirect_from:
 
 ### *2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/)  研究实习生
   - **导师**：付杰，师从图灵奖得主Yoshua Bengio教授，曾获ICLR 2021 杰出论文奖
-  - **部门**：[付杰课题组](https://bigaidream.github.io/)
 
-### *2020.8 - 2022.6* [腾讯公司](https://www.tencent.com/)   研究实习生
+### *2020.8 - 2022.6* [腾讯公司量子实验室](htps://quantum.tencent.com/)   研究实习生
   - **导师**：谢昌谕(Chang-Yu Hsieh)，现任浙江大学教授/博导。
-  - **部门**：[量子实验室](htps://quantum.tencent.com/)-AI制药组
 
 
 
