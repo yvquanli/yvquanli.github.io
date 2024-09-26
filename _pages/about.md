@@ -50,13 +50,13 @@ redirect_from:
 <span class='anchor' id='jobs'></span>  
 # 🧑‍💻 工作实习
 
-### *2024.9 - 今* [贵州大学公共大数据国家重点实验室](http://pbd.gzu.edu.cn/_t1517/main.htm)  特聘教授,硕导
+### *2024.9 - 今* [贵州大学 公共大数据国家重点实验室](http://pbd.gzu.edu.cn/_t1517/main.htm)  特聘教授,硕导
   - **招生**：欢迎有意向的未来硕士联系我！
 
 ### *2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/)  研究实习生
   - **导师**：付杰，师从图灵奖得主Yoshua Bengio教授，曾获ICLR 2021 杰出论文奖
 
-### *2020.8 - 2022.6* [腾讯公司量子实验室](htps://quantum.tencent.com/)   研究实习生
+### *2020.8 - 2022.6* [腾讯公司 量子实验室](htps://quantum.tencent.com/)   研究实习生
   - **导师**：谢昌谕(Chang-Yu Hsieh)，现任浙江大学教授/博导。
 
 
