@@ -241,12 +241,18 @@ redirect_from:
 <span class='anchor' id='competitions'></span>
 
 # 🏅 竞赛经历
-- *2020.3* **高能对撞粒子分类挑战赛** `排名5/256` 
-- *2018.6* **MCM/ICM数学建模竞赛** `Meritorious Winner奖` (Top 3%~7% of 20.6k team)
-- *2018.5* **全国高校“西普杯”信息安全铁人三项赛** `赛区三等奖` 
-- *2018.4* **"蓝桥杯"软件和信息技术专业人才大赛java组** `赛区一等奖` 
-- *2018.2* **Kaggle餐厅访客预测竞赛** `排名117/2158` 
-- *2017.11* **全国大学生数学建模竞赛** `赛区一等奖` 
+- *2020.3* **高能对撞粒子分类挑战赛** `排名5/256` [[链接]](https://www.biendata.xyz/competition/jet/leaderboard/#:~:text=Passing-,yuquanli,-lipy) [[PDF]](/pdf/comp_2020_3.pdf)
+  - 队员，平台级，交叉学科竞赛，Biendata举办
+- *2018.6* **MCM/ICM数学建模竞赛** `Meritorious Winner奖` (Top 3%~7% of 20.6k team)[[PDF]](/pdf/comp_2018_6.pdf)
+  - 队长，国家级，数学建模竞赛，工业与应用数学学会举办。 
+- *2018.5* **全国高校“西普杯”信息安全铁人三项赛** `赛区三等奖` [[PDF]](/pdf/comp_2018_5.pdf)
+  - 队员，国家级，信息安全竞赛，中国教育部主办
+- *2018.4* **"蓝桥杯"软件和信息技术专业人才大赛java组** `赛区一等奖` [[PDF]](/pdf/comp_2018_4.pdf) 
+  - 个人，国家级，算法设计类竞赛，中国工业和信息化部主办
+- *2018.2* **Kaggle餐厅访客预测竞赛** `排名117/2158` [[链接]](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting/leaderboard#:~:text=263-,yuquan.li,-0.51811) [[PDF]](/pdf/comp_2018_2.pdf) 
+  - 队长，平台级，机器学习竞赛，Kaggle机器学习竞赛平台
+- *2017.11* **全国大学生数学建模竞赛** `赛区一等奖` [[链接]](http://www.mcm.edu.cn/html_cn/node/47a37c00788711191a6333ef6d7f38c2.html) [[PDF]](/pdf/comp_2017_11.pdf) 
+  - 队长，国家级，数学建模竞赛，中国工业与应用数学学会主办
 
 <span class='anchor' id='rewards'></span>
 
