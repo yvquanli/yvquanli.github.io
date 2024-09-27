@@ -39,26 +39,24 @@ redirect_from:
 
 
 <span class='anchor' id='educations'></span>
+
 # 🎓 教育经历
-
 ### *2019.9 - 2024.6*   硕博 - 兰州大学，化学化工学院(专业：化学信息学，导师：姚小军教授)
-
 ### *2015.9 - 2019.6*  本科 - 青海大学，计算机学院(专业：计算机科学与技术)
 
 
 
 <span class='anchor' id='jobs'></span>  
+
 # 🧑‍💻 工作实习
-
 ### *2024.9 - 今* &emsp;&emsp; [贵州大学 公共大数据国家重点实验室](http://pbd.gzu.edu.cn/_t1517/main.htm)  特聘教授,硕导
-
 ### *2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/)  研究实习生
-
 ### *2020.8 - 2022.6* [腾讯公司 量子实验室](htps://quantum.tencent.com/)   研究实习生
 
 
 
 <span class='anchor' id='publications'></span>
+
 # 📝 学术论文
 ### 代表性论文
 **[1]** **<font color="#ff9933">Yuquan Li†</font>**, et al. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence`  `2022 IF=23.8` 
@@ -86,7 +84,6 @@ redirect_from:
 [[媒体分享①-智药邦]](https://mp.weixin.qq.com/s/PG-nMMH6NYVj3Mc8Lzbb9g) -->
 
 ### 所有论文
-
 #### 2024年度
 - **[2024b]** Xiaorui Wang, Xiaodan Yin, Dejun Jiang, Huifeng Zhao, Zhenxing Wu, Odin Zhang, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Huanxiang Liu, Pei Luo, Yuqiang Han, Tingjun Hou, Xiaojun Yao, Chang-Yu Hsieh.  "Multi-modal deep learning enables efficient and accurate annotation of enzymatic active sites." Nature Communications 15.1 (2024): 7348. [[HTML]](https://www.nature.com/articles/s41467-024-51511-6#citeas)
 - **[2024a]** Shuo Liu, Jialiang Yu, Ningxi Ni, Zidong Wang, Mengyun Chen, **<font color="#ff9933">Yuquan Li</font>**, Chen Xu, Yahao Ding, Jun Zhang, Xiaojun Yao, Huanxiang Liu. "Versatile Framework for Drug–Target Interaction Prediction by Considering Domain-Specific Features." Journal of Chemical Information and Modeling 64.14 (2024): 5646-5656. [[HTML]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c00403) [[PDF]](/pdf/paper_2023a.pdf)
@@ -111,16 +108,11 @@ redirect_from:
 
 
 
-
-
 <span class='anchor' id='academic'></span> 
 
 # 🗂 科研经历
 
-
-
 <style>details{border:0.1px solid #aaa;border-radius:4px;padding:0.1em 1em 0.1em;width:90%;margin:20px auto;box-shadow:0 1px 2px rgba(0,0,0,0.2);}summary{user-select: none;cursor:pointer;list-style:none;margin:0;padding:10px 0;}summary::-webkit-details-marker{display:none;}.arrow{display:inline-block;margin-right:6px;font-size:1.3em;transition:transform 0.3s ease;}details[open] .arrow{transform:rotate(90deg);}details > *:not(summary){transition:max-height 0.4s ease, padding 0.4s ease, margin 0.4s ease;overflow:hidden;max-height:0;padding:0 0.5em;}details[open] > *:not(summary){max-height:2000px;padding:0.8em;}summary h3{display:inline;margin:0;font-size:1.2em;color:#333;}ul {padding-left: 30px;}</style>
-
 
 <details>
     <summary><h3><span class="arrow">></span>进行工作2：第二代分子自适应图学习框架(GLAM2)</h3></summary>
@@ -144,7 +136,6 @@ redirect_from:
     </ul>
 </details>
 
-
 <details>
     <summary><h3><span class="arrow">></span>工作5：基于分子原型对比的分子弱监督学习</h3></summary>
     <ul>
@@ -157,7 +148,6 @@ redirect_from:
         <img src="pdf/research_project_5.png" width="100%" height="100%"/>
     </ul>
 </details>
-
 
 <details>
     <summary><h3><span class="arrow">></span>工作4：基于语义伪标签的分子聚类</h3></summary>
@@ -172,8 +162,6 @@ redirect_from:
     </ul>
 </details>
 
-
-
 <details> <span class='anchor' id='research_project_3'></span>
     <summary><h3><span class="arrow">></span>工作3：分子自适应图学习框架(GLAM)</h3></summary>
     <ul>
@@ -186,8 +174,6 @@ redirect_from:
         <img src="pdf/research_project_3.png" width="100%" height="100%"/>
     </ul>
 </details>
-
-
 
 <details> <span class='anchor' id='research_project_2'></span>
     <summary><h3><span class="arrow">></span>工作2：三元消息传递网络(TrimNet)</h3></summary>
@@ -202,7 +188,6 @@ redirect_from:
     </ul>
 </details>
 
-
 <details>  <span class='anchor' id='research_project_1'></span>
     <summary><h3><span class="arrow">></span>工作1：块设计图神经网络(BGNN)</h3></summary>
     <ul>
@@ -215,10 +200,6 @@ redirect_from:
         <img src="pdf/research_project_1.png" width="100%" height="100%"/>
     </ul>
 </details>
-
-
-
-
 
 <details>
     <summary><h3><span class="arrow">></span>早期工作1：基于集成机器学习/图神经网络的蛋白质-小分子亲和力预测</h3></summary>
@@ -239,31 +220,24 @@ redirect_from:
 
 
 
-
-
-
 <span class='anchor' id='competitions'></span>
 
 # 🏅 竞赛经历
 - *2020.3* 高能对撞粒子分类挑战赛 `排名5/256` 
 - *2018.6* MCM/ICM数学建模竞赛 `Meritorious Winner奖` (Top 3%~7% of 20.6k team)
-- *2018.5* 全国高校“西普杯”信息安全铁人三项赛 `赛区三等奖` 
-- *2018.4* "蓝桥杯"软件和信息技术专业人才大赛java组 `赛区一等奖` 
-- *2018.2* Kaggle餐厅访客预测竞赛 `排名117/2158` 
+- *2018.4* "蓝桥杯"软件和信息技术专业人才大赛 `赛区一等奖` 
+- *2018.2* Kaggle餐厅访客预测竞赛 `排名117/2158`
 - *2017.11* 全国大学生数学建模竞赛 `赛区一等奖` 
 
 <span class='anchor' id='rewards'></span>
 
 # 🎉 奖项荣誉
-
 - *2024.03* 华为奖学金 [[链接]](https://xxxy.lzu.edu.cn/tongzhigonggao/2024/0311/257358.html) (备注：华为-兰州大学协议资助，本硕博共五人/年) 
 - *2022.12* 博士生国家奖学金 [[链接]](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=8813)
-- *2021.12* 博士生一等学业奖学金 [[链接]](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=7656)
 - *2021.11* 唐敖庆化学奖学金 [[链接]](https://www.jlu.edu.cn/info/1095/50784.htm) 
 
+
 <span class='anchor' id='others'></span>
-
-
 
 # 👥 学术共同体
 - **期刊**
@@ -275,30 +249,12 @@ redirect_from:
   - 中国计算机学会 会员
   - 中国化学会 会员
 - **Talk**
-  - *2023.1* 生命分析化学与原子分子工程研究所第十九届研究生学术论坛
-    - 报告题目：人工智能辅助药物发现
   - *2023.3* 兰州大学第十五届研究生学术年会
     - 报告题目：化学×AI，现在与未来
 
 
-<!-- # 🛠 专业技能
-- **编程与算法设计** `Python`：熟练使用python进行算法设计和性能优化。
-- **图神经网络设计** `Pytorch`, `PyG`, `DGL`：熟练掌握Pytorch框架，PyTorch_Geometric和DGL图学习框架进行图学习科研工作。
-- **自动机器学习算法** `AutoML`, `NAS`：自适应学习、自动机器学习、神经架构搜索。
-- **信息学辅助药物发现** `CADD`, `AIDD`：利用化学信息学和生物信息学手段解决交叉学科中的特定问题，如活性预测、ADME/T性质评估、靶点筛选等。
-- **网站设计与开发** `Flask`, `Django`, `H5`：熟练部署和制作人工智能网页应用。
-- **提示词工程** `GPT4`, `DALL·E`：使用LLM等辅助科研和文书工作。 -->
-
-
-<!-- # 📑 学生事务
-- *2020.12* &emsp;&emsp;&emsp;优秀研究生干部   荣誉 
-- *2020.9-2021.9*  团支部书记   
-- *2020.9-2021.9*  防疫党员先锋队
-- *2019.9-2020.9*  研究生会文艺部部长   -->
-
 
 # 💾 程序网站
-
 - **CODD-Pred** 
   - 网站：[http://codd.iddd.group/](http://codd.iddd.group/) 
   - 贡献：参与制作该网站。[[论文]](10.1021/acs.jcim.3c00685) [[截图]](/pdf/web_server_2_codd_pred.png)
@@ -310,25 +266,10 @@ redirect_from:
   - 简介：IFGN是一个在线ADME/T性质预测网页应用。
 
 # 🙌 其他
-
 - 大乱斗，War3 RPG/RTS，DNF
 - 吉他：传世烧火棍*5 拥有者
 - 摄影
 
-
-<!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-WRDS6KHG7Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-WRDS6KHG7Y');
-</script> -->
-
-<!-- busuanzi tag (gtag.js) -->
-<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
-  <!-- <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-  <span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv"></span>人</span> -->
 
 
 <img src="images/contact.png" width="80%" height="80%" style="display: block; margin: 60px auto 0;"/>
