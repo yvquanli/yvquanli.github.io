@@ -25,7 +25,7 @@ redirect_from:
 
 黎育权目前是贵州大学公共大数据国家重点实验室特聘教授，研究领域为人工智能辅助农药创制。着力于利用AI的预测和生成能力，结合化信和生信工具，解决标签数据匮乏、解释/泛化/鲁棒性匮乏等难题，助力分子生成、优化及筛选，最终落地到真实农药创制流程。
 
-以第一作者身份在Nature Machine Intelligence在内的多个期刊发表论文。曾获唐敖庆化学奖学金、华为奖学金。担任《Exploration》期刊青年编委 [[homepage]](https://onlinelibrary.wiley.com/journal/27662098)。
+以第一/通讯作者身份在Nature Machine Intelligence在内的多个期刊发表论文。曾获唐敖庆化学奖学金、华为奖学金。担任《Exploration》期刊青年编委 [[homepage]](https://onlinelibrary.wiley.com/journal/27662098)。
 
 **招生ing**：欢迎有意向的未来硕士联系我！
 
@@ -85,8 +85,8 @@ redirect_from:
 
 ### 所有论文
 #### 2024年度
-- **[2024b]** Xiaorui Wang, Xiaodan Yin, Dejun Jiang, Huifeng Zhao, Zhenxing Wu, Odin Zhang, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Huanxiang Liu, Pei Luo, Yuqiang Han, Tingjun Hou, Xiaojun Yao, Chang-Yu Hsieh.  "Multi-modal deep learning enables efficient and accurate annotation of enzymatic active sites." Nature Communications 15.1 (2024): 7348. [[HTML]](https://www.nature.com/articles/s41467-024-51511-6#citeas)
-- **[2024a]** Shuo Liu, Jialiang Yu, Ningxi Ni, Zidong Wang, Mengyun Chen, **<font color="#ff9933">Yuquan Li</font>**, Chen Xu, Yahao Ding, Jun Zhang, Xiaojun Yao, Huanxiang Liu. "Versatile Framework for Drug–Target Interaction Prediction by Considering Domain-Specific Features." Journal of Chemical Information and Modeling 64.14 (2024): 5646-5656. [[HTML]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c00403) [[PDF]](/pdf/paper_2023a.pdf)
+- **[2024b]** Xiaorui Wang, Xiaodan Yin, Dejun Jiang, Huifeng Zhao, Zhenxing Wu, Odin Zhang, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Huanxiang Liu, Pei Luo, Yuqiang Han, Tingjun Hou, Xiaojun Yao, Chang-Yu Hsieh.  "Multi-modal deep learning enables efficient and accurate annotation of enzymatic active sites." `Nature Communications` 15.1 (2024): 7348. [[HTML]](https://www.nature.com/articles/s41467-024-51511-6#citeas)
+- **[2024a]** Shuo Liu, Jialiang Yu, Ningxi Ni, Zidong Wang, Mengyun Chen, **<font color="#ff9933">Yuquan Li</font>**, Chen Xu, Yahao Ding, Jun Zhang, Xiaojun Yao, Huanxiang Liu. "Versatile Framework for Drug–Target Interaction Prediction by Considering Domain-Specific Features." `Journal of Chemical Information and Modeling` 64.14 (2024): 5646-5656. [[HTML]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c00403) [[PDF]](/pdf/paper_2023a.pdf)
 
 #### 2023年度
 - **[2023d]** Xiaodan Yin†, Xiaorui Wang†, **<font color="#ff9933">Yuquan Li</font>**, Jike Wang, Yuwei Wang, Yafeng Deng, Tingjun Hou, Huanxiang Liu, Pei Luo, and Xiaojun Yao\*. "CODD-Pred: A Web Server for Efficient Target Identification and Bioactivity Prediction of Small Molecules." `Journal of Chemical Information and Modeling` 63.20 (2023): 6169-6176. [[HTML]](https://doi.org/10.1021/acs.jcim.3c00685) [[PDF]](/pdf/paper_2023e.pdf)
