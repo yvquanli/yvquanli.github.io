@@ -47,7 +47,7 @@ redirect_from:
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 工作实习
-### *2024.9 - 今* &emsp;&emsp; [贵州大学 公共大数据国家重点实验室](http://pbd.gzu.edu.cn/_t1517/main.htm)  特聘教授,硕导
+### *2024.10 - 今* &emsp;&emsp; [贵州大学 公共大数据国家重点实验室](http://pbd.gzu.edu.cn/_t1517/main.htm)  特聘教授,硕导
 ### *2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/)  研究实习生
 ### *2020.8 - 2022.6* [腾讯公司 量子实验室](htps://quantum.tencent.com/) 研究实习生
 
