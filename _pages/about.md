@@ -112,25 +112,6 @@ redirect_from:
 
 <style>details{border:0.1px solid #aaa;border-radius:4px;padding:0.1em 1em 0.1em;width:90%;margin:20px auto;box-shadow:0 1px 2px rgba(0,0,0,0.2);}summary{user-select: none;cursor:pointer;list-style:none;margin:0;padding:10px 0;}summary::-webkit-details-marker{display:none;}.arrow{display:inline-block;margin-right:6px;font-size:1.3em;transition:transform 0.3s ease;}details[open] .arrow{transform:rotate(90deg);}details > *:not(summary){transition:max-height 0.4s ease, padding 0.4s ease, margin 0.4s ease;overflow:hidden;max-height:0;padding:0 0.5em;}details[open] > *:not(summary){max-height:2000px;padding:0.8em;}summary h3{display:inline;margin:0;font-size:1.2em;color:#333;}ul {padding-left: 30px;}</style>
 
-<details>
-    <summary><h3><span class="arrow">></span>进行工作2：第二代分子自适应图学习框架(GLAM2)</h3></summary>
-    <ul>
-        <li><b>背景</b>：初代自适应图学习GLAM还有一定缺陷</li>
-        <li><b>方法</b>：提出使用更灵活更强更快的GLAM2来替代初代自适应图学习GLAM。(方法实现路径：暂不公开)</li>
-        <li><b>结果</b>：BindingDB AUC=0.975等。</li>
-        <li><b>进展</b>：实验结果超越预期，还差一些消融实验(ablation study)，完成后将写论文投稿</li>
-    </ul>
-</details>
-
-<details>
-    <summary><h3><span class="arrow">></span>进行工作1：基于图混合对比学习的弱监督药物-靶标相互作用预测</h3></summary>
-    <ul>
-        <li><b>背景</b>：对于新靶点，研发人员极可能缺乏足够的药物-靶标相互作用数据来充分地监督训练一个模型。</li>
-        <li><b>方法</b>：我们提出基于图混合对比学习(Graph fusion contrastive learning)来减轻药物-靶标相互作用预测任务中数据稀缺性和泛化能力的问题。(方法实现路径：暂不公开)</li>
-        <li><b>结果</b>：实验结果超越预期，仅使用少量标签数据在BindingDB和LIT-PCBA达到了接近全监督学习模型的性能，以及极佳的泛化性能。</li>
-        <li><b>进展</b>：实验已完成，正在写论文进行投稿</li>
-    </ul>
-</details>
 
 <details>
     <summary><h3><span class="arrow">></span>工作5：基于分子原型对比的分子弱监督学习</h3></summary>
@@ -157,7 +138,7 @@ redirect_from:
 </details>
 
 <details> <span class='anchor' id='research_project_3'></span>
-    <summary><h3><span class="arrow">></span>工作3：分子自适应图学习框架(GLAM)</h3></summary>
+    <summary><h3><span class="arrow">></span>工作3：基于分子自适应图学习的分子相互作用和性质预测框架</h3></summary>
     <ul>
         <li><b>时间段</b>：2020.12 - 2021.12</li>
         <li><b>背景</b>：现有的图学习方法在药物发现数据集上的架构和超参数已经固化，导致它们无法灵活适应新生成的数据。</li>
@@ -169,7 +150,7 @@ redirect_from:
 </details>
 
 <details> <span class='anchor' id='research_project_2'></span>
-    <summary><h3><span class="arrow">></span>工作2：三元消息传递网络(TrimNet)</h3></summary>
+    <summary><h3><span class="arrow">></span>工作2：基于三元消息传递网络的分子性质预测算法</h3></summary>
     <ul>
         <li><b>时间段</b>：2020.8 - 2022.12</li>
         <li><b>背景</b>：现有GNN存在参数数量庞大、计算效率不高以及对分子结构理解的局限性</li>
@@ -181,7 +162,7 @@ redirect_from:
 </details>
 
 <details>  <span class='anchor' id='research_project_1'></span>
-    <summary><h3><span class="arrow">></span>工作1：块设计图神经网络(BGNN)</h3></summary>
+    <summary><h3><span class="arrow">></span>工作1：基于块设计图神经网络的分子性质预测算法</h3></summary>
     <ul>
         <li><b>时间段</b>：2019.9 - 2020.7（硕士一年级）</li>
         <li><b>背景</b>：物理计算分子性质变得耗时又费力，图神经网络预测方法存在网络退化问题。</li>
@@ -193,7 +174,7 @@ redirect_from:
 </details>
 
 <details>
-    <summary><h3><span class="arrow">></span>早期工作1：基于集成机器学习/图神经网络的蛋白质-小分子亲和力预测</h3></summary>
+    <summary><h3><span class="arrow">></span>早期工作1：基于集成机器学习和图神经网络的小分子-靶标亲和力预测</h3></summary>
     <ul>
         <li><b>时间段</b>：2018.9 - 2019.6（本科大四）</li>
         <li><b>背景</b>：大二开始刷Ng和莫烦的ML/DL课程、TensorFlow官方教程、浪叫兽的Kaggle机器学习竞赛教程，大四保研时联系了兰大姚小军老师，相见恨晚，当即跟随姚老师进入AI Science领域科研。        </li>
