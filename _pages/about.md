@@ -32,6 +32,7 @@ redirect_from:
 - 农药分子生成及多目标优化
 - 农药分子性质预测及筛选
 - 化学信息学和生物信息学中的深度学习算法及应用
+- 科学智能(AI for Science)
 
 **招生ing**：欢迎有意向的未来硕士联系我！
 
@@ -47,11 +48,23 @@ redirect_from:
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 工作实习
-### *2024.10 - 今* &emsp;&emsp; [贵州大学 公共大数据国家重点实验室](http://pbd.gzu.edu.cn/_t1517/main.htm)  特聘教授,硕导
+### *2024.10 - 今* &emsp;&emsp;[贵州大学 公共大数据国家重点实验室](http://pbd.gzu.edu.cn/_t1517/main.htm)  特聘教授,硕导
 ### *2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/)  研究实习生
 ### *2020.8 - 2022.6* [腾讯公司 量子实验室](htps://quantum.tencent.com/) 研究实习生
 
+<span class='anchor' id='projects'></span>  
 
+# 📑 科研项目
+[1]贵州大学人才引进特岗项目，基于人工智能的多约束绿色农药先导化合物发现平台研究, 2024.10-2028.10，40万，主持。
+
+<span class='anchor' id='people'></span>  
+
+# 👥 团队成员
+董新宇，博士一年级，研究方向：计算机视觉与精准植保、人工智能与数据挖掘、农药信息学。  
+黄广义，博士一年级，研究方向：人工智能与数据挖掘、农药信息学。  
+谢朝阳，硕士二年级，研究方向：人工智能与数据挖掘、农药信息学。  
+硕士一年级：周军、张军、张艺伦、洪晖阳、吴南婉、罗希璇、张龙彪。  
+*合作导师为郝格非教授、王崎副教授。  
 
 <span class='anchor' id='publications'></span>
 
@@ -102,6 +115,34 @@ redirect_from:
 - **[2021b]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, Jiezhong Qiu, Guangyong Chen, Huanxiang Liu, Benben Liao\*, Chang-Yu Hsieh\*, Xiaojun Yao\*. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal` 420 (2021): 129845. [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)
 - **[2021a]** **<font color="#ff9933">Yuquan Li</font>**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao\*. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal` 414 (2021): 128817. [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)
 
+
+
+
+
+<span class='anchor' id='rewards'></span>
+
+# 🎉 奖项荣誉
+- *2024.03* 华为奖学金 [[链接]](https://xxxy.lzu.edu.cn/tongzhigonggao/2024/0311/257358.html) (备注：华为-兰州大学协议资助，本硕博共五人/年) 
+- *2022.12* 博士生国家奖学金 [[链接]](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=8813)
+- *2021.11* 唐敖庆化学奖学金 [[链接]](https://www.jlu.edu.cn/info/1095/50784.htm) 
+
+
+<span class='anchor' id='others'></span>
+
+
+
+# 🏛️ 学术共同体
+- **期刊**
+  - 青年编委：《Exploration》
+  - 审稿人：《Briefings in Bioinfomatics》
+
+- **学会**
+  - 中国人工智能学会 会员
+  - 中国计算机学会 会员
+  - 中国化学会 会员
+- **Talk**
+  - *2023.3* 兰州大学第十五届研究生学术年会
+    - 报告题目：化学×AI，现在与未来
 
 
 
@@ -190,41 +231,12 @@ redirect_from:
 
 
 
-
-
-
-<span class='anchor' id='competitions'></span>
-
 # 🏅 竞赛经历
 - *2020.3* 高能对撞粒子分类挑战赛 `排名5/256` 
 - *2018.6* MCM/ICM数学建模竞赛 `Meritorious Winner奖` (Top 3%~7% of 20.6k team)
 - *2018.4* "蓝桥杯"软件和信息技术专业人才大赛 `赛区一等奖` 
 - *2018.2* Kaggle餐厅访客预测竞赛 `排名117/2158`
 - *2017.11* 全国大学生数学建模竞赛 `赛区一等奖` 
-
-<span class='anchor' id='rewards'></span>
-
-# 🎉 奖项荣誉
-- *2024.03* 华为奖学金 [[链接]](https://xxxy.lzu.edu.cn/tongzhigonggao/2024/0311/257358.html) (备注：华为-兰州大学协议资助，本硕博共五人/年) 
-- *2022.12* 博士生国家奖学金 [[链接]](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=8813)
-- *2021.11* 唐敖庆化学奖学金 [[链接]](https://www.jlu.edu.cn/info/1095/50784.htm) 
-
-
-<span class='anchor' id='others'></span>
-
-# 👥 学术共同体
-- **期刊**
-  - 青年编委：《Exploration》
-  - 审稿人：《Briefings in Bioinfomatics》
-
-- **学会**
-  - 中国人工智能学会 会员
-  - 中国计算机学会 会员
-  - 中国化学会 会员
-- **Talk**
-  - *2023.3* 兰州大学第十五届研究生学术年会
-    - 报告题目：化学×AI，现在与未来
-
 
 
 # 💾 程序网站

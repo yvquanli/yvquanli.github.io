@@ -9,14 +9,14 @@ main:
   - title: "工作实习"
     url: "/#jobs"
 
+  - title: "科研项目"
+    url: "/#projects"
+
+  - title: "团队成员"
+    url: "/#people"
+
   - title: "学术论文"
     url: "/#publications"
-
-  - title: "科研经历"
-    url: "/#academic"
-
-  - title: "竞赛经历"
-    url: "/#competitions"
 
   - title: "奖项荣誉"
     url: "/#rewards"
