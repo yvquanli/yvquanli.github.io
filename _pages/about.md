@@ -31,7 +31,7 @@ redirect_from:
 - 农药分子生成及多目标优化
 - 农药分子性质预测及筛选
 - 生物信息学和化学信息学中的深度学习算法及应用
-- [科学智能(AI for Science)](https://www.futureforum.org.cn/cn/nav/detail/677.html)
+- 科学智能[(AI for Science)](https://www.futureforum.org.cn/cn/nav/detail/677.html)
 
 **招生ing**：欢迎有意向的未来硕士联系我！
 
