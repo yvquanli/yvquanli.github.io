@@ -25,14 +25,13 @@ redirect_from:
 
 黎育权，现为贵州大学公共大数据国家重点实验室特聘教授，研究方向为人工智能农药设计。
 针对现有农药的抗性和环境风险等问题，融合专家的理性农药设计经验和农药信息学大数据，充分发挥人工智能的统计学习和推理优势，通过分子筛选、生成及优化等技术路径进行绿色高效新品种农药的早期设计。
-
-以第一/通讯作者身份在Nature Machine Intelligence、Chemical Engineering Journal、Briefings in Bioinformatics在内的多个期刊发表论文。曾获唐敖庆化学奖学金、华为奖学金。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊青年编委。
+相关论文成果以第一/通讯作者身份在Nature Machine Intelligence、Chemical Engineering Journal、Briefings in Bioinformatics在内的多个期刊发表。曾获唐敖庆化学奖学金、华为奖学金。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊青年编委。
 
 主要研究兴趣包括: 
 - 农药分子生成及多目标优化
 - 农药分子性质预测及筛选
-- 农药信息学中的人工智能算法及应用
-- 农药学与[科学智能(AI for Science)](https://www.futureforum.org.cn/cn/nav/detail/677.html)
+- 生物信息学和化学信息学中的深度学习算法及应用
+- [科学智能(AI for Science)](https://www.futureforum.org.cn/cn/nav/detail/677.html)
 
 **招生ing**：欢迎有意向的未来硕士联系我！
 
