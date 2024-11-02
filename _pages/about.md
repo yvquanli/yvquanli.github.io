@@ -31,8 +31,8 @@ redirect_from:
 主要研究兴趣包括: 
 - 农药分子生成及多目标优化
 - 农药分子性质预测及筛选
-- 农药信息学中的深度学习算法及应用
-- 拓展领域：AI for Science、生物信息学, 化学信息学.
+- 农药信息学中的人工智能算法及应用
+- 农药学与[科学智能(AI for Science)](https://www.futureforum.org.cn/cn/nav/detail/677.html)
 
 **招生ing**：欢迎有意向的未来硕士联系我！
 
