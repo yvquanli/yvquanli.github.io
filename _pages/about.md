@@ -28,7 +28,7 @@ redirect_from:
 相关论文成果以第一/通讯作者身份在Nature Machine Intelligence、Chemical Engineering Journal、Briefings in Bioinformatics在内的多个期刊发表。曾获唐敖庆化学奖学金、华为奖学金。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊青年编委。
 
 主要研究兴趣包括: 
-- 农药分子生成及多目标优化
+- 绿色农药分子生成及多目标优化
 - 农药分子性质预测及筛选
 - 生物信息学和化学信息学中的深度学习算法及应用
 - 科学智能[(AI for Science)](https://www.futureforum.org.cn/cn/nav/detail/677.html)
