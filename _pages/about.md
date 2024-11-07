@@ -57,15 +57,26 @@ redirect_from:
 黄广义，博士一年级，研究方向：人工智能与数据挖掘、生物大分子作用位点预测。  
 谢朝阳，硕士二年级，研究方向：图学习、生物信息学和化学信息学中的深度学习方法。  
 周军&emsp;，硕士一年级，研究方向：语言大模型、生物大分子功能预测。  
-张军&emsp;，硕士二年级，研究方向：图学习和语言大模型、生物大分子功能预测。  
-张艺伦，硕士二年级，研究方向：图数据挖掘、生物大分子功能预测。  
+张军&emsp;，硕士一年级，研究方向：图学习和语言大模型、生物大分子功能预测。  
+张艺伦，硕士一年级，研究方向：图数据挖掘、生物大分子功能预测。  
 吴南婉，硕士一年级，研究方向：化学信息学、小分子化-靶标相互作用预测。  
 罗希璇，硕士一年级，研究方向：生命科学中的知识图谱和数据挖掘。  
 张龙彪，硕士一年级，研究方向：人工智能分子设计、小分子毒性预测。  
 洪晖阳，本科大三，研究方向：人工智能、化学信息学中的深度学习方法。  
 *合作导师为郝格非教授、王崎特聘教授、陈攀峰老师、肖源源老师、余珮嘉老师。  
 
+何牧天，硕士三年级，研究方向：化学信息学与药物分子设计。
+*合作导师为姚小军教授
+
+深度合作伙伴：
+王晓瑞，浙江大学侯廷军教授课题组博士后，研究方向：逆合成规划
+王世航，香港大学，[个人主页](https://shihang-wang-58.github.io/Shihang-Wang/)，研究方向：人工智能药物设计应用
+
 <span class='anchor' id='publications'></span>
+
+
+
+
 
 # 📝 学术论文
 ### 代表性论文
@@ -107,7 +118,6 @@ redirect_from:
 #### 2022年度
 - **[2022b]** Dejun Jiang†, Huiyong Sun†, Jike Wang†, Chang-Yu Hsieh, **<font color="#ff9933">Yuquan Li</font>**, Zhenxing Wu, Dongsheng Cao\*, Jian Wu\*, Tingjun Hou\*. "Out-of-the-box deep learning prediction of quantum-mechanical partial charges by graph representation and transfer learning." `Briefings in Bioinformatics` 23.2 (2022): bbab597. [[HTML]](https://doi.org/10.1093/bib/bbab597) [[PDF]](/pdf/paper_2022b.pdf)
 - **[2022a]** **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh†, Ruiqiang Lu, Xiaoqing Gong, Xiaorui Wang, Pengyong Li, Shuo Liu, Yanan Tian, Dejun Jiang, Jiaxian Yan, Qifeng Bai, Huanxiang Liu, Shengyu Zhang & Xiaojun Yao\*. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence` 4.7 (2022): 645-651. [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)
-
 
 #### 2021年度
 - **[2021c]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song\*, Xiaojun Yao\*. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` 22.4 (2021): bbaa266. [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)
