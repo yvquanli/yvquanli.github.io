@@ -24,11 +24,14 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 黎育权，特聘教授，硕士生导师，目前就职于贵州大学公共大数据国家重点实验室。
-长期从事人工智能分子设计和科学智能(AI for Science)方向的研究工作，开发多种数据驱动的人工智能算法，利用其统计学习和推理能力，结合生物信息学大数据和专家的理性分子设计经验，通过分子生成、优化、筛选等手段最终设计出高价值小分子化合物以及生物大分子。相关成果以第一/通讯作者身份在Nature Machine Intelligence、Chemical Engineering Journal、Briefings in Bioinformatics在内的多个期刊发表。截至目前，共在Nature Machine Intelligence, Nature Communication等期刊发表SCI论文10篇，其中一作或通讯身份4篇，篇均引用57次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊青年编委。
+长期从事AI基础研究和AI科学应用研究工作，开发多种数据驱动的人工智能算法，利用其统计学习和推理能力，结合生命科学大数据和专家的理性分子设计经验，通过分子生成、优化、筛选等手段最终设计出高价值小分子化合物和生物大分子。相关成果以第一/通讯作者身份在Nature Machine Intelligence、Chemical Engineering Journal、Briefings in Bioinformatics在内的多个期刊发表。  
+
+截至目前共在Nature Machine Intelligence, Nature Communication等期刊发表SCI论文10篇，其中一作或通讯身份4篇，篇均引用57次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊青年编委。
 
 主要研究方向包括: 
-- 人工智能分子设计：基于LLMs的分子设计及多目标优化、图学习分子性质预测及筛选、生物信息学和化学信息学中的人工智能方法
-- [AI for Science](https://www.futureforum.org.cn/cn/nav/detail/677.html)研究：AI+生命科学、AI+化学  
+- AI基础研究：大语言模型、图学习
+- AI科学应用研究：分子生成及多目标优化、分子性质预测及筛选、生命科学大数据及知识挖掘方法
+
 
 **招生ing**：依托国重实验室和科研团队每年有较多硕士名额，可推荐至大厂实习，以及海外读博！本团队一切事务服务论文发表，充分深入的科研培训和课题指导，丰富计算资源和额外奖金支持，确保每位硕士能毕业前发表一篇一作一区论文。
 
