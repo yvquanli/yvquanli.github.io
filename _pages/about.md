@@ -24,7 +24,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 黎育权，特聘教授，硕士生导师，目前就职于贵州大学公共大数据国家重点实验室。
-长期从事AI基础研究和AI科学应用研究工作，开发多种数据驱动的人工智能算法，利用其统计学习和推理能力，结合生命科学大数据和专家的理性分子设计经验，通过分子生成、优化、筛选等手段最终设计出高价值小分子化合物和生物大分子。相关成果以第一/通讯作者身份在Nature Machine Intelligence、Chemical Engineering Journal、Briefings in Bioinformatics在内的多个期刊发表。  
+长期从事人工智能及其科学应用研究方向的研究工作。相关成果以第一/通讯作者身份在Nature Machine Intelligence、Chemical Engineering Journal、Briefings in Bioinformatics在内的多个期刊发表。  
 
 截至目前共在Nature Machine Intelligence, Nature Communication等期刊发表SCI论文10篇，其中一作或通讯身份4篇，篇均引用57次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊青年编委。
 
