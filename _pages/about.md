@@ -162,7 +162,7 @@ redirect_from:
 
 <span class='anchor' id='academic'></span> 
 
-# 🗂 科研经历
+# 🗂 科研工作
 
 <style>details{border:0.1px solid #aaa;border-radius:4px;padding:0.1em 1em 0.1em;width:90%;margin:20px auto;box-shadow:0 1px 2px rgba(0,0,0,0.2);}summary{user-select: none;cursor:pointer;list-style:none;margin:0;padding:10px 0;}summary::-webkit-details-marker{display:none;}.arrow{display:inline-block;margin-right:6px;font-size:1.3em;transition:transform 0.3s ease;}details[open] .arrow{transform:rotate(90deg);}details > *:not(summary){transition:max-height 0.4s ease, padding 0.4s ease, margin 0.4s ease;overflow:hidden;max-height:0;padding:0 0.5em;}details[open] > *:not(summary){max-height:2000px;padding:0.8em;}summary h3{display:inline;margin:0;font-size:1.2em;color:#333;}ul {padding-left: 30px;}</style>
 
