@@ -43,7 +43,7 @@ redirect_from:
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 工作经历
-### *2024.10 - 今* &emsp;&emsp;[贵州大学 公共大数据国家重点实验室](http://pbd.gzu.edu.cn/_t1517/main.htm)  特聘教授,硕导
+### *2024.10 - 今* &emsp;&emsp;[贵州大学 公共大数据国家重点实验室](http://pbd.gzu.edu.cn/_t1517/main.htm)  特聘教授,硕导 ![个人页面](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)
 ### *2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/)付杰博士团队  研究实习访学
 ### *2020.8 - 2022.6* [腾讯公司 量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：谢昌谕博士)
 
