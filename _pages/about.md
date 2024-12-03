@@ -74,7 +74,7 @@ redirect_from:
 
 深度合作伙伴：  
 王晓瑞，浙江大学侯廷军教授课题组博士后，研究方向：逆合成规划  
-王世航，香港大学，[个人主页](https://shihang-wang-58.github.io/Shihang-Wang/)，研究方向：人工智能药物设计应用  
+王世航，澳门理工大学姚小军教授课题组25级博士，[个人主页](https://shihang-wang-58.github.io/Shihang-Wang/)，研究方向：人工智能药物设计应用  
 
 <span class='anchor' id='publications'></span>
 
