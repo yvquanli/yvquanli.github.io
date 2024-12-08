@@ -16,11 +16,6 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 
-
-
-
-
-
 <span class='anchor' id='about-me'></span>
 
 黎育权，特聘教授，硕士生导师，目前就职于贵州大学公共大数据国家重点实验室。
