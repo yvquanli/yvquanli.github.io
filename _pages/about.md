@@ -153,7 +153,7 @@ redirect_from:
 - 传世烧火棍*5 拥有者
 - 仙尊悔，而我不毁
 
-
+<img src="images/contact.png" width="80%" height="80%" style="display: block; margin: 60px auto 0;"/>
 
 
 
