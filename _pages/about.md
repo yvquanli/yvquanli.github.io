@@ -147,7 +147,7 @@ redirect_from:
 # 🙌 其他
 - 大乱斗，War3 RPG/RTS，DNF
 - 传世烧火棍*5 拥有者
-- 仙尊悔，而我不毁
+- 我清楚的知道，人与人之间的道路是不可复制的，我躺在我自己的床上。
 
 <img src="images/contact.png" width="80%" height="80%" style="display: block; margin: 60px auto 0;"/>
 
