@@ -1,19 +1,25 @@
 # main links links
 main:
-  - title: "About Me"
+  - title: "简介"
     url: "/#about-me"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "教育经历"
+    url: "/#educations"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title: "工作经历"
+    url: "/#jobs"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  # - title: "科研工作"
+  #   url: "/#projects"
 
-  - title: "Conferences"
-    url: "/#-conferences"
+  - title: "团队成员"
+    url: "/#people"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "学术论文"
+    url: "/#publications"
+
+  - title: "学术兼职"
+    url: "/#activity"
+
+  - title: "其他"
+    url: "/#others"
