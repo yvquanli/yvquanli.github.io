@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
+
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,156 +15,157 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+
 <span class='anchor' id='about-me'></span>
 
-I graduated from School of Mechanical Science and Engineering,  Huazhong University of Science and Technology, Wuhan China. with a doctor’s degree, advised by Yihua Kang and from School of Mechanical Engineering, Sichuan University, Chengdu China with a bachelor’s degree. I have published 20+ papers with 
- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+黎育权，特聘教授，硕士生导师，目前就职于贵州大学公共大数据国家重点实验室。截至目前共在NMI,NC等期刊发表SCI论文10篇，其中一作或通讯身份4篇，篇均引用57次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊青年编委。
+长期从事人工智能及其科学应用方向的研究工作。相关成果已以第一/通讯作者身份在[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)、[Chemical Engineering Journal](https://doi.org/10.1016/j.cej.2021.128817)、[Briefings in Bioinformatics](https://doi.org/10.1093/bib/bbaa266)在内的多个期刊发表。  
 
-My research interest includes: 
-- Instrumentation
-- Nondestructive testing (NDT)
-- Magnetic flux leakage (MFL) detection
-- Eddy current testing (ECT)
-- Electromagnetic measurements
-- Magnetic sensors
-- Nondestructive testing equipment
+主要研究方向包括: 
+- AI基础研究：大语言模型、图学习、自动机器学习
+- AI科学应用研究：分子生成设计、大分子性质及互作预测、多目标分子优化、靶标发现.  
 
+**招生ing**：依托团队每年有较多硕士名额和1个博士名额，可推荐至大厂实习，以及海外读博！本团队一切事务服务论文发表，充分深入的科研培训和课题指导，丰富计算资源和额外奖金支持，确保每位硕士能毕业前发表一篇一作一区论文。
 
-# 🎓 Educations 
-- *2016.06 - 2022.12*, <a href="http://english.hust.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> School of Mechanical Science and Engineering, Huazhong University of Science and Technology, Wuhan China. 
-- *2012.09 - 2016.06*, <a href="https://en.scu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> School of Manufacturing Science and Engineering, Sichuan University, Chengdu China. 
+<span class='anchor' id='educations'></span>
+
+# 🎓 教育经历
+### *2019.9 - 2024.6*   硕博 - 兰州大学，化学化工学院(专业：化学信息学，导师：[姚小军教授](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php))
+### *2015.9 - 2019.6*  本科 - 青海大学，计算机学院(专业：计算机科学与技术)
+
+<span class='anchor' id='jobs'></span>  
+
+# 🧑‍💻 工作经历
+### *2024.10 - 今* &emsp;&emsp;[贵州大学 公共大数据国家重点实验室](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)  特聘教授,硕导
+### *2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/) [付杰博士](https://bigaidream.github.io/)团队  研究实习访学
+### *2020.8 - 2022.6* [腾讯公司 量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))
+
+<span class='anchor' id='projects'></span>  
+
+# 📑 科研项目
+[1]贵州大学人才引进特岗项目，基于人工智能的多约束小分子化合物生成设计, 2024.10-2028.10，40万，主持。
  
+<span class='anchor' id='people'></span>  
 
-# 📝 Publications 
-
-### English 
----
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sensors 2022</div><img src='images/sensors2022.svg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
--	`Jian Tang`, Rongbiao Wang, Gongzhe Qiu, Yu Hu, Yihua Kang. Mechanism of magnetic flux leakage detection method based on the slotted ferromagnetic lift-off layer. *Sensors*. 2022, 22(9): 3587. (JCR:Q2; IF:3.847)  
-[[HTML]](https://dx.doi.org/10.3390/s22093587) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf) [[PDF]](/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf)
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sens. Actuators Phys. 2021</div><img src='images/sna2021.svg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
--	`Jian Tang`, Rongbiao Wang, Bocheng Liu, Yihua Kang. A novel magnetic flux leakage method based on the ferromagnetic lift-off layer with through groove. *Sensors and Actuators A: Physical*. 2021: 113091. (JCR:Q1; IF:4.291)  
-[[HTML]](https://dx.doi.org/10.1016/j.sna.2021.113091) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2021-A%20novel%20magnetic%20flux%20leakage%20method%20based%20on%20the%20ferromagnetic%20lift-off%20layer.pdf) [[PDF]](/pdf/TangJ-2021-A%20novel%20magnetic%20flux%20leakage%20method%20based%20on%20the%20ferromagnetic%20lift-off%20layer.pdf)
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Int. J. Appl. Electrom. 2020</div><img src='images/ijaem2020.svg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
--	`Jian Tang`, Rongbiao Wang, Jikai Zhang, Yihua Kang. The influence of magnetic head’s pose on magnetic flux leakage detection. *International Journal of Applied Electromagnetics and Mechanics*. 2020, 64(1–4): 493–500. (JCR:Q4; IF:0.536)  
-[[HTML]](https://dx.doi.org/10.3233/JAE-209356) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2020-The%20influence%20of%20magnetic%20head%E2%80%99s%20pose%20on%20magnetic%20flux%20leakage%20detection.pdf) [[PDF]](/pdf/TangJ-2020-The%20influence%20of%20magnetic%20head%E2%80%99s%20pose%20on%20magnetic%20flux%20leakage%20detection.pdf)
-
-</div>
-</div>
-
-- Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. A Review of Magnetic Flux Leakage Nondestructive Testing. *Materials*. 2022, 15(20): 7362. (JCR:Q1; IF:3.748)  
-[[HTML]](https://dx.doi.org/10.3390/ma15207362) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[PDF]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf)
+# 👥 团队成员
+董新宇，博士一年级，研究方向：基于生成模型的分子设计、计算机视觉、图学习。  
+黄广义，博士一年级，研究方向：人工智能与数据挖掘、生物大分子作用位点预测。  
+谢朝阳，硕士二年级，研究方向：图学习、生物信息学和化学信息学中的深度学习方法。  
+周军&emsp;，硕士一年级，研究方向：语言大模型、生物大分子功能预测。  
+张军&emsp;，硕士一年级，研究方向：图学习和语言大模型、生物大分子功能预测。  
+张艺伦，硕士一年级，研究方向：图数据挖掘、生物大分子功能预测。  
+吴南婉，硕士一年级，研究方向：化学信息学、小分子化-靶标相互作用预测。  
+罗希璇，硕士一年级，研究方向：生命科学中的知识图谱和数据挖掘。  
+张龙彪，硕士一年级，研究方向：人工智能分子设计、小分子毒性预测。  
+洪晖阳，本科大三，研究方向：人工智能、化学信息学中的深度学习方法。  
+*合作导师为郝格非教授、王崎教授
 
 
-- Xin Jin, Hongbao Ma, `Jian Tang`, Yihua Kang, A Self-Adaptive Vibration Reduction Method Based on Deep Deterministic Policy Gradient (DDPG) Reinforcement Learning Algorithm. *Applied Sciences*. 2022,12(9): 9703. (JCR:Q2; IF:2.838)  
-[[HTML]](https://dx.doi.org/10.3390/app12199703) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/JinX-2022-A%20Self-Adaptive%20Vibration%20Reduction%20Method%20Based%20on%20Deep%20Deterministic%20Policy.pdf) [[PDF]](/pdf/JinX-2022-A%20Self-Adaptive%20Vibration%20Reduction%20Method%20Based%20on%20Deep%20Deterministic%20Policy.pdf)
-
-- Jikai Zhang, Yuewen Huang, `Jian Tang`, Fangfang Zhou, Yihua Kang, Bo Feng. Inspection of Cracks in the Piston Rod of a Hydraulic Cylinder Using Injected Alternating Current-Field Measurement. *Water*. 2022 14(17):2736. (JCR:Q2; IF:3.530)  
-[[HTML]](https://dx.doi.org/10.3390/w14172736) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/ZhangJ-2022-Inspection%20of%20Cracks%20in%20the%20Piston%20Rod%20of%20a%20Hydraulic%20Cylinder%20Using%20Injected.pdf) [[PDF]](/pdf/ZhangJ-2022-Inspection%20of%20Cracks%20in%20the%20Piston%20Rod%20of%20a%20Hydraulic%20Cylinder%20Using%20Injected.pdf)
+何牧天，硕士三年级，研究方向：化学信息学与药物分子设计。  
+*合作导师为姚小军教授
 
 
--	Shenghan Wang, Bo Feng, `Jian Tang`, Yanting Chen, Yihua Kang. A Novel AC-MFL Probe Based on the Parallel Cables Magnetizing Technique. *Journal of Nondestructive Evaluation*. 2022, 41(2): 39. (JCR:Q2; IF:1.995)  
-[[HTML]](https://dx.doi.org/10.1007/s10921-022-00872-3) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/WangS-2022-A%20Novel%20AC-MFL%20Probe%20Based%20on%20the%20Parallel%20Cables%20Magnetizing%20Technique.pdf) [[PDF]](/pdf/WangS-2022-A%20Novel%20AC-MFL%20Probe%20Based%20on%20the%20Parallel%20Cables%20Magnetizing%20Technique.pdf)
-
-
--	Rongbiao Wang, Yihua Kang, `Jian Tang`, Bo Feng, Yongle Deng. A Novel Magnetic Flux Leakage Testing Method Based on AC and DC Composite Magnetization. *Journal of Nondestructive Evaluation*. 2020, 39(4): 84. (JCR:Q2; IF:1.995)  
-[[HTML]](https://dx.doi.org/10.1007/s10921-020-00730-0) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/Wang-2020-A%20Novel%20Magnetic%20Flux%20Leakage%20Testing%20Method%20Based%20on%20AC%20and%20DC%20Composite.pdf) [[PDF]](/pdf/Wang-2020-A%20Novel%20Magnetic%20Flux%20Leakage%20Testing%20Method%20Based%20on%20AC%20and%20DC%20Composite.pdf)
-
-
-- Rongbiao Wang, `Jian Tang`, Zhiyang Deng, Yihua Kang. Motion induced eddy current based testing method for the detection of circumferential defects under circumferential magnetization. *International Journal of Applied Electromagnetics and Mechanics*. 2020, 64(1–4): 501–508. (JCR:Q4; IF:0.706)  
-[[HTML]](https://dx.doi.org/10.3233/JAE-209357) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/WangR-2020-Motion%20induced%20eddy%20current%20based%20testing%20method%20for%20the%20detection%20of.pdf) [[PDF]](/pdf/WangR-2020-Motion%20induced%20eddy%20current%20based%20testing%20method%20for%20the%20detection%20of.pdf)
-
-
--	Rongbiao Wang, Zhiyang Deng, Rui Liu, Yihua Kang, Jikai Zhang, `Jian Tang`. A large lift-off nondestructive testing method based on the interaction between AC magnetic field and MFL field. *23rd International Workshop on Electromagnetic Nondestructive Evaluation*, ENDE 2018. Detroit, MI, United States: IOS Press. 2019: 44–49. (EI)  
-[[HTML]](https://dx.doi.org/10.3233/SAEM190009) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/WangR-2019-A%20large%20lift-off%20nondestructive%20testing%20method%20based%20on%20the%20interaction%20between.pdf) [[PDF]](/pdf/WangR-2019-A%20large%20lift-off%20nondestructive%20testing%20method%20based%20on%20the%20interaction%20between.pdf)
-
-
-- Xiaoming Huang, Jianbo Wu, Jie Wang, Rongbiao Wang, `Jian Tang`, Yihua Kang, Hui Fang. Signal Characteristics of Circular Induction Coil Influenced by Scanning Spatial Location in MFL. *Materials Evaluation*. 2018, 76(12):1647–59. (JCR:Q4; IF:0.554)  
-[[HTML]](https://ndtlibrary.asnt.org/2018/SignalCharacteristicsofCircularInductionCoilInfluencedbyScanningSpatialLocationinMFL) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/Huang-2018-Signal%20Characteristics%20of%20Circular%20Induction%20Coil%20Influenced%20by%20Scanning.pdf) [[PDF]](/pdf/Huang-2018-Signal%20Characteristics%20of%20Circular%20Induction%20Coil%20Influenced%20by%20Scanning.pdf)
+深度合作伙伴：  
+王晓瑞，浙江大学侯廷军教授课题组博士后，研究方向：逆合成规划  
+王世航，澳门理工大学姚小军教授课题组25级博士，[个人主页](https://shihang-wang-58.github.io/Shihang-Wang/)，研究方向：人工智能药物设计应用  
 
 
 
--	Erlong Li, Yihua Kang, `Jian Tang`, Jianbo Wu. A new micro magnetic bridge probe in magnetic flux leakage for detecting micro-cracks. *Journal of Nondestructive Evaluation*. 2018, 37(3): 46. (JCR:Q2; IF:1.995)  
-[[HTML]](https://dx.doi.org/10.1007/s10921-018-0499-8) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/Li-2018-A%20New%20Micro%20Magnetic%20Bridge%20Probe%20in%20Magnetic%20Flux%20Leakage%20for%20Detecting.pdf) [[PDF]](/pdf/Li-2018-A%20New%20Micro%20Magnetic%20Bridge%20Probe%20in%20Magnetic%20Flux%20Leakage%20for%20Detecting.pdf)
+<span class='anchor' id='publications'></span>
 
 
--	Erlong Li, Yihua Kang, `Jian Tang`, Jianbo Wu, Xizi Yan. Analysis on Spatial Spectrum of Magnetic Flux Leakage Using Fourier Transform. *IEEE Transactions on Magnetics*. 2018, 54(8): 1–10. (JCR:Q3; IF:1.700)  
-[[HTML]](https://dx.doi.org/10.1109/TMAG.2018.2844220) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/LiE-2018-Analysis%20on%20Spatial%20Spectrum%20of%20Magnetic%20Flux%20Leakage%20Using%20Fourier%20Transform.pdf) [[PDF]](/pdf/LiE-2018-Analysis%20on%20Spatial%20Spectrum%20of%20Magnetic%20Flux%20Leakage%20Using%20Fourier%20Transform.pdf)
+# 📝 学术论文
+### 代表性论文
+**[1]** Li et al. “An adaptive graph learning method for automated molecular interactions and properties predictions.” `Nature Machine Intelligence IF=23.8`<sup>◆</sup>
+[[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf) 
 
-### Chinese
----
+**[2]**Li et al. “Introducing block design in graph neural networks for molecular properties prediction.” `Chemical Engineering Journal IF=16.7`<sup>◆</sup>
+[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf) 
 
--	`Jian Tang`, Rongbiao Wang, Yihua Kang. Magnetic flux leakage nondestructive testing with large lift-off. *Nondestructive Testing*. 2022,44(4): 67.  
-唐健, 王荣彪, 康宜华. 大提离漏磁无损检测方法. *无损检测*. 2022,44(4): 67.  
-[[HTML]](https://dx.doi.org/10.11973/wsjc202204000) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E5%94%90%E5%81%A5-2022-%E5%A4%A7%E6%8F%90%E7%A6%BB%E6%BC%8F%E7%A3%81%E6%97%A0%E6%8D%9F%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf) [[PDF]](/pdf/%E5%94%90%E5%81%A5-2022-%E5%A4%A7%E6%8F%90%E7%A6%BB%E6%BC%8F%E7%A3%81%E6%97%A0%E6%8D%9F%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf)  
+**[3]** Li†, Li†. et al.“TrimNet: learning molecular representation from triplet messages for biomedicine.” `Briefings in Bioinformatics IF=13.9`<sup>◆</sup>
+[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf) 
 
-
--	Bocheng Liu, `Jian Tang*`, Rongbiao Wang, Wenchao Ye, Yihua Kang. Magnetic Flux Leakage Testing Method of Bearing Roller Micro-cracks Based on TMR. *Instrument Technique and Sensor*. 2021(12): 111-114+118.   
-刘伯承, 唐健\*, 王荣彪, 叶文超, 康宜华. 基于TMR的轴承滚子微细裂纹漏磁检测方法. *仪表技术与传感器*. 2021(12): 111-114+118.  
-[[HTML]](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDAUTO&filename=YBJS202112021) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E5%88%98%E4%BC%AF%E6%89%BF-2021-%E5%9F%BA%E4%BA%8ETMR%E7%9A%84%E8%BD%B4%E6%89%BF%E6%BB%9A%E5%AD%90%E5%BE%AE%E7%BB%86%E8%A3%82%E7%BA%B9%E6%BC%8F%E7%A3%81%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf) [[PDF]](/pdf/%E5%88%98%E4%BC%AF%E6%89%BF-2021-%E5%9F%BA%E4%BA%8ETMR%E7%9A%84%E8%BD%B4%E6%89%BF%E6%BB%9A%E5%AD%90%E5%BE%AE%E7%BB%86%E8%A3%82%E7%BA%B9%E6%BC%8F%E7%A3%81%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf)  
-
--	Shenghan Wang, `Jian Tang*`, Jun Liu, Wenyu Chen, Yihua Kang. Array Magnetic Flux Leakage Testing Method and System Based on Twin-Robot Operation for Bearings. *Bearing*. 2021(01): 54-58+65.  
-汪圣涵, 唐健\*, 刘军, 陈文宇, 康宜华. 双机械手操作的轴承阵列漏磁检测方法与系统. *轴承*. 2021(01): 54-58+65.  
-[[HTML]](https://dx.doi.org/10.19533/j.issn1000-3762.2021.01.011) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E6%B1%AA%E5%9C%A3%E6%B6%B5-2021-%E5%8F%8C%E6%9C%BA%E6%A2%B0%E6%89%8B%E6%93%8D%E4%BD%9C%E7%9A%84%E8%BD%B4%E6%89%BF%E9%98%B5%E5%88%97%E6%BC%8F%E7%A3%81%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95%E4%B8%8E%E7%B3%BB%E7%BB%9F.pdf) [[PDF]](/pdf/%E6%B1%AA%E5%9C%A3%E6%B6%B5-2021-%E5%8F%8C%E6%9C%BA%E6%A2%B0%E6%89%8B%E6%93%8D%E4%BD%9C%E7%9A%84%E8%BD%B4%E6%89%BF%E9%98%B5%E5%88%97%E6%BC%8F%E7%A3%81%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95%E4%B8%8E%E7%B3%BB%E7%BB%9F.pdf)  
-
--	Yongle Deng, Rongbiao Wang, `Jian Tang`, Shenghan Wang, Yihua Kang. Magnetic bridge type displacement sensor array in square pulse magnetization. *Chinese Journal of Scientific Instrument*. 2021: 1–10. (EI)  
-邓永乐, 王荣彪, 唐健, 汪圣涵, 康宜华. 基于脉冲磁化的阵列磁桥式位移传感器. *仪器仪表学报*. 2021: 1–10.  
-[[HTML]](https://dx.doi.org/10.19650/j.cnki.cjsi.J2107388) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E9%82%93%E6%B0%B8%E4%B9%90-2021-%E5%9F%BA%E4%BA%8E%E8%84%89%E5%86%B2%E7%A3%81%E5%8C%96%E7%9A%84%E9%98%B5%E5%88%97%E7%A3%81%E6%A1%A5%E5%BC%8F%E4%BD%8D%E7%A7%BB%E4%BC%A0%E6%84%9F%E5%99%A8.pdf) [[PDF]](/pdf/%E9%82%93%E6%B0%B8%E4%B9%90-2021-%E5%9F%BA%E4%BA%8E%E8%84%89%E5%86%B2%E7%A3%81%E5%8C%96%E7%9A%84%E9%98%B5%E5%88%97%E7%A3%81%E6%A1%A5%E5%BC%8F%E4%BD%8D%E7%A7%BB%E4%BC%A0%E6%84%9F%E5%99%A8.pdf)  
+**[4]** Wang†, Li†, et al. “RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions.” `Chemical Engineering Journal IF=16.7`<sup>◆</sup>
+[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf) 
 
 
--	Rongbiao Wang, Yihua Kang, Yongle Deng, Biyao Wang, Shenghan Wang, `Jian Tang`. Detection Method for Internal Wall Corrosion of Drill Pipes Based on MFL Testing under AC and DC Magnetization. *China Mechanical Engineering* . 2020: 1–6. (EI)  
-王荣彪, 康宜华, 邓永乐, 王碧瑶, 汪圣涵, 唐健. 钻杆内壁腐蚀的交直流复合磁化漏磁检测方法. *中国机械工程*. 2020: 1–6.  
-[[HTML]](https://dx.doi.org/10.3969/j.issn.1004-132X.2021.02.001) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E7%8E%8B%E8%8D%A3%E5%BD%AA-2020-%E9%92%BB%E6%9D%86%E5%86%85%E5%A3%81%E8%85%90%E8%9A%80%E7%9A%84%E4%BA%A4%E7%9B%B4%E6%B5%81%E5%A4%8D%E5%90%88%E7%A3%81%E5%8C%96%E6%BC%8F%E7%A3%81%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf) [[PDF]](/pdf/%E7%8E%8B%E8%8D%A3%E5%BD%AA-2020-%E9%92%BB%E6%9D%86%E5%86%85%E5%A3%81%E8%85%90%E8%9A%80%E7%9A%84%E4%BA%A4%E7%9B%B4%E6%B5%81%E5%A4%8D%E5%90%88%E7%A3%81%E5%8C%96%E6%BC%8F%E7%A3%81%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf)  
-
--	Bocheng Liu, Zhaoqi Duan, Chun Jiang, `Jian Tang`, Yihua Kang. Magnetic flux leakage detection of bearing roller microcracks. *Bearing*. 2021(08): 32–38.  
-刘伯承, 唐健, 王荣彪, 康宜华, 余平. 基于交流通电的钢球微细裂纹电磁检测方法. *轴承*. 2021(08): 32–38.  
-[[HTML]](https://dx.doi.org/10.19533/j.issn1000-3762.2021.08.007) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E5%88%98%E4%BC%AF%E6%89%BF-2021-%E5%9F%BA%E4%BA%8E%E4%BA%A4%E6%B5%81%E9%80%9A%E7%94%B5%E7%9A%84%E9%92%A2%E7%90%83%E5%BE%AE%E7%BB%86%E8%A3%82%E7%BA%B9%E7%94%B5%E7%A3%81%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf) [[PDF]](/pdf/%E5%88%98%E4%BC%AF%E6%89%BF-2021-%E5%9F%BA%E4%BA%8E%E4%BA%A4%E6%B5%81%E9%80%9A%E7%94%B5%E7%9A%84%E9%92%A2%E7%90%83%E5%BE%AE%E7%BB%86%E8%A3%82%E7%BA%B9%E7%94%B5%E7%A3%81%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95.pdf) 
-
--	Bocheng Liu, `Jian Tang`, Rongbiao Wang, Yihua Kang, Ping Yu. Electromagnetic Detection Method for Microcracks on Steel Balls Based on Alternating Current Energization. *Nondestructive Testing*. 2022, 44(11): 1-5.  
-刘伯承, 段兆祺, 姜春, 唐健, 康宜华. 轴承滚子微细裂纹的漏磁检测. *无损检测*, 2022, 44(11): 1-5.  
-[[HTML]](https://dx.doi.org/10.11973/wsjc202211001) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E5%88%98%E4%BC%AF%E6%89%BF-2022-%E8%BD%B4%E6%89%BF%E6%BB%9A%E5%AD%90%E5%BE%AE%E7%BB%86%E8%A3%82%E7%BA%B9%E7%9A%84%E6%BC%8F%E7%A3%81%E6%A3%80%E6%B5%8B.pdf) [[PDF]](/pdf/%E5%88%98%E4%BC%AF%E6%89%BF-2022-%E8%BD%B4%E6%89%BF%E6%BB%9A%E5%AD%90%E5%BE%AE%E7%BB%86%E8%A3%82%E7%BA%B9%E7%9A%84%E6%BC%8F%E7%A3%81%E6%A3%80%E6%B5%8B.pdf)  
-
-
--	Jie Meng, Erlong Li, `Jian Tang`, Yihua Kang. High Speed Magnetic Flux Leakage Detection System for Microcracks on Bearing Rings. *Bearing*. 2018(08): 66–70.  
-孟杰, 李二龙, 唐健, 康宜华. 轴承套圈裂纹高速漏磁检测系统. *轴承*. 2018(08): 66–70.  
-[[HTML]](https://dx.doi.org/10.19533/j.issn1000-3762.2018.08.015) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E5%AD%9F%E6%9D%B0-2018-%E8%BD%B4%E6%89%BF%E5%A5%97%E5%9C%88%E8%A3%82%E7%BA%B9%E9%AB%98%E9%80%9F%E6%BC%8F%E7%A3%81%E6%A3%80%E6%B5%8B%E7%B3%BB%E7%BB%9F.pdf) [[PDF]](/pdf/%E5%AD%9F%E6%9D%B0-2018-%E8%BD%B4%E6%89%BF%E5%A5%97%E5%9C%88%E8%A3%82%E7%BA%B9%E9%AB%98%E9%80%9F%E6%BC%8F%E7%A3%81%E6%A3%80%E6%B5%8B%E7%B3%BB%E7%BB%9F.pdf)  
-
-
--	Hang Yang, Shenghan Wang, `Jian Tang`, Yihua Kang. Automatic eddy current testing method and system for camshaft. *Nondestructive Testing*. 2020, 42(11): 61.  
-杨航, 汪圣涵, 唐健, 康宜华. 凸轮轴的自动化涡流检测方法与系统. *无损检测*. 2020, 42(11): 61.  
-[[HTML]](https://dx.doi.org/10.11973/wsjc202011013) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/%E6%9D%A8%E8%88%AA-2020-%E5%87%B8%E8%BD%AE%E8%BD%B4%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B6%A1%E6%B5%81%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95%E4%B8%8E%E7%B3%BB%E7%BB%9F.pdf) [[PDF]](/pdf/%E6%9D%A8%E8%88%AA-2020-%E5%87%B8%E8%BD%AE%E8%BD%B4%E7%9A%84%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B6%A1%E6%B5%81%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95%E4%B8%8E%E7%B3%BB%E7%BB%9F.pdf)  
-
-
-
-
-# 🏅 Honors and Awards
-- *2015.11*  Win the `1st Prize` in the 14th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works Competition.
-- *2015.06* Win the `1st Prize` in the 13rd  "Challenge Cup" Sichuan Undergraduate Curricular Academic Science and Technology Works Competition. [[Newsreport]](https://www.sc.gov.cn/10462/10778/10876/2015/7/1/10341562.shtml)
-- *2014.12* Win the `1st Prize` in the 4th National Undergraduate Engineering Training Integration Ability Competition (Sichuan Division).
-
-# 💬 Conferences
-
-- *2021.10*, National Seminar on Electromagnetic Nondestructive Testing Technology and the 14th Plenary Session of the 11th Session of the Electromagnetic Professional Technology Conference of China, Xian China, Oral.
-- *2019.09*, The 19th International Symposium on Applied Electromagnetics and Mechanics (ISEM 2019), Nanjing China, Poster.
-- *2017.10*, The 6th China International Pipeline Conference (CIPC 2017), Langfang China, Visit.
-
-
-# 🏭 Internships
-- *2018.05 - 2020.02*, Chongqing Changjiang Bearing Co., Ltd., Chongqing China.
-- *2020.11.25 - 2020.12.02*, Hubei Xinyegang Steel Ltd., Huangshi China.
-- *2017.6 - 2021.1*, Wuhan Huayu-M Testing Equipment Co., Ltd., Wuhan China.
+†Equal contribution  
+\*Corresponding authors  
   
+<sup>◆</sup>发表当年IF，一定程度代表该刊当年认可度及发表难度
+
+<!-- [[内容介绍-GLAM]](#research_project_3) 
+[[媒体分享①-AItellU]](https://zhuanlan.zhihu.com/p/587238348) [[②-DrugAI]](https://zhuanlan.zhihu.com/p/533498924) [[③-ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg)[[④-ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)   [[⑤-ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA)  [[⑥-今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  [[⑦-智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) [[⑧-智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
+[[内容介绍-BGNN]](#research_project_1) 
+[[内容介绍-TrimNet]](#research_project_2) [[媒体分享①-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
+[[媒体分享①-智药邦]](https://mp.weixin.qq.com/s/PG-nMMH6NYVj3Mc8Lzbb9g) -->
+
+### 所有论文
+#### 2024年度
+- **[2024b]** Xiaorui Wang, Xiaodan Yin, Dejun Jiang, Huifeng Zhao, Zhenxing Wu, Odin Zhang, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Huanxiang Liu, Pei Luo, Yuqiang Han, Tingjun Hou\*, Xiaojun Yao\*, Chang-Yu Hsieh\*.  "Multi-modal deep learning enables efficient and accurate annotation of enzymatic active sites." `Nature Communications` 15.1 (2024): 7348. [[HTML]](https://www.nature.com/articles/s41467-024-51511-6#citeas)
+- **[2024a]** Shuo Liu, Jialiang Yu, Ningxi Ni, Zidong Wang, Mengyun Chen, **<font color="#ff9933">Yuquan Li</font>**, Chen Xu, Yahao Ding, Jun Zhang\*, Xiaojun Yao\*, Huanxiang Liu\*. "Versatile Framework for Drug–Target Interaction Prediction by Considering Domain-Specific Features." `Journal of Chemical Information and Modeling` 64.14 (2024): 5646-5656. [[HTML]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c00403) [[PDF]](/pdf/paper_2023a.pdf)
+
+#### 2023年度
+- **[2023d]** Xiaodan Yin†, Xiaorui Wang†, **<font color="#ff9933">Yuquan Li</font>**, Jike Wang, Yuwei Wang, Yafeng Deng, Tingjun Hou, Huanxiang Liu, Pei Luo, and Xiaojun Yao\*. "CODD-Pred: A Web Server for Efficient Target Identification and Bioactivity Prediction of Small Molecules." `Journal of Chemical Information and Modeling` 63.20 (2023): 6169-6176. [[HTML]](https://doi.org/10.1021/acs.jcim.3c00685) [[PDF]](/pdf/paper_2023e.pdf)
+- **[2023c]** Jianmin Wang, Jiashun Mao, Chunyan Li, Hongxin Xiang, Xun Wang, Shuang Wang, Zixu Wang, Yangyang Chen, **<font color="#ff9933">Yuquan Li</font>**, Heqi Sun, Kyoung Tai No\*, Tao Song\*, Xiangxiang Zeng\*. "An interface-based molecular generative framework for protein-protein interaction inhibitors." `bioRxiv` (2023): 2023-10.[[HTML]](https://doi.org/10.1101/2023.10.10.557742) [[PDF]](/pdf/paper_2023d.pdf) 
+- **[2023b]** Ruiqiang Lu, Jun Wang, Pengyong Li, **<font color="#ff9933">Yuquan Li</font>**, Shuoyan Tan, Yiting Pan, Huanxiang Liu, Peng Gao, Guotong Xie\*, Xiaojun Yao\*. "Improving drug-target affinity prediction via feature fusion and knowledge distillation." `Briefings in Bioinformatics` 24.3 (2023): bbad145. [[HTML]](https://doi.org/10.1093/bib/bbad145) 
+- **[2023a]** Xiaorui Wang†, Chang-Yu Hsieh†, Xiaodan Yin, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou\*, Xiaojun Yao\*.  "Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center." `Research` 6 (2023): 0231. [[HTML]](https://doi.org/10.1101/2023.08.01.551396) [[PDF]](/pdf/paper_2023b.pdf)
+
+#### 2022年度
+- **[2022b]** Dejun Jiang†, Huiyong Sun†, Jike Wang†, Chang-Yu Hsieh, **<font color="#ff9933">Yuquan Li</font>**, Zhenxing Wu, Dongsheng Cao\*, Jian Wu\*, Tingjun Hou\*. "Out-of-the-box deep learning prediction of quantum-mechanical partial charges by graph representation and transfer learning." `Briefings in Bioinformatics` 23.2 (2022): bbab597. [[HTML]](https://doi.org/10.1093/bib/bbab597) [[PDF]](/pdf/paper_2022b.pdf)
+- **[2022a]** **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh†, Ruiqiang Lu, Xiaoqing Gong, Xiaorui Wang, Pengyong Li, Shuo Liu, Yanan Tian, Dejun Jiang, Jiaxian Yan, Qifeng Bai, Huanxiang Liu, Shengyu Zhang & Xiaojun Yao\*. "An adaptive graph learning method for automated molecular interactions and properties predictions." `Nature Machine Intelligence` 4.7 (2022): 645-651. [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)
+
+#### 2021年度
+- **[2021c]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song\*, Xiaojun Yao\*. "TrimNet: learning molecular representation from triplet messages for biomedicine." `Briefings in Bioinformatics` 22.4 (2021): bbaa266. [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)
+- **[2021b]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, Jiezhong Qiu, Guangyong Chen, Huanxiang Liu, Benben Liao\*, Chang-Yu Hsieh\*, Xiaojun Yao\*. "RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions." `Chemical Engineering Journal` 420 (2021): 129845. [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)
+- **[2021a]** **<font color="#ff9933">Yuquan Li</font>**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao\*. "Introducing block design in graph neural networks for molecular properties prediction." `Chemical Engineering Journal` 414 (2021): 128817. [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)
+
+
+
+
+
+
+
+
+<span class='anchor' id='activity'></span>
+
+
+# 🏛️ 学术兼职
+- **期刊**
+  - 青年编委：《Exploration》
+  - 审稿人：《Briefings in Bioinfomatics》
+
+- **学会**
+  - 中国人工智能学会、中国计算机学会、中国化学会、中国化工学会 专业会员/委员
+
+- **Talk**
+  - *2023.3* 兰州大学第十五届研究生学术年会
+    - 报告题目：化学×AI，现在与未来
+
+
+<span class='anchor' id='others'></span>
+
+# 🙌 其他
+- 大乱斗，War3 RPG/RTS，DNF
+- 传世烧火棍*5 拥有者
+- 我清楚的知道，人与人之间的道路是不可复制的，我躺在我自己的床上。
+
+<img src="images/contact.png" width="50%" height="50%" style="display: block; margin: 60px auto 0;"/>
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="yvquanli/yvquanli.github.io"
+        data-repo-id="R_kgDOK85AJA"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOK85AJM4CdNsY"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
