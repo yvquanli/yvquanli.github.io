@@ -19,11 +19,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 黎育权，特聘教授，硕士生导师，目前就职于贵州大学公共大数据国家重点实验室。截至目前共在NMI,NC等期刊发表SCI论文10篇，其中一作或通讯身份4篇，篇均引用57次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊青年编委。
-长期从事人工智能及其科学应用方向的研究工作。相关成果已以第一/通讯作者身份在[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)、[Chemical Engineering Journal](https://doi.org/10.1016/j.cej.2021.128817)、[Briefings in Bioinformatics](https://doi.org/10.1093/bib/bbaa266)在内的多个期刊发表。  
+长期从事人工智能及AI for Science方向的研究工作。相关成果已以第一/通讯作者身份在[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)、[Chemical Engineering Journal](https://doi.org/10.1016/j.cej.2021.128817)、[Briefings in Bioinformatics](https://doi.org/10.1093/bib/bbaa266)在内的多个期刊发表。  
 
 主要研究方向包括: 
 - AI基础研究：大语言模型、图学习、自动机器学习
-- AI科学应用研究：分子生成设计、大分子性质及互作预测、多目标分子优化、靶标发现.  
+- AI for Science研究：分子生成设计、大分子性质及互作预测、多目标分子优化、靶标发现.  
 
 **招生ing**：依托团队每年有较多硕士名额和1个博士名额，可推荐至大厂实习，以及海外读博！本团队一切事务服务论文发表，充分深入的科研培训和课题指导，丰富计算资源和额外奖金支持，确保每位硕士能毕业前发表一篇一作一区论文。
 
@@ -60,15 +60,13 @@ redirect_from:
 洪晖阳，本科大三，研究方向：人工智能、化学信息学中的深度学习方法。  
 *合作导师为郝格非教授、王崎教授
 
-
-何牧天，硕士三年级，研究方向：化学信息学与药物分子设计。  
+王世航，25级博士，[个人主页](https://shihang-wang-58.github.io/Shihang-Wang/)，研究方向：人工智能药物设计应用  
+何牧天，25级博士，研究方向：化学信息学与药物分子设计。  
 *合作导师为姚小军教授
 
 
 深度合作伙伴：  
 王晓瑞，浙江大学侯廷军教授课题组博士后，研究方向：逆合成规划  
-王世航，澳门理工大学姚小军教授课题组25级博士，[个人主页](https://shihang-wang-58.github.io/Shihang-Wang/)，研究方向：人工智能药物设计应用  
-
 
 
 <span class='anchor' id='publications'></span>
@@ -107,7 +105,7 @@ redirect_from:
 
 #### 2023年度
 - **[2023d]** Xiaodan Yin†, Xiaorui Wang†, **<font color="#ff9933">Yuquan Li</font>**, Jike Wang, Yuwei Wang, Yafeng Deng, Tingjun Hou, Huanxiang Liu, Pei Luo, and Xiaojun Yao\*. "CODD-Pred: A Web Server for Efficient Target Identification and Bioactivity Prediction of Small Molecules." `Journal of Chemical Information and Modeling` 63.20 (2023): 6169-6176. [[HTML]](https://doi.org/10.1021/acs.jcim.3c00685) [[PDF]](/pdf/paper_2023e.pdf)
-- **[2023c]** Jianmin Wang, Jiashun Mao, Chunyan Li, Hongxin Xiang, Xun Wang, Shuang Wang, Zixu Wang, Yangyang Chen, **<font color="#ff9933">Yuquan Li</font>**, Heqi Sun, Kyoung Tai No\*, Tao Song\*, Xiangxiang Zeng\*. "An interface-based molecular generative framework for protein-protein interaction inhibitors." `Journal of Cheminformatics` (2023): 2023-10.[[HTML]](https://doi.org/10.1101/2023.10.10.557742) [[PDF]](/pdf/paper_2023d.pdf) 
+- **[2023c]** Jianmin Wang, Jiashun Mao, Chunyan Li, Hongxin Xiang, Xun Wang, Shuang Wang, Zixu Wang, Yangyang Chen, **<font color="#ff9933">Yuquan Li</font>**, Heqi Sun, Kyoung Tai No\*, Tao Song\*, Xiangxiang Zeng\*. "An interface-based molecular generative framework for protein-protein interaction inhibitors." `bioRxiv` (2023): 2023-10.[[HTML]](https://doi.org/10.1101/2023.10.10.557742) [[PDF]](/pdf/paper_2023d.pdf) 
 - **[2023b]** Ruiqiang Lu, Jun Wang, Pengyong Li, **<font color="#ff9933">Yuquan Li</font>**, Shuoyan Tan, Yiting Pan, Huanxiang Liu, Peng Gao, Guotong Xie\*, Xiaojun Yao\*. "Improving drug-target affinity prediction via feature fusion and knowledge distillation." `Briefings in Bioinformatics` 24.3 (2023): bbad145. [[HTML]](https://doi.org/10.1093/bib/bbad145) 
 - **[2023a]** Xiaorui Wang†, Chang-Yu Hsieh†, Xiaodan Yin, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou\*, Xiaojun Yao\*.  "Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center." `Research` 6 (2023): 0231. [[HTML]](https://doi.org/10.1101/2023.08.01.551396) [[PDF]](/pdf/paper_2023b.pdf)
 
@@ -136,7 +134,7 @@ redirect_from:
   - 审稿人：《Briefings in Bioinfomatics》
 
 - **学会**
-  - 中国人工智能学会、中国计算机学会、中国化学会、中国化工学会 专业会员
+  - 中国人工智能学会、中国计算机学会、中国化学会、中国化工学会 专业会员/委员
 
 - **Talk**
   - *2023.3* 兰州大学第十五届研究生学术年会
