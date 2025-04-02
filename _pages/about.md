@@ -23,7 +23,7 @@ redirect_from:
 
 主要研究方向包括: 
 - AI基础研究：大语言模型、图学习、自动机器学习
-- AI for Science研究：分子生成设计、大分子性质及互作预测、多目标分子优化、靶标发现.  
+- AI for Science研究：分子生成设计、大分子性质及互作预测、多目标分子优化、靶标发现   
 
 **招生ing**：依托团队每年有较多硕士名额和1个博士名额，可推荐至腾讯实习，以及浙大和港中文读博！本团队一切资源优先服务论文发表，充分深入的科研培训、具体课题选优和指导，丰富计算资源和额外奖金支持，确保每位硕士能毕业前发表一篇一作一区/CCF A论文，优秀者将全力支持配合发一作CNS子刊。
 
@@ -109,7 +109,7 @@ redirect_from:
 #### 2023年度
 - **[2023c]** Xiaodan Yin†, Xiaorui Wang†, **<font color="#ff9933">Yuquan Li</font>**, Jike Wang, Yuwei Wang, Yafeng Deng, Tingjun Hou, Huanxiang Liu, Pei Luo, and Xiaojun Yao\*. CODD-Pred: A Web Server for Efficient Target Identification and Bioactivity Prediction of Small Molecules[J]. `Journal of Chemical Information and Modeling`, 2023, 63(20): 6169-6176. [[HTML]](https://doi.org/10.1021/acs.jcim.3c00685) [[PDF]](/pdf/paper_2023e.pdf)
 - **[2023b]** Ruiqiang Lu, Jun Wang, Pengyong Li, **<font color="#ff9933">Yuquan Li</font>**, Shuoyan Tan, Yiting Pan, Huanxiang Liu, Peng Gao, Guotong Xie\*, Xiaojun Yao\*. Improving drug-target affinity prediction via feature fusion and knowledge distillation[J]. `Briefings in Bioinformatics`, 2023, 24(3): bbad145. [[HTML]](https://doi.org/10.1093/bib/bbad145)   
-- **[2023a]** Xiaorui Wang†, Chang-Yu Hsieh†, Xiaodan Yin, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou\*, Xiaojun Yao\*.  "Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center[J]. `Research`, 2023, 6: 0231. [[HTML]](https://doi.org/10.1101/2023.08.01.551396) [[PDF]](/pdf/paper_2023b.pdf)  
+- **[2023a]** Xiaorui Wang†, Chang-Yu Hsieh†, Xiaodan Yin, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou\*, Xiaojun Yao\*. Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center[J]. `Research`, 2023, 6: 0231. [[HTML]](https://doi.org/10.1101/2023.08.01.551396) [[PDF]](/pdf/paper_2023b.pdf)  
 
 #### 2022年度
 - **[2022b]** Dejun Jiang†, Huiyong Sun†, Jike Wang†, Chang-Yu Hsieh, **<font color="#ff9933">Yuquan Li</font>**, Zhenxing Wu, Dongsheng Cao\*, Jian Wu\*, Tingjun Hou\*. Out-of-the-box deep learning prediction of quantum-mechanical partial charges by graph representation and transfer learning[J]. `Briefings in Bioinformatics`, 2022, 23(2): bbab597. [[HTML]](https://doi.org/10.1093/bib/bbab597) [[PDF]](/pdf/paper_2022b.pdf)  
