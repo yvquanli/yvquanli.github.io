@@ -18,8 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-黎育权，特聘教授，硕士生导师，目前就职于贵州大学公共大数据国家重点实验室。
-长期从事人工智能及科学智能领域的研究工作，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为8，累计引用次数326。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊青年编委。
+黎育权，特聘教授，硕士生导师，目前就职于贵州大学公共大数据国家重点实验室。长期从事人工智能及科学智能领域的研究工作，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为8，累计引用次数326。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊青年编委。
 
 主要研究方向包括: 
 - AI基础研究：大语言模型、图学习、自动机器学习  
