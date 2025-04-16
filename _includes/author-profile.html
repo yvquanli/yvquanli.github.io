@@ -10,7 +10,7 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %} 
   </div>
 
   <div class="author__urls-wrapper">
@@ -18,6 +18,9 @@
     <ul class="author__urls social-icons">
       {% if site.description %}
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+        <!-- <li><div style="white-space: normal; margin-bottom: 1em;">大数据国重室 </div></li>
+        <li><div style="white-space: normal; margin-bottom: 1em;">计算机学院</div></li> -->
+        <br>
       {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
