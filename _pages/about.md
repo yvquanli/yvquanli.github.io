@@ -29,20 +29,21 @@ redirect_from:
 <span class='anchor' id='educations'></span>
 
 # 🎓 教育经历
-### *2019.9 - 2024.6*   硕博 - 兰州大学，化学化工学院(专业：化学信息学，导师：[姚小军教授](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php))
-### *2015.9 - 2019.6*  本科 - 青海大学，计算机学院(专业：计算机科学与技术)
+*2019.9 - 2024.6*   硕博 - 兰州大学，化学化工学院(专业：化学信息学，导师：[姚小军教授](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php))  
+*2015.9 - 2019.6*  本科 - 青海大学，计算机学院(专业：计算机科学与技术)  
 
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 工作经历
-### *2024.10 - 今* &emsp;&emsp;[贵州大学 公共大数据国家重点实验室/计算机科学与技术学院](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)  特聘教授,硕导
-### *2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/) [付杰博士](https://bigaidream.github.io/)团队  研究实习
-### *2020.8 - 2022.6* [腾讯公司 量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))
+*2024.10 - 今* &emsp;&emsp;[贵州大学 公共大数据国家重点实验室](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)  特聘教授,硕导  
+*2024.10 - 今* &emsp;&emsp;[贵州大学 计算机科学与技术学院](https://cs.gzu.edu.cn/16246/list.htm)  硕导  
+*2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/) [付杰博士](https://bigaidream.github.io/)团队  研究实习  
+*2020.8 - 2022.6* [腾讯公司 量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))  
 
 <span class='anchor' id='projects'></span>  
 
 # 📑 科研项目
-[1]贵州大学人才引进特岗项目，基于人工智能的多约束小分子化合物生成设计新方法研究, 2024.10-2028.10，40万，主持。
+[1]贵州大学人才引进特岗项目，基于人工智能的多约束小分子化合物生成设计新方法研究, 2024.10-2028.10，40万，主持。  
  
 <span class='anchor' id='people'></span>  
 
