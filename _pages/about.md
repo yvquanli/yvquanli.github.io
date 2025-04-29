@@ -22,7 +22,7 @@ redirect_from:
 
 主要研究方向包括: 
 - AI基础研究：大语言模型、图学习、自动机器学习  
-- AI for Science研究：分子生成、多目标分子优化、分子性质及互作预测、靶标发现
+- AI for Science研究：AI分子设计、AI材料设计
 
 **招生ing**：依托团队每年有较多硕士名额和1个博士名额，可推荐至浙大和港中文读博或腾讯实习！本团队以论文发表为重，充分深入的科研培训、具体课题选优和指导，丰富计算资源和额外奖金支持，确保每位硕士能毕业前发表一篇一作一区/CCF A论文，优秀者将全力支持配合发一作CNS子刊。  
 
@@ -36,7 +36,7 @@ redirect_from:
 
 # 🧑‍💻 工作经历
 ### *2024.10 - 今* &emsp;&emsp;[贵州大学 公共大数据国家重点实验室/计算机科学与技术学院](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)  特聘教授,硕导
-### *2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/) [付杰博士](https://bigaidream.github.io/)团队  研究实习访学
+### *2022.7 - 2023.4* [北京智源人工智能研究院](https://www.baai.ac.cn/) [付杰博士](https://bigaidream.github.io/)团队  研究实习
 ### *2020.8 - 2022.6* [腾讯公司 量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))
 
 <span class='anchor' id='projects'></span>  
