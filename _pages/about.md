@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-黎育权，贵州大学特聘教授，硕士生导师。长期从事人工智能及科学智能领域的研究工作，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为8，累计引用次数326。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。
+黎育权，贵州大学特聘教授，硕士生导师。长期从事人工智能及科学智能领域的研究工作，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为8，累计引用次数390。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。
 
 主要研究方向包括: 
 - AI基础研究：大语言模型、图学习、自动机器学习  
@@ -158,19 +158,3 @@ redirect_from:
 <img src="images/contact.png" width="50%" height="50%" style="display: block; margin: 60px auto 0;"/>
 
 
-
-<script src="https://giscus.app/client.js"
-        data-repo="yvquanli/yvquanli.github.io"
-        data-repo-id="R_kgDOK85AJA"
-        data-category="Q&A"
-        data-category-id="DIC_kwDOK85AJM4CdNsY"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
