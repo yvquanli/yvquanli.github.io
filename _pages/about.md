@@ -18,39 +18,40 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-黎育权，贵州大学特聘教授，硕士生导师。长期从事人工智能药物/农药设计领域的研究工作，专注于开发好用实用的"Agent科学家"及附属专用AI，探索人工智能与药物学/农药学的深度融合和无限可能，最终建立全流程自动化药物设计/农药创制，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，篇均引用40次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。
+黎育权，贵州大学特聘教授，硕士生导师。长期从事人工智能辅助药物/农药设计领域的研究工作，专注于开发好用实用的"Agent科学家"及附属专用AI，探索人工智能与药物学/农药学的深度融合和无限可能，最终建立全流程自动化药物设计/农药创制，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，篇均引用40次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。
 
 主要研究方向包括:   
 - AI基础研究：大语言模型、自动图学习    
-- AI for Science研究：Agent科学家、药物/农药设计、递送材料设计  
+- AI for Science研究："Agent科学家"、药物/农药设计、递送材料设计   
 
 **收稿ing**：欢迎联系本人投稿至Exploration期刊(综合一区，IF=22.5)，理论上接受所有自然科学方向的高质量论文，将推荐优先审稿。  
 
-**招生ing**：依托团队每年有较多博士和硕士名额，毕业可推荐至浙大和港中文读博或腾讯实习！本团队承诺永不抢一作、开学充分科研入门培训、导师手把手全程开题和指导，独占A100、L20、4070ti共100余张，确保每位硕士能毕业前发表一篇一作一区/CCF A论文，优秀者将全力支持配合发一作CNS子刊。    
+**招生ing**：依托大团队每年有较多博士和硕士名额，毕业可推荐至浙大和港中文读博或腾讯实习。本团队承诺永不抢一作、开学充分科研入门培训、导师手把手开题和全程指导，独占A100、L20、4070ti共100余张，确保每位硕士能毕业前发表一篇一作一区/CCF A论文，优秀者将全力支持配合发一作CNS子刊。    
 
 
 <span class='anchor' id='educations'></span>
 
 # 🎓 教育经历
-*2019.9 - 2024.6* &emsp;硕博 - 兰州大学，化学化工学院(专业：化学信息学，导师：[姚小军教授](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php))  
-*2015.9 - 2019.6* &emsp;本科 - 青海大学，计算机学院(专业：计算机科学与技术)  
+*2019.9 - 2024.6* &emsp;&ensp;硕博 - 兰州大学，化学化工学院(专业：化学信息学，导师：[姚小军教授](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php))  
+*2015.9 - 2019.6* &emsp;&ensp;本科 - 青海大学，计算机学院(专业：计算机科学与技术)  
 
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 工作经历
-*2024.10 - 今* &emsp;&emsp;&ensp;[贵州大学，公共大数据国家重点实验室](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)  特聘教授,硕导    
-*2024.10 - 今* &emsp;&emsp;&ensp;[贵州大学，绿色农药全国重点实验室](https://cs.gzu.edu.cn/16246/list.htm)  流动人员  
-*2024.10 - 今* &emsp;&emsp;&ensp;[贵州大学，计算机科学与技术学院](https://cs.gzu.edu.cn/16246/list.htm)  硕导  
-*2022.7 - 2023.4* &emsp;[北京智源人工智能研究院](https://www.baai.ac.cn/)，[付杰团队](https://bigaidream.github.io/)  研究实习   
-*2020.8 - 2022.6* &emsp;[腾讯公司，量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))    
+*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，公共大数据国家重点实验室](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)  特聘教授,硕导    
+*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，绿色农药全国重点实验室](https://cs.gzu.edu.cn/16246/list.htm)  流动人员  
+*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，计算机科学与技术学院](https://cs.gzu.edu.cn/16246/list.htm)  硕导  
+*2022.7 &ensp;- 2023.4* &emsp;[北京智源人工智能研究院](https://www.baai.ac.cn/)，[付杰团队](https://bigaidream.github.io/)  研究实习   
+*2020.8 &ensp;- 2022.6* &emsp;[腾讯公司，量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))    
 
 <span class='anchor' id='projects'></span>  
 
 
 # 🏛️ 学术兼职
-  -  2024.9-今 《Exploration》 期刊青年编委
-  - 2025.1-今 贵州省大数据局 专家/组长   
-  - 2024.10-今 国家“一带一路”联合实验室 参与建设   
+*2024.9 &ensp;- 今* &emsp;&emsp;&emsp;《Exploration》 期刊青年编委   
+*2024.10 - 今* &emsp;&emsp;&emsp;国家“一带一路”联合实验室 参与建设   
+*2025.1 &ensp;- 今* &emsp;&emsp;&emsp;贵州省大数据局 专家/组长   
+
 
 
 # 📑 科研项目
