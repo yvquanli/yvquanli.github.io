@@ -89,23 +89,23 @@ redirect_from:
 
 # 📝 学术论文
 ### 代表性论文
-**[1]** Li et al. An adaptive graph learning method for automated molecular interactions and properties predictions. `Nature Machine Intelligence IF=23.8`<sup>◆</sup>
+**[1]** **Li** et al. An adaptive graph learning method for automated molecular interactions and properties predictions. `Nature Machine Intelligence IF=23.8`<sup>◆</sup>
 [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf) 
 
-**[2]**Li et al. Introducing block design in graph neural networks for molecular properties prediction. `Chemical Engineering Journal IF=16.7`<sup>◆</sup>
+**[2]** **Li** et al. Introducing block design in graph neural networks for molecular properties prediction. `Chemical Engineering Journal IF=16.7`<sup>◆</sup>
 [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf) 
 
-**[3]** Li†, Li†. et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>◆</sup>
+**[3]** Li†, **Li†**. et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>◆</sup>
 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf) 
 
-**[4]** Wang†, Li†, et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions. `Chemical Engineering Journal IF=16.7`<sup>◆</sup>
+**[4]** Wang†, **Li†**, et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions. `Chemical Engineering Journal IF=16.7`<sup>◆</sup>
 [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf) 
 
 
 †Equal contribution  
 \*Corresponding authors  
   
-<sup>◆</sup>发表当年IF，一定程度代表该刊当年认可度及发表难度
+<sup>◆</sup>发表当年IF，一定程度代表该刊当年认可度及发表难度，~~主要是懒得年年更新最新IF~~
 
 <!-- [[内容介绍-GLAM]](#research_project_3) 
 [[媒体分享①-AItellU]](https://zhuanlan.zhihu.com/p/587238348) [[②-DrugAI]](https://zhuanlan.zhihu.com/p/533498924) [[③-ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg)[[④-ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)   [[⑤-ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA)  [[⑥-今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  [[⑦-智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) [[⑧-智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
