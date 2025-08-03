@@ -18,11 +18,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-黎育权，贵州大学特聘教授，硕士生导师。长期从事人工智能辅助药物/农药设计领域的研究工作，专注于开发好用实用的"Agent科学家"及附属专用AI，探索人工智能与基础科学的深度融合和无限可能，最终建立全流程自动化分子设计和材料发现，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，累计引用次数401。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。
+黎育权，贵州大学特聘教授，硕士生导师。长期从事人工智能辅助药物/农药设计领域的研究工作，专注于开发好用实用的"Agent科学家"及附属专用AI，探索人工智能与药物学/农药学的深度融合和无限可能，最终建立全流程自动化药物设计/农药创制，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，累计引用次数401。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。
 
 主要研究方向包括: 
 - AI基础研究：大语言模型、自动图学习  
-- AI for Science研究：AI分子设计、AI材料设计  
+- AI for Science研究：Agent科学家、药物/农药设计、递送材料设计  
 
 **收稿ing**：欢迎联系本人投稿至Exploration期刊(综合一区，IF=22.5)，理论上接受所有自然科学方向的高质量论文，将推荐优先审稿。  
 
