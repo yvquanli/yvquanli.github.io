@@ -9,6 +9,9 @@ main:
   - title: "工作经历"
     url: "/#jobs"
 
+  - title: "学术兼职"
+    url: "/#jobs2"
+
   # - title: "科研工作"
   #   url: "/#projects"
 
@@ -18,7 +21,7 @@ main:
   - title: "学术论文"
     url: "/#publications"
 
-  - title: "学术兼职"
+  - title: "学术活动"
     url: "/#activity"
 
   - title: "其他"

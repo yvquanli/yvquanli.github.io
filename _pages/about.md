@@ -44,7 +44,7 @@ redirect_from:
 *2022.7 &ensp;- 2023.4* &emsp;[北京智源人工智能研究院](https://www.baai.ac.cn/)，[付杰团队](https://bigaidream.github.io/)  研究实习   
 *2020.8 &ensp;- 2022.6* &emsp;[腾讯公司，量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))    
 
-<span class='anchor' id='projects'></span>  
+<span class='anchor' id='jobs2'></span>  
 
 
 # 🏛️ 学术兼职
