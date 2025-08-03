@@ -18,15 +18,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-黎育权，贵州大学特聘教授，硕士生导师。长期从事人工智能及科学智能领域的研究工作，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为8，累计引用次数390。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。
+黎育权，贵州大学特聘教授，硕士生导师。长期从事人工智能辅助药物/农药设计领域的研究工作，专注于开发好用实用的前沿AI工具（如大语言模型、自动图学习），探索人工智能与基础科学的深度融合和无限可能，最终建立全流程自动化分子设计和材料发现，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，累计引用次数401。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。
 
 主要研究方向包括: 
 - AI基础研究：大语言模型、自动图学习  
 - AI for Science研究：AI分子设计、AI材料设计  
 
-**招生ing**：依托团队每年有较多博士和硕士名额，毕业可推荐至浙大和港中文读博或腾讯实习！本团队承诺永不抢一作、开学充分科研培训、导师手把手全程开题和指导，独占A100、L20、4070ti共100余张，确保每位硕士能毕业前发表一篇一作一区/CCF A论文，优秀者将全力支持配合发一作CNS子刊。    
-
 **收稿ing**：欢迎联系本人投稿至Exploration期刊(综合一区，IF=22.5)，理论上接受所有自然科学方向的高质量论文，将推荐优先审稿。  
+
+**招生ing**：依托团队每年有较多博士和硕士名额，毕业可推荐至浙大和港中文读博或腾讯实习！本团队承诺永不抢一作、开学充分科研入门培训、导师手把手全程开题和指导，独占A100、L20、4070ti共100余张，确保每位硕士能毕业前发表一篇一作一区/CCF A论文，优秀者将全力支持配合发一作CNS子刊。    
+
+ 
 
 <span class='anchor' id='educations'></span>
 
@@ -38,12 +40,22 @@ redirect_from:
 
 # 🧑‍💻 工作经历
 *2024.10 - 今* &emsp;&emsp;&ensp;[贵州大学，公共大数据国家重点实验室](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)  特聘教授,硕导  
-*2024.10 - 今* &emsp;&emsp;&ensp;[贵州大学，绿色农药全国重点实验室](https://cs.gzu.edu.cn/16246/list.htm)  
+*2024.10 - 今* &emsp;&emsp;&ensp;[贵州大学，绿色农药全国重点实验室](https://cs.gzu.edu.cn/16246/list.htm)  流动人员
 *2024.10 - 今* &emsp;&emsp;&ensp;[贵州大学，计算机科学与技术学院](https://cs.gzu.edu.cn/16246/list.htm)  硕导  
-*2022.7 - 2023.4* &emsp;[智源人工智能研究院](https://www.baai.ac.cn/)，[付杰团队](https://bigaidream.github.io/)  研究实习  
+*2022.7 - 2023.4* &emsp;[北京智源人工智能研究院](https://www.baai.ac.cn/)，[付杰团队](https://bigaidream.github.io/)  研究实习  
 *2020.8 - 2022.6* &emsp;[腾讯公司，量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))  
 
 <span class='anchor' id='projects'></span>  
+
+
+# 🏛️ 学术兼职
+- **期刊**
+  -  2024.10-今 《Exploration》 期刊青年编委
+
+- **社会服务**
+  - 2025.1-今 贵州省大数据局 专家/组长   
+  - 2024.10-今 国家“一带一路”联合实验室 参与建设   
+
 
 # 📑 科研项目
 [1]贵州大学人才引进特岗项目，基于人工智能的多约束小分子化合物生成设计新方法研究, 2024.10-2028.10，40万，主持。  
@@ -127,17 +139,11 @@ redirect_from:
 
 
 
-
-
-
-
-
 <span class='anchor' id='activity'></span>
 
 
-# 🏛️ 学术兼职
+# 🏛️ 学术活动
 - **期刊**
-  -  2024.10-今 《Exploration》 期刊青年编委
   - 《Briefings in Bioinfomatics》审稿人
 
 - **学会**
@@ -147,17 +153,13 @@ redirect_from:
   - *2023.3* 兰州大学第十五届研究生学术年会
     - 报告题目：化学×AI，现在与未来
 
-- **社会服务**
-  - 
-  - 2024.10-今 贵州省大数据局专家库 专家/组长
-  - 2024.10-今 国家“一带一路”联合实验室 参与建设
 
 <span class='anchor' id='others'></span>
 
 # 🙌 其他
-- 大乱斗，War3 RPG/RTS，DNF
-- 传世烧火棍*5 拥有者
-- 我清楚的知道，人与人之间的道路是不可复制的，我躺在我自己的床上。
+- 大乱斗，War3 RPG/RTS，DNF  
+- 传世烧火棍*5 拥有者  
+- 我清楚的知道，人与人之间的道路是不可复制的，我躺在我自己的床上。  
 
 <img src="images/contact.png" width="50%" height="50%" style="display: block; margin: 60px auto 0;"/>
 
