@@ -15,19 +15,16 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
- 
+
 <span class='anchor' id='about-me'></span>
 
-
-长期从事 **农药信息学领域 - 农药智能设计方向** 的研究工作。针对农药设计难度大、成本高、周期长的瓶颈，率先开展农药创制智能体及专用AI算法研究，旨在构建自动化农药设计云平台，探索人工智能与现代农药学的深度融合，以期显著提升农药创制效率与成功率，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，累计引用400余次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊绿色农药设计方向青年编委。主要研究方向包括:   
+长期从事**人工智能辅助药物/农药设计**领域的研究工作。针对分子设计难度大、成本高、周期长的瓶颈，率先开展分子设计智能体及专用AI算法研究，旨在构建自动化分子设计云平台，探索人工智能与化学生物学的深度融合，以期显著提升分子设计效率与成功率，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，累计引用400余次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。主要研究方向包括:   
 - AI基础研究：大语言模型、多智能体、分子表示学习    
-- 农药智能设计研究：多组学图谱靶点发现、农药创制智能体、先进递送系统设计     
+- AI for Science研究：“Agent科学家”、药物/农药设计、递送材料设计   
 
 **收稿ing**：欢迎联系本人投稿至Exploration期刊(综合一区，IF=22.5)，接受所有自然科学方向的高质量论文，将推荐优先审稿。  
 
-**招生ing**：承诺永不抢一作、开学入门培训、手把手全程指导，独占100余张卡，确保每位硕士毕业前发一篇一区/CCF A论文，优秀者全力支持发CNS子刊。    
-
-
+**招生ing**：依托团队每年较多硕博名额，可推荐至浙大读博或腾讯实习。承诺永不抢一作、开学入门培训、手把手全程指导，独占100余张卡，确保每位硕士毕业前发一篇一区/CCF A论文，优秀者全力支持发CNS子刊。  
 <span class='anchor' id='educations'></span>
 
 # 🎓 教育经历
@@ -37,19 +34,19 @@ redirect_from:
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 工作经历
-*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，绿色农药全国重点实验室](https://cs.gzu.edu.cn/16246/list.htm)  兼聘博导、硕导   
 *2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，公共大数据国家重点实验室](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)  特聘教授,硕导    
+*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，绿色农药全国重点实验室](https://cs.gzu.edu.cn/16246/list.htm)  流动研究人员  
 *2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，计算机科学与技术学院](https://cs.gzu.edu.cn/16246/list.htm)  硕导  
 *2022.7 &ensp;- 2023.4* &emsp;[北京智源人工智能研究院](https://www.baai.ac.cn/)，[付杰团队](https://bigaidream.github.io/)  研究实习   
 *2020.8 &ensp;- 2022.6* &emsp;[腾讯公司，量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))    
 
-<span class='anchor' id='jobs2'></span>   
+<span class='anchor' id='jobs2'></span>  
 
 
 # 🏛️ 学术兼职
-*2024.9 &ensp;- 今* &emsp;&emsp;&emsp;《Exploration》 期刊 绿色农药设计方向 青年编委   
-*2024.10 - 今* &emsp;&emsp;&emsp;国家农药“一带一路”联合实验室  参与建设者   
-*2025.1 &ensp;- 今* &emsp;&emsp;&emsp;贵州省大数据局 人工智能产业方向 专家/组长   
+*2024.9 &ensp;- 今* &emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(IF=22.5)，青年编委   
+*2024.10 - 今* &emsp;&emsp;&emsp;国家“一带一路”联合实验室， 参与建设者   
+*2025.1 &ensp;- 今* &emsp;&emsp;&emsp;贵州省大数据局 人工智能产业方向， 专家/组长   
 
 
 
