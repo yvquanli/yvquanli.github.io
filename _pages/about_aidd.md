@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-长期从事**人工智能辅助药物/农药设计**领域的研究工作。针对分子设计难度大、成本高、周期长的瓶颈，率先开展分子设计智能体及专用AI算法研究，旨构建自动化分子设计云平台，探索人工智能与化学生物学的深度融合，以期显著提升分子设计效率与成功率，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，累计引用400余次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。主要研究方向包括:   
+长期从事**人工智能辅助药物/农药设计**领域的研究工作。针对分子设计难度大、成本高、周期长的瓶颈，率先开展分子设计智能体及专用AI算法研究，旨在构建自动化分子设计云平台，探索人工智能与化学生物学的深度融合，以期显著提升分子设计效率与成功率，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，累计引用400余次。担任《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》(综合一区，IF=22.5)期刊青年编委。主要研究方向包括:   
 - AI基础研究：大语言模型、多智能体、分子表示学习    
 - AI for Science研究：“Agent科学家”、药物/农药设计、递送材料设计   
 
