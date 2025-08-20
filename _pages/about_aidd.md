@@ -22,7 +22,7 @@ redirect_from:
 - AI基础研究：大语言模型、多智能体、分子表示学习    
 - AI for Science研究：基于Agent的靶标发现、药物/农药设计及优化、递送材料设计    
 
-**收稿ing**：欢迎联系本人投稿至Exploration期刊(综合一区，IF=22.5)，接受所有自然科学方向的高质量论文，将推荐优先审稿。  
+**收稿ing**：欢迎联系本人投稿至Exploration期刊(综合，IF=22.5)、iMeta期刊(生信，IF=33.2)，将推荐优先审稿。  
 
 **招生ing**：依托团队每年较多硕博名额，可推至浙大读博或腾讯实习。承诺永不抢一作，开学入门培训，全程手把手指导，独占100余计算卡，确保每位硕士发出一篇一作一区/A会论文，优秀者全力支持发子刊。  
 <span class='anchor' id='educations'></span>
@@ -44,9 +44,10 @@ redirect_from:
 
 
 # 🏛️ 学术兼职
-*2024.9 &ensp;- 今* &emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(IF=22.5)，青年编委   
-*2024.10 - 今* &emsp;&emsp;&emsp;国家“一带一路”联合实验室， 参与建设者   
-*2025.1 &ensp;- 今* &emsp;&emsp;&emsp;贵州省大数据局 人工智能产业方向， 专家/组长   
+*2024.9 &ensp;- 今* &emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(IF=22.5)，青年编委    
+*2025.8 &ensp;- 今* &emsp;&emsp;&emsp;《[iMeta](https://onlinelibrary.wiley.com/journal/2770596x)》期刊(IF=33.2)，青年编委    
+*2024.10 - 今* &emsp;&emsp;&emsp;中国—斯里兰卡茶叶绿色防控技术一带一路联合实验室， 参与建设者   
+*2025.1 &ensp;- 今* &emsp;&emsp;&emsp;贵州省大数据局 人工智能产业方向， 专家组组长   
 
 
 
