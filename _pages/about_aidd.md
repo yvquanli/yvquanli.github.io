@@ -18,13 +18,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-长期从事**人工智能辅助药物/农药设计**领域的研究工作。针对分子设计难度大、成本高、周期长的瓶颈，开展分子设计智能体及专用AI算法研究，旨在构建全自动化分子设计云平台，以期显著提升分子设计效率和成功率，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，累计引用400余次。目前主要研究兴趣包括:    
-- AI基础研究：大语言模型、多智能体、分子表示学习    
-- AI for Science研究：基于Agent的靶标发现、药物/农药设计及优化、递送材料设计    
+长期从事**人工智能辅助分子设计**方向的研究工作。针对分子设计难度大、成本高、周期长的瓶颈，开展AI驱动的功能小分子/多肽/蛋白/小核酸设计，重点研究“专家智慧+通用AI+专用AI+专用工具”四位一体协作分子设计理论，构建全链条干湿闭环智能分子设计平台，以期显著提升分子设计成功率和效率，相关工作已以第一作者身份发表在自然子刊《[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)》等期刊。截至目前共发表SCI论文10篇，H-index为9，累计引用400余次。目前主要研究兴趣包括:    
+- AI基础研究：多智能体、大语言模型、分子表示学习     
+- AI for Science研究：功能小分子/多肽/蛋白/小核酸设计、靶标发现、递送材料设计     
 
-**收稿ing**：欢迎联系本人投稿Exploration期刊(综合，IF=22.5)、iMeta期刊(生信，IF=33.2)，推荐优先审稿  
+**收稿ing**：欢迎联系本人投稿Exploration期刊(综合,IF=22.5)、iMeta期刊(生信,IF=33.2)，推荐优先审稿。  
 
-**招生ing**：团队每年较多硕博名额，可推至浙大读博或腾讯实习。承诺永不抢一作，开学入门培训，全程手把手指导，独占100余计算卡，确保每位硕士发出一篇一作一区/A会论文，优秀者全力支持发子刊。  
+**招生ing**：团队每年较多硕博名额，可推至浙大读博或腾讯实习。承诺永不抢一作，开学入门培训，全程手把手指导，独占4090*200，确保每位硕士发出一篇一作一区/A会论文，优秀者全力支持发子刊。  
 <span class='anchor' id='educations'></span>
 
 # 🎓 教育经历
@@ -35,8 +35,8 @@ redirect_from:
 
 # 🧑‍💻 工作经历
 *2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，公共大数据国家重点实验室](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)  特聘教授,硕导    
+*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，计算机科学与技术学院](https://cs.gzu.edu.cn/16246/list.htm)  硕导   
 *2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，绿色农药全国重点实验室](https://cs.gzu.edu.cn/16246/list.htm)  流动研究人员  
-*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学，计算机科学与技术学院](https://cs.gzu.edu.cn/16246/list.htm)  硕导  
 *2022.7 &ensp;- 2023.4* &emsp;[北京智源人工智能研究院](https://www.baai.ac.cn/)，[付杰团队](https://bigaidream.github.io/)  研究实习   
 *2020.8 &ensp;- 2022.6* &emsp;[腾讯公司，量子实验室](htps://quantum.tencent.com/) 联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))    
 
@@ -44,12 +44,13 @@ redirect_from:
 
 
 # 🏛️ 学术兼职
-*2024.9 &ensp;- 今* &emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(IF=22.5)，青年编委    
-*2025.8 &ensp;- 今* &emsp;&emsp;&emsp;《[iMeta](https://onlinelibrary.wiley.com/journal/2770596x)》期刊(IF=33.2)，青年编委    
-*2024.10 - 今* &emsp;&emsp;&emsp;中国—斯里兰卡茶叶绿色防控技术一带一路联合实验室， 参与建设者   
+*2025.8 &ensp;- 今* &emsp;&emsp;&emsp;《[iMeta](https://onlinelibrary.wiley.com/journal/2770596x)》期刊(生物一区，IF=33.2)，青年编委     
 *2025.1 &ensp;- 今* &emsp;&emsp;&emsp;贵州省大数据局 人工智能产业方向， 专家组组长   
+*2024.10 - 今* &emsp;&emsp;&emsp;中国—斯里兰卡一带一路联合实验室， 创始建设参与    
+*2024.9 &ensp;- 今* &emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(综合一区，IF=22.5)，青年编委     
 
 
+<span class='anchor' id='projects'></span>  
 
 # 📑 科研项目
 [1]贵州大学人才引进特岗项目，基于人工智能的多约束小分子化合物生成设计新方法研究, 2024.10-2028.10，40万，主持。  
@@ -57,25 +58,18 @@ redirect_from:
 <span class='anchor' id='people'></span>  
 
 # 👥 团队成员
+<pre style="color: #4A4E52;">
+张晓， 21博，①核酸农药设计。               &#9;谢朝阳，23硕，①分子性质预测。  
+董新宇，24博，①分子生成、②环肽设计。        &#9;周军， 24硕，①产率预测及合成规划。  
+黄广义，24博，①AI靶标发现。                  &#9;张军， 24硕，①PPI、DDI预测。  
+王世航，25博，①分子表示学习。              &#9;张艺伦，24硕，①酶功能预测、②染料分子设计。  
+何牧天，25博，①分子表示学习、②DEL。        &#9;吴南宛，24硕，①AI抗体-药物偶联设计。  
+龚道宏，25博，①分子表示学习。              &#9;罗希璇，24硕，①DTI、DDI预测。  
+唐胡双寅26博，①AI药物及递送系统设计。       &#9;张龙彪，24硕，①AI递送系统设计。  
+周勇， 25硕，①Agentic核酸农药设计。        &#9;蒋俞萱，25硕，①Agentic靶标发现。  
+洪晖阳，22本，①Agentic分子性质预测。        &#9;陈维迅，25硕，①分子表示学习。  
+</pre>
 
-张晓， 21博，①核酸农药设计。  
-董新宇，24博，①多目标优化分子生成设计、②环肽智能设计。  
-黄广义，24博，①AI靶标发现。  
-王世航，25博，①分子表示学习。  
-何牧天，25博，①分子表示学习、②DEL。  
-龚道宏，25博，①分子表示学习。  
-唐胡双寅26博，①AI药物及递送系统设计。  
-谢朝阳，23硕，①分子性质预测。  
-周军， 24硕，①化学反应产率预测及条件优化。  
-张军， 24硕，①PPI、DDI预测。  
-张艺伦，24硕，①酶功能预测、②染料分子设计。  
-吴南宛，24硕，①AI抗体-药物偶联设计。  
-罗希璇，24硕，①DTI、DDI预测。  
-张龙彪，24硕，①AI递送系统设计。  
-周勇， 25硕，①核酸农药设计、②大语言模型。   
-蒋俞萱，25硕，①AI靶标发现、②大语言模型。   
-陈维迅，25硕，①分子表示学习。  
-洪晖阳，22本，①小分子性质预测、②大语言模型。   
 *合作导师包括郝格非、王崎、姚小军三位教授。  
 
 深度合作伙伴：    
@@ -87,16 +81,16 @@ redirect_from:
 # 📝 学术论文
 ### 代表性论文
 **[1]** **Li** et al. An adaptive graph learning method for automated molecular interactions and properties predictions. `Nature Machine Intelligence IF=23.8`<sup>◆</sup>
-[[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf) 
+[[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)  
 
 **[2]** **Li** et al. Introducing block design in graph neural networks for molecular properties prediction. `Chemical Engineering Journal IF=16.7`<sup>◆</sup>
-[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf) 
+[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)  
 
 **[3]** Li†, **Li†**. et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>◆</sup>
-[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf) 
+[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)  
 
 **[4]** Wang†, **Li†**, et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions. `Chemical Engineering Journal IF=16.7`<sup>◆</sup>
-[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf) 
+[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)  
 
 
 †Equal contribution  
@@ -137,7 +131,7 @@ redirect_from:
 
 # 🏛️ 学术活动
 - **期刊**
-  - 《Nature Communications》、《Briefings in Bioinfomatics》等期刊审稿人
+  - 《iMeta》、《Nature Communications》、《Briefings in Bioinfomatics》等期刊审稿人
 
 - **学会**
   - 中国人工智能学会、中国植保学会、中国计算机学会、中国化学会 专业会员

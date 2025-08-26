@@ -12,8 +12,8 @@ main:
   - title: "学术兼职"
     url: "/#jobs2"
 
-  # - title: "科研工作"
-  #   url: "/#projects"
+  - title: "科研项目"
+    url: "/#projects"
 
   - title: "团队成员"
     url: "/#people"
