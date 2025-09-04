@@ -22,9 +22,9 @@ redirect_from:
 - AI基础研究：多智能体、大语言模型、分子表示学习     
 - AI for Science研究：小分子/多肽/蛋白/小核酸从头设计、靶标发现、合成规划、递送材料设计     
 
-**收稿ing**：欢迎联系本人投稿Exploration期刊(综合,IF=22.5)、iMeta期刊(生物,IF=33.2)，推荐优先审稿。  
+**收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta国产顶级期刊进行投稿，推荐优先审稿。     
 
-**招生ing**：团队每年较多硕博名额，可推至浙大读博或腾讯实习。承诺永不抢一作，开学入门培训，全程手把手指导，独占4090*200，确保每位硕士发出一篇一作一区/A会论文，优秀者全力支持发子刊。  
+**招生ing**：团队每年较多硕博名额，可推至浙大读博或腾讯实习。承诺永不抢一作，开学入门培训，全程手把手指导，独占4090*200，确保每位硕士发出一篇一作一区/A会论文，优秀者全力支持发子刊。    
 <span class='anchor' id='educations'></span>
 
 # 🎓 教育经历
@@ -44,6 +44,7 @@ redirect_from:
 
 
 # 🏛️ 学术兼职
+*2025.8 &ensp;- 今* &emsp;&emsp;&emsp;《[Innovation](https://www.cell.com/the-innovation/home)》期刊(综合一区，IF=25.7)，青年编委     
 *2025.8 &ensp;- 今* &emsp;&emsp;&emsp;《[iMeta](https://onlinelibrary.wiley.com/journal/2770596x)》期刊(生物一区，IF=33.2)，青年编委     
 *2025.1 &ensp;- 今* &emsp;&emsp;&emsp;贵州省大数据局 人工智能产业方向， 专家组组长   
 *2024.10 - 今* &emsp;&emsp;&emsp;中国—斯里兰卡一带一路联合实验室， 创始建设参与    
