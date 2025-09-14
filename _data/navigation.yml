@@ -21,8 +21,8 @@ main:
   - title: "学术论文"
     url: "/#publications"
 
-  - title: "学术活动"
-    url: "/#activity"
+  # - title: "学术活动"
+  #   url: "/#activity"
 
   - title: "其他"
     url: "/#others"
