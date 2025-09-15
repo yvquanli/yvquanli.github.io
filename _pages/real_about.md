@@ -62,10 +62,12 @@ redirect_from:
 # 🏛️ 学术兼职
 *2025.8 &ensp;- 今*&emsp;&emsp;&emsp;《[Innovation](https://www.cell.com/the-innovation/home)》期刊(综合一区 IF=25.7)，青年编委  
 *2025.8 &ensp;- 今*&emsp;&emsp;&emsp;《[iMeta](https://onlinelibrary.wiley.com/journal/2770596x)》期刊(生物一区 IF=33.2)，青年编委  
+*2025.5 &ensp;- 今*&emsp;&emsp;&emsp; 第六届山地农业与绿色植保国际会议，筹办委员会委员  
 *2025.1 &ensp;- 今* &emsp;&emsp;&emsp;贵州省大数据局 人工智能产业方向， 专家组组长  
 *2024.10 - 今* &emsp;&emsp;&emsp;中国—斯里兰卡一带一路国际联合实验室， 创始建设参与  
 *2024.9 &ensp;- 今*&emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(综合一区 IF=22.5)，青年编委(获杰出青年编委奖)  
-
+*2021.3 &ensp;- 今*&emsp;&emsp;&emsp;《iMeta》、《Nature Communications》等期刊审稿人  
+*2025.8* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;中国植物保护学会青托论坛，组委会委员  
 
 <span class='anchor' id='projects'></span>  
 
@@ -158,15 +160,15 @@ redirect_from:
 <span class='anchor' id='award'></span>
 
 # 🌟 奖项荣誉
-*2025.9* &emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊  2025年度杰出青年编委奖    
+*2025.9* &emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊  2025年度杰出青年编委奖  
 *2024.10* &emsp;&emsp;&emsp;贵州大学一流学科建设特别引进人才  
 
 <span class='anchor' id='activity'></span>
 
 # 🏛️ 学术活动
-*2023.9-今*&emsp;&emsp;《iMeta》、《Nature Communications》、《Briefings in Bioinfomatics》等期刊审稿人  
-*2021.9-今* &emsp;&emsp;中国人工智能学会、中国植保学会、中国计算机学会、中国化学会 专业会员  
+
 *2023.3* &emsp;&emsp;&emsp; 兰州大学第十五届研究生学术年会，报告题目：化学×AI，现在与未来  
+*2021.9-今* &emsp;&emsp;中国植保学会、中国人工智能学会、中国计算机学会、中国化学会， 专业会员  
 
 
 <span class='anchor' id='others'></span>
