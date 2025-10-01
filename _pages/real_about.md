@@ -40,7 +40,7 @@ redirect_from:
 
 **收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta国产顶级期刊进行投稿，推荐优先审稿。  
 
-**招生ing**：团队每年较多硕博名额，可推至浙大读博或腾讯实习。承诺永不抢一作，开学入门培训，全程手把手指导，独占4090*200，确保每位硕士发出一篇一作一区/A会论文，优秀者全力支持发子刊。  
+[**招生ing**](http://xhslink.com/o/6irgbDsAVAE)：团队每年较多硕博名额，可推至浙大读博或腾讯实习。承诺永不抢一作，开学入门培训，全程手把手指导，独占4090*200，确保每位硕士发出一篇一作一区/A会论文，优秀者全力支持发子刊。  
 
 <span class='anchor' id='educations'> </span>  
 
@@ -165,10 +165,11 @@ redirect_from:
 <span class='anchor' id='activity'></span>
 
 # 🏛️ 学术活动
+
+*2025.10*&emsp;&emsp;&emsp;第十四届全国生物信息学与系统生物学学术大会，报告题目：基于MolPilot的分子生成设计与优化  
+*2023.3* &emsp;&emsp;&emsp; 兰州大学第十五届研究生学术年会，报告题目：化学×AI，现在与未来  
 *2023.5-今*&emsp;&emsp; iMeta、Nature Communications等期刊审稿人  
 *2021.9-今* &emsp;&emsp;中国植保学会、中国人工智能学会、中国计算机学会、中国化学会， 专业会员  
-*2023.3* &emsp;&emsp;&emsp; 兰州大学第十五届研究生学术年会，报告题目：化学×AI，现在与未来  
-
 
 <span class='anchor' id='others'></span>
 
