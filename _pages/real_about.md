@@ -92,19 +92,39 @@ redirect_from:
 <span class='anchor' id='people'></span>  
 
 # 👥 团队成员
-<pre style="color: #4A4E52;">
-张晓， 21博，①核酸农药设计。               &#9;谢朝阳，23硕，①分子性质预测。  
-董新宇，24博，①分子生成、②环肽设计。       &#9;周军， 24硕，①产率预测及合成规划。  
-黄广义，24博，①AI靶标发现。                  &#9;张军， 24硕，①PPI、DDI预测。  
-王世航，25博，①分子表示学习。              &#9;张艺伦，24硕，①酶功能预测、②ABA类似物设计。  
-何牧天，25博，①分子表示学习、②DEL。        &#9;吴南宛，24硕，①AI抗体-药物偶联设计。  
-龚道宏，25博，①分子表示学习。              &#9;罗希璇，24硕，①DTI、DDI预测。  
-唐胡双寅26博，①AI药物及递送系统设计。       &#9;张龙彪，24硕，①AI递送系统设计。  
-周勇， 25硕，①Agentic核酸农药设计。        &#9;蒋俞萱，25硕，①Agentic靶标发现。  
-洪晖阳，22本，①Agentic分子性质预测。        &#9;陈维迅，25硕，①分子表示学习。  
-</pre>
 
-*合作导师包括郝格非、王崎、姚小军三位教授。  
+<table style="width:100%;">
+  <tr>
+    <td style="vertical-align:top; width:50%;">
+      <a href="mailto:yujianz093@gmail.com">张晓</a>， 21博，①核酸农药设计。<br>
+      <a href="mailto:dongxinyu@samlab.cn">董新宇</a>，24博，①分子生成、②环肽设计。<br>
+      <a href="mailto:h397465119@163.com">黄广义</a>，24博，①AI靶标发现。<br>
+      <a href="mailto:p2521371@mpu.edu.mo">王世航</a>，25博，①分子表示学习。<br>
+      <a href="mailto:sereinnario@gmail.com">何牧天</a>，25博，①大分子药物设计、②DEL。<br>
+      <a href="mailto:gong-dh@foxmail.com">龚道宏</a>，25博，①靶向蛋白降解设计。<br> 
+      <a href="mailto:2427993513@qq.com">郭浩楨</a>，25博，①智能体多肽设计。  <br> 
+      <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>26博，①AI药物及递送系统设计。<br> 
+      <a href="mailto:2432959317@qq.com">朱清</a>， 25硕，①分子表示学习。<br> 
+      <a href="mailto:3200817356@qq.com">王美铃</a>，25硕，①分子表示学习。   <br> 
+      <a href="mailto:3272282882@qq.com">洪晖阳</a>，22本，①Agentic分子性质预测。<br>
+    </td>
+    <td style="vertical-align:top; width:50%;">
+      <a href="mailto:3156785727@qq.com">谢朝阳</a>，23硕，①分子性质预测。<br>
+      <a href="mailto:2118116004@qq.com">周军</a>， 24硕，①产率预测及合成规划。<br>
+      <a href="mailto:z1985639584@gmail.com">张军</a>， 24硕，①PPI、DDI预测。<br>
+      <a href="mailto:3331231706@qq.com">张艺伦</a>，24硕，①酶功能预测及设计。<br>
+      <a href="mailto:nanwanwu03@gmail.com">吴南宛</a>，24硕，①AI抗体-药物偶联设计。<br>
+      <a href="mailto:luoxix@foxmail.com">罗希璇</a>，24硕，①DTI、DDI预测。<br>
+      <a href="mailto:1400883809@qq.com">张龙</a>彪，24硕，①AI递送系统设计。<br>
+      <a href="mailto:3212671648@qq.com">周勇</a>， 25硕，①Agentic核酸农药设计。<br>
+      <a href="mailto:leizhu.zl@outlook.com">朱磊</a>， 25硕，①AI多肽/蛋白设计。<br>
+      <a href="mailto:2509362787@qq.com">蒋俞萱</a>，25硕，①Agentic靶标发现。<br>
+      <a href="mailto:2396081899@qq.com">陈维迅</a>，25硕，①分子表示学习。 <br> 
+    </td>
+  </tr>
+</table>
+
+*合作导师包括[郝格非](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[王崎](http://qiwang.me/)、[姚小军](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)三位教授。  
 
 深度合作伙伴：王晓瑞，浙江大学侯廷军教授课题组博士后，研究方向为AI合成规划  
 
