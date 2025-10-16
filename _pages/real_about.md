@@ -95,31 +95,33 @@ redirect_from:
 
 <table style="width:100%;">
   <tr>
-    <td style="vertical-align:top; width:50%;">
-      <a href="mailto:yujianz093@gmail.com">张晓</a>， 21博，①核酸农药设计。<br>
-      <a href="mailto:dongxinyu@samlab.cn">董新宇</a>，24博，①分子生成、②环肽设计。<br>
-      <a href="mailto:h397465119@163.com">黄广义</a>，24博，①AI靶标发现。<br>
-      <a href="mailto:p2521371@mpu.edu.mo">王世航</a>，25博，①分子表示学习。<br>
-      <a href="mailto:sereinnario@gmail.com">何牧天</a>，25博，①大分子药物设计、②DEL。<br>
-      <a href="mailto:gong-dh@foxmail.com">龚道宏</a>，25博，①靶向蛋白降解设计。<br> 
-      <a href="mailto:2427993513@qq.com">郭浩楨</a>，25博，①智能体多肽设计。  <br> 
-      <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>26博，①AI药物及递送系统设计。<br> 
-      <a href="mailto:2432959317@qq.com">朱清</a>， 25硕，①分子表示学习。<br> 
-      <a href="mailto:3200817356@qq.com">王美铃</a>，25硕，①分子表示学习。   <br> 
-      <a href="mailto:3272282882@qq.com">洪晖阳</a>，22本，①Agentic分子性质预测。<br>
+    <td style="vertical-align:top; width:33%;">
+      <a href="mailto:yujianz093@gmail.com">张晓</a>, 21博,核酸农药设计<br>
+      <a href="mailto:dongxinyu@samlab.cn">董新宇</a>,24博,分子生成、环肽<br>
+      <a href="mailto:h397465119@163.com">黄广义</a>,24博,AI靶标发现<br>
+      <a href="mailto:p2521371@mpu.edu.mo">王世航</a>,25博,分子表示学习<br>
+      <a href="mailto:sereinnario@gmail.com">何牧天</a>,25博,大分子药物、DEL<br>
+      <a href="mailto:gong-dh@foxmail.com">龚道宏</a>,25博,靶向蛋白降解设计<br> 
+      <a href="mailto:2427993513@qq.com">郭浩楨</a>,25博,智能体多肽设计  <br> 
+      <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>26博,递送材料设计<br> 
     </td>
-    <td style="vertical-align:top; width:50%;">
-      <a href="mailto:3156785727@qq.com">谢朝阳</a>，23硕，①分子性质预测。<br>
-      <a href="mailto:2118116004@qq.com">周军</a>， 24硕，①产率预测及合成规划。<br>
-      <a href="mailto:z1985639584@gmail.com">张军</a>， 24硕，①PPI、DDI预测。<br>
-      <a href="mailto:3331231706@qq.com">张艺伦</a>，24硕，①酶功能预测及设计。<br>
-      <a href="mailto:nanwanwu03@gmail.com">吴南宛</a>，24硕，①AI抗体-药物偶联设计。<br>
-      <a href="mailto:luoxix@foxmail.com">罗希璇</a>，24硕，①DTI、DDI预测。<br>
-      <a href="mailto:1400883809@qq.com">张龙</a>彪，24硕，①AI递送系统设计。<br>
-      <a href="mailto:3212671648@qq.com">周勇</a>， 25硕，①Agentic核酸农药设计。<br>
-      <a href="mailto:leizhu.zl@outlook.com">朱磊</a>， 25硕，①AI多肽/蛋白设计。<br>
-      <a href="mailto:2509362787@qq.com">蒋俞萱</a>，25硕，①Agentic靶标发现。<br>
-      <a href="mailto:2396081899@qq.com">陈维迅</a>，25硕，①分子表示学习。 <br> 
+    <td style="vertical-align:top; width:33%;">
+      <a href="mailto:3156785727@qq.com">谢朝阳</a>,23硕,分子性质预测<br>
+      <a href="mailto:2118116004@qq.com">周军</a>, 24硕,合成规划<br>
+      <a href="mailto:z1985639584@gmail.com">张军</a>, 24硕,PPI、DDI预测<br>
+      <a href="mailto:3331231706@qq.com">张艺伦</a>,24硕,酶功能预测及设计<br>
+      <a href="mailto:nanwanwu03@gmail.com">吴南宛</a>,24硕,抗体-药物偶联设计<br>
+      <a href="mailto:luoxix@foxmail.com">罗希璇</a>,24硕,DTI、DDI预测<br>
+      <a href="mailto:1400883809@qq.com">张龙彪</a>,24硕,AI递送系统设计<br>
+    </td>
+    <td style="vertical-align:top; width:33%;">
+      <a href="mailto:3212671648@qq.com">周勇</a>, 25硕,核酸农药设计<br>
+      <a href="mailto:leizhu.zl@outlook.com">朱磊</a>, 25硕,AI多肽/蛋白设计<br>
+      <a href="mailto:2509362787@qq.com">蒋俞萱</a>,25硕,Agentic靶标发现<br>
+      <a href="mailto:2396081899@qq.com">陈维迅</a>,25硕,分子表示学习 <br> 
+      <a href="mailto:2432959317@qq.com">朱清</a>, 25硕,分子表示学习<br> 
+      <a href="mailto:3200817356@qq.com">王美铃</a>,25硕,分子表示学习<br> 
+      <a href="mailto:3272282882@qq.com">洪晖阳</a>,22本,分子性质预测<br>  
     </td>
   </tr>
 </table>
@@ -148,10 +150,10 @@ redirect_from:
 一定程度代表该刊当年认可度及发表难度，~~主要是懒得年年更新最新IF~~
 
 <!-- [[内容介绍-GLAM]](#research_project_3) 
-[[媒体分享①-AItellU]](https://zhuanlan.zhihu.com/p/587238348) [[②-DrugAI]](https://zhuanlan.zhihu.com/p/533498924) [[③-ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg)[[④-ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)   [[⑤-ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA)  [[⑥-今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  [[⑦-智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) [[⑧-智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
+[[媒体分享-AItellU]](https://zhuanlan.zhihu.com/p/587238348) [[-DrugAI]](https://zhuanlan.zhihu.com/p/533498924) [[③-ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg)[[④-ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)   [[⑤-ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA)  [[⑥-今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  [[⑦-智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) [[⑧-智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
 [[内容介绍-BGNN]](#research_project_1) 
-[[内容介绍-TrimNet]](#research_project_2) [[媒体分享①-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
-[[媒体分享①-智药邦]](https://mp.weixin.qq.com/s/PG-nMMH6NYVj3Mc8Lzbb9g) -->
+[[内容介绍-TrimNet]](#research_project_2) [[媒体分享-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
+[[媒体分享-智药邦]](https://mp.weixin.qq.com/s/PG-nMMH6NYVj3Mc8Lzbb9g) -->
 
 ### 所有论文
 #### 2024年度
