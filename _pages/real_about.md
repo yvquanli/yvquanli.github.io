@@ -67,7 +67,7 @@ redirect_from:
 *2024.10 - 今* &emsp;&emsp;&emsp;中国—斯里兰卡一带一路国际联合实验室， 创始建设参与  
 *2024.9 &ensp;- 今*&emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(综合一区 IF=22.5)，青年编委(获杰出青年编委奖)  
 *2026.1* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;第六届山地农业与绿色植保国际会议，组委会委员  
-*2025.8* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;中国植物保护学会青托论坛，组委会秘书  
+*2025.8* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;中国植物保护学会青托论坛，会务秘书   
 
 <span class='anchor' id='projects'></span>  
 
