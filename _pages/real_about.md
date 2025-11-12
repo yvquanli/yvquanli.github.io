@@ -40,7 +40,7 @@ redirect_from:
 
 **收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta国产顶级期刊进行投稿，推荐优先审稿。  
 
-[**招生ing**](http://xhslink.com/o/6irgbDsAVAE)：团队每年较多硕博名额，可推至浙大读博或腾讯实习。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程手把手指导，独占4090*200，确保每位硕士发出一篇一作一区/A会论文，优秀者全力支持发子刊。   
+[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：团队每年较多硕博名额，可推至浙大读博或腾讯实习。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程手把手指导，独占4090*200，确保每位硕士发出一篇一作一区/A会论文，优秀者全力支持发子刊。   
 
 <span class='anchor' id='educations'> </span>  
 
