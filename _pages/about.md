@@ -151,7 +151,7 @@ redirect_from:
 <span class='anchor' id='activity'></span>
 
 # 🏛️ 学术活动
-
+*2025.11*&emsp;&emsp;&emsp;扬州大学，保绿兴农学术大讲堂，报告题目：人工智能辅助药物设计  
 *2025.10*&emsp;&emsp;&emsp;第十四届全国生物信息学与系统生物学学术大会，报告题目：多目标梯度引导分子生成  
 *2023.3* &emsp;&emsp;&emsp; 兰州大学第十五届研究生学术年会，报告题目：化学×AI，现在与未来  
 *2023.5-今*&emsp;&emsp; iMeta、Nature Communications等期刊审稿人  
