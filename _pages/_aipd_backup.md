@@ -26,9 +26,9 @@
 
 *2025.8 &ensp;- 今*&emsp;&emsp;&emsp;《[Innovation](https://www.cell.com/the-innovation/home)》期刊(综合一区 IF=25.7) 植物科学方向，青年编委  
 *2025.8 &ensp;- 今*&emsp;&emsp;&emsp;《[iMeta](https://onlinelibrary.wiley.com/journal/2770596x)》期刊(生物一区 IF=33.2) 农药信息学方向，青年编委  
-*2025.1 &ensp;- 今* &emsp;&emsp;&emsp;贵州省大数据局 人工智能产业方向， 专家组组长  
 *2024.10 - 今* &emsp;&emsp;&emsp;中国—斯里兰卡茶叶绿色防控一带一路国际联合实验室， 创始建设参与  
 *2024.9 &ensp;- 今*&emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(综合一区 IF=22.5) 植物科学方向，青年编委(获杰出青年编委奖)  
+*2025.1、2025.8* &emsp;&ensp;贵州省大数据局项目评审专家组，组长  
 *2026.1* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;第六届山地农业与绿色植保国际会议，组委会委员  
 *2025.8* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;中国植物保护学会青托论坛，会务秘书  
 
@@ -82,7 +82,7 @@
   </tr>
 </table>
 
-*合作导师包括[郝格非](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[杨文超](https://gpabl.gzu.edu.cn/2023/0807/c18865a217606/page.htm)、[王崎](http://qiwang.me/)、[姚小军](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)三位教授。  
+深度合作导师：[郝格非](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[王崎](http://qiwang.me/)、[姚小军](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)  
+深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，浙江大学侯廷军教授课题组博士后，研究方向为AI合成规划  
 
-深度合作伙伴：王晓瑞，浙江大学侯廷军教授课题组博士后，研究方向为AI合成规划    
 
