@@ -51,7 +51,7 @@
 <table style="width:100%;">
   <tr>
     <td style="vertical-align:top; width:33%;">
-      <a href="mailto:yujianz093@gmail.com">张晓</a>, 21博,核酸药物设计<br>
+      <a href="mailto:yujianz093@gmail.com">张晓</a>, 21博,核酸农药设计<br>
       <a href="mailto:dongxinyu@samlab.cn">董新宇</a>,24博,多目标分子生成<br>
       <a href="mailto:h397465119@163.com">黄广义</a>,24博,AI靶标发现<br>
       <a href="mailto:p2521371@mpu.edu.mo">王世航</a>,25博,细胞表型学习<br>
@@ -77,7 +77,7 @@
       <a href="mailto:2396081899@qq.com">陈维迅</a>,25硕,智能体分子设计 <br> 
       <a href="mailto:2396081899@qq.com">唐展宏</a>,25硕,靶向核酸降解<br> 
       <a href="mailto:2432959317@qq.com">朱清</a>, 25硕,植物病菌互作<br> 
-      <a href="mailto:3200817356@qq.com">王美铃</a>,25硕,大分子-药物互作<br> 
+      <a href="mailto:3200817356@qq.com">王美铃</a>,25硕,DTI互作<br> 
       <a href="mailto:3200817356@qq.com">张文举</a>,25硕,化学合成规划<br> 
     </td>
   </tr>
@@ -87,3 +87,12 @@
 深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，浙江大学侯廷军教授课题组博士后，研究方向为AI合成规划  
 
 
+
+
+
+
+<a href="mailto:dongxinyu@samlab.cn">董新宇</a>,24博, 多目标分子生成, 以第一作者发表2篇学术论文(Nucleic Acids Research, Plant Phenomics)。  
+<a href="mailto:3156785727@qq.com">谢朝阳</a>,23硕, 分子性质预测, Advanced Science在投中。  
+<a href="mailto:2509362787@qq.com">蒋俞萱</a>,25硕, 智慧育种。  
+<a href="mailto:2396081899@qq.com">陈维迅</a>,25硕, 智能体分子设计。  
+<a href="mailto:3272282882@qq.com">洪晖阳</a>,22本, 分子性质预测, Communications Chemistry在投中。  
