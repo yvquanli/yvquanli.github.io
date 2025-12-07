@@ -2,9 +2,9 @@
 - AI基础研究：多智能体、大语言模型、分子表示学习  
 - 植物保护：小分子/多肽/RNAi/纳米绿色农药设计、智慧基因组育种、病虫草靶标发现、合成规划  
 
-**收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta国产顶级期刊进行投稿，推荐优先审稿。  
+**收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta期刊，高质量稿件可推荐优先审稿。  
 
-[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：团队每年较多硕博名额，可推至浙大读博或腾讯实习。承诺永不抢一作，开学入门培训，全程手把手指导，独占4090*200，确保每位硕士发出一篇一作一区/A会论文，优秀者全力支持发子刊。  
+[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：大团队每年较多硕博名额。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程精细指导，丰富计算资源，尽量帮每位同学发出一作一区/A会论文，优秀者全力支持发子刊。  
 
 <span class='anchor' id='educations'></span>
 
@@ -31,58 +31,5 @@
 *2025.1、2025.8* &emsp;&ensp;贵州省大数据局项目评审专家组，组长  
 *2026.1* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;第六届山地农业与绿色植保国际会议，组委会委员  
 *2025.8* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;中国植物保护学会青托论坛，会务秘书  
-
-
-<span class='anchor' id='projects'></span>  
-
-# 📑 科研项目
-[1]国家数据局数据集先行先试项目,全国作物病虫草-农药多模态植物保护数据集,2026,课题负责人  
-[2]国家自然科学基金地区项目,基于人工智能的麦田蚜虫RNAi基因挖掘及RNAi农药设计,32万,2026,主持  
-[3]贵州大学人才引进特岗项目,多约束绿色农药小分子生成设计新方法研究,40万,2024,主持  
-
-
-
-<span class='anchor' id='people'></span>  
-
-# 👥 团队成员
-
-<table style="width:100%;">
-  <tr>
-    <td style="vertical-align:top; width:33%;">
-      <a href="mailto:yujianz093@gmail.com">张晓</a>, 21博,核酸农药设计<br>
-      <a href="mailto:dongxinyu@samlab.cn">董新宇</a>,24博,多目标分子生成<br>
-      <a href="mailto:h397465119@163.com">黄广义</a>,24博,AI靶标发现<br>
-      <a href="mailto:p2521371@mpu.edu.mo">王世航</a>,25博,细胞表型学习<br>
-      <a href="mailto:sereinnario@gmail.com">何牧天</a>,25博,大分子互作预测<br>  
-      <a href="mailto:gong-dh@foxmail.com">龚道宏</a>,25博,靶向蛋白降解设计<br> 
-      <a href="mailto:2427993513@qq.com">郭浩楨</a>,25博,植物抗菌肽设计<br> 
-      <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>26博,dsRNA递送系统<br> 
-    </td>
-    <td style="vertical-align:top; width:33%;">
-      <a href="mailto:3156785727@qq.com">谢朝阳</a>,23硕,分子性质预测<br>
-      <a href="mailto:2118116004@qq.com">周军</a>, 24硕,农药合成规划<br>
-      <a href="mailto:z1985639584@gmail.com">张军</a>, 24硕,植物蛋白-蛋白互作<br>
-      <a href="mailto:3331231706@qq.com">张艺伦</a>,24硕,酶功能预测及设计<br>
-      <a href="mailto:nanwanwu03@gmail.com">吴南宛</a>,24硕,肽-药物偶联设计<br>
-      <a href="mailto:luoxix@foxmail.com">罗希璇</a>,24硕,农药-靶标互作预测<br>
-      <a href="mailto:1400883809@qq.com">张龙彪</a>,24硕,农药递送系统设计<br>
-      <a href="mailto:3272282882@qq.com">洪晖阳</a>,22本,分子性质预测<br>  
-    </td>
-    <td style="vertical-align:top; width:33%;">
-      <a href="mailto:3212671648@qq.com">周勇</a>, 25硕,核酸农药设计<br>
-      <a href="mailto:leizhu.zl@outlook.com">朱磊</a>, 25硕,抗真菌肽设计<br>
-      <a href="mailto:2509362787@qq.com">蒋俞萱</a>,25硕,智慧育种<br>
-      <a href="mailto:2396081899@qq.com">陈维迅</a>,25硕,智能体分子设计<br> 
-      <a href="mailto:1874906277@qq.com">唐展宏</a>,25硕,靶向核酸降解<br> 
-      <a href="mailto:2432959317@qq.com">朱清</a>, 25硕,植物病菌互作<br> 
-      <a href="mailto:3200817356@qq.com">王美铃</a>,25硕,农药-靶标互作<br> 
-      <a href="mailto:927369600@qq.com">张文举</a>,25硕,化学合成规划<br> 
-
-    </td>
-  </tr>
-</table>
-
-深度合作导师：[郝格非](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[王崎](http://qiwang.me/)、[姚小军](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)  
-深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，浙江大学侯廷军教授课题组博士后，研究方向为AI合成规划  
 
 
