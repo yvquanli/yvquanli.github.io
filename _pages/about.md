@@ -28,7 +28,7 @@ redirect_from:
 
 **收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta期刊，高质量稿件可推荐优先审稿。  
 
-[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：大团队每年较多硕博名额。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程精细指导，丰富计算资源，尽量帮每位同学发出一作一区/A会论文，优秀者全力支持发子刊。  
+[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：大团队每年较多硕博名额。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学发出一篇一作一区/A会论文，优秀者全力支持发子刊。  
 
 <span class='anchor' id='educations'></span>
 
@@ -175,9 +175,9 @@ redirect_from:
 #### 2025年度
 
 - **[2025d]** Chaoyang Xie, Junhu Xu, Guangyi Huang, Shihang Wang, Mutian He, Xinyu Dong, Huiyang Hong, Xiaojun Yao, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction[J]. `Advanced Science`, 2025. (accept)  
-- **[2025c]** Yanan Tian, Ruiqiang Lu, Xiaoqing Gong, **<font color="#ff9933">Yuquan Li</font>**, Wei Zhao, Xiaorui, Wang, Xinming Jia, Qin Li, Yuwei Yang, Henry H. Y. Tong, Joel P. Arrais\*, Huanxiang Liu\*, Xiaojun Yao\*,. Enhancing Kinase-Inhibitor Activity and Selectivity Prediction Through Multimodal and Multiscale Contrastive Learning with Attention Consistency[J]. `Nature Communications`,16,10860(2025). [[HTML]](https://www.nature.com/articles/s41467-025-65869-8)  [[PDF]](https://www.nature.com/articles/s41467-025-65869-8.pdf)
-- **[2025b]** Xiaorui Wang†, Xiaodan Yin†, Xujun Zhang†, Huifeng Zhao, Shukai Gu, Zhenxing Wu, Odin Zhang, Wenjia Qian, Yuansheng Huang, **<font color="#ff9933">Yuquan Li</font>**, Dejun Jiang, Mingyang Wang, Huanxiang Liu, Xiaojun Yao\*, Chang-Yu Hsieh\*, Tingjun Hou\*. A virtual platform for automated hybrid organic-enzymatic synthesis planning[J]. `Nature Communications`,16,10929(2025). [[HTML]](https://www.nature.com/articles/s41467-025-65898-3)  [[PDF]](https://www.nature.com/articles/s41467-025-65898-3_reference.pdf)
-- **[2025a]** Zhenglu Chen, Chunbin Gu\*, Shuoyan Tan, Xiaorui Wang, **<font color="#ff9933">Yuquan Li</font>**, Mutian He, Ruiqiang Lu, Shijia Sun, Chang-Yu Hsieh\*, Xiaojun Yao\*, Huanxiang Liu\*, Pheng-Ann Heng. A virtual platform for automated hybrid organic-enzymatic synthesis planning[J]. `Advanced Science`, 2025. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202508138)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202508138)
+- **[2025c]** Yanan Tian, Ruiqiang Lu, Xiaoqing Gong, **<font color="#ff9933">Yuquan Li</font>**, Wei Zhao, Xiaorui, Wang, Xinming Jia, Qin Li, Yuwei Yang, Henry H. Y. Tong, Joel P. Arrais\*, Huanxiang Liu\*, Xiaojun Yao\*,. Enhancing Kinase-Inhibitor Activity and Selectivity Prediction Through Multimodal and Multiscale Contrastive Learning with Attention Consistency[J]. `Nature Communications`,2025,16:10860. [[HTML]](https://www.nature.com/articles/s41467-025-65869-8)  [[PDF]](https://www.nature.com/articles/s41467-025-65869-8.pdf)
+- **[2025b]** Xiaorui Wang†, Xiaodan Yin†, Xujun Zhang†, Huifeng Zhao, Shukai Gu, Zhenxing Wu, Odin Zhang, Wenjia Qian, Yuansheng Huang, **<font color="#ff9933">Yuquan Li</font>**, Dejun Jiang, Mingyang Wang, Huanxiang Liu, Xiaojun Yao\*, Chang-Yu Hsieh\*, Tingjun Hou\*. A virtual platform for automated hybrid organic-enzymatic synthesis planning[J]. `Nature Communications`,2025,16:10929. [[HTML]](https://www.nature.com/articles/s41467-025-65898-3)  [[PDF]](https://www.nature.com/articles/s41467-025-65898-3_reference.pdf)
+- **[2025a]** Zhenglu Chen, Chunbin Gu\*, Shuoyan Tan, Xiaorui Wang, **<font color="#ff9933">Yuquan Li</font>**, Mutian He, Ruiqiang Lu, Shijia Sun, Chang-Yu Hsieh\*, Xiaojun Yao\*, Huanxiang Liu\*, Pheng-Ann Heng. Interpretable PROTAC Degradation Prediction With Structure-Informed Deep Ternary Attention Framework[J]. `Advanced Science`, 2025. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202508138)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202508138)
 
 #### 2024年度
 
