@@ -28,7 +28,7 @@ redirect_from:
 
 **收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta期刊，高质量稿件可推荐优先审稿。  
 
-[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：大团队每年较多硕博名额。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学发出一篇一作一区/A会论文，优秀者全力支持发子刊。  
+[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：大团队每年较多硕博名额。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学产出一篇一作一区/A会论文，优秀者全力支持发子刊。  
 
 <span class='anchor' id='educations'></span>
 
