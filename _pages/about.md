@@ -60,25 +60,6 @@ redirect_from:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <span class='anchor' id='projects'></span>  
 
 # 📑 科研项目
@@ -125,8 +106,8 @@ redirect_from:
       <a href="mailto:927369600@qq.com">张文举</a>, 25硕,化学合成规划<br> 
     </td>
   </tr>
-</table>
 
+</table>
 深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、[王崎³](http://qiwang.me/)、[杨文超⁴](https://pmc.gzu.edu.cn/2025/1104/c22866a260269/page.htm)   (不分先后)  
 深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，浙江大学侯廷军教授课题组博士后，研究方向为AI合成规划  
 
