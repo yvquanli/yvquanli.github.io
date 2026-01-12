@@ -59,7 +59,8 @@
 <a href="mailto:3156785727@qq.com">谢朝阳</a>,23硕, 分子性质预测, 一作发表1篇顶刊(Advanced Science)。  
 <a href="mailto:2509362787@qq.com">蒋俞萱</a>,25硕, 智慧育种。  
 <a href="mailto:2396081899@qq.com">陈维迅</a>,25硕, 智能体分子设计。  
-<a href="mailto:3272282882@qq.com">洪晖阳</a>,22本, 分子性质预测, 一作在投1篇顶刊Communications Chemistry。  
+<a href="mailto:3272282882@qq.com">洪晖阳</a>,22本, 分子性质预测, 一作发表1篇顶刊Communications Chemistry。  
+
 
 
 

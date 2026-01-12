@@ -1,6 +1,8 @@
+
+
 长期从事 **AI绿色农药创制方向** 的研究工作。针对绿色农药创制难度大、成本高、周期长的瓶颈，开展AI驱动的高效低毒且生态友好的绿色农药创制研究，重点研究“专家智慧+通用AI+专用AI+湿实验机器人”四位一体协作绿色农药创制理论，构建全链条干湿闭环智能绿色农药创制平台，以期显著提升创制成功率和效率，相关工作已以主要作者身份发表于[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)、Advanced Science等期刊。目前研究兴趣包括:  
 - AI基础研究：多智能体、大语言模型、分子表示学习  
-- 植物保护：小分子/多肽/RNAi/纳米绿色农药设计、智慧基因组育种、病虫草靶标发现、合成规划  
+- 植物保护：小分子/多肽/RNAi/纳米绿色农药设计、智慧基因组育种、病虫草靶标发现、合成规划   
 
 **收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta期刊，高质量稿件可推荐优先审稿。  
 
@@ -23,7 +25,7 @@
 <span class='anchor' id='jobs2'></span>    
 
 # 🏛️ 学术兼职
-
+*2026.1 &ensp;- 今*&emsp;&emsp;&emsp;《[Innovation Drug Discovery](https://www.the-innovation.org/drugdiscovery)》(子刊定位) 植物化学天然产物方向，编委、创刊筹委  
 *2025.8 &ensp;- 今*&emsp;&emsp;&emsp;《[Innovation](https://www.cell.com/the-innovation/home)》期刊(综合一区 IF=25.7) 植物科学方向，青年编委  
 *2025.8 &ensp;- 今*&emsp;&emsp;&emsp;《[iMeta](https://onlinelibrary.wiley.com/journal/2770596x)》期刊(生物一区 IF=33.2) 农药信息学方向，青年编委  
 *2024.9 &ensp;- 今*&emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(综合一区 IF=22.5) 植物科学方向，青年编委(获杰出青年编委奖)  
@@ -86,5 +88,4 @@
 
 深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、其他合作导师³    
 深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，浙江大学侯廷军教授课题组博士后，研究方向为AI合成规划  
-
 
