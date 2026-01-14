@@ -26,7 +26,7 @@ redirect_from:
 - AI基础研究：多智能体、大语言模型、分子表示学习  
 - AI for Science研究：小分子/多肽/蛋白/小核酸/递送材料从头设计、靶标发现、合成规划  
 
-**收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta期刊，高质量稿件可推荐优先审稿。  
+**收稿ing**：欢迎联系本人投稿至TIDD/Innovation/Exploration/iMeta期刊，高质量稿件可推荐优先审稿。  
 
 [**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：大团队每年较多硕博名额。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学产出一篇一作一区/A会论文，优秀者全力支持发子刊。  
 
