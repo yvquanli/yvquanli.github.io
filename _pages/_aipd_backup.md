@@ -25,7 +25,7 @@
 <span class='anchor' id='jobs2'></span>    
 
 # 🏛️ 学术兼职
-*2026.1 &ensp;- 今*&emsp;&emsp;&emsp;《[Innovation Drug Discovery](https://www.the-innovation.org/drugdiscovery)》(子刊定位) 植物化学与天然产物方向，创刊筹委、编委  
+*2026.1 &ensp;- 今*&emsp;&emsp;&emsp;《[Innovation Drug Discovery](https://www.the-innovation.org/drugdiscovery)》(子刊定位) AI辅助分子设计方向，创刊筹委、执行编委  
 *2025.8 &ensp;- 今*&emsp;&emsp;&emsp;《[Innovation](https://www.cell.com/the-innovation/home)》期刊(综合一区 IF=25.7) 植物科学方向，青年编委  
 *2025.8 &ensp;- 今*&emsp;&emsp;&emsp;《[iMeta](https://onlinelibrary.wiley.com/journal/2770596x)》期刊(生物一区 IF=33.2) 农药信息学方向，青年编委  
 *2024.9 &ensp;- 今*&emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(综合一区 IF=22.5) 植物科学方向，青年编委(获杰出青年编委奖)  
