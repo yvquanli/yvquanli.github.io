@@ -6,7 +6,7 @@
 
 **交流ing**：非常希望跟各位专家建立联系，碰撞新思想，18297126075(微信同号)。  
 
-**收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta期刊，高质量稿件可安排高速发表流程。    
+**收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta期刊，高质量稿件可安排高速发表流程。  
 
 [**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：硕博/联培/实习招募中。开学入门培训，全程精细指导，丰富计算资源，尽量帮每位同学发出一作一区论文，优秀者全力支持发子刊。  
 
@@ -19,7 +19,7 @@
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 工作经历
-*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学 绿色农药全国重点实验室](https://cs.gzu.edu.cn/16246/list.htm) 流动研究人员  
+*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学 绿色农药全国重点实验室](https://cs.gzu.edu.cn/16246/list.htm) 郝格非教授团队AI农药方向负责人   
 *2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学 公共大数据国家重点实验室/计算机科学与技术学院](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)，特聘教授  
 *2022.7 &ensp;- 2023.4* &emsp;[北京智源人工智能研究院](https://www.baai.ac.cn/) [付杰团队](https://bigaidream.github.io/)，研究实习  
 *2020.8 &ensp;- 2022.6* &emsp;[腾讯公司 量子实验室](htps://quantum.tencent.com/)，联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))  
@@ -45,7 +45,7 @@
 # 📑 科研项目
 [1]国家数据局数据集先行先试项目,全国作物病虫草-农药多模态植物保护数据集,2026,课题负责人  
 [2]国家自然科学基金地区项目,基于人工智能的麦田蚜虫RNAi基因挖掘及RNAi农药设计,32万,2026,主持  
-[3]贵州大学人才引进特岗项目,多约束小分子生成设计新方法研究,40万,2024,主持  
+[3]贵州大学人才引进特岗项目,多约束小分子农药生成设计新方法研究,40万,2024,主持  
 
 
 
@@ -88,6 +88,6 @@
   </tr>
 </table>
 
-深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、其他合作导师³    
+深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、其他资深导师³    
 深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，浙江大学侯廷军教授课题组博士后，研究方向为AI合成规划  
 
