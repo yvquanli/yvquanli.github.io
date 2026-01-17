@@ -4,9 +4,11 @@
 - AI基础研究：多智能体、大语言模型、分子表示学习  
 - 植物保护：小分子/多肽/RNAi/纳米绿色农药设计、智慧基因组育种、病虫草靶标发现、合成规划   
 
-**收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta期刊，高质量稿件可推荐优先审稿。  
+**交流ing**：非常希望跟各位专家建立联系，碰撞新思想，18297126075(微信同号)。  
 
-[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：大团队每年较多硕博名额。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程精细指导，丰富计算资源，尽量帮每位同学发出一作一区/A会论文，优秀者全力支持发子刊。  
+**收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta期刊，高质量稿件可安排高速发表流程。    
+
+[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：硕博/联培/实习招募中。开学入门培训，全程精细指导，丰富计算资源，尽量帮每位同学发出一作一区论文，优秀者全力支持发子刊。  
 
 <span class='anchor' id='educations'></span>
 
@@ -31,7 +33,7 @@
 *2024.9 &ensp;- 今*&emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(综合一区 IF=22.5) 植物科学方向，青年编委(获杰出青年编委奖)  
 *2024.8 &ensp;- 今* &emsp;&emsp;&emsp;中斯茶叶绿色防控一带一路国际联合实验室， 创始建设参与  
 *2025.1、2025.8* &emsp;&ensp;贵州省大数据局项目人工智能产业方向评审专家组，组长  
-*2026.1* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;第六届国际绿色植保技术创新会议，组委会委员  
+*2026.1* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;第六届国际绿色植保技术创新会议，组委会  
 *2025.8* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;中国植物保护学会青托论坛，会务秘书  
 
 
