@@ -3,7 +3,7 @@
    ========================================================================== */
 
 table {
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   width: 100%;
   font-family: $global-font-family;
   font-size: $type-size-6;
@@ -11,7 +11,7 @@ table {
   // border: 1px solid $light-gray;
 
   & + table {
-    margin-top: 1em;
+    margin-top: 0em;
   }
 }
 
@@ -27,15 +27,15 @@ th {
   // border-right: 1px solid $light-gray;
 }
 tr {
-  padding-bottom: .5em;
-  padding-top: .5em;
+  padding-bottom: 0em;
+  padding-top: 0em;
 }
 td {
-  padding: .5em;
-  border-bottom: 1px solid $light-gray;
+  padding: 0em;
+  border-bottom: 0px solid $light-gray;
   // border-right: 1px solid $light-gray;
 }
 
 tr, td, th {
-  vertical-align: middle;
+  vertical-align: top;
 }

@@ -8,6 +8,52 @@ redirect_from:
   - /about.html
 ---
 
+
+<style>
+  /* 简历列表表格通用样式 */
+  .cv-table { 
+    border: none; 
+    border-spacing: 0; 
+    border-collapse: collapse; 
+    margin: 10px 0; 
+    width: 100%;
+  }
+  .cv-table td { 
+    vertical-align: top; 
+    padding-bottom: 8px; /* 条目间距 */
+  }
+  
+  /* 时间列样式：不换行、斜体、右边距 */
+  .cv-date { 
+    width: 1%; 
+    white-space: nowrap; 
+    padding-right: 20px; 
+    font-style: italic; 
+    color: #555;
+  }
+
+  /* 名字高亮样式 */
+  .highlight { 
+    color: #ff9933; 
+    font-weight: bold; 
+  }
+  
+  /* 底部图片居中样式 */
+  .img-center { 
+    display: block; 
+    margin: 60px auto 0; 
+    width: 50%;
+  }
+
+  /* 锚点定位偏移（防止被导航栏遮挡，如有需要） */
+  .anchor {
+    display: block;
+    position: relative;
+    top: -50px; 
+    visibility: hidden;
+  }
+</style>
+
 <span class='anchor' id='about-me'></span>
 
 
@@ -26,38 +72,68 @@ redirect_from:
 - AI基础研究：多智能体、大语言模型、分子表示学习  
 - AI for Science研究：小分子/多肽/蛋白/小核酸/递送材料从头设计、靶标发现、合成规划  
 
-**交流ing**：非常希望跟各位专家建立联系，碰撞新思想，(微信yvquanli)。  
+**交流ing**：非常希望跟各位专家建立联系，碰撞新思想(微信yvquanli)。  
 
-**收稿ing**：欢迎联系本人投稿至TIDD/Innovation/Exploration/iMeta期刊，高质量稿件可安排高速发表流程。  
+**收稿ing**：欢迎联系本人投稿至TIDD/Innovation/Exploration/iMeta期刊，高质量稿件可优先送审。  
 
 [**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：硕博/联培/实习招募中。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学产出一篇一作一区/A会论文，优秀者全力支持发子刊。  
 
 <span class='anchor' id='educations'></span>
 
 # 🎓 教育经历
-*2019.9 - 2024.6* &emsp;&ensp;硕博 - 兰州大学，化学化工学院(专业：化学信息学，导师：[姚小军教授](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php))  
-*2015.9 - 2019.6* &emsp;&ensp;本科 - 青海大学，计算机学院(专业：计算机科学与技术)  
+<table class="cv-table"><tr><td class="cv-date">      
+      2019.9 - 2024.6<br>
+      2015.9 - 2019.6
+    </td>
+    <td>
+      硕博 - 兰州大学，化学化工学院(专业：化学信息学，导师：<a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">姚小军教授</a>)<br>
+      本科 - 青海大学，计算机学院(专业：计算机科学与技术)
+    </td>
+  </tr>
+</table>
 
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 工作经历
-*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学 公共大数据国家重点实验室/计算机科学与技术学院](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm)，特聘教授   
-*2024.10 - 今* &emsp;&emsp;&emsp;[贵州大学 绿色农药全国重点实验室](https://cs.gzu.edu.cn/16246/list.htm)，流动研究人员  
-*2022.7 &ensp;- 2023.4* &emsp;[北京智源人工智能研究院](https://www.baai.ac.cn/) [付杰团队](https://bigaidream.github.io/)，研究实习  
-*2020.8 &ensp;- 2022.6* &emsp;[腾讯公司 量子实验室](htps://quantum.tencent.com/)，联合培养(合作导师：[谢昌谕博士](https://person.zju.edu.cn/changyuhsieh))  
+<table class="cv-table"><tr><td class="cv-date">      
+      2024.10 - 今<br>
+      2024.10 - 今<br>
+      2022.7&ensp; - 2023.4<br>
+      2020.8&ensp; - 2022.6<br>
+    </td>
+    <td>
+      <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">贵州大学 公共大数据国家重点实验室/计算机科学与技术学院</a>，特聘教授<br>
+      <a href="https://cs.gzu.edu.cn/16246/list.htm">贵州大学 绿色农药全国重点实验室</a>，流动研究人员<br>
+      <a href="https://www.baai.ac.cn/">北京智源人工智能研究院</a> <a href="https://bigaidream.github.io/">付杰团队</a>，研究实习<br>
+      <a href="htps://quantum.tencent.com/">腾讯公司 量子实验室</a>，联合培养(合作导师：<a href="https://person.zju.edu.cn/changyuhsieh">谢昌谕博士</a>)<br>
+    </td>
+  </tr>
+</table>
 
 <span class='anchor' id='jobs2'></span>    
 
 # 🏛️ 学术兼职
-*2026.1 &ensp;- 今*&emsp;&emsp;&emsp;《[Innovation Drug Discovery](https://www.the-innovation.org/drugdiscovery)》期刊(子刊定位)，创刊筹委、执行编委  
-*2025.8 &ensp;- 今*&emsp;&emsp;&emsp;《[Innovation](https://www.cell.com/the-innovation/home)》期刊(综合一区 IF=25.7)，青年编委  
-*2025.8 &ensp;- 今*&emsp;&emsp;&emsp;《[iMeta](https://onlinelibrary.wiley.com/journal/2770596x)》期刊(生物一区 IF=33.2)，青年编委  
-*2024.9 &ensp;- 今*&emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊(综合一区 IF=22.5)，青年编委(获杰出青年编委奖)    
-*2024.8 &ensp;- 今* &emsp;&emsp;&emsp;中斯茶叶绿色防控一带一路国际联合实验室， 创始建设参与  
-*2026.1* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;第六届国际绿色植保技术创新会议，组委会  
-*2025.1、2025.8* &emsp;&ensp;贵州省大数据局项目人工智能产业方向评审专家组，组长  
+<table class="cv-table"><tr><td class="cv-date">      
 
-
+      2026.1 &ensp;- 今<br>
+      2025.8 &ensp;- 今<br>
+      2025.8 &ensp;- 今<br>
+      2024.9 &ensp;- 今<br>
+      2024.8 &ensp;- 今<br>
+      2026.1<br>
+      2025.1、2025.8<br>
+    </td>
+    <td>
+      《<a href="https://www.the-innovation.org/drugdiscovery">Innovation Drug Discovery</a>》期刊(子刊定位)，创刊筹委、执行编委<br>
+      《<a href="https://www.cell.com/the-innovation/home">Innovation</a>》期刊(综合一区 IF=25.7)，青年编委<br>
+      《<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>》期刊(生物一区 IF=33.2)，青年编委<br>
+      《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊(综合一区 IF=22.5)，青年编委(获杰出青年编委奖)<br>
+      中斯茶叶绿色防控一带一路国际联合实验室， 创始建设参与<br>
+      第六届国际绿色植保技术创新会议，组委会<br>
+      贵州省大数据局项目人工智能产业方向评审专家组，组长<br>
+    </td>
+  </tr>
+</table>
 
 
 
@@ -75,8 +151,7 @@ redirect_from:
 
 # 👥 团队成员
 
-<table style="width:100%;">
-  <tr>
+<table class="cv-table"><tr>  
     <td style="vertical-align:top; width:33%;">
       <a href="mailto:yujianz093@gmail.com">张晓</a>¹, 21博,核酸农药设计<br>
       <a href="mailto:dongxinyu@samlab.cn">董新宇</a>¹,24博,多目标分子生成<br>
@@ -187,19 +262,34 @@ redirect_from:
 <span class='anchor' id='award'></span>
 
 # 🌟 奖项荣誉
-*2025.9* &emsp;&emsp;&emsp;《[Exploration](https://onlinelibrary.wiley.com/journal/27662098)》期刊  2025年度杰出青年编委奖  
-*2024.10* &emsp;&emsp;&emsp;贵州大学一流学科建设特别引进人才  
-
-<span class='anchor' id='activity'></span>
+<table class="cv-table"><tr><td class="cv-date">       
+      2025.9<br>
+      2024.10<br>
+    </td>
+    <td>
+      《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊  2025年度杰出青年编委奖<br>
+      贵州大学一流学科建设特别引进人才<br>
+    </td>
+  </tr>
+</table>
 
 # 🏛️ 学术活动
-*2025.11*&emsp;&emsp;&emsp;[扬州大学，保绿兴农学术大讲堂](https://zwbhxy.yzu.edu.cn/info/1077/3523.htm)，报告题目：人工智能辅助农药设计  
-*2025.10*&emsp;&emsp;&emsp;[第十四届全国生物信息学与系统生物学学术大会药物发现分会](https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf)，报告题目：多目标梯度引导分子生成  
-*2023.3* &emsp;&emsp;&emsp; [兰州大学第十五届研究生学术年会](https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441)，报告题目：化学×AI，现在与未来  
-*2023.5-今*&emsp;&emsp; iMeta、Nature Communications等期刊审稿人  
-*2021.9-今* &emsp;&emsp;中国植保学会、中国人工智能学会、中国计算机学会、中国化学会， 专业会员  
-
-<span class='anchor' id='others'></span>
+<table class="cv-table"><tr><td class="cv-date">      
+      2025.11<br>
+      2025.10<br>
+      2023.3<br>
+      2023.5-今<br>
+      2021.9-今<br>
+    </td>
+    <td>
+      <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">扬州大学，保绿兴农学术大讲堂</a>，报告题目：人工智能辅助农药设计<br>
+      <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">第十四届全国生物信息学与系统生物学学术大会</a>，报告题目：多目标梯度引导分子生成<br>
+       <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">兰州大学第十五届研究生学术年会</a>，报告题目：化学×AI，现在与未来<br>
+       iMeta、Nature Communications等期刊审稿人<br>
+       中国植保学会、中国人工智能学会、中国计算机学会、中国化学会， 专业会员<br>
+    </td>
+  </tr>
+</table>
 
 # 🙌 其他
 大乱斗，War3 RPG/RTS，DNF  

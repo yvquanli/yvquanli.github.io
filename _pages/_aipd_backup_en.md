@@ -1,38 +1,132 @@
-Long-term engagement in research within the **AI for Green Pesticide Discovery**. Addressing bottlenecks such as the high difficulty, cost, and long cycles of green pesticide creation, I conduct AI-driven research on efficient, low-toxicity, and eco-friendly green pesticides. My research focuses on the four-in-one collaborative theory of "Expert Wisdom + General AI + Specialized AI + Wet Lab Robot," building a full-chain dry-wet closed-loop intelligent green pesticide discovery platform to significantly improve the success rate and efficiency of creation. Related work has been published as the lead author in journals such as [Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8) and Advanced Science. Current research interests include:  
-- AI Foundations: Multi-agent systems, Large Language Models (LLMs), Molecular representation learning  
-- Plant Protection: De novo design of small molecules/peptides/RNAi/nanopesticides, Smart genomic breeding, Pest/weed target discovery, Synthesis planning   
+Specialized in **AI-driven Green Pesticide Discovery**. Addressing the bottlenecks of high difficulty, cost, and long cycles in pesticide creation, my research focuses on the "Expert Wisdom + General AI + Specialized AI + Wet Lab Robot" integrated framework. The goal is to build a full-chain closed-loop intelligent platform to significantly enhance the success rate and efficiency of green pesticide discovery. Key works have been published in [Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8), *Advanced Science*, and other prestigious journals.
 
-**Networking**: Eager to establish connections with experts to spark new ideas (Phone/WeChat: 18297126075).  
+**Current Research Interests:**
+- **AI Foundations:** Multi-agent Systems, LLMs, Molecular Representation Learning.
+- **Plant Protection:** Design of Small Molecule/Peptide/RNAi/Nano-pesticides, Smart Genomic Breeding, Target Discovery, Retrosynthesis Planning.
 
-**Call for Papers**: Welcome to contact me for submissions to Innovation/Exploration/iMeta journals; high-quality manuscripts can be arranged for a fast-track publication process.  
+**Open for Collab**: Eager to connect with experts for new ideas. Phone/WeChat: (+86) 182-9712-6075.  
 
-[**Recruiting**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00): Recruiting Masters/PhDs/Joint students/Interns. I provide introductory training upon enrollment, detailed guidance throughout the process, and abundant computing resources to try and help every student publish a First Author Q1 paper. Outstanding students will receive full support for publishing in sub-journals.  
+**Call for Papers**: Inviting submissions to *The Innovation*, *Exploration*, and *iMeta*. High-quality manuscripts can be prioritized for review.  
+
+[**Recruiting**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00): Openings for Masters, PhDs, Visiting Students, and Interns. We provide comprehensive training, abundant computing resources, and full support for publishing Q1 papers (aiming for sub-journals for outstanding students).
 
 <span class='anchor' id='educations'></span>
 
 # 🎓 Education
-*Sep 2019 - Jun 2024* &emsp;&ensp;M.S. & Ph.D. - Lanzhou University, College of Chemistry and Chemical Engineering (Major: Chemoinformatics, Supervisor: [Prof. Xiaojun Yao](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php))  
-*Sep 2015 - Jun 2019* &emsp;&ensp;B.E. - Qinghai University, School of Computer Science (Major: Computer Science and Technology)  
+<table class="cv-table"><tr><td class="cv-date">      
+      <i>Sep 2019 - Jun 2024</i><br>
+      <i>Sep 2015 - Jun 2019</i><br>
+    </td>
+    <td>
+      Ph.D. - Lanzhou University, College of Chemistry (Major: Chemoinformatics, Supervisor: <a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">Prof. Xiaojun Yao</a>)<br>
+      B.S. - Qinghai University, College of Computer Science (Major: Computer Science & Technology) <br>
+    </td>
+  </tr>
+</table>
 
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 Work Experience
-*Oct 2024 - Present* &emsp;&emsp;&emsp;[Guizhou University, State Key Laboratory of Green Pesticide](https://cs.gzu.edu.cn/16246/list.htm) AI Pesticide Lead in Prof. Gefei Hao's Team   
-*Oct 2024 - Present* &emsp;&emsp;&emsp;[Guizhou University, State Key Laboratory of Public Big Data / College of Computer Science and Technology](https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm), Special Term Professor  
-*Jul 2022 &ensp;- Apr 2023* &emsp;[Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn/) [Jie Fu's Team](https://bigaidream.github.io/), Research Intern  
-*Aug 2020 &ensp;- Jun 2022* &emsp;[Tencent Quantum Lab](htps://quantum.tencent.com/), Joint Training (Co-advisor: [Dr. Chang-Yu Hsieh](https://person.zju.edu.cn/changyuhsieh))  
+<table class="cv-table"><tr><td class="cv-date">      
+      <i>Oct 2024 - Present</i><br>
+      <i>Oct 2024 - Present</i><br>
+      <i>Jul 2022 - Apr 2023</i><br>
+      <i>Aug 2020 - Jun 2022</i><br>
+    </td>
+    <td>
+      Prof. Gefei Hao's Team AI-Pesticide direction leader, <a href="https://cs.gzu.edu.cn/16246/list.htm">State Key Laboratory of Green Pesticide</a>, Guizhou University <br>
+      Special-term Professor, <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">State Key Laboratory of Public Big Data / College of CS & Technology</a>, Guizhou University<br>
+      Research Intern, <a href="https://www.baai.ac.cn/">Beijing Academy of Artificial Intelligence (BAAI)</a> (<a href="https://bigaidream.github.io/">Prof. Jie Fu's Team</a>)<br>
+      Joint Training, <a href="htps://quantum.tencent.com/">Tencent Quantum Lab</a> (Mentor: <a href="https://person.zju.edu.cn/changyuhsieh">Dr. Changyu Hsieh</a>)<br>
+    </td>
+  </tr>
+</table>
 
 <span class='anchor' id='jobs2'></span>    
 
 # 🏛️ Academic Services
-*Jan 2026 &ensp;- Present*&emsp;&emsp;&emsp;"[Innovation Drug Discovery](https://www.the-innovation.org/drugdiscovery)" (Sister Journal positioning) AI Molecular Generation & Design, Founding Committee Member, Executive Editorial Board Member  
-*Aug 2025 &ensp;- Present*&emsp;&emsp;&emsp;"[Innovation](https://www.cell.com/the-innovation/home)" Journal (Comprehensive Q1, IF=25.7) Plant Science, Youth Editorial Board Member  
-*Aug 2025 &ensp;- Present*&emsp;&emsp;&emsp;"[iMeta](https://onlinelibrary.wiley.com/journal/2770596x)" Journal (Biological Q1, IF=33.2) Pesticide Informatics, Youth Editorial Board Member  
-*Sep 2024 &ensp;- Present*&emsp;&emsp;&emsp;"[Exploration](https://onlinelibrary.wiley.com/journal/27662098)" Journal (Comprehensive Q1, IF=22.5) Plant Science, Youth Editorial Board Member (Awarded Outstanding Youth Editorial Board Member)  
-*Aug 2024 &ensp;- Present* &emsp;&emsp;&emsp;China-Sri Lanka Belt and Road Joint Laboratory for Green Prevention and Control of Tea Pests, Founding Participant  
-*Jan 2025, Aug 2025* &emsp;&ensp;Review Expert Group for AI Industry Direction, Guizhou Big Data Bureau Projects, Group Leader  
-*Jan 2026* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;The 6th International Conference on Green Plant Protection Technology Innovation, Organizing Committee  
-*Aug 2025* &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;China Society of Plant Protection Youth Forum, Conference Secretary
+<table class="cv-table"><tr><td class="cv-date">      
+      <i>Jan 2026 - Present</i><br>
+      <i>Aug 2025 - Present</i><br>
+      <i>Aug 2025 - Present</i><br>
+      <i>Sep 2024 - Present</i><br>
+      <i>Aug 2024 - Present</i><br>
+      <i>Jan 2025, Aug 2025</i><br>
+      <i>Jan 2026</i><br>
+      <i>Aug 2025</i><br>
+    </td>
+    <td>
+      Founding Committee / Executive Editorial Board, <i><a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a></i><br>
+      Youth Editorial Board, <i><a href="https://www.cell.com/the-innovation/home">The Innovation</a></i> (IF=25.7)<br>
+      Youth Editorial Board, <i><a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a></i> (IF=33.2)<br>
+      Youth Editorial Board, <i><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a></i> (IF=22.5, Received Outstanding Youth Editor Award)<br>
+      Founding Member, China-Sri Lanka Joint Lab for Green Prevention and Control of Tea Pests<br>
+      Group Leader, AI Industry Review Expert Group, Big Data Bureau of Guizhou Province<br>
+      Organizing Committee, The 6th International Conference on Green Plant Protection Innovation<br>
+      Secretary, China Society of Plant Protection Youth Forum<br>
+    </td>
+  </tr>
+</table>
 
+<span class='anchor' id='projects'></span>  
 
-2024.10 - Present    Guizhou University, State Key Laboratory of Public Big Data / College of Computer Science and Technology, Distinguished Professor
+# 📑 Research Projects
+[1] Pilot Project of National Data Bureau, *National Crop Pests/Weeds-Pesticide Multimodal Plant Protection Dataset*, 2026, **Project Leader** [2] NSFC Regional Fund, *AI-based RNAi Gene Mining and Pesticide Design for Wheat Aphids*, 320k RMB, 2026, **Host** [3] Guizhou University Talent Project, *New Methods for Multi-constraint Small Molecule Pesticide Generation*, 400k RMB, 2024, **Host** <span class='anchor' id='people'></span>  
+
+# 👥 Team Members
+
+<table class="cv-table">
+  <tr>
+    <td style="vertical-align:top; width:33%;">
+      <a href="mailto:yujianz093@gmail.com">Xiao Zhang</a>¹, PhD'21, Nucleic Acid Pesticide<br>
+      <a href="mailto:dongxinyu@samlab.cn">Xinyu Dong</a>¹, PhD'24, Multi-obj. Mol. Gen.<br>
+      <a href="mailto:h397465119@163.com">Guangyi Huang</a>¹, PhD'24, AI Target Discovery<br>
+      <a href="mailto:p2521371@mpu.edu.mo">Shihang Wang</a>², PhD'25, Cell Phenotype Learning<br>
+      <a href="mailto:sereinnario@gmail.com">Mutian He</a>², PhD'25, Macromol. Drugs, DEL<br>  
+      <a href="mailto:gong-dh@foxmail.com">Daohong Gong</a>², PhD'25, PROTAC Design<br> 
+      <a href="mailto:2427993513@qq.com">Haozhen Guo</a>¹, PhD'25, Agentic Peptide Design<br> 
+      <a href="mailto:shuangy.th@gmail.com">Hushuangyin Tang</a>², PhD'26, Delivery Sys., ADC<br> 
+    </td>
+    <td style="vertical-align:top; width:33%;">
+      <a href="mailto:3156785727@qq.com">Chaoyang Xie</a>³, MS'23, Mol. Prop. Prediction<br>
+      <a href="mailto:2118116004@qq.com">Jun Zhou</a>¹, MS'24, Synthesis Planning<br>
+      <a href="mailto:z1985639584@gmail.com">Jun Zhang</a>³, MS'24, PPI/DDI Prediction<br>
+      <a href="mailto:3331231706@qq.com">Yilun Zhang</a>³, MS'24, Enzyme Func. & Design<br>
+      <a href="mailto:nanwanwu03@gmail.com">Nanwan Wu</a>¹, MS'24, Peptide-Drug Conjugate<br>
+      <a href="mailto:luoxix@foxmail.com">Xixuan Luo</a>¹, MS'24, DTI/DDI Prediction<br>
+      <a href="mailto:1400883809@qq.com">Longbiao Zhang</a>¹, MS'24, AI Delivery System<br>
+      <a href="mailto:3272282882@qq.com">Huiyang Hong</a>, BS'22, PROTAC<br>  
+    </td>
+    <td style="vertical-align:top; width:33%;">
+      <a href="mailto:3212671648@qq.com">Yong Zhou</a>, MS'25, Nucleic Acid Pesticide<br>
+      <a href="mailto:leizhu.zl@outlook.com">Lei Zhu</a>³, MS'25, AI Peptide/Protein<br>
+      <a href="mailto:2509362787@qq.com">Yuxuan Jiang</a>, MS'25, Smart Breeding<br>
+      <a href="mailto:2396081899@qq.com">Weixun Chen</a>, MS'25, Agentic Mol. Design<br> 
+      <a href="mailto:1874906277@qq.com">Zhanhong Tang</a>³, MS'25, Targeted NA Degradation<br> 
+      <a href="mailto:2432959317@qq.com">Qing Zhu</a>¹, MS'25, Plant-Pathogen Interaction<br> 
+      <a href="mailto:3200817356@qq.com">Meiling Wang</a>, MS'25, DTI Interaction<br> 
+      <a href="mailto:927369600@qq.com">Wenju Zhang</a>, MS'25, Chemical Synthesis<br> 
+    </td>
+  </tr>
+</table>
+
+**Deep Collaboration Supervisors:** [Prof. Gefei Hao¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm), [Prof. Xiaojun Yao²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php), Other Senior Supervisors³  
+**Deep Collaboration Partner:** [Dr. Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ) (Postdoc @ ZJU, Prof. Tingjun Hou's Group, AI Synthesis Planning)
+
+# 📝 Paper
+**[1]** **Li** et al. An adaptive graph learning method for automated molecular interactions and properties predictions. `Nature Machine Intelligence IF=23.8`<sup>▴</sup>
+[[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)  
+
+**[2]** **Li** et al. Introducing block design in graph neural networks for molecular properties prediction. `Chemical Engineering Journal IF=16.7`<sup>▴</sup>
+[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)  
+
+**[3]** **Li\*** et al. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction. `Advanced Science IF=14.1`<sup>▴</sup>
+[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)  
+
+**[4]** **Li<sup>†</sup>** et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>▴</sup>
+[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)  
+
+**[5]** **Li<sup>†</sup>** et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions. `Chemical Engineering Journal IF=16.7`<sup>▴</sup>
+[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)  
+
+**\***corresponding  **<sup>†</sup>**equal contribution  <sup>▴</sup>Published year IF    
