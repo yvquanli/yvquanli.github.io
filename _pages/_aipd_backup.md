@@ -112,7 +112,7 @@
 
 
 
-深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、其他资深导师³    
+深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、联培导师³⁴  
 深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，浙江大学侯廷军教授课题组博士后，研究方向为AI合成规划  
 
 
