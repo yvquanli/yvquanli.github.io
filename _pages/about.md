@@ -35,7 +35,7 @@ redirect_from:
 - AI基础研究：多智能体、分子表示学习、分子生成  
 - AI for Science研究：小分子/多肽/蛋白/小核酸/材料从头设计、精准农业和智慧植保
 
-**交流ing**：非常希望跟各位专家建立联系，碰撞新思想(微信yvquanli)。  
+**交流ing**：非常希望跟各位专家和同学建立联系，碰撞新思想(微信yvquanli)。  
 
 **收稿ing**：欢迎联系本人投稿至TIDD/Innovation/Exploration/iMeta期刊，高质量稿件可优先送审。  
 
