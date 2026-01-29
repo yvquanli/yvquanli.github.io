@@ -84,7 +84,7 @@ redirect_from:
       《<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>》期刊(目标IF~20)，创刊筹委、执行编委<br>
       《<a href="https://www.cell.com/the-innovation/home">The Innovation</a>》期刊(综合一区 IF=25.7)，青年编委<br>
       《<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>》期刊(生物一区 IF=33.2)，青年编委<br>
-      《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊(综合一区 IF=22.5)，青年编委(获杰出青年编委奖)<br>
+      《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊(综合一区 IF=22.5)，青年编委、青委会植物学部副主任<br>
       中斯茶叶绿色防控一带一路国际联合实验室， 创始建设参与<br>
       第六届国际绿色植保技术创新会议，组委会<br>
       贵州省大数据局项目人工智能产业方向评审专家组，组长<br>
