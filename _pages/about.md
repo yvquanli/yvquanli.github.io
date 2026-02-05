@@ -135,8 +135,7 @@ redirect_from:
       <a href="mailto:2396081899@qq.com">陈维迅</a>, 25硕,智能体分子设计 <br> 
       <a href="mailto:1874906277@qq.com">唐展宏</a>³,25硕,靶向核酸降解<br> 
       <a href="mailto:2432959317@qq.com">朱清</a>¹, 25硕,植物病菌互作<br> 
-      <a href="mailto:3200817356@qq.com">王美铃</a>, 25硕,DTI互作<br> 
-      <a href="mailto:927369600@qq.com">张文举</a>, 25硕,化学合成规划<br> 
+
     </td></tr>
 </table>
 

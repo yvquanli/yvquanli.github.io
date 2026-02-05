@@ -62,7 +62,8 @@
 <a href="mailto:3272282882@qq.com">洪晖阳</a>,22本, 分子性质预测, 一作发表1篇顶刊Communications Chemistry。  
 
 
-
+      <a href="mailto:3200817356@qq.com">王美铃</a>, 25硕,DTI互作<br> 
+      <a href="mailto:927369600@qq.com">张文举</a>, 25硕,化学合成规划<br> 
 
 
 ¹²³⁴⁵⁶⁷⁸⁹⁰⁺⁻⁼˂˃⁽⁾˙*′˙ⁿº
