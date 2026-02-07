@@ -1,5 +1,7 @@
 ---
 permalink: /
+lang: zh
+
 title: ""
 
 author_profile: true
@@ -15,6 +17,8 @@ redirect_from:
   .img-center { display: block; margin: 60px auto 0; width: 50%; } /* 底部图片居中样式 */
   .anchor { display: block; position: relative; top: -50px; visibility: hidden; } /* 锚点定位偏移（防止被导航栏遮挡） */
 </style>
+
+
 
 
 <span class='anchor' id='about-me'></span>

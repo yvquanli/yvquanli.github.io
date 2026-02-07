@@ -9,6 +9,7 @@
 title                    : "黎育权"
 description              : "贵州大学"
 repository               : "yvquanli/yvquanli.github.io"
+url                      : "https://yuquan.li"
 google_scholar_stats_use_cdn : false
 
 # google analytics
@@ -22,7 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "黎育权"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "/images/android-chrome-512x512.png"
+
   bio              : "特聘教授"
   location         : "贵阳市花溪区"
   employer         : # "单位官网个人页面"

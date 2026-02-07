@@ -26,3 +26,21 @@ main:
 
   - title: "其他"
     url: "/#others"
+
+main_en:
+  - title: "About"
+    url: "/en/#about-me"
+  - title: "Education"
+    url: "/en/#educations"
+  - title: "Experience"
+    url: "/en/#jobs"
+  - title: "Service"
+    url: "/en/#jobs2"
+  - title: "Projects"
+    url: "/en/#projects"
+  - title: "Team"
+    url: "/en/#people"
+  - title: "Publications"
+    url: "/en/#publications"
+  - title: "Others"
+    url: "/en/#other"
