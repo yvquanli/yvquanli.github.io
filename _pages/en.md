@@ -85,7 +85,7 @@ Long-term engagement in **AI for Science** research. Addressing the bottlenecks 
 <span class='anchor' id='projects'></span>  
 
 # 📑 Research Projects
-[1] National Data Bureau Dataset Pilot Project, National Crop Pests and Weeds - Pesticide Multimodal Plant Protection Dataset, 2026, sub-project leader  
+[1] National Data Bureau Dataset Pilot Project, National Crop Pests and Weeds - Pesticide Multimodal Plant Protection Dataset, 2026, Sub-project Host  
 [2] National Natural Science Foundation of China Regional Project, AI-based Mining of Aphid RNAi Genes in Wheat Fields and RNAi Pesticide Design, 320k, 2026, Host  
 [3] Guizhou University Talent Introduction Special Post Project, Research on New Methods for Multi-constraint Small Molecule Generative Design, 400k, 2024, Host  
 
@@ -162,7 +162,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 **[5]** **Li<sup>†</sup>** et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>▴</sup>
 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)  
 
-**\***Corresponding Author  **<sup>†</sup>**Co-first Author  <sup>▴</sup>IF at Time of Publication  
+**\***Corresponding Author  **<sup>†</sup>**Co-first Author  <sup>▴</sup>IF at Publication  
 
 ### All Publications
 
@@ -230,7 +230,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 </table>
 
 # 🙌 Others
-Chaos Battle, War3 RPG/RTS, DNF  
+ARAM, War3 RPG/RTS, DNF  
 Owner of 5 Legendary Fire Sticks  
 I know clearly that the path between people is not replicable, I lie in my own bed.  
 
