@@ -50,7 +50,7 @@ Long-term engagement in **AI for Science** research. Addressing the bottlenecks 
       2022.7&ensp; - 2023.4<br>
       2020.8&ensp; - 2022.6<br>
     </td><td>
-      <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">Guizhou University, State Key Laboratory of Public Big Data / College of Computer Science and Technology</a>, Special-term Professor<br>
+      <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">Guizhou University, State Key Laboratory of Public Big Data / College of Computer Science</a>, Special-term Professor<br>
       <a href="https://cs.gzu.edu.cn/16246/list.htm">Guizhou University, State Key Laboratory of Green Pesticide</a>, Visiting Researcher<br>
       <a href="https://www.baai.ac.cn/">Beijing Academy of Artificial Intelligence (BAAI)</a> <a href="https://bigaidream.github.io/">Jie Fu's Team</a>, Research Intern<br>
       <a href="htps://quantum.tencent.com/">Tencent Quantum Lab</a>, Joint Training (Co-supervisor: <a href="https://person.zju.edu.cn/changyuhsieh">Dr. Changyu Hsieh</a>)<br>
@@ -69,11 +69,11 @@ Long-term engagement in **AI for Science** research. Addressing the bottlenecks 
       2026.1<br>
       2025.1, 2025.8<br>
     </td><td>
-      "<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>" (Target IF~20), Founding Committee Member, Executive Editorial Board Member<br>
-      "<a href="https://www.cell.com/the-innovation/home">The Innovation</a>" (Comprehensive Q1 IF=25.7), Youth Editorial Board Member<br>
-      "<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>" (Biology Q1 IF=33.2), Youth Editorial Board Member<br>
-      "<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>" (Comprehensive Q1 IF=22.5), Youth Editorial Board Member, Deputy Director of Plant Division of Youth Committee<br>
-      China-Sri Lanka Joint Laboratory for Green Prevention and Control of Tea Pests and Diseases (Belt and Road), Founding Participant<br>
+      "<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>" (Targeting IF~20), Founding Committee Member, Executive Editorial Board<br>
+      "<a href="https://www.cell.com/the-innovation/home">The Innovation</a>" (Comprehensive Q1 IF=25.7), Youth Editorial Board<br>
+      "<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>" (Biology Q1 IF=33.2), Youth Editorial Board<br>
+      "<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>" (Comprehensive Q1 IF=22.5), Youth Editorial Board, Deputy Director of Plant Division of Youth Committee<br>
+      China-Sri Lanka Belt and Road Joint Laboratory of Tea Green Prevention and Control Technology, Founding Participant<br>
       The 6th International Conference on Green Plant Protection Innovation, Organizing Committee<br>
       Guizhou Provincial Big Data Bureau Project Artificial Intelligence Industry Direction Review Expert Group, Leader<br>
     </td></tr>
@@ -220,9 +220,9 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
       2023.5-Present<br>
       2021.9-Present<br>
     </td><td>
-      <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">The 6th International Conference on Green Plant Protection Innovation</a>, Talk: AI-driven Essential Gene Mining and RNAi Pesticide Design<br>
+      <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">The 6th International Conference on Green Plant Protection Innovation</a>, Talk: AI-driven Essential Gene Mining and dsRNA Design<br>
       <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">Yangzhou University, Green Agriculture Academic Lecture Hall</a>, Talk: Artificial Intelligence Aided Pesticide Design<br>
-      <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">The 14th National Conference on Bioinformatics and Systems Biology</a>, Talk: Multi-objective Gradient-guided Molecular Generation<br>
+      <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">The 14th National Conference on Bioinformatics and Systems Biology</a>, Talk: Multi-objective Molecular Generation<br>
       <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">Lanzhou University 15th Graduate Academic Annual Meeting</a>, Talk: Chemistry × AI, Present and Future<br>
       Reviewer for iMeta, Nature Communications, etc.<br>
       Professional Member of China Society of Plant Protection, Chinese Association for Artificial Intelligence, China Computer Federation, Chinese Chemical Society<br>
