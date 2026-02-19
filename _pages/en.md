@@ -233,5 +233,3 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 ARAM, War3 RPG/RTS, DNF  
 Owner of 5 Legendary Fire Sticks  
 I know clearly that the path between people is not replicable, I lie in my own bed.  
-
-<img src="../images/contact.png" width="50%" height="50%" style="display: block; margin: 60px auto 0;"/>

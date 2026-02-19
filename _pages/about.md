@@ -76,7 +76,7 @@ redirect_from:
 <span class='anchor' id='jobs2'></span>    
 
 # 🏛️ 学术兼职
-<table class="cv-table"><tr><td class="cv-date">      
+<table class="cv-table"><tr><td class="cv-date">  
       2026.1 &ensp;- 今<br>
       2025.8 &ensp;- 今<br>
       2025.8 &ensp;- 今<br>
@@ -258,7 +258,5 @@ redirect_from:
 大乱斗，War3 RPG/RTS，DNF  
 传世烧火棍*5 拥有者  
 我清楚的知道，人与人之间的道路是不可复制的，我躺在我自己的床上。  
-
-<img src="images/contact.png" width="50%" height="50%" style="display: block; margin: 60px auto 0;"/>
 
 

@@ -4,52 +4,80 @@ layout: compress
 
 <!doctype html>
 <html lang="en" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
 
-  <body>
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+<body>
 
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
+  {% include browser-upgrade.html %}
+  {% include masthead.html %}
 
+  <div id="main" role="main">
+    {% include sidebar.html %}
 
-          </section>
-        </div>
-      </article>
-    </div>
-
-    {% include scripts.html %}
+    <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+      {% if page.title %}
+      <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{%
+      endif %}
+      <div class="page__inner-wrap">
+        <section class="page__content" itemprop="text">
+          {{ content }}
 
 
 
 
+          <div
+            style="display: flex; justify-content: center; align-items: stretch; gap: 40px; margin: 60px auto 0; flex-wrap: wrap; max-width: 800px;">
+            <!-- 栏：联系方式图片 -->
+            <div style="flex: 1; text-align: center; display: flex; align-items: center; justify-content: center;">
+              <img src="images/contact.png" style="max-height: 190px;" />
+            </div>
+
+            <!-- 左栏：ClustrMaps -->
+            <div style=" flex: 1; text-align: center; display: flex; align-items: center; justify-content: center;">
+              <script type="text/javascript" id="clustrmaps"
+                src="//clustrmaps.com/map_v2.js?d=z_jCA0hMpZFDjvJAuY3m5PsKYU6S6Ik8h_y_Ie7v4BY&cl=ffffff&w=a"></script>
+            </div>
+          </div>
 
 
 
-<div class="footer_site">
-<hr/>
-<div class="footer_copyright">
-  © 2023-2026 Yuquan Li | Powered by the&nbsp 
-  <a class="page_a"  href="https://github.com/RayeRen/acad-homepage.github.io">
-  acad 
-  </a>
 
-  
-  <!-- https://qchaha.github.io/2018/09/19/homepageStatistics.html -->
-  <span id="busuanzi_container_site_pv">  | 本站总访问量 <span id="busuanzi_value_site_pv"></span>次</span>
-  <span id="busuanzi_container_site_uv"> / <span id="busuanzi_value_site_uv"></span>人</span>
+        </section>
+      </div>
+    </article>
 
 
-  </body>
+  </div>
+
+  {% include scripts.html %}
+
+
+
+
+
+
+
+
+  <div class="footer_site">
+
+    <hr />
+    <div class="footer_copyright">
+      © 2023-2026 Yuquan Li | Powered by the&nbsp
+      <a class="page_a" href="https://github.com/RayeRen/acad-homepage.github.io">
+        acad
+      </a>
+
+
+
+      <!-- https://qchaha.github.io/2018/09/19/homepageStatistics.html -->
+      <span id="busuanzi_container_site_pv"> | 本站总访问量 <span id="busuanzi_value_site_pv"></span>次</span>
+      <span id="busuanzi_container_site_uv"> / <span id="busuanzi_value_site_uv"></span>人</span>
+
+
+</body>
+
 </html>
