@@ -67,7 +67,7 @@ redirect_from:
       2020.8&ensp; - 2022.6<br>
     </td><td>
       <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">贵州大学 公共大数据国家重点实验室/计算机科学与技术学院</a>，特聘教授<br>
-      <a href="https://cs.gzu.edu.cn/16246/list.htm">贵州大学 绿色农药全国重点实验室</a>，流动研究人员(郝格非教授团队骨干) <br>
+      <a href="https://cs.gzu.edu.cn/16246/list.htm">贵州大学 绿色农药全国重点实验室</a>，流动研究人员 <br>
       <a href="https://www.baai.ac.cn/">北京智源人工智能研究院</a> <a href="https://bigaidream.github.io/">付杰团队</a>，研究实习<br>
       <a href="htps://quantum.tencent.com/">腾讯公司 量子实验室</a>，联合培养(合作导师：<a href="https://person.zju.edu.cn/changyuhsieh">谢昌谕博士</a>)<br>
     </td></tr>
