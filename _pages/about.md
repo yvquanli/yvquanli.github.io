@@ -254,9 +254,12 @@ redirect_from:
     </td></tr>
 </table>
 
-# 🙌 其他
+# 🌟世界一流底刊任职
 2026.2 - 今  世界一流底刊[《Silence》](https://journals.panorama-sg.com/index.php/Silence) 期刊副主编(Associate Editor, AE)  
 2026.2 - 今  世界一流底刊[《Call》](https://callpress.org/index.php/call/editorial)(ISSN 3054-4742) 期刊副主编(Associate Editor, AE)  
+
+
+# 🙌 其他
 
 大乱斗，War3 RPG/RTS，DNF  
 传世烧火棍*5 拥有者  
