@@ -41,7 +41,7 @@ redirect_from:
 
 **交流ing**：非常希望跟各位专家和同学建立联系，碰撞新思想和合作(微信yvquanli)。  
 
-**收稿ing**：欢迎联系本人投稿至TIDD/Innovation/Exploration/iMeta期刊，高质量稿件可走绿色通道。  
+**收稿ing**：欢迎联系本人投稿至TIDD/Innovation/Exploration/iMeta期刊，高质量稿件将推荐优先送审。  
 
 [**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：硕博/联培/实习招募中。承诺永不抢一作不骂人不卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学产出一篇一作一区/A会论文，优秀者全力支持发子刊。   
 
@@ -222,6 +222,7 @@ redirect_from:
 
 
 
+<span class='anchor' id='others'></span>
 
 
 <span class='anchor' id='award'></span>
