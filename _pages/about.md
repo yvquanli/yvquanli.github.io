@@ -192,8 +192,8 @@ redirect_from:
 ### 所有论文
 
 #### 2026年度
-- **[2026b]** Chaoyang Xie, Junhu Xu, Guangyi Huang, Shihang Wang, Mutian He, Xinyu Dong, Huiyang Hong, Xiaojun Yao, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction[J]. `Advanced Science`, 2026. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
-- **[2026a]** Huiyang Hong, Xinkai Wu, Hongyu Sun, Chaoyang Xie, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Learning hierarchical interaction for accurate molecular property prediction[J]. `Communications Chemistry`,2026. (accept)
+- **[2026b]** Chaoyang Xie, Junhu Xu, Guangyi Huang, Shihang Wang, Mutian He, Xinyu Dong, Huiyang Hong, Xiaojun Yao, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction[J]. `Advanced Science`, 2026: e17579. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
+- **[2026a]** Huiyang Hong, Xinkai Wu, Hongyu Sun, Chaoyang Xie, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Learning hierarchical interaction for accurate molecular property prediction[J]. `Communications Chemistry`,2026. [[HTML]](https://www.nature.com/articles/s42004-026-01922-x)  [[PDF]](https://www.nature.com/articles/s42004-026-01922-x_reference.pdf)
 
 
 #### 2025年度
