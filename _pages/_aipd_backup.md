@@ -33,7 +33,7 @@
       <i>2020.8&ensp; - 2022.6</i><br>
     </td><td>
       <a href="https://cs.gzu.edu.cn/16246/list.htm">贵州大学 绿色农药全国重点实验室</a> 郝格非教授团队AI农药方向负责人<br>
-      <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">贵州大学 公共大数据国家重点实验室/计算机学院</a>，副教授(一流学科特聘教授C岗)<br>
+      <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">贵州大学 公共大数据国家重点实验室/计算机学院</a>，校聘副教授<br>
       <a href="https://www.baai.ac.cn/">北京智源人工智能研究院</a> <a href="https://bigaidream.github.io/">付杰团队</a>，研究实习<br>
       <a href="htps://quantum.tencent.com/">腾讯公司 量子实验室</a>，联合培养(合作导师：<a href="https://person.zju.edu.cn/changyuhsieh">谢昌谕博士</a>)<br>
     </td></tr>
@@ -113,7 +113,8 @@
 
 
 深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、联培导师³⁴  
-深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，浙江大学侯廷军教授课题组博士后，研究方向为AI合成规划  
+深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，深圳理工大学合成生物学院，特聘副教授，研究方向为AI合成规划  
+
 
 
 

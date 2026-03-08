@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "黎育权"
-description              : "贵州大学"
+description              : "微信：yvquanli"
 repository               : "yvquanli/yvquanli.github.io"
 url                      : "https://yuquan.li"
 google_scholar_stats_use_cdn : false
@@ -25,7 +25,7 @@ author:
   name             : "黎育权"
   avatar           : "/images/android-chrome-512x512.png"
 
-  bio              : "特聘教授"
+  bio              : "贵州大学"
   location         : "贵阳市花溪区"
   employer         : # "单位官网个人页面"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=Yuquan+Li"
@@ -56,7 +56,7 @@ author:
   twitter          : # "https://twitter.com/yvquanli"
   vine             :
   weibo            :
-  xing             : "Wechat: yvquanli"
+  xing             : # "Wechat: yvquanli"
   youtube          :
   wikipedia        :
   wechat           : # "https://github.com/yvquanli"
