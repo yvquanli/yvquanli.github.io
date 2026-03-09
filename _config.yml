@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "黎育权"
-description              : "微信：yvquanli"
+description              : "贵州大学"
 repository               : "yvquanli/yvquanli.github.io"
 url                      : "https://yuquan.li"
 google_scholar_stats_use_cdn : false
@@ -25,9 +25,9 @@ author:
   name             : "黎育权"
   avatar           : "/images/android-chrome-512x512.png"
 
-  bio              : "贵州大学"
+  bio              : "特聘教授"
   location         : "贵阳市花溪区"
-  employer         : # "单位官网个人页面"
+  employer         : # "贵州大学"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=Yuquan+Li"
   googlescholar    : "https://scholar.google.com/citations?user=lCJi22EAAAAJ"
   email            : "yvquan.li@gzu.edu.cn"
