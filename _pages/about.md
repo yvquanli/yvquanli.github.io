@@ -158,16 +158,16 @@ redirect_from:
 **[2]** **Li** et al. Introducing block design in graph neural networks for molecular properties prediction. `Chemical Engineering Journal IF=16.7`<sup>▴</sup>
 [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)  
 
-**[3]** **Li\*** et al. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction. `Advanced Science IF=14.1`<sup>▴</sup>
+**[3]** Xie,..., **Li\*** et al. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction. `Advanced Science IF=14.1`<sup>▴</sup>
 [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
 
-**[4]** **Li<sup>†</sup>** et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>▴</sup>
+**[4]** Li, **Li<sup>†</sup>** et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>▴</sup>
 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)  
 
-**[5]** **Li<sup>†</sup>** et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions. `Chemical Engineering Journal IF=16.7`<sup>▴</sup>
+**[5]** Wang, **Li<sup>†</sup>** et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions. `Chemical Engineering Journal IF=16.7`<sup>▴</sup>
 [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)  
 
-**\***主要通讯  **<sup>†</sup>**共一排二  <sup>▴</sup>发表当年IF  
+**\***通讯  **<sup>†</sup>**共一  <sup>▴</sup>发表当年IF  
 一定程度代表该刊当年认可度及发表难度，~~主要是懒得年年更新最新IF~~  
 
 <!-- [[内容介绍-GLAM]](#research_project_3) 
