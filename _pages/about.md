@@ -118,7 +118,6 @@ redirect_from:
       <a href="mailto:h397465119@163.com">黄广义</a>¹,24博,AI靶标发现<br>
       <a href="mailto:p2521371@mpu.edu.mo">王世航</a>²,25博,细胞表型学习<br>
       <a href="mailto:sereinnario@gmail.com">何牧天</a>²,25博,大分子药物、DEL<br>  
-      <a href="mailto:gong-dh@foxmail.com">龚道宏</a>²,25博,靶向蛋白降解设计<br> 
       <a href="mailto:shuangy.th@gmail.com">唐胡双寅²</a>26博,递送系统、ADC<br> 
     </td>
     <td style="vertical-align:top; width:33%;">
@@ -127,11 +126,9 @@ redirect_from:
       <a href="mailto:z1985639584@gmail.com">张军</a>³, 24硕,PPI、DDI预测<br>
       <a href="mailto:3331231706@qq.com">张艺伦</a>³,24硕,酶功能预测及设计<br>
       <a href="mailto:2509362787@qq.com">蒋俞萱</a>, 25硕,智慧育种<br>
-      <a href="mailto:2396081899@qq.com">陈维迅</a>, 25硕,智能体分子设计 <br> 
     </td>
     <td style="vertical-align:top; width:33%;">
-      <a href="mailto:1874906277@qq.com">唐展宏</a>³,25硕,靶向核酸降解<br> 
-
+      <a href="mailto:2396081899@qq.com">陈维迅</a>, 25硕,智能体分子设计 <br> 
     </td></tr>
 </table>
 
