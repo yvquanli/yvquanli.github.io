@@ -130,7 +130,6 @@ redirect_from:
       <a href="mailto:nanwanwu03@gmail.com">吴南宛</a>¹,24硕,肽-药物偶联设计<br>
       <a href="mailto:luoxix@foxmail.com">罗希璇</a>¹,24硕,DTI、DDI预测<br>
       <a href="mailto:1400883809@qq.com">张龙彪</a>¹,24硕,AI递送系统设计<br>
-      <a href="mailto:3272282882@qq.com">洪晖阳</a>, 22本,靶向蛋白降解<br>  
     </td>
     <td style="vertical-align:top; width:33%;">
       <a href="mailto:2509362787@qq.com">蒋俞萱</a>, 25硕,智慧育种<br>
@@ -139,7 +138,6 @@ redirect_from:
 
     </td></tr>
 </table>
-
 
 深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、联培导师³⁴  
 深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，深圳理工大学合成生物学院，特聘副教授，研究方向为AI合成规划  
