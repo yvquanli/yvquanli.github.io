@@ -43,7 +43,7 @@ redirect_from:
 
 **收稿ing**：欢迎联系本人投稿至TIDD/Innovation/Exploration/iMeta期刊，高质量稿件将推荐优先送审。  
 
-[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：硕博/联培/实习招募中。承诺永不抢一作不骂人不无端卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学产出一篇一作一区/A会论文，优秀者全力支持发子刊。（贵大计算机学院复试尚未结束，考研同学切勿联系本人）   
+[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：硕博/联培/实习招募中。承诺永不抢一作不骂人不无端卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学产出一篇一作一区/A会论文，优秀者全力支持发子刊。（贵大大数据实验室/计算机学院复试尚未结束，考研同学切勿联系本人）   
 
 <span class='anchor' id='educations'></span>
 
@@ -111,26 +111,35 @@ redirect_from:
 
 # 👥 团队成员
 
-
 <table class="cv-table"><tr>  
     <td style="vertical-align:top; width:33%;">
+      <b>名下指导</b>  <br>
+      <a href="mailto:2509362787@qq.com">蒋俞萱</a>,25硕,RNA小分子抑制剂<br>
+      <a href="mailto:2396081899@qq.com">陈维迅</a>,25硕,智能体分子设计<br>
+    </td>
+    <td style="vertical-align:top; width:33%;">
+      <b>联培博士</b><br>
+      <a href="mailto:yujianz093@gmail.com">张晓</a>¹, 21博,核酸农药设计<br>
       <a href="mailto:dongxinyu@samlab.cn">董新宇</a>¹,24博,多目标分子生成<br>
       <a href="mailto:h397465119@163.com">黄广义</a>¹,24博,AI靶标发现<br>
+      <a href="mailto:sereinnario@gmail.com">何牧天</a>²,25博,大分子药物<br>
       <a href="mailto:p2521371@mpu.edu.mo">王世航</a>²,25博,细胞表型学习<br>
-      <a href="mailto:sereinnario@gmail.com">何牧天</a>²,25博,大分子药物、DEL<br>  
-      <a href="mailto:shuangy.th@gmail.com">唐胡双寅²</a>26博,递送系统、ADC<br> 
+      <a href="mailto:gong-dh@foxmail.com">龚道宏</a>²,25博,靶向蛋白降解设计<br> 
+      <a href="mailto:test@tobeadd.com">徐楷</a>²,&emsp;24博,靶向分子生成<br>
+      <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>²,26博,递送系统<br>
     </td>
     <td style="vertical-align:top; width:33%;">
-      <a href="mailto:3156785727@qq.com">谢朝阳</a>³,23硕,分子性质预测<br>
-      <a href="mailto:2118116004@qq.com">周军</a>¹, 24硕,合成规划<br>
-      <a href="mailto:z1985639584@gmail.com">张军</a>³, 24硕,PPI、DDI预测<br>
-      <a href="mailto:3331231706@qq.com">张艺伦</a>³,24硕,酶功能预测及设计<br>
-      <a href="mailto:2509362787@qq.com">蒋俞萱</a>, 25硕,智慧育种<br>
-    </td>
-    <td style="vertical-align:top; width:33%;">
-      <a href="mailto:2396081899@qq.com">陈维迅</a>, 25硕,智能体分子设计 <br> 
+      <b>联培硕士</b><br>
+      <a href="mailto:2118116004@qq.com">周军</a>¹,&emsp;24硕,合成规划<br>
+      <a href="mailto:3331231706@qq.com">朱磊</a>³,&emsp;24硕,抗菌肽设计<br>
+      <a href="mailto:3156785727@qq.com">谢朝阳</a>⁴,23硕,分子性质预测<br>
+      <a href="mailto:z1985639584@gmail.com">张军</a>⁴,&emsp;24硕,PPI/DDI预测<br>
+      <a href="mailto:3331231706@qq.com">张艺伦</a>⁴,24硕,酶功能预测<br>
+      <br><b>毕业成员</b><br>
+      洪晖阳：已前往侯廷军教授组。
     </td></tr>
 </table>
+
 
 深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、联培导师³⁴  
 深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，深圳理工大学合成生物学院，特聘副教授，研究方向为AI合成规划  
