@@ -125,7 +125,7 @@ redirect_from:
       <a href="mailto:sereinnario@gmail.com">何牧天</a>²,25博,大分子药物<br>
       <a href="mailto:p2521371@mpu.edu.mo">王世航</a>²,25博,细胞表型学习<br>
       <a href="mailto:gong-dh@foxmail.com">龚道宏</a>²,25博,靶向蛋白降解设计<br> 
-      <a href="mailto:test@tobeadd.com">徐楷</a>²,&emsp;24博,靶向分子生成<br>
+      <a href="mailto:p2412771@mpu.edu.mo">徐楷</a>²,&emsp;24博,靶向分子生成<br>
       <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>²,26博,递送系统<br>
     </td>
     <td style="vertical-align:top; width:33%;">
