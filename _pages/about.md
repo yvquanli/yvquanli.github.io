@@ -126,7 +126,7 @@ redirect_from:
       <a href="mailto:sereinnario@gmail.com">何牧天</a>²,25博,大分子药物<br>
       <a href="mailto:p2521371@mpu.edu.mo">王世航</a>²,25博,细胞表型学习<br>
       <a href="mailto:gong-dh@foxmail.com">龚道宏</a>²,25博,靶向蛋白降解设计<br> 
-      <a href="mailto:1460167652@qq.com">崔金煜</a>²,25博,多肽及递送设计<br> 
+      <a href="mailto:1460167652@qq.com">崔金煜</a>³,25博,多肽及递送设计<br> 
       <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>²,26博,递送系统<br>
     </td>
     <td style="vertical-align:top; width:33%;">
@@ -134,10 +134,8 @@ redirect_from:
       <a href="mailto:2118116004@qq.com">周军</a>¹,&emsp;24硕,合成规划<br>
       <a href="mailto:3331231706@qq.com">朱磊</a>³,&emsp;24硕,抗菌肽设计<br>
       <a href="mailto:3156785727@qq.com">谢朝阳</a>⁴,23硕,分子性质预测<br>
-      <a href="mailto:z1985639584@gmail.com">张军</a>⁴,&emsp;24硕,PPI/DDI预测<br>
-      <a href="mailto:3331231706@qq.com">张艺伦</a>⁴,24硕,酶功能预测<br>
       <br><b>毕业成员</b><br>
-      洪晖阳：已前往侯廷军教授组。
+      <a href="mailto:3272282882@qq.com">洪晖阳</a>, 22本,已前往侯廷军教授组<br>  
     </td></tr>
 </table>
 
