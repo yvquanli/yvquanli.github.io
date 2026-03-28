@@ -122,10 +122,11 @@ redirect_from:
       <a href="mailto:yujianz093@gmail.com">张晓</a>¹, 21博,核酸农药设计<br>
       <a href="mailto:dongxinyu@samlab.cn">董新宇</a>¹,24博,多目标分子生成<br>
       <a href="mailto:h397465119@163.com">黄广义</a>¹,24博,AI靶标发现<br>
+      <a href="mailto:p2412771@mpu.edu.mo">徐楷</a>²,&emsp;24博,靶向分子生成<br>
       <a href="mailto:sereinnario@gmail.com">何牧天</a>²,25博,大分子药物<br>
       <a href="mailto:p2521371@mpu.edu.mo">王世航</a>²,25博,细胞表型学习<br>
       <a href="mailto:gong-dh@foxmail.com">龚道宏</a>²,25博,靶向蛋白降解设计<br> 
-      <a href="mailto:p2412771@mpu.edu.mo">徐楷</a>²,&emsp;24博,靶向分子生成<br>
+      <a href="mailto:1460167652@qq.com">崔金煜</a>²,25博,多肽及递送设计<br> 
       <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>²,26博,递送系统<br>
     </td>
     <td style="vertical-align:top; width:33%;">
