@@ -141,7 +141,7 @@ redirect_from:
 </table>
 
 
-深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、联培导师³⁴  
+深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、[杨文超³](https://pmc.gzu.edu.cn/2025/1104/c23019a260269/page.htm)、联培导师⁴  
 深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，深圳理工大学合成生物学院，特聘副教授，研究方向为AI合成规划  
 
 
