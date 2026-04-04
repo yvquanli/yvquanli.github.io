@@ -85,7 +85,7 @@ redirect_from:
       2026.1<br>
       2025.1、2025.8<br>
     </td><td>
-      《<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>》期刊(目标IF 25~30)，创刊筹委、执行编委(试用期)<br>
+      《<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>》期刊(目标IF 25~30)，创刊筹委、执行编委(青年试用期)<br>
       《<a href="https://www.cell.com/the-innovation/home">The Innovation</a>》期刊(综合一区 IF=25.7)，青年编委<br>
       《<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>》期刊(生物一区 IF=33.2)，青年编委<br>
       《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊(综合一区 IF=22.5)，青年编委、青委会植物学部副主任<br>
