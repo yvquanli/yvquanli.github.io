@@ -6,10 +6,7 @@
 - 植物保护：小分子/多肽/RNAi绿色农药创制   
 
 **交流ing**：非常希望跟各位专家建立联系，碰撞新思想，18297126075(微信同号)。  
-
-**收稿ing**：欢迎联系本人投稿至Innovation/Exploration/iMeta期刊，高质量稿件可优先送审。  
-
-[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：硕博/联培/实习招募中。开学入门培训，全程精细指导，丰富计算资源，尽量帮每位同学发出一作一区论文，优秀者全力支持发子刊。   
+ 
 
 <span class='anchor' id='educations'></span>
 
