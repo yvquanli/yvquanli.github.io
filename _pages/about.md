@@ -119,7 +119,6 @@ redirect_from:
     </td>
     <td style="vertical-align:top; width:33%;">
       <b>联培博士</b><br>
-      <a href="mailto:yujianz093@gmail.com">张晓</a>¹, 21博,核酸农药设计<br>
       <a href="mailto:dongxinyu@samlab.cn">董新宇</a>¹,24博,多目标分子生成<br>
       <a href="mailto:h397465119@163.com">黄广义</a>¹,24博,AI靶标发现<br>
       <a href="mailto:p2412771@mpu.edu.mo">徐楷</a>²,&emsp;24博,靶向分子生成<br>
