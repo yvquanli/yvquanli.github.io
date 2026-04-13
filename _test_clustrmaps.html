@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>ClustrMaps Test</title></head>
+<body>
+<h2>Test 1: bare minimum (no flex)</h2>
+<div id="test1" style="width: 400px; border: 2px solid red;">
+  <script type="text/javascript" id="clustrmaps"
+    src="//clustrmaps.com/map_v2.js?d=z_jCA0hMpZFDjvJAuY3m5PsKYU6S6Ik8h_y_Ie7v4BY&cl=ffffff&w=a"></script>
+</div>
+
+<h2>Test 2: inside flex</h2>
+<div style="display: flex; gap: 20px; max-width: 800px;">
+  <div style="width: 200px; height: 190px; background: #ccc;">placeholder 1</div>
+  <div style="width: 150px; height: 190px; background: #ddd;">placeholder 2</div>
+  <div style="flex: 1; min-width: 0; border: 2px solid blue;">
+    <!-- clustrmaps can only have one script with id="clustrmaps", so this is empty -->
+    <p>ClustrMaps would go here (only one instance allowed per page)</p>
+  </div>
+</div>
+
+<h2>Console check</h2>
+<script>
+  setTimeout(function() {
+    var w = document.getElementById('clustrmaps-widget-v2');
+    var info = document.getElementById('debug-info');
+    if (w) {
+      info.textContent = 'Widget found! offsetWidth=' + w.offsetWidth + ' offsetHeight=' + w.offsetHeight + ' parent.offsetWidth=' + w.parentElement.offsetWidth;
+    } else {
+      info.textContent = 'Widget #clustrmaps-widget-v2 NOT found in DOM after 3s';
+    }
+  }, 3000);
+</script>
+<pre id="debug-info" style="font-size: 18px; color: red;">Waiting 3s for widget...</pre>
+</body>
+</html>
