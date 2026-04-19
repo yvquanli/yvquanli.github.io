@@ -18,16 +18,16 @@ author_profile: true
 
 <span class='anchor' id='about-me'></span>
 
-Long-term engagement in **AI for Science** research. Addressing the bottlenecks of high difficulty, high cost, and long cycles in molecular design, I conduct AI-driven de novo design of small molecules, peptides, proteins, and nucleic acids. My research focuses on the "Expert Wisdom + General AI + Specialized AI + Wet Lab Robot" four-in-one collaborative molecular design theory, constructing a full-chain dry-wet closed-loop intelligent molecular design platform, aiming to significantly improve the success rate and efficiency of molecular design. Related work has been published in journals such as [Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8) and Advanced Science as the lead author. Current research interests include:
+I have long devoted myself to research in **AI for Science**. To address the bottlenecks of high difficulty, high cost, and long cycles in molecular design, I work on AI-driven *de novo* design of small molecules, peptides, proteins, and small nucleic acids. My research centers on a four-in-one collaborative molecular design paradigm—"Expert Wisdom + General AI + Specialized AI + Wet-Lab Robotics"—and on building an end-to-end, dry–wet closed-loop platform for intelligent molecular design, with the goal of substantially improving the success rate and efficiency of the design process. Representative work has appeared as lead author in journals such as [*Nature Machine Intelligence*](https://www.nature.com/articles/s42256-022-00501-8) and *Advanced Science*. Current research interests include:
 
-- AI Basic Research: Agents and Swarm Intelligence, Graph Data Processing and Graph Learning
-- AI for Science Research: De novo Design of Small Molecules/Peptides/Proteins/Small Nucleic Acids/Materials, Intelligent Green Pesticide Development
+- **Foundational AI**: agents and swarm intelligence; graph data processing and graph learning
+- **AI for Science**: *de novo* generative design of small molecules, peptides, proteins, small nucleic acids, and materials; intelligent green pesticide discovery
 
-**Contact**: I look forward to connecting with experts and students to exchange new ideas (WeChat: yvquanli).
+**Let's talk**: I'm always glad to hear from fellow researchers and students—happy to exchange ideas and explore collaborations (WeChat: yvquanli).
 
-**Call for Papers**: Welcome to contact me for submissions to TIDD/Innovation/Exploration/iMeta journals. High-quality manuscripts can be prioritized for review.
+**Call for papers**: Submissions to *TIDD / The Innovation / Exploration / iMeta* are warmly welcomed—high-quality manuscripts will be recommended for expedited peer review.
 
-[**Recruiting**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00): Recruiting Master's/Ph.D. students/Joint Training/Interns. I promise not to steal first authorship, not to be abusive, and not to delay graduation. Introductory training upon enrollment, detailed guidance throughout the process, abundant diverse computing resources. I help every student produce a first-author Q1/A-conference paper, and fully support excellent students in publishing in sub-journals.
+[**Recruiting**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00): Openings for Master's/PhD students, joint-training candidates, and interns. My pledge: never grab first authorship, never berate students, never unjustly delay graduation. You can expect a proper onboarding, attentive day-to-day guidance, and ample computing resources. My goal is for every student to produce a first-author paper in a Q1 journal or A-level conference, with full support for outstanding students aiming at *Nature/Cell/Science* sub-journals. (Note: admission interviews for the GZU State Key Lab of Public Big Data / School of Computer Science are still in progress; candidates of the Chinese national postgraduate entrance exam, please refrain from contacting me until the process concludes.)
 
 <span class='anchor' id='educations'></span>
 
@@ -85,9 +85,9 @@ Long-term engagement in **AI for Science** research. Addressing the bottlenecks 
 <span class='anchor' id='projects'></span>  
 
 # 📑 Research Projects
-[1] National Data Bureau Dataset Pilot Project, National Crop Pests and Weeds - Pesticide Multimodal Plant Protection Dataset, 2026, Sub-project Host  
-[2] National Natural Science Foundation of China Regional Project, AI-based Mining of Aphid RNAi Genes in Wheat Fields and RNAi Pesticide Design, 320k, 2026, Host  
-[3] Guizhou University Talent Introduction Special Post Project, Research on New Methods for Multi-constraint Small Molecule Generative Design, 400k, 2024, Host  
+[1] National Data Bureau Pilot Dataset Program — Multimodal Plant-Protection Dataset of Crop Pests, Diseases, Weeds, and Pesticides, 2026, Sub-project PI  
+[2] NSFC Regional Project — AI-Driven Mining of RNAi Genes in Wheat-Field Aphids and RNAi Pesticide Design, ¥320K, 2026, PI  
+[3] Guizhou University Talent Introduction Program — Novel Methods for Multi-Constrained Small-Molecule Generative Design, ¥400K, 2024, PI  
 
 
 
@@ -208,20 +208,16 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
       2023.5-Present<br>
       2021.9-Present<br>
     </td><td>
-      <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">The 6th International Conference on Green Plant Protection Innovation</a>, Talk: AI-driven Essential Gene Mining and dsRNA Design<br>
-      <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">Yangzhou University, Green Agriculture Academic Lecture Hall</a>, Talk: Artificial Intelligence Aided Pesticide Design<br>
-      <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">The 14th National Conference on Bioinformatics and Systems Biology</a>, Talk: Multi-objective Molecular Generation<br>
-      <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">Lanzhou University 15th Graduate Academic Annual Meeting</a>, Talk: Chemistry × AI, Present and Future<br>
-      Reviewer for iMeta, Nature Communications, etc.<br>
-      Professional Member of China Society of Plant Protection, Chinese Association for Artificial Intelligence, China Computer Federation, Chinese Chemical Society<br>
+      <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">The 6th International Conference on Green Plant Protection Innovation</a>, Talk: AI-Driven Essential-Gene Mining and RNAi Pesticide Design<br>
+      <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">Yangzhou University, "Green Agriculture" Academic Lecture Series</a>, Talk: AI-Assisted Pesticide Design<br>
+      <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">The 14th National Conference on Bioinformatics and Systems Biology</a>, Talk: Multi-Objective Gradient-Guided Molecular Generation<br>
+      <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">Lanzhou University, 15th Graduate Academic Annual Meeting</a>, Talk: Chemistry × AI — Present and Future<br>
+      Reviewer for iMeta, Nature Communications, and others<br>
+      Professional Member of the China Society of Plant Protection, Chinese Association for Artificial Intelligence, China Computer Federation, and Chinese Chemical Society<br>
     </td></tr>
 </table>
 
-# 🌟 Prominent Low-Impact Journal Positions
-2026.2 - Present  [*Silence*](https://journals.panorama-sg.com/index.php/Silence), Associate Editor (AE)  
-2026.2 - Present  [*Call*](https://callpress.org/index.php/call/editorial) (ISSN 3054-4742), Associate Editor (AE)  
-
 # 🙌 Others
-Heroes of the Storm ARAM, War3 RPG/RTS, DNF  
-Owner of 5 Legendary Fire Sticks  
-I know clearly that the path between people is not replicable, I lie in my own bed.  
+ARAM, War3 RPG/RTS, DNF  
+Proud owner of five "Fire-Stick" Dragon-Slaying Sabers in *Legend of Mir*  
+I know all too well that no two people walk the same path—so I lie in a bed that is mine alone.  
