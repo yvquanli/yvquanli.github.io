@@ -20,8 +20,8 @@ author_profile: true
 
 Long-term engagement in **AI for Science** research. Addressing the bottlenecks of high difficulty, high cost, and long cycles in molecular design, I conduct AI-driven de novo design of small molecules, peptides, proteins, and nucleic acids. My research focuses on the "Expert Wisdom + General AI + Specialized AI + Wet Lab Robot" four-in-one collaborative molecular design theory, constructing a full-chain dry-wet closed-loop intelligent molecular design platform, aiming to significantly improve the success rate and efficiency of molecular design. Related work has been published in journals such as [Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8) and Advanced Science as the lead author. Current research interests include:
 
-- AI Basic Research: Agents and Swarm Intelligence, Molecular Representation Learning and Generative Design
-- AI for Science Research: De novo Design of Small Molecules/Peptides/Proteins/Small Nucleic Acids/Materials, Synthesis Planning, Target Discovery, Smart Plant Protection
+- AI Basic Research: Agents and Swarm Intelligence, Graph Data Processing and Graph Learning
+- AI for Science Research: De novo Design of Small Molecules/Peptides/Proteins/Small Nucleic Acids/Materials, Intelligent Green Pesticide Development
 
 **Contact**: I look forward to connecting with experts and students to exchange new ideas (WeChat: yvquanli).
 
@@ -69,7 +69,7 @@ Long-term engagement in **AI for Science** research. Addressing the bottlenecks 
       2026.1<br>
       2025.1, 2025.8<br>
     </td><td>
-      "<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>" (Targeting IF~20), Founding Committee Member, Executive Editorial Board<br>
+      "<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>" (Targeting IF 25~30), Founding Committee Member, Executive Editorial Board (Youth Trial)<br>
       "<a href="https://www.cell.com/the-innovation/home">The Innovation</a>" (Comprehensive Q1 IF=25.7), Youth Editorial Board<br>
       "<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>" (Biology Q1 IF=33.2), Youth Editorial Board<br>
       "<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>" (Comprehensive Q1 IF=22.5), Youth Editorial Board, Deputy Director of Plant Division of Youth Committee<br>
@@ -95,49 +95,36 @@ Long-term engagement in **AI for Science** research. Addressing the bottlenecks 
 
 # 👥 Team Members
 
-
 <table class="cv-table"><tr>  
     <td style="vertical-align:top; width:33%;">
-      <a href="mailto:yujianz093@gmail.com">Xiao Zhang</a>¹, Ph.D. Candidate '21, Nucleic Acid Pesticide Design<br>
-      <a href="mailto:dongxinyu@samlab.cn">Xinyu Dong</a>¹, Ph.D. Candidate '24, Multi-objective Molecular Generation<br>
-      <a href="mailto:h397465119@163.com">Guangyi Huang</a>¹, Ph.D. Candidate '24, AI Target Discovery<br>
-      <a href="mailto:p2521371@mpu.edu.mo">Shihang Wang</a>², Ph.D. Candidate '25, Cell Phenotype Learning<br>
-      <a href="mailto:sereinnario@gmail.com">Mutian He</a>², Ph.D. Candidate '25, Macromolecular Drugs, DEL<br>  
-      <a href="mailto:gong-dh@foxmail.com">Daohong Gong</a>², Ph.D. Candidate '25, PROTAC Design<br> 
-      <a href="mailto:2427993513@qq.com">Haozhen Guo</a>¹, Ph.D. Candidate '25, Agent Peptide Design<br> 
-      <a href="mailto:shuangy.th@gmail.com">Hushuangyin Tang</a>², Ph.D. Candidate '26, Delivery Systems, ADC<br> 
+      <b>Own Students</b>  <br>
+      <a href="mailto:2509362787@qq.com">Yuxuan Jiang</a>, Master '25, RNA Small Molecule Inhibitors<br>
+      <a href="mailto:2396081899@qq.com">Weixun Chen</a>, Master '25, Agent Molecular Design<br>
     </td>
     <td style="vertical-align:top; width:33%;">
-      <a href="mailto:3156785727@qq.com">Chaoyang Xie</a>³, Master Student '23, Molecular Property Prediction<br>
-      <a href="mailto:2118116004@qq.com">Jun Zhou</a>¹, Master Student '24, Synthesis Planning<br>
-      <a href="mailto:z1985639584@gmail.com">Jun Zhang</a>³, Master Student '24, PPI, DDI Prediction<br>
-      <a href="mailto:3331231706@qq.com">Yilun Zhang</a>³, Master Student '24, Enzyme Function Prediction & Design<br>
-      <a href="mailto:nanwanwu03@gmail.com">Nanwan Wu</a>¹, Master Student '24, Peptide-Drug Conjugate Design<br>
-      <a href="mailto:luoxix@foxmail.com">Xixuan Luo</a>¹, Master Student '24, DTI, DDI Prediction<br>
-      <a href="mailto:1400883809@qq.com">Longbiao Zhang</a>¹, Master Student '24, AI Delivery System Design<br>
-      <a href="mailto:3272282882@qq.com">Huiyang Hong</a>, Undergraduate '22, PROTAC<br>  
+      <b>Joint Ph.D. Students</b><br>
+      <a href="mailto:dongxinyu@samlab.cn">Xinyu Dong</a>¹, Ph.D. '24, Multi-objective Molecular Generation<br>
+      <a href="mailto:h397465119@163.com">Guangyi Huang</a>¹, Ph.D. '24, AI Target Discovery<br>
+      <a href="mailto:p2412771@mpu.edu.mo">Kai Xu</a>², Ph.D. '24, Targeted Molecular Generation<br>
+      <a href="mailto:sereinnario@gmail.com">Mutian He</a>², Ph.D. '25, Macromolecular Drugs<br>
+      <a href="mailto:p2521371@mpu.edu.mo">Shihang Wang</a>², Ph.D. '25, Cell Phenotype Learning<br>
+      <a href="mailto:gong-dh@foxmail.com">Daohong Gong</a>², Ph.D. '25, Targeted Protein Degradation Design<br>
+      <a href="mailto:1460167652@qq.com">Jinyu Cui</a>³, Ph.D. '25, Peptide and Delivery Design<br>
+      <a href="mailto:shuangy.th@gmail.com">Hushuangyin Tang</a>², Ph.D. '26, Delivery Systems<br>
     </td>
     <td style="vertical-align:top; width:33%;">
-      <a href="mailto:3212671648@qq.com">Yong Zhou</a>,&ensp; &ensp;Master Student '25, Nucleic Acid Pesticide Design<br>
-      <a href="mailto:leizhu.zl@outlook.com">Lei Zhu</a>⁴, Master Student '25, AI Peptide/Protein Design<br>
-      <a href="mailto:2509362787@qq.com">Yuxuan Jiang</a>, Master Student '25, Smart Breeding<br>
-      <a href="mailto:2396081899@qq.com">Weixun Chen</a>, Master Student '25, Agent Molecular Design <br> 
-      <a href="mailto:1874906277@qq.com">Zhanhong Tang</a>³, Master Student '25, Targeted Nucleic Acid Degradation<br> 
-      <a href="mailto:2432959317@qq.com">Qing Zhu</a>¹, Master Student '25, Plant Pathogen Interaction<br> 
-
+      <b>Joint Master's Students</b><br>
+      <a href="mailto:2118116004@qq.com">Jun Zhou</a>¹, Master '24, Synthesis Planning<br>
+      <a href="mailto:3331231706@qq.com">Lei Zhu</a>³, Master '24, Antimicrobial Peptide Design<br>
+      <a href="mailto:3156785727@qq.com">Chaoyang Xie</a>⁴, Master '23, Molecular Property Prediction<br>
+      <br><b>Alumni</b><br>
+      <a href="mailto:3272282882@qq.com">Huiyang Hong</a>, Undergrad '22, Now at Prof. Tingjun Hou's Group<br>
     </td></tr>
 </table>
 
 
-Close Collaborators (Supervisors): [Gefei Hao¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm), [Xiaojun Yao²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php), [Qi Wang³](http://qiwang.me/) (In no particular order)  
-Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ), Postdoc in Prof. Tingjun Hou's Group at Zhejiang University, Research Direction: AI Synthesis Planning  
-
-
-
-
-
-
-
+Close Collaborators (Supervisors): [Gefei Hao¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm), [Xiaojun Yao²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php), [Wenchao Yang³](https://pmc.gzu.edu.cn/2025/1104/c23019a260269/page.htm), Joint Supervisor⁴  
+Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ), Special-term Associate Professor at School of Synthetic Biology, Shenzhen University of Technology, Research Direction: AI Synthesis Planning  
 
 
 
@@ -159,16 +146,16 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 **[4]** **Li<sup>†</sup>** et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>▴</sup>
 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)  
 
-**[5]** **Li<sup>†</sup>** et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>▴</sup>
-[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)  
+**[5]** **Li<sup>†</sup>** et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions. `Chemical Engineering Journal IF=16.7`<sup>▴</sup>
+[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)  
 
 **\***Corresponding Author  **<sup>†</sup>**Co-first Author  <sup>▴</sup>IF at Publication  
 
 ### All Publications
 
 #### 2026
-- **[2026b]** Chaoyang Xie, Junhu Xu, Guangyi Huang, Shihang Wang, Mutian He, Xinyu Dong, Huiyang Hong, Xiaojun Yao, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction[J]. `Advanced Science`, 2026. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
-- **[2026a]** Huiyang Hong, Xinkai Wu, Hongyu Sun, Chaoyang Xie, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Learning hierarchical interaction for accurate molecular property prediction[J]. `Communications Chemistry`,2026. (accept)
+- **[2026b]** Chaoyang Xie, Junhu Xu, Guangyi Huang, Shihang Wang, Mutian He, Xinyu Dong, Huiyang Hong, Xiaojun Yao, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction[J]. `Advanced Science`, 2026: e17579. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
+- **[2026a]** Huiyang Hong, Xinkai Wu, Hongyu Sun, Chaoyang Xie, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Learning hierarchical interaction for accurate molecular property prediction[J]. `Communications Chemistry`,2026. [[HTML]](https://www.nature.com/articles/s42004-026-01922-x)  [[PDF]](https://www.nature.com/articles/s42004-026-01922-x_reference.pdf)
 
 
 #### 2025
@@ -230,7 +217,11 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
     </td></tr>
 </table>
 
+# 🌟 Prominent Low-Impact Journal Positions
+2026.2 - Present  [*Silence*](https://journals.panorama-sg.com/index.php/Silence), Associate Editor (AE)  
+2026.2 - Present  [*Call*](https://callpress.org/index.php/call/editorial) (ISSN 3054-4742), Associate Editor (AE)  
+
 # 🙌 Others
-ARAM, War3 RPG/RTS, DNF  
+Heroes of the Storm ARAM, War3 RPG/RTS, DNF  
 Owner of 5 Legendary Fire Sticks  
 I know clearly that the path between people is not replicable, I lie in my own bed.  
