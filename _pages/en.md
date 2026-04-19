@@ -27,7 +27,7 @@ I have long devoted myself to research in **AI for Science**. To address the bot
 
 **Call for papers**: Submissions to *TIDD / The Innovation / Exploration / iMeta* are warmly welcomed—high-quality manuscripts will be recommended for expedited peer review.
 
-[**Recruiting**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00): Openings for Master's/PhD students, joint-training candidates, and interns. My pledge: never grab first authorship, never berate students, never unjustly delay graduation. You can expect a proper onboarding, attentive day-to-day guidance, and ample computing resources. My goal is for every student to produce a first-author paper in a Q1 journal or A-level conference, with full support for outstanding students aiming at *Nature/Cell/Science* sub-journals. (Note: admission interviews for the GZU State Key Lab of Public Big Data / School of Computer Science are still in progress; candidates of the Chinese national postgraduate entrance exam, please refrain from contacting me until the process concludes.)
+[**Recruiting**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00): Openings for Master's/PhD students, joint-training candidates, and interns. My pledge: never grab first authorship, never berate students, never unjustly delay graduation. You can expect a proper onboarding, attentive day-to-day guidance, and ample computing resources. My goal is for every student to produce a first-author paper in a Q1 journal or A-level conference, with full support for outstanding students aiming at *Nature/Cell/Science* sub-journals.
 
 <span class='anchor' id='educations'></span>
 
