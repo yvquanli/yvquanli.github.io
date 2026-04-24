@@ -233,31 +233,37 @@ redirect_from:
 
 # 🏛️ 学术活动
 <table class="cv-table"><tr><td class="cv-date">      
+      2026.5<br>
+      2026.3<br>
+      2026.1<br>
       2026.1<br>
       2025.11<br>
       2025.10<br>
       2023.3<br>
-      2023.5-今<br>
-      2021.9-今<br>
+      会员<br>
+      审稿<br>
+
     </td><td>
+      The Innovation Drug Discovery 青年编委会<br>
+      The Innovation期刊青年编委会<br>
+      Exploration首届植物科学国际研讨会，负责人<br>
       <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">第六届国际绿色植保技术创新会议</a>，报告题目：AI驱动的必须基因挖掘与RNAi农药设计<br>
       <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">扬州大学，保绿兴农学术大讲堂</a>，报告题目：人工智能辅助农药设计<br>
       <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">第十四届全国生物信息学与系统生物学学术大会</a>，报告题目：多目标梯度引导分子生成<br>
       <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">兰州大学第十五届研究生学术年会</a>，报告题目：化学×AI，现在与未来<br>
-      iMeta、Nature Communications等期刊审稿人<br>
-      中国植保学会、中国人工智能学会、中国计算机学会、中国化学会， 专业会员<br>
+      中国植保学会、中国人工智能学会、中国计算机学会、中国化学会等<br>
+      iMeta、Nature Communications、Plant Nano Biology、iMetaOmics、iMetaMed、Briefings in Bioinformatics等<br>
     </td></tr>
 </table>
 
-# 🌟世界一流底刊任职
-2026.2 - 今  世界一流底刊[《Silence》](https://journals.panorama-sg.com/index.php/Silence) 期刊副主编(Associate Editor, AE)  
-2026.2 - 今  世界一流底刊[《Call》](https://callpress.org/index.php/call/editorial)(ISSN 3054-4742) 期刊副主编(Associate Editor, AE)  
 
 
 # 🙌 其他
-
 大乱斗，War3 RPG/RTS，DNF  
 传世烧火棍*5 拥有者  
 我清楚的知道，人与人之间的道路是不可复制的，我躺在我自己的床上。  
+世界一流底刊[《Silence》](https://journals.panorama-sg.com/index.php/Silence) 期刊副主编(Associate Editor, AE)  
+世界一流底刊[《Call》](https://callpress.org/index.php/call/editorial)(ISSN 3054-4742) 期刊副主编(Associate Editor, AE)  
+
 
 
