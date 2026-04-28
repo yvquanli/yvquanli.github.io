@@ -263,7 +263,7 @@ redirect_from:
 传世烧火棍*5 拥有者  
 我清楚的知道，人与人之间的道路是不可复制的，我躺在我自己的床上。  
 世界一流底刊[《Silence》](https://journals.panorama-sg.com/index.php/Silence) 期刊副主编(Associate Editor, AE)  
-世界一流底刊[《Call》](https://callpress.org/index.php/call/editorial)(ISSN 3054-4742) 期刊副主编(Associate Editor, AE)  
+世界一流底刊[《Call》](https://callpress.org/index.php/call/editorial) 期刊副主编(Associate Editor, AE)  
 
 
 
