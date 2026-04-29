@@ -77,6 +77,7 @@ redirect_from:
 
 # 🏛️ 学术兼职
 <table class="cv-table"><tr><td class="cv-date">  
+      2026.4 &ensp;- 今<br>
       2026.1 &ensp;- 今<br>
       2025.8 &ensp;- 今<br>
       2025.8 &ensp;- 今<br>
@@ -85,6 +86,7 @@ redirect_from:
       2026.1<br>
       2025.1、2025.8<br>
     </td><td>
+      中国生物信息学学会农林信息学专业委员会，青年委员<br>
       《<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>》(目标IF 25~30)，创刊筹委、执行编委(青年试用)<br>
       《<a href="https://www.cell.com/the-innovation/home">The Innovation</a>》期刊(综合一区 IF=25.7)，青年编委<br>
       《<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>》期刊(生物一区 IF=33.2)，青年编委<br>
