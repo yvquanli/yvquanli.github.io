@@ -107,7 +107,6 @@ I have long worked on **AI for Science, with a focus on AI-driven target discove
       <b>Joint Ph.D. Students</b><br>
       <a href="mailto:dongxinyu@samlab.cn">Xinyu Dong</a>¹, Ph.D. '24, Multi-objective Molecular Generation<br>
       <a href="mailto:h397465119@163.com">Guangyi Huang</a>¹, Ph.D. '24, AI Target Discovery<br>
-      <a href="mailto:p2412771@mpu.edu.mo">Kai Xu</a>², Ph.D. '24, Targeted Molecular Generation<br>
       <a href="mailto:sereinnario@gmail.com">Mutian He</a>², Ph.D. '25, Macromolecular Drugs<br>
       <a href="mailto:p2521371@mpu.edu.mo">Shihang Wang</a>², Ph.D. '25, Cell Phenotype Learning<br>
       <a href="mailto:gong-dh@foxmail.com">Daohong Gong</a>², Ph.D. '25, Targeted Protein Degradation Design<br>
@@ -136,22 +135,22 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 
 
 # 📝 Selected Publications
-**[1]** **Li** et al. An adaptive graph learning method for automated molecular interactions and properties predictions. `Nature Machine Intelligence IF=23.8`<sup>▴</sup>
+**[1]** **Li** et al. An adaptive graph learning method for automated molecular interactions and properties predictions. `Nature Machine Intelligence IF=29.8`
 [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)  
 
-**[2]** **Li** et al. Introducing block design in graph neural networks for molecular properties prediction. `Chemical Engineering Journal IF=16.7`<sup>▴</sup>
+**[2]** **Li** et al. Introducing block design in graph neural networks for molecular properties prediction. `Chemical Engineering Journal IF=12.5`
 [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)  
 
-**[3]** **Li\*** et al. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction. `Advanced Science IF=14.1`<sup>▴</sup>
+**[3]** **Li\*** et al. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction. `Advanced Science IF=14.1`
 [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
 
-**[4]** **Li<sup>†</sup>** et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>▴</sup>
+**[4]** **Li<sup>†</sup>** et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=7.3`
 [[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)  
 
-**[5]** **Li<sup>†</sup>** et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions. `Chemical Engineering Journal IF=16.7`<sup>▴</sup>
+**[5]** **Li<sup>†</sup>** et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions. `Chemical Engineering Journal IF=12.5`
 [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)  
 
-**\***Corresponding Author  **<sup>†</sup>**Co-first Author  <sup>▴</sup>IF at Publication  
+**\***Corresponding Author  **<sup>†</sup>**Co-first Author  
 
 ### All Publications
 
