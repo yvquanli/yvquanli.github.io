@@ -36,7 +36,7 @@ I have long worked on **AI for Science, with a focus on AI-driven target discove
       2019.9&ensp; - 2024.6<br>
       2015.9&ensp; - 2019.6
     </td><td>
-      Ph.D. & Master - Lanzhou University, School of Chemistry and Chemical Engineering (Major: Chemoinformatics, Supervisor: <a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">Prof. Xiaojun Yao</a>)<br>
+      Ph.D. - Lanzhou University, School of Chemistry and Chemical Engineering (Major: Chemoinformatics, Supervisor: <a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">Prof. Xiaojun Yao</a>)<br>
       Bachelor - Qinghai University, School of Computer Science (Major: Computer Science and Technology)
     </td></tr>
 </table>

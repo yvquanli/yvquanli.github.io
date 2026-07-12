@@ -50,7 +50,7 @@ author_profile: true
       2019.9&ensp; - 2024.6<br>
       2015.9&ensp; - 2019.6
     </td><td>
-      硕博 - 兰州大学，化学化工学院(专业：化学信息学，导师：<a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">姚小军教授</a>)<br>
+      博士 - 兰州大学，化学化工学院(专业：化学信息学，导师：<a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">姚小军教授</a>)<br>
       本科 - 青海大学，计算机学院(专业：计算机科学与技术)
     </td></tr>
 </table>
