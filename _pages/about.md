@@ -61,11 +61,13 @@ author_profile: true
 <table class="cv-table"><tr><td class="cv-date">      
       2024.10 - 今<br>
       2024.10 - 今<br>
+      2024.10 - 今<br>
       2022.7&ensp; - 2023.4<br>
       2020.8&ensp; - 2022.6<br>
     </td><td>
       <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">贵州大学 省大数据实验室/计算机科学与技术学院</a>，特聘教授<br>
       <a href="https://cs.gzu.edu.cn/16246/list.htm">贵州大学 绿色农药全国重点实验室</a>，流动研究人员 <br>
+      中国-斯里兰卡茶叶绿色防控实验室，流动研究人员<br>
       <a href="https://www.baai.ac.cn/">北京智源人工智能研究院</a> <a href="https://bigaidream.github.io/">付杰团队</a>，研究实习<br>
       <a href="https://quantum.tencent.com/">腾讯公司 量子实验室</a>，联合培养(合作导师：<a href="https://person.zju.edu.cn/changyuhsieh">谢昌谕博士</a>)<br>
     </td></tr>
@@ -80,7 +82,6 @@ author_profile: true
       2025.8 &ensp;- 今<br>
       2025.8 &ensp;- 今<br>
       2024.9 &ensp;- 今<br>
-      2024.8 &ensp;- 今<br>
       2026.1<br>
       2025.1、2025.8<br>
     </td><td>
@@ -89,7 +90,6 @@ author_profile: true
       《<a href="https://www.cell.com/the-innovation/home">The Innovation</a>》期刊(综合一区 IF=39.5)，青年编委<br>
       《<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>》期刊(生物一区 IF=44.4)，青年编委<br>
       《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊(综合一区 IF=30.4)，青年编委、青委会植物学部副主任<br>
-      中斯茶叶绿色防控一带一路国际联合实验室， 创始建设参与<br>
       第六届国际绿色植保技术创新会议，组委会<br>
       贵州省大数据局项目人工智能产业方向评审专家组，组长<br>
     </td></tr>
@@ -238,6 +238,7 @@ author_profile: true
       2026.1<br>
       2025.11<br>
       2025.10<br>
+      2024.8 - 今<br>
       2023.3<br>
       会员<br>
       审稿<br>
@@ -251,6 +252,7 @@ author_profile: true
       <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">第六届国际绿色植保技术创新会议</a>，报告题目：AI驱动的必须基因挖掘与RNAi农药设计<br>
       <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">扬州大学，保绿兴农学术大讲堂</a>，报告题目：人工智能辅助农药设计<br>
       <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">第十四届全国生物信息学与系统生物学学术大会</a>，报告题目：多目标梯度引导分子生成<br>
+      中斯茶叶绿色防控一带一路国际联合实验室，创始建设参与<br>
       <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">兰州大学第十五届研究生学术年会</a>，报告题目：化学×AI，现在与未来<br>
       中国植保学会、中国人工智能学会、中国计算机学会、中国化学会等<br>
       iMeta、Nature Communications、Advanced Science、Briefings in Bioinformatics、JCIM等<br>
