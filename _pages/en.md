@@ -18,7 +18,7 @@ author_profile: true
 
 <span class='anchor' id='about-me'></span>
 
-I have long worked on **AI for Science, with a focus on AI-driven target discovery and molecular design**. The design space of molecular science is virtually infinite, whereas wet-lab validation remains costly, slow, and burdened by an extremely low success rate. To resolve this central tension, I study a new paradigm for precise molecular-science discovery built on four-in-one collaboration—"Expert Wisdom + General Intelligence + Specialized Tools + Automated Experimentation"—and build a human–AI collaborative, dry–wet closed-loop intelligent research platform, advancing AI from a computational aid toward practical, autonomous molecular-science discovery. Representative work has appeared as lead author in journals such as [*Nature Machine Intelligence*](https://www.nature.com/articles/s42256-022-00501-8) and *Advanced Science*. Current research interests include:
+I have long worked on **AI for Science, with a focus on AI-driven target discovery and molecular design**. The design space of molecular science is virtually infinite, whereas wet-lab validation remains costly, slow, and burdened by an extremely low success rate. To resolve this central tension, I study a new paradigm for precise molecular-science discovery built on four-in-one collaboration—"Expert Wisdom + General Intelligence + Specialized Tools + Automated Experimentation"—and build a human–AI collaborative, dry–wet closed-loop intelligent research platform, advancing AI from a computational aid toward practical, autonomous molecular-science discovery. Representative work has appeared as lead author in journals such as [*Nature Machine Intelligence*](https://www.nature.com/articles/s42256-022-00501-8), *The Innovation*, and *Advanced Science*. Current research interests include:
 
 - **Foundational AI**: large-model agents and swarm intelligence; graph data processing and graph learning
 - **AI for Science**: targeted design of small molecules, peptides, proteins, small nucleic acids, and materials; dry–wet closed-loop robotic scientists
@@ -204,6 +204,8 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 
 # 🏛️ Academic Activities
 <table class="cv-table"><tr><td class="cv-date">      
+      2026.8<br>
+      2026.7<br>
       2026.5<br>
       2026.5<br>
       2026.3<br>
@@ -216,6 +218,8 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
       Review<br>
       Editorial<br>
     </td><td>
+      Invited expert consultant for AI-related meetings of the Guizhou Provincial Department of Science and Technology (×3)<br>
+      Invited expert participant in big-data discussion meetings of the Guizhou Provincial Big Data Bureau<br>
       Appointed Expert of the National Graduate Education Evaluation and Monitoring Expert Pool, reviewing Master's and Doctoral dissertations<br>
       The Innovation Drug Discovery Youth Editorial Board<br>
       The Innovation Youth Editorial Board<br>

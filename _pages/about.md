@@ -32,7 +32,7 @@ author_profile: true
 
 
 
-长期从事 **AI for Science领域，AI靶标发现与分子设计方向**的研究工作。针对分子科学发现设计空间近乎无限、湿验证却昂贵缓慢且成功率极低的核心矛盾，研究“专家智慧+通用智能+专用工具+自动实验”四位一体协作的精准分子科学发现新范式，构建人机协同、干湿闭环的智能科研平台，推动AI从辅助计算走向落地实用的自主分子科学发现。相关工作已以主要作者身份发表于Nature Machine Intelligence、Advanced Science等期刊。目前研究兴趣包括: 
+长期从事 **AI for Science领域，AI靶标发现与分子设计方向**的研究工作。针对分子科学发现设计空间近乎无限、湿验证却昂贵缓慢且成功率极低的核心矛盾，研究“专家智慧+通用智能+专用工具+自动实验”四位一体协作的精准分子科学发现新范式，构建人机协同、干湿闭环的智能科研平台，推动AI从辅助计算走向落地实用的自主分子科学发现。相关工作已以主要作者身份发表于Nature Machine Intelligence、The Innovation、Advanced Science等期刊。目前研究兴趣包括: 
 
 - AI基础研究：大模型智能体与群体智能、图数据处理与图学习  
 - AI for Science研究：靶向小分子/肽/蛋白/小核酸/材料设计、干湿闭环机器科学家
@@ -232,6 +232,8 @@ author_profile: true
 
 # 🏛️ 学术活动
 <table class="cv-table"><tr><td class="cv-date">      
+      2026.8<br>
+      2026.7<br>
       2026.5<br>
       2026.5<br>
       2026.3<br>
@@ -246,6 +248,8 @@ author_profile: true
       期刊<br>
 
     </td><td>
+      作为专家参与贵州省科学技术厅人工智能方面会议咨询3次<br>
+      作为专家参与贵州省大数据局大数据方面讨论会议<br>
       聘为全国研究生教育评估监测专家库专家，进行硕士、博士学位论文评审<br>
       The Innovation Drug Discovery 青年编委会<br>
       The Innovation期刊青年编委会<br>
