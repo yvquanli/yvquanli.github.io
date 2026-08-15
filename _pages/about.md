@@ -82,6 +82,7 @@ author_profile: true
       2025.8 &ensp;- 今<br>
       2025.8 &ensp;- 今<br>
       2024.9 &ensp;- 今<br>
+      2024.9 &ensp;- 今<br>
       2026.1<br>
       2025.1、2025.8<br>
     </td><td>
@@ -89,7 +90,8 @@ author_profile: true
       《<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>》(目标IF 25~30)，创刊筹委、学术编辑(执行)<br>
       《<a href="https://www.cell.com/the-innovation/home">The Innovation</a>》期刊(综合一区 IF=39.5)，青年编委<br>
       《<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>》期刊(生物一区 IF=44.4)，青年编委<br>
-      《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊(综合一区 IF=30.4)，青年编委、青委会植物学部副主任<br>
+      《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊(综合一区 IF=30.4)，青年编委、青委会植物学部副主任、西南分区主任，2025年度杰出青年编委奖<br>
+      《Medicine Bulletin》《AI for Science》《药学学报》，青年编委<br>
       第六届国际绿色植保技术创新会议，组委会<br>
       贵州省大数据局项目人工智能产业方向评审专家组，组长<br>
     </td></tr>
@@ -241,11 +243,15 @@ author_profile: true
       2026.1<br>
       2025.11<br>
       2025.10<br>
+      2025.10<br>
+      2025.6<br>
       2024.8 - 今<br>
       2023.3<br>
       会员<br>
       审稿<br>
       期刊<br>
+      社会服务<br>
+      会务<br>
 
     </td><td>
       作为专家参与贵州省科学技术厅人工智能方面会议咨询3次<br>
@@ -257,11 +263,15 @@ author_profile: true
       <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">第六届国际绿色植保技术创新会议</a>，报告题目：AI驱动的必须基因挖掘与RNAi农药设计<br>
       <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">扬州大学，保绿兴农学术大讲堂</a>，报告题目：人工智能辅助农药设计<br>
       <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">第十四届全国生物信息学与系统生物学学术大会</a>，报告题目：多目标梯度引导分子生成<br>
+      <a href="https://www.gzu.edu.cn/2025/1029/c17516a259976/page.htm">第三届全国博士后创新创业大赛</a>揭榜领题赛，"智创新药，稻麦无忧"，银奖<br>
+      第十六届蓝桥杯全国软件和信息技术专业人才大赛，第一指导教师，国家级三等奖2项、优秀奖1项<br>
       中斯茶叶绿色防控一带一路国际联合实验室，创始建设参与<br>
       <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">兰州大学第十五届研究生学术年会</a>，报告题目：化学×AI，现在与未来<br>
       中国植保学会、中国人工智能学会、中国计算机学会、中国化学会等<br>
       iMeta、Nature Communications、Advanced Science、Briefings in Bioinformatics、JCIM等<br>
       作为学术编辑(执行)，完成The Innovation Drug Discovery期刊相关工作(青年编委面试组组长3次，全权稿件处理5次)；作为青年编委，完成iMeta期刊相关工作(生物信息学专刊组织)<br>
+      "全国作物病虫草-农药多模态智慧植保高质量数据集"入选《中国农业农村年鉴》2025卷"科教兴农"专版(农业农村部主管)<br>
+      中国植物保护学会青托论坛，会务秘书(2025.8)<br>
 
     </td></tr>
 </table>

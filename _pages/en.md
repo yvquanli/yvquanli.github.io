@@ -66,6 +66,7 @@ I have long worked on **AI for Science, with a focus on AI-driven target discove
       2025.8 &ensp;- Present<br>
       2025.8 &ensp;- Present<br>
       2024.9 &ensp;- Present<br>
+      2024.9 &ensp;- Present<br>
       2024.8 &ensp;- Present<br>
       2026.1<br>
       2025.1, 2025.8<br>
@@ -74,7 +75,8 @@ I have long worked on **AI for Science, with a focus on AI-driven target discove
       "<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>" (Targeting IF 25~30), Founding Preparatory Committee Member; Academic Editor (Executive)<br>
       "<a href="https://www.cell.com/the-innovation/home">The Innovation</a>" (Comprehensive Q1 IF=39.5), Youth Editorial Board<br>
       "<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>" (Biology Q1 IF=44.4), Youth Editorial Board<br>
-      "<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>" (Comprehensive Q1 IF=30.4), Youth Editorial Board, Deputy Director of Plant Division of Youth Committee<br>
+      "<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>" (Comprehensive Q1 IF=30.4), Youth Editorial Board; Deputy Director of the Plant Science Division and Director of the Southwest China Division of the Youth Editorial Board; Outstanding Youth Editorial Board Member Award 2025<br>
+      "Medicine Bulletin", "AI for Science", "Acta Pharmaceutica Sinica", Youth Editorial Board<br>
       China-Sri Lanka Belt and Road Joint Laboratory of Tea Green Prevention and Control Technology, Founding Participant<br>
       The 6th International Conference on Green Plant Protection Innovation, Organizing Committee<br>
       Guizhou Provincial Big Data Bureau Project Artificial Intelligence Industry Direction Review Expert Group, Leader<br>
@@ -213,10 +215,14 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
       2026.1<br>
       2025.11<br>
       2025.10<br>
+      2025.10<br>
+      2025.6<br>
       2023.3<br>
       Membership<br>
       Review<br>
       Editorial<br>
+      Public Service<br>
+      Conference<br>
     </td><td>
       Invited expert consultant for AI-related meetings of the Guizhou Provincial Department of Science and Technology (×3)<br>
       Invited expert participant in big-data discussion meetings of the Guizhou Provincial Big Data Bureau<br>
@@ -227,10 +233,14 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
       <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">The 6th International Conference on Green Plant Protection Innovation</a>, Talk: AI-Driven Essential-Gene Mining and RNAi Pesticide Design<br>
       <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">Yangzhou University, "Green Agriculture" Academic Lecture Series</a>, Talk: AI-Assisted Pesticide Design<br>
       <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">The 14th National Conference on Bioinformatics and Systems Biology</a>, Talk: Multi-Objective Gradient-Guided Molecular Generation<br>
+      <a href="https://www.gzu.edu.cn/2025/1029/c17516a259976/page.htm">The 3rd National Postdoctoral Innovation and Entrepreneurship Competition</a>, Open-Challenge Track, "AI-Enabled Drug Innovation for Rice and Wheat", Silver Award<br>
+      The 16th Lanqiao Cup National Software and IT Professional Competition, First Supervising Teacher, two National Third Prizes and one Honorable Mention<br>
       <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">Lanzhou University, 15th Graduate Academic Annual Meeting</a>, Talk: Chemistry × AI — Present and Future<br>
       Member of the China Society of Plant Protection, Chinese Association for Artificial Intelligence, China Computer Federation, Chinese Chemical Society, and others<br>
       Reviewer for iMeta, Nature Communications, Advanced Science, Briefings in Bioinformatics, JCIM, and others<br>
       As Academic Editor (Executive), handled editorial work for The Innovation Drug Discovery (Youth Editorial Board interview-panel chair ×3; full manuscript handling ×5); as a Youth Editorial Board member, contributed to iMeta (organizing a Bioinformatics Special Issue)<br>
+      "National Multimodal Plant-Protection Dataset of Crop Pests, Diseases, Weeds, and Pesticides" featured in the "Science and Education for Agriculture" section of the China Agriculture and Rural Yearbook 2025 (supervised by the Ministry of Agriculture and Rural Affairs)<br>
+      Youth Talent Forum of the China Society of Plant Protection, Conference Secretary (2025.8)<br>
     </td></tr>
 </table>
 
