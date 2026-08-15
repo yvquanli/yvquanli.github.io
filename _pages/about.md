@@ -82,7 +82,6 @@ author_profile: true
       2025.8 &ensp;- 今<br>
       2025.8 &ensp;- 今<br>
       2024.9 &ensp;- 今<br>
-      2024.9 &ensp;- 今<br>
       2026.1<br>
       2025.1、2025.8<br>
     </td><td>
@@ -91,7 +90,6 @@ author_profile: true
       《<a href="https://www.cell.com/the-innovation/home">The Innovation</a>》期刊(综合一区 IF=39.5)，青年编委<br>
       《<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>》期刊(生物一区 IF=44.4)，青年编委<br>
       《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊(综合一区 IF=30.4)，青年编委、青委会植物学部副主任、西南分区主任，2025年度杰出青年编委奖<br>
-      《Medicine Bulletin》《AI for Science》《药学学报》，青年编委<br>
       第六届国际绿色植保技术创新会议，组委会<br>
       贵州省大数据局项目人工智能产业方向评审专家组，组长<br>
     </td></tr>
@@ -250,8 +248,8 @@ author_profile: true
       会员<br>
       审稿<br>
       期刊<br>
+      青年编委<br>
       社会服务<br>
-      会务<br>
 
     </td><td>
       作为专家参与贵州省科学技术厅人工智能方面会议咨询3次<br>
@@ -270,8 +268,8 @@ author_profile: true
       中国植保学会、中国人工智能学会、中国计算机学会、中国化学会等<br>
       iMeta、Nature Communications、Advanced Science、Briefings in Bioinformatics、JCIM等<br>
       作为学术编辑(执行)，完成The Innovation Drug Discovery期刊相关工作(青年编委面试组组长3次，全权稿件处理5次)；作为青年编委，完成iMeta期刊相关工作(生物信息学专刊组织)<br>
-      "全国作物病虫草-农药多模态智慧植保高质量数据集"入选《中国农业农村年鉴》2025卷"科教兴农"专版(农业农村部主管)<br>
-      中国植物保护学会青托论坛，会务秘书(2025.8)<br>
+      《Medicine Bulletin》《AI for Science》《药学学报》<br>
+      "全国作物病虫草-农药多模态智慧植保高质量数据集"入选《中国农业农村年鉴》2025卷"科教兴农"专版(农业农村部主管)；中国植物保护学会青托论坛，会务秘书(2025.8)<br>
 
     </td></tr>
 </table>
