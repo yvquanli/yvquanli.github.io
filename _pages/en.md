@@ -214,6 +214,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
       2025.11<br>
       2025.10<br>
       2025.10<br>
+      2025.8<br>
       2025.6<br>
       2023.3<br>
       Membership<br>
@@ -233,6 +234,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
       <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">Yangzhou University, "Green Agriculture" Academic Lecture Series</a>, Talk: AI-Assisted Pesticide Design<br>
       <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">The 14th National Conference on Bioinformatics and Systems Biology</a>, Talk: Multi-Objective Gradient-Guided Molecular Generation<br>
       <a href="https://www.gzu.edu.cn/2025/1029/c17516a259976/page.htm">The 3rd National Postdoctoral Innovation and Entrepreneurship Competition</a>, Open-Challenge Track, "AI-Enabled Drug Innovation for Rice and Wheat", Silver Award<br>
+      Youth Talent Forum of the China Society of Plant Protection, Conference Secretary<br>
       The 16th Lanqiao Cup National Software and IT Professional Competition, First Supervising Teacher, two National Third Prizes and one Honorable Mention<br>
       <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">Lanzhou University, 15th Graduate Academic Annual Meeting</a>, Talk: Chemistry × AI — Present and Future<br>
       Member of the China Society of Plant Protection, Chinese Association for Artificial Intelligence, China Computer Federation, Chinese Chemical Society, and others<br>
@@ -240,7 +242,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
       As Academic Editor (Executive), handled editorial work for The Innovation Drug Discovery (Youth Editorial Board interview-panel chair ×3; full manuscript handling ×5); as a Youth Editorial Board member, contributed to iMeta (organizing a Bioinformatics Special Issue)<br>
       Medicine Bulletin, AI for Science, Acta Pharmaceutica Sinica<br>
       Exploration, Director of the Southwest China Division of the Youth Editorial Board<br>
-      "National Multimodal Plant-Protection Dataset of Crop Pests, Diseases, Weeds, and Pesticides" featured in the "Science and Education for Agriculture" section of the China Agriculture and Rural Yearbook 2025 (supervised by the Ministry of Agriculture and Rural Affairs); Youth Talent Forum of the China Society of Plant Protection, Conference Secretary (2025.8)<br>
+      "National Multimodal Plant-Protection Dataset of Crop Pests, Diseases, Weeds, and Pesticides" featured in the "Science and Education for Agriculture" section of the China Agriculture and Rural Yearbook 2025 (supervised by the Ministry of Agriculture and Rural Affairs)<br>
     </td></tr>
 </table>
 
