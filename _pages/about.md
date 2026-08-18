@@ -251,6 +251,7 @@ author_profile: true
       会员<br>
       审稿<br>
       期刊<br>
+      其他<br>
 
     </td><td>
       作为专家参与贵州省科学技术厅人工智能方面会议咨询3次<br>
@@ -274,6 +275,7 @@ author_profile: true
       中国植保学会、中国人工智能学会、中国计算机学会、中国化学会等<br>
       iMeta、Nature Communications、Advanced Science、Briefings in Bioinformatics、JCIM等<br>
       作为学术编辑(执行)，完成The Innovation Drug Discovery期刊相关工作(青年编委面试组组长3次，全权稿件处理5次)；作为青年编委，完成iMeta期刊相关工作(生物信息学专刊组织)<br>
+      Exploration期刊青委会西南分区主任<br>
 
     </td></tr>
 </table>
