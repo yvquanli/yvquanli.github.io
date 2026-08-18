@@ -222,8 +222,10 @@ author_profile: true
 
 # 🌟 奖项荣誉
 <table class="cv-table"><tr><td class="cv-date">       
+      2025.9<br>
       2024.10<br>
     </td><td>
+      <a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>期刊  2025年度杰出青年编委奖<br>
       贵州大学一流学科建设特别引进人才<br>
     </td></tr>
 </table>
