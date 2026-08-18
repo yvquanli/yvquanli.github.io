@@ -89,7 +89,7 @@ author_profile: true
       <a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>期刊(目标IF 25~30)，创刊筹委、学术编辑(执行)<br>
       <a href="https://www.cell.com/the-innovation/home">The Innovation</a>期刊(综合一区 IF=39.5)，青年编委<br>
       <a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>期刊(生物一区 IF=44.4)，青年编委<br>
-      <a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>期刊(综合一区 IF=30.4)，青年编委<br>
+      <a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>期刊(综合一区 IF=30.4)，青年编委、青委会植物学部副主任<br>
       第六届国际绿色植保技术创新会议，组委会<br>
       贵州省大数据局人工智能产业方向评审专家组，组长<br>
     </td></tr>
