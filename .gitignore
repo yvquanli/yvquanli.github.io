@@ -8,3 +8,8 @@ _pages/about ti.md
 _pages/_aipd_backup.md
 _pages/_aipd_backup_en.md
 _pages/_other_backup.md
+
+# 项目备忘录三件套：内部件，不进版本库（原仅靠本地 .git/info/exclude，换机或重新 clone 即失效）
+/备忘录.md
+/需求.md
+/备忘录处置历史.md

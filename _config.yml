@@ -68,6 +68,11 @@ include:
   - _pages
   - files
 exclude:
+  # 项目备忘录三件套：内部件，绝不可随站点发布到公网 yuquan.li
+  # （Jekyll 会把根目录下无 front matter 的 .md 原样拷进 _site，不排除就等于公开）
+  - 备忘录.md
+  - 需求.md
+  - 备忘录处置历史.md
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
