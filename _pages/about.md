@@ -9,11 +9,17 @@ author_profile: true
 ---
 <style>
   .cv-table { border: none; border-spacing: 0; border-collapse: collapse; margin: 10px 0; width: 100%; } /* 简历列表表格通用样式 */
-  .cv-table td { vertical-align: top; padding-bottom: 8px; } /* 单元格样式：顶部对齐，底部内边距(条目间距) */
-  .cv-date { width: 1%; white-space: nowrap; padding-right: 20px; font-style: italic; color: #555; } /* 时间列样式：不换行、斜体、右边距 */
+  .cv-table td { vertical-align: top; padding: 0 0 3px; line-height: 1.6; } /* 单元格样式：顶部对齐，条目间距 3px */
+  .cv-table tr > td:last-child { text-align: left; } /* 内容列左对齐；换行只影响本行，日期始终与首行齐平 */
+  .cv-table td.cv-date { width: 1%; white-space: nowrap; padding-right: 20px; font-style: italic; color: #555; } /* 时间列样式：不换行、斜体、右边距 */
   .highlight { color: #ff9933; font-weight: bold; } /* 名字高亮样式 */
   .img-center { display: block; margin: 60px auto 0; width: 50%; } /* 底部图片居中样式 */
   .anchor { display: block; position: relative; top: -50px; visibility: hidden; } /* 锚点定位偏移（防止被导航栏遮挡） */
+  @media (max-width: 600px) { /* 窄屏：日期与内容改为上下堆叠，避免内容被挤成一列窄条 */
+    .cv-table td { display: block; }
+    .cv-table td.cv-date { padding: 0 0 1px; }
+    .cv-table tr > td:last-child { padding-bottom: 10px; }
+  }
 </style>
 
 
@@ -46,53 +52,33 @@ author_profile: true
 <span class='anchor' id='educations'></span>
 
 # 🎓 教育经历
-<table class="cv-table"><tr><td class="cv-date">      
-      2019.9&ensp; - 2024.6<br>
-      2015.9&ensp; - 2019.6
-    </td><td>
-      博士 - 兰州大学，化学化工学院(专业：化学信息学，导师：<a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">姚小军教授</a>)<br>
-      本科 - 青海大学，计算机学院(专业：计算机科学与技术)
-    </td></tr>
+<table class="cv-table">
+  <tr><td class="cv-date">2019.9&ensp; - 2024.6</td><td>博士 - 兰州大学，化学化工学院(专业：化学信息学，导师：<a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">姚小军教授</a>)</td></tr>
+  <tr><td class="cv-date">2015.9&ensp; - 2019.6</td><td>本科 - 青海大学，计算机学院(专业：计算机科学与技术)</td></tr>
 </table>
 
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 工作经历
-<table class="cv-table"><tr><td class="cv-date">      
-      2024.10 - 今<br>
-      2024.10 - 今<br>
-      2024.10 - 今<br>
-      2022.7&ensp; - 2023.4<br>
-      2020.8&ensp; - 2022.6<br>
-    </td><td>
-      <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">贵州大学 省大数据实验室/计算机科学与技术学院</a>，特聘教授<br>
-      <a href="https://cs.gzu.edu.cn/16246/list.htm">贵州大学 绿色农药全国重点实验室</a>，流动研究人员 <br>
-      中国-斯里兰卡茶叶绿色防控实验室，流动研究人员<br>
-      <a href="https://www.baai.ac.cn/">北京智源人工智能研究院</a> <a href="https://bigaidream.github.io/">付杰团队</a>，研究实习<br>
-      <a href="https://quantum.tencent.com/">腾讯公司 量子实验室</a>，联合培养(合作导师：<a href="https://person.zju.edu.cn/changyuhsieh">谢昌谕博士</a>)<br>
-    </td></tr>
+<table class="cv-table">
+  <tr><td class="cv-date">2024.10 - 今</td><td><a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">贵州大学 省大数据实验室/计算机科学与技术学院</a>，特聘教授</td></tr>
+  <tr><td class="cv-date">2024.10 - 今</td><td><a href="https://cs.gzu.edu.cn/16246/list.htm">贵州大学 绿色农药全国重点实验室</a>，流动研究人员</td></tr>
+  <tr><td class="cv-date">2024.10 - 今</td><td>中国-斯里兰卡茶叶绿色防控实验室，流动研究人员</td></tr>
+  <tr><td class="cv-date">2022.7&ensp; - 2023.4</td><td><a href="https://www.baai.ac.cn/">北京智源人工智能研究院</a> <a href="https://bigaidream.github.io/">付杰团队</a>，研究实习</td></tr>
+  <tr><td class="cv-date">2020.8&ensp; - 2022.6</td><td><a href="https://quantum.tencent.com/">腾讯公司 量子实验室</a>，联合培养(合作导师：<a href="https://person.zju.edu.cn/changyuhsieh">谢昌谕博士</a>)</td></tr>
 </table>
 
 <span class='anchor' id='jobs2'></span>    
 
 # 🏛️ 学术兼职
-<table class="cv-table"><tr><td class="cv-date">  
-      2026.5 &ensp;- 今<br>
-      2026.1 &ensp;- 今<br>
-      2025.8 &ensp;- 今<br>
-      2025.8 &ensp;- 今<br>
-      2024.9 &ensp;- 今<br>
-      2026.1<br>
-      2025.1、2025.8<br>
-    </td><td>
-      中国生物信息学学会(筹)农林信息学专业委员会，青年委员<br>
-      <a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>期刊(目标IF 25~30)，创刊筹委、学术编辑(执行)<br>
-      <a href="https://www.cell.com/the-innovation/home">The Innovation</a>期刊(综合一区 IF=39.5)，青年编委<br>
-      <a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>期刊(生物一区 IF=44.4)，青年编委<br>
-      <a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>期刊(综合一区 IF=30.4)，青年编委、青委会植物学部副主任<br>
-      第六届国际绿色植保技术创新会议，组委会<br>
-      贵州省大数据局人工智能产业方向评审专家组，组长<br>
-    </td></tr>
+<table class="cv-table">
+  <tr><td class="cv-date">2026.5 &ensp;- 今</td><td>中国生物信息学学会(筹)农林信息学专业委员会，青年委员</td></tr>
+  <tr><td class="cv-date">2026.1 &ensp;- 今</td><td><a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>期刊(目标IF 25~30)，创刊筹委、学术编辑(执行)</td></tr>
+  <tr><td class="cv-date">2025.8 &ensp;- 今</td><td><a href="https://www.cell.com/the-innovation/home">The Innovation</a>期刊(综合一区 IF=39.5)，青年编委</td></tr>
+  <tr><td class="cv-date">2025.8 &ensp;- 今</td><td><a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>期刊(生物一区 IF=44.4)，青年编委</td></tr>
+  <tr><td class="cv-date">2024.9 &ensp;- 今</td><td><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>期刊(综合一区 IF=30.4)，青年编委、青委会植物学部副主任</td></tr>
+  <tr><td class="cv-date">2026.1</td><td>第六届国际绿色植保技术创新会议，组委会</td></tr>
+  <tr><td class="cv-date">2025.1、2025.8</td><td>贵州省大数据局人工智能产业方向评审专家组，组长</td></tr>
 </table>
 
 
@@ -221,65 +207,35 @@ author_profile: true
 <span class='anchor' id='award'></span>
 
 # 🌟 奖项荣誉
-<table class="cv-table"><tr><td class="cv-date">       
-      2025.9<br>
-      2024.10<br>
-    </td><td>
-      <a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>期刊  2025年度杰出青年编委奖<br>
-      贵州大学一流学科建设特别引进人才<br>
-    </td></tr>
+<table class="cv-table">
+  <tr><td class="cv-date">2025.9</td><td><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>期刊  2025年度杰出青年编委奖</td></tr>
+  <tr><td class="cv-date">2024.10</td><td>贵州大学一流学科建设特别引进人才</td></tr>
 </table>
 
 # 🏛️ 学术活动
-<table class="cv-table"><tr><td class="cv-date">      
-      2026.8<br>
-      2026.7<br>
-      2026.5<br>
-      2026.5<br>
-      2026.3<br>
-      2026.1<br>
-      2026.1<br>
-      2025.11<br>
-      2025.11<br>
-      2025.10<br>
-      2025.10<br>
-      2025.8<br>
-      2025.6<br>
-      2024.9 - 今<br>
-      2024.9 - 今<br>
-      2024.9 - 今<br>
-      2024.8 - 今<br>
-      2023.3<br>
-      会员<br>
-      审稿<br>
-      期刊<br>
-      其他<br>
-
-    </td><td>
-      作为专家参与贵州省科学技术厅人工智能方面会议咨询3次<br>
-      作为专家参与贵州省大数据局大数据方面讨论会议<br>
-      聘为全国研究生教育评估监测专家库专家，进行硕士、博士学位论文评审<br>
-      The Innovation Drug Discovery 青年编委会<br>
-      The Innovation期刊青年编委会<br>
-      Exploration首届植物科学国际研讨会，负责人<br>
-      <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">第六届国际绿色植保技术创新会议</a>，报告题目：AI驱动的必须基因挖掘与RNAi农药设计<br>
-      <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">扬州大学，保绿兴农学术大讲堂</a>，报告题目：人工智能辅助农药设计<br>
-      "全国作物病虫草-农药多模态智慧植保高质量数据集"入选《中国农业农村年鉴》2025卷"科教兴农"专版(农业农村部主管)<br>
-      <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">第十四届全国生物信息学与系统生物学学术大会</a>，报告题目：多目标梯度引导分子生成<br>
-      <a href="https://www.gzu.edu.cn/2025/1029/c17516a259976/page.htm">第三届全国博士后创新创业大赛</a>揭榜领题赛，"智创新药，稻麦无忧"，银奖<br>
-      中国植物保护学会青托论坛，会务秘书<br>
-      第十六届蓝桥杯全国软件和信息技术专业人才大赛，第一指导教师，国家级三等奖2项、优秀奖1项<br>
-      Medicine Bulletin期刊，青年编委<br>
-      AI for Science期刊，青年编委<br>
-      药学学报期刊，青年编委<br>
-      中斯茶叶绿色防控一带一路国际联合实验室，创始建设参与<br>
-      <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">兰州大学第十五届研究生学术年会</a>，报告题目：化学×AI，现在与未来<br>
-      中国植保学会、中国人工智能学会、中国计算机学会、中国化学会等<br>
-      iMeta、Nature Communications、Advanced Science、Briefings in Bioinformatics、JCIM等<br>
-      作为学术编辑(执行)，完成The Innovation Drug Discovery期刊相关工作(青年编委面试组组长3次，全权稿件处理5次)；作为青年编委，完成iMeta期刊相关工作(生物信息学专刊组织)<br>
-      Exploration期刊青委会西南分区主任<br>
-
-    </td></tr>
+<table class="cv-table">
+  <tr><td class="cv-date">2026.8</td><td>作为专家参与贵州省科学技术厅人工智能方面会议咨询3次</td></tr>
+  <tr><td class="cv-date">2026.7</td><td>作为专家参与贵州省大数据局大数据方面讨论会议</td></tr>
+  <tr><td class="cv-date">2026.5</td><td>聘为全国研究生教育评估监测专家库专家，进行硕士、博士学位论文评审</td></tr>
+  <tr><td class="cv-date">2026.5</td><td>The Innovation Drug Discovery 青年编委会</td></tr>
+  <tr><td class="cv-date">2026.3</td><td>The Innovation期刊青年编委会</td></tr>
+  <tr><td class="cv-date">2026.1</td><td>Exploration首届植物科学国际研讨会，负责人</td></tr>
+  <tr><td class="cv-date">2026.1</td><td><a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">第六届国际绿色植保技术创新会议</a>，报告题目：AI驱动的必须基因挖掘与RNAi农药设计</td></tr>
+  <tr><td class="cv-date">2025.11</td><td><a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">扬州大学，保绿兴农学术大讲堂</a>，报告题目：人工智能辅助农药设计</td></tr>
+  <tr><td class="cv-date">2025.11</td><td>"全国作物病虫草-农药多模态智慧植保高质量数据集"入选《中国农业农村年鉴》2025卷"科教兴农"专版(农业农村部主管)</td></tr>
+  <tr><td class="cv-date">2025.10</td><td><a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">第十四届全国生物信息学与系统生物学学术大会</a>，报告题目：多目标梯度引导分子生成</td></tr>
+  <tr><td class="cv-date">2025.10</td><td><a href="https://www.gzu.edu.cn/2025/1029/c17516a259976/page.htm">第三届全国博士后创新创业大赛</a>揭榜领题赛，"智创新药，稻麦无忧"，银奖</td></tr>
+  <tr><td class="cv-date">2025.8</td><td>中国植物保护学会青托论坛，会务秘书</td></tr>
+  <tr><td class="cv-date">2025.6</td><td>第十六届蓝桥杯全国软件和信息技术专业人才大赛，第一指导教师，国家级三等奖2项、优秀奖1项</td></tr>
+  <tr><td class="cv-date">2024.9 - 今</td><td>Medicine Bulletin期刊，青年编委</td></tr>
+  <tr><td class="cv-date">2024.9 - 今</td><td>AI for Science期刊，青年编委</td></tr>
+  <tr><td class="cv-date">2024.9 - 今</td><td>药学学报期刊，青年编委</td></tr>
+  <tr><td class="cv-date">2024.8 - 今</td><td>中斯茶叶绿色防控一带一路国际联合实验室，创始建设参与</td></tr>
+  <tr><td class="cv-date">2023.3</td><td><a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">兰州大学第十五届研究生学术年会</a>，报告题目：化学×AI，现在与未来</td></tr>
+  <tr><td class="cv-date">会员</td><td>中国植保学会、中国人工智能学会、中国计算机学会、中国化学会等</td></tr>
+  <tr><td class="cv-date">审稿</td><td>iMeta、Nature Communications、Advanced Science、Briefings in Bioinformatics、JCIM等</td></tr>
+  <tr><td class="cv-date">期刊</td><td>作为学术编辑(执行)，完成The Innovation Drug Discovery期刊相关工作(青年编委面试组组长3次，全权稿件处理5次)；作为青年编委，完成iMeta期刊相关工作(生物信息学专刊组织)</td></tr>
+  <tr><td class="cv-date">其他</td><td>Exploration期刊青委会西南分区主任</td></tr>
 </table>
 
 

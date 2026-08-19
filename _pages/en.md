@@ -9,7 +9,7 @@ author_profile: true
 <style>
   .cv-table { border: none; border-spacing: 0; border-collapse: collapse; margin: 10px 0; width: 100%; } /* Resume list table common styles */
   .cv-table td { vertical-align: top; padding-bottom: 8px; } /* Cell styles: top align, bottom padding (item spacing) */
-  .cv-date { width: 1%; white-space: nowrap; padding-right: 20px; font-style: italic; color: #555; } /* Date column styles: no wrap, italic, right padding */
+  .cv-table td.cv-date { width: 1%; white-space: nowrap; padding-right: 20px; font-style: italic; color: #555; } /* Date column styles: no wrap, italic, right padding */
   .highlight { color: #ff9933; font-weight: bold; } /* Name highlight style */
   .img-center { display: block; margin: 60px auto 0; width: 50%; } /* Bottom image center style */
   .anchor { display: block; position: relative; top: -50px; visibility: hidden; } /* Anchor positioning offset (prevent being covered by navbar) */
@@ -32,53 +32,33 @@ I have long worked on **AI for Science, with a focus on AI-driven target discove
 <span class='anchor' id='educations'></span>
 
 # 🎓 Education
-<table class="cv-table"><tr><td class="cv-date">      
-      2019.9&ensp; - 2024.6<br>
-      2015.9&ensp; - 2019.6
-    </td><td>
-      Ph.D. - Lanzhou University, School of Chemistry and Chemical Engineering (Major: Chemoinformatics, Supervisor: <a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">Prof. Xiaojun Yao</a>)<br>
-      Bachelor - Qinghai University, School of Computer Science (Major: Computer Science and Technology)
-    </td></tr>
+<table class="cv-table">
+  <tr><td class="cv-date">2019.9&ensp; - 2024.6</td><td>Ph.D. - Lanzhou University, School of Chemistry and Chemical Engineering (Major: Chemoinformatics, Supervisor: <a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">Prof. Xiaojun Yao</a>)</td></tr>
+  <tr><td class="cv-date">2015.9&ensp; - 2019.6</td><td>Bachelor - Qinghai University, School of Computer Science (Major: Computer Science and Technology)</td></tr>
 </table>
 
 <span class='anchor' id='jobs'></span>  
 
 # 🧑‍💻 Work Experience
-<table class="cv-table"><tr><td class="cv-date">      
-      2024.10 - Present<br>
-      2024.10 - Present<br>
-      2022.7&ensp; - 2023.4<br>
-      2020.8&ensp; - 2022.6<br>
-    </td><td>
-      <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">Guizhou University, Provincial Big Data Laboratory / College of Computer Science</a>, Special-term Professor<br>
-      <a href="https://cs.gzu.edu.cn/16246/list.htm">Guizhou University, State Key Laboratory of Green Pesticide</a>, Visiting Researcher<br>
-      <a href="https://www.baai.ac.cn/">Beijing Academy of Artificial Intelligence (BAAI)</a> <a href="https://bigaidream.github.io/">Jie Fu's Team</a>, Research Intern<br>
-      <a href="https://quantum.tencent.com/">Tencent Quantum Lab</a>, Joint Training (Co-supervisor: <a href="https://person.zju.edu.cn/changyuhsieh">Dr. Changyu Hsieh</a>)<br>
-    </td></tr>
+<table class="cv-table">
+  <tr><td class="cv-date">2024.10 - Present</td><td><a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">Guizhou University, Provincial Big Data Laboratory / College of Computer Science</a>, Special-term Professor</td></tr>
+  <tr><td class="cv-date">2024.10 - Present</td><td><a href="https://cs.gzu.edu.cn/16246/list.htm">Guizhou University, State Key Laboratory of Green Pesticide</a>, Visiting Researcher</td></tr>
+  <tr><td class="cv-date">2022.7&ensp; - 2023.4</td><td><a href="https://www.baai.ac.cn/">Beijing Academy of Artificial Intelligence (BAAI)</a> <a href="https://bigaidream.github.io/">Jie Fu's Team</a>, Research Intern</td></tr>
+  <tr><td class="cv-date">2020.8&ensp; - 2022.6</td><td><a href="https://quantum.tencent.com/">Tencent Quantum Lab</a>, Joint Training (Co-supervisor: <a href="https://person.zju.edu.cn/changyuhsieh">Dr. Changyu Hsieh</a>)</td></tr>
 </table>
 
 <span class='anchor' id='jobs2'></span>    
 
 # 🏛️ Academic Services
-<table class="cv-table"><tr><td class="cv-date">      
-      2026.5 &ensp;- Present<br>
-      2026.1 &ensp;- Present<br>
-      2025.8 &ensp;- Present<br>
-      2025.8 &ensp;- Present<br>
-      2024.9 &ensp;- Present<br>
-      2024.8 &ensp;- Present<br>
-      2026.1<br>
-      2025.1, 2025.8<br>
-    </td><td>
-      Professional Committee on Agricultural and Forestry Informatics, China Society of Bioinformatics, Youth Committee Member<br>
-      <a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a> (Targeting IF 25~30), Founding Preparatory Committee Member; Academic Editor (Executive)<br>
-      <a href="https://www.cell.com/the-innovation/home">The Innovation</a> (Comprehensive Q1 IF=39.5), Youth Editorial Board<br>
-      <a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a> (Biology Q1 IF=44.4), Youth Editorial Board<br>
-      <a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a> (Comprehensive Q1 IF=30.4), Youth Editorial Board; Deputy Director of the Plant Science Division<br>
-      China-Sri Lanka Belt and Road Joint Laboratory of Tea Green Prevention and Control Technology, Founding Participant<br>
-      The 6th International Conference on Green Plant Protection Innovation, Organizing Committee<br>
-      Guizhou Provincial Big Data Bureau, AI Industry Review Expert Group, Leader<br>
-    </td></tr>
+<table class="cv-table">
+  <tr><td class="cv-date">2026.5 &ensp;- Present</td><td>Professional Committee on Agricultural and Forestry Informatics, China Society of Bioinformatics, Youth Committee Member</td></tr>
+  <tr><td class="cv-date">2026.1 &ensp;- Present</td><td><a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a> (Targeting IF 25~30), Founding Preparatory Committee Member; Academic Editor (Executive)</td></tr>
+  <tr><td class="cv-date">2025.8 &ensp;- Present</td><td><a href="https://www.cell.com/the-innovation/home">The Innovation</a> (Comprehensive Q1 IF=39.5), Youth Editorial Board</td></tr>
+  <tr><td class="cv-date">2025.8 &ensp;- Present</td><td><a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a> (Biology Q1 IF=44.4), Youth Editorial Board</td></tr>
+  <tr><td class="cv-date">2024.9 &ensp;- Present</td><td><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a> (Comprehensive Q1 IF=30.4), Youth Editorial Board; Deputy Director of the Plant Science Division</td></tr>
+  <tr><td class="cv-date">2024.8 &ensp;- Present</td><td>China-Sri Lanka Belt and Road Joint Laboratory of Tea Green Prevention and Control Technology, Founding Participant</td></tr>
+  <tr><td class="cv-date">2026.1</td><td>The 6th International Conference on Green Plant Protection Innovation, Organizing Committee</td></tr>
+  <tr><td class="cv-date">2025.1, 2025.8</td><td>Guizhou Provincial Big Data Bureau, AI Industry Review Expert Group, Leader</td></tr>
 </table>
 
 
@@ -193,57 +173,32 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 <span class='anchor' id='award'></span>
 
 # 🌟 Honors & Awards
-<table class="cv-table"><tr><td class="cv-date">       
-      2025.9<br>
-      2024.10<br>
-    </td><td>
-      <a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a> Journal 2025 Outstanding Youth Editorial Board Member Award<br>
-      Guizhou University First-class Discipline Construction Special Talent Introduction<br>
-    </td></tr>
+<table class="cv-table">
+  <tr><td class="cv-date">2025.9</td><td><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a> Journal 2025 Outstanding Youth Editorial Board Member Award</td></tr>
+  <tr><td class="cv-date">2024.10</td><td>Guizhou University First-class Discipline Construction Special Talent Introduction</td></tr>
 </table>
 
 # 🏛️ Academic Activities
-<table class="cv-table"><tr><td class="cv-date">      
-      2026.8<br>
-      2026.7<br>
-      2026.5<br>
-      2026.5<br>
-      2026.3<br>
-      2026.1<br>
-      2026.1<br>
-      2025.11<br>
-      2025.10<br>
-      2025.10<br>
-      2025.8<br>
-      2025.6<br>
-      2023.3<br>
-      Membership<br>
-      Review<br>
-      Editorial<br>
-      Youth Editorial Boards<br>
-      Other<br>
-      Public Service<br>
-    </td><td>
-      Invited expert consultant for AI-related meetings of the Guizhou Provincial Department of Science and Technology (×3)<br>
-      Invited expert participant in big-data discussion meetings of the Guizhou Provincial Big Data Bureau<br>
-      Appointed Expert of the National Graduate Education Evaluation and Monitoring Expert Pool, reviewing Master's and Doctoral dissertations<br>
-      The Innovation Drug Discovery Youth Editorial Board<br>
-      The Innovation Youth Editorial Board<br>
-      Exploration Inaugural International Symposium on Plant Science, Chair<br>
-      <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">The 6th International Conference on Green Plant Protection Innovation</a>, Talk: AI-Driven Essential-Gene Mining and RNAi Pesticide Design<br>
-      <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">Yangzhou University, "Green Agriculture" Academic Lecture Series</a>, Talk: AI-Assisted Pesticide Design<br>
-      <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">The 14th National Conference on Bioinformatics and Systems Biology</a>, Talk: Multi-Objective Gradient-Guided Molecular Generation<br>
-      <a href="https://www.gzu.edu.cn/2025/1029/c17516a259976/page.htm">The 3rd National Postdoctoral Innovation and Entrepreneurship Competition</a>, Open-Challenge Track, "AI-Enabled Drug Innovation for Rice and Wheat", Silver Award<br>
-      Youth Talent Forum of the China Society of Plant Protection, Conference Secretary<br>
-      The 16th Lanqiao Cup National Software and IT Professional Competition, First Supervising Teacher, two National Third Prizes and one Honorable Mention<br>
-      <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">Lanzhou University, 15th Graduate Academic Annual Meeting</a>, Talk: Chemistry × AI — Present and Future<br>
-      Member of the China Society of Plant Protection, Chinese Association for Artificial Intelligence, China Computer Federation, Chinese Chemical Society, and others<br>
-      Reviewer for iMeta, Nature Communications, Advanced Science, Briefings in Bioinformatics, JCIM, and others<br>
-      As Academic Editor (Executive), handled editorial work for The Innovation Drug Discovery (Youth Editorial Board interview-panel chair ×3; full manuscript handling ×5); as a Youth Editorial Board member, contributed to iMeta (organizing a Bioinformatics Special Issue)<br>
-      Medicine Bulletin, AI for Science, Acta Pharmaceutica Sinica<br>
-      Exploration, Director of the Southwest China Division of the Youth Editorial Board<br>
-      "National Multimodal Plant-Protection Dataset of Crop Pests, Diseases, Weeds, and Pesticides" featured in the "Science and Education for Agriculture" section of the China Agriculture and Rural Yearbook 2025 (supervised by the Ministry of Agriculture and Rural Affairs)<br>
-    </td></tr>
+<table class="cv-table">
+  <tr><td class="cv-date">2026.8</td><td>Invited expert consultant for AI-related meetings of the Guizhou Provincial Department of Science and Technology (×3)</td></tr>
+  <tr><td class="cv-date">2026.7</td><td>Invited expert participant in big-data discussion meetings of the Guizhou Provincial Big Data Bureau</td></tr>
+  <tr><td class="cv-date">2026.5</td><td>Appointed Expert of the National Graduate Education Evaluation and Monitoring Expert Pool, reviewing Master's and Doctoral dissertations</td></tr>
+  <tr><td class="cv-date">2026.5</td><td>The Innovation Drug Discovery Youth Editorial Board</td></tr>
+  <tr><td class="cv-date">2026.3</td><td>The Innovation Youth Editorial Board</td></tr>
+  <tr><td class="cv-date">2026.1</td><td>Exploration Inaugural International Symposium on Plant Science, Chair</td></tr>
+  <tr><td class="cv-date">2026.1</td><td><a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">The 6th International Conference on Green Plant Protection Innovation</a>, Talk: AI-Driven Essential-Gene Mining and RNAi Pesticide Design</td></tr>
+  <tr><td class="cv-date">2025.11</td><td><a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">Yangzhou University, "Green Agriculture" Academic Lecture Series</a>, Talk: AI-Assisted Pesticide Design</td></tr>
+  <tr><td class="cv-date">2025.10</td><td><a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">The 14th National Conference on Bioinformatics and Systems Biology</a>, Talk: Multi-Objective Gradient-Guided Molecular Generation</td></tr>
+  <tr><td class="cv-date">2025.10</td><td><a href="https://www.gzu.edu.cn/2025/1029/c17516a259976/page.htm">The 3rd National Postdoctoral Innovation and Entrepreneurship Competition</a>, Open-Challenge Track, "AI-Enabled Drug Innovation for Rice and Wheat", Silver Award</td></tr>
+  <tr><td class="cv-date">2025.8</td><td>Youth Talent Forum of the China Society of Plant Protection, Conference Secretary</td></tr>
+  <tr><td class="cv-date">2025.6</td><td>The 16th Lanqiao Cup National Software and IT Professional Competition, First Supervising Teacher, two National Third Prizes and one Honorable Mention</td></tr>
+  <tr><td class="cv-date">2023.3</td><td><a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">Lanzhou University, 15th Graduate Academic Annual Meeting</a>, Talk: Chemistry × AI — Present and Future</td></tr>
+  <tr><td class="cv-date">Membership</td><td>Member of the China Society of Plant Protection, Chinese Association for Artificial Intelligence, China Computer Federation, Chinese Chemical Society, and others</td></tr>
+  <tr><td class="cv-date">Review</td><td>Reviewer for iMeta, Nature Communications, Advanced Science, Briefings in Bioinformatics, JCIM, and others</td></tr>
+  <tr><td class="cv-date">Editorial</td><td>As Academic Editor (Executive), handled editorial work for The Innovation Drug Discovery (Youth Editorial Board interview-panel chair ×3; full manuscript handling ×5); as a Youth Editorial Board member, contributed to iMeta (organizing a Bioinformatics Special Issue)</td></tr>
+  <tr><td class="cv-date">Youth Editorial Boards</td><td>Medicine Bulletin, AI for Science, Acta Pharmaceutica Sinica</td></tr>
+  <tr><td class="cv-date">Other</td><td>Exploration, Director of the Southwest China Division of the Youth Editorial Board</td></tr>
+  <tr><td class="cv-date">Public Service</td><td>"National Multimodal Plant-Protection Dataset of Crop Pests, Diseases, Weeds, and Pesticides" featured in the "Science and Education for Agriculture" section of the China Agriculture and Rural Yearbook 2025 (supervised by the Ministry of Agriculture and Rural Affairs)</td></tr>
 </table>
 
 # 🙌 Others
