@@ -43,11 +43,11 @@ author_profile: true
 - AI基础研究：大模型智能体与群体智能、图数据处理与图学习  
 - AI for Science研究：靶向小分子/肽/蛋白/小核酸/材料设计、干湿闭环机器科学家
 
-**交流ing**：非常希望跟各位专家和同学建立联系，碰撞新思想和合作(微信yvquanli)。  
+**交流ing**：非常希望跟各位专家和同学建立联系，碰撞新思想和合作(微信yvquanli)  
 
-**收稿ing**：欢迎联系本人投稿至The Innovation Drug Discovery/The Innovation/Exploration/iMeta期刊，高质量稿件将推荐优先送审。  
+**收稿ing**：欢迎联系本人投稿至TIDD/The Innovation/Exploration/iMeta期刊，高质量稿件将推荐优先送审  
 
-[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：硕博/联培/实习招募中。承诺永不抢一作不骂人不无端卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学产出一篇一作一区/A会论文，优秀者全力支持发子刊。   
+[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：硕博/联培/实习招募中。承诺永不抢一作不骂人不无端卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学产出一篇一作一区/A会论文，优秀者全力支持发子刊   
 
 <span class='anchor' id='educations'></span>
 
