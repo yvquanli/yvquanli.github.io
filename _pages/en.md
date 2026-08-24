@@ -182,6 +182,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 # 🏛️ Academic Activities
 <table class="cv-table">
   <tr><td class="cv-date">2026.8 - Present</td><td>Plant Protection, Inaugural Youth Editorial Board</td></tr>
+  <tr><td class="cv-date">2026.8</td><td><a href="https://mp.weixin.qq.com/s/D6AHRKW6DE1VkDKPoRsqCA">AI for Science Congress 2026 (Beijing)</a>, Poster selected for on-site presentation</td></tr>
   <tr><td class="cv-date">2026.8</td><td>Invited expert consultant for AI-related meetings of the Guizhou Provincial Department of Science and Technology (×3)</td></tr>
   <tr><td class="cv-date">2026.7</td><td>Invited expert participant in big-data discussion meetings of the Guizhou Provincial Big Data Bureau</td></tr>
   <tr><td class="cv-date">2026.5</td><td>Appointed Expert of the National Graduate Education Evaluation and Monitoring Expert Pool, reviewing Master's and Doctoral dissertations</td></tr>
