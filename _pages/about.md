@@ -167,6 +167,7 @@ author_profile: true
 
 #### 2026年度
 
+- **[2026e]** Shuo Liu, Xiang Zhang, Haixia Feng, **<font color="#ff9933">Yuquan Li</font>**, Xiaoqing Gong, Yong Liang\*, Xiaojun Yao\*, Huanxiang Liu\*. A unified hierarchical multiscale fusion framework for drug-target affinity prediction: from benchmark performance to nanomolar inhibitor discovery[J]. `Advanced Science`, 2026: e77345. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77345)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.77345)
 - **[2026d]** Yongjun Xu†, Zezhi Shao†, Xin Liu†, **<font color="#ff9933">Yuquan Li†</font>**, Zhulin An†, Chenguang Fu†, et al. AI for science: Progress, challenges, and perspectives[J]. `The Innovation`, 2026: 101530. [[HTML]](https://doi.org/10.1016/j.xinn.2026.101530)  [[PDF]](https://www.cell.com/action/showPdf?pii=S2666-6758%2826%2900277-8)
 - **[2026c]** Chaoyang Xie, Xiaorui Wang, Yawen Dong, Xiaojun Yao\*, Gefei Hao\*, **<font color="#ff9933">Yuquan Li*</font>**. Reshaping the drug discovery ecosystem with open science and collaborative innovation[J]. `The Innovation Drug Discovery`, 2026, 1(1): 100016. [[HTML]](https://www.the-innovation.org/article/doi/10.59717/j.xinn-drugdisc.2026.100016)  [[PDF]](https://www.the-innovation.org/data/article/export-pdf?id=69d5f87fa26741285584291b)
 - **[2026b]** Chaoyang Xie, Junhu Xu, Guangyi Huang, Shihang Wang, Mutian He, Xinyu Dong, Huiyang Hong, Xiaojun Yao, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction[J]. `Advanced Science`, 2026: e17579. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
@@ -214,6 +215,7 @@ author_profile: true
 
 # 🏛️ 学术活动
 <table class="cv-table">
+  <tr><td class="cv-date">2026.8 - 今</td><td>《植物保护》期刊，首届青年编委</td></tr>
   <tr><td class="cv-date">2026.8</td><td>作为专家参与贵州省科学技术厅人工智能方面会议咨询3次</td></tr>
   <tr><td class="cv-date">2026.7</td><td>作为专家参与贵州省大数据局大数据方面讨论会议</td></tr>
   <tr><td class="cv-date">2026.5</td><td>聘为全国研究生教育评估监测专家库专家，进行硕士、博士学位论文评审</td></tr>

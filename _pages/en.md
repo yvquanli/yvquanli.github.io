@@ -133,6 +133,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 ### All Publications
 
 #### 2026
+- **[2026e]** Shuo Liu, Xiang Zhang, Haixia Feng, **<font color="#ff9933">Yuquan Li</font>**, Xiaoqing Gong, Yong Liang\*, Xiaojun Yao\*, Huanxiang Liu\*. A unified hierarchical multiscale fusion framework for drug-target affinity prediction: from benchmark performance to nanomolar inhibitor discovery[J]. `Advanced Science`, 2026: e77345. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77345)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.77345)
 - **[2026d]** Yongjun Xu†, Zezhi Shao†, Xin Liu†, **<font color="#ff9933">Yuquan Li†</font>**, Zhulin An†, Chenguang Fu†, et al. AI for science: Progress, challenges, and perspectives[J]. `The Innovation`, 2026: 101530. [[HTML]](https://doi.org/10.1016/j.xinn.2026.101530)  [[PDF]](https://www.cell.com/action/showPdf?pii=S2666-6758%2826%2900277-8)
 - **[2026b]** Chaoyang Xie, Junhu Xu, Guangyi Huang, Shihang Wang, Mutian He, Xinyu Dong, Huiyang Hong, Xiaojun Yao, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction[J]. `Advanced Science`, 2026: e17579. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
 - **[2026a]** Huiyang Hong, Xinkai Wu, Hongyu Sun, Chaoyang Xie, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Learning hierarchical interaction for accurate molecular property prediction[J]. `Communications Chemistry`,2026. [[HTML]](https://www.nature.com/articles/s42004-026-01922-x)  [[PDF]](https://www.nature.com/articles/s42004-026-01922-x_reference.pdf)
@@ -180,6 +181,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 
 # 🏛️ Academic Activities
 <table class="cv-table">
+  <tr><td class="cv-date">2026.8 - Present</td><td>Plant Protection, Inaugural Youth Editorial Board</td></tr>
   <tr><td class="cv-date">2026.8</td><td>Invited expert consultant for AI-related meetings of the Guizhou Provincial Department of Science and Technology (×3)</td></tr>
   <tr><td class="cv-date">2026.7</td><td>Invited expert participant in big-data discussion meetings of the Guizhou Provincial Big Data Bureau</td></tr>
   <tr><td class="cv-date">2026.5</td><td>Appointed Expert of the National Graduate Education Evaluation and Monitoring Expert Pool, reviewing Master's and Doctoral dissertations</td></tr>
