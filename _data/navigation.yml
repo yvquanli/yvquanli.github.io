@@ -15,6 +15,9 @@ main:
   - title: "科研项目"
     url: "/#projects"
 
+  - title: "专利"
+    url: "/#patents"
+
   - title: "团队成员"
     url: "/#people"
 
@@ -38,6 +41,8 @@ main_en:
     url: "/en/#jobs2"
   - title: "Projects"
     url: "/en/#projects"
+  - title: "Patents"
+    url: "/en/#patents"
   - title: "Team"
     url: "/en/#people"
   - title: "Publications"

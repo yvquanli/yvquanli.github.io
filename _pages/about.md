@@ -93,6 +93,13 @@ author_profile: true
 
 
 
+<span class='anchor' id='patents'></span>  
+
+# 📜 专利
+[1]基于人工智能的化学反应设计方法、系统及计算机设备,ZL 2026 1 0390758.3,授权公告号CN 122290745 B,2026.09.15授权,专利权人贵州大学,第一发明人  
+
+
+
 <span class='anchor' id='people'></span>  
 
 # 👥 团队成员

@@ -73,6 +73,13 @@ I have long worked on **AI for Science, with a focus on AI-driven target discove
 
 
 
+<span class='anchor' id='patents'></span>  
+
+# 📜 Patents
+[1] An Artificial-Intelligence-Based Chemical Reaction Design Method, System, and Computer Device, Chinese Invention Patent ZL 2026 1 0390758.3 (Publication No. CN 122290745 B), granted Sept 15, 2026, Assignee: Guizhou University, First Inventor  
+
+
+
 <span class='anchor' id='people'></span>  
 
 # 👥 Team Members
