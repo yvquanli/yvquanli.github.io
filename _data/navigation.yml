@@ -15,9 +15,6 @@ main:
   - title: "科研项目"
     url: "/#projects"
 
-  - title: "专利"
-    url: "/#patents"
-
   - title: "团队成员"
     url: "/#people"
 
@@ -30,6 +27,9 @@ main:
   - title: "其他"
     url: "/#others"
 
+  - title: "专利软著"
+    url: "/#patents"
+
 main_en:
   - title: "About"
     url: "/en/#about-me"
@@ -41,11 +41,11 @@ main_en:
     url: "/en/#jobs2"
   - title: "Projects"
     url: "/en/#projects"
-  - title: "Patents"
-    url: "/en/#patents"
   - title: "Team"
     url: "/en/#people"
   - title: "Publications"
     url: "/en/#publications"
   - title: "Others"
     url: "/en/#other"
+  - title: "Patents & Software Copyrights"
+    url: "/en/#patents"

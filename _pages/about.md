@@ -93,13 +93,6 @@ author_profile: true
 
 
 
-<span class='anchor' id='patents'></span>  
-
-# 📜 专利
-[1]基于人工智能的化学反应设计方法、系统及计算机设备,ZL 2026 1 0390758.3,授权公告号CN 122290745 B,2026.09.15授权,专利权人贵州大学,第一发明人  
-
-
-
 <span class='anchor' id='people'></span>  
 
 # 👥 团队成员
@@ -220,6 +213,11 @@ author_profile: true
   <tr><td class="cv-date">2024.10</td><td>贵州大学一流学科建设特别引进人才</td></tr>
 </table>
 
+<span class='anchor' id='patents'></span>
+
+# 📜 专利软著
+[1]基于人工智能的化学反应设计方法、系统及计算机设备,ZL 2026 1 0390758.3,授权公告号CN 122290745 B,2026.09.15授权,专利权人贵州大学,第一发明人
+
 # 🏛️ 学术活动
 <table class="cv-table">
   <tr><td class="cv-date">2026.8 - 今</td><td>《植物保护》期刊，首届青年编委</td></tr>
@@ -256,6 +254,4 @@ author_profile: true
 我清楚的知道，人与人之间的道路是不可复制的，我躺在我自己的床上。  
 世界一流底刊[《Silence》](https://journals.panorama-sg.com/index.php/Silence) 期刊副主编(Associate Editor, AE)  
 世界一流底刊[《Call》](https://callpress.org/index.php/call/editorial) 期刊副主编(Associate Editor, AE)  
-
-
 

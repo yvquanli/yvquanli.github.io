@@ -73,13 +73,6 @@ I have long worked on **AI for Science, with a focus on AI-driven target discove
 
 
 
-<span class='anchor' id='patents'></span>  
-
-# 📜 Patents
-[1] An Artificial-Intelligence-Based Chemical Reaction Design Method, System, and Computer Device, Chinese Invention Patent ZL 2026 1 0390758.3 (Publication No. CN 122290745 B), granted Sept 15, 2026, Assignee: Guizhou University, First Inventor  
-
-
-
 <span class='anchor' id='people'></span>  
 
 # 👥 Team Members
@@ -185,6 +178,11 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
   <tr><td class="cv-date">2025.9</td><td><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a> Journal 2025 Outstanding Youth Editorial Board Member Award</td></tr>
   <tr><td class="cv-date">2024.10</td><td>Guizhou University First-class Discipline Construction Special Talent Introduction</td></tr>
 </table>
+
+<span class='anchor' id='patents'></span>
+
+# 📜 Patents & Software Copyrights
+[1] An Artificial-Intelligence-Based Chemical Reaction Design Method, System, and Computer Device, Chinese Invention Patent ZL 2026 1 0390758.3 (Publication No. CN 122290745 B), granted Sept 15, 2026, Assignee: Guizhou University, First Inventor
 
 # 🏛️ Academic Activities
 <table class="cv-table">
