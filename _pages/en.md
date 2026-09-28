@@ -67,9 +67,10 @@ I have long worked on **AI for Science, with a focus on AI-driven target discove
 <span class='anchor' id='projects'></span>  
 
 # 📑 Research Projects
-[1] National Data Bureau Pilot Dataset Program — Multimodal Plant-Protection Dataset of Crop Pests, Diseases, Weeds, and Pesticides, 2026, Sub-project PI  
-[2] NSFC Regional Project — AI-Driven Mining of RNAi Genes in Wheat-Field Aphids and RNAi Pesticide Design, ¥320K, 2026, PI  
-[3] Guizhou University Talent Introduction Program — Novel Methods for Multi-Constrained Small-Molecule Generative Design, ¥400K, 2024, PI  
+[1] Guizhou Provincial Science & Technology Program (Innovation Platform Program, Guizhou Provincial Laboratory Major Project) — Key Technologies for Capability-Oriented Public Data Operation and Application, Sub-project 3: Trusted Supply and Collaborative Circulation of Public Data Capabilities, ¥1.99M, 2026, Sub-project PI  
+[2] National Data Bureau Pilot Dataset Program — Multimodal Plant-Protection Dataset of Crop Pests, Diseases, Weeds, and Pesticides, 2026, Sub-project PI  
+[3] NSFC Regional Project — AI-Driven Mining of RNAi Genes in Wheat-Field Aphids and RNAi Pesticide Design, ¥320K, 2026, PI  
+[4] Guizhou University Talent Introduction Program — Novel Methods for Multi-Constrained Small-Molecule Generative Design, ¥400K, 2024, PI  
 
 
 
