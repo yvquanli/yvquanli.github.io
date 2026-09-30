@@ -87,49 +87,10 @@ author_profile: true
 <span class='anchor' id='projects'></span>  
 
 # 📑 科研项目
-[1]贵州省科技计划项目（创新平台建设计划·贵州省实验室重大科研项目）,能力化公共数据运营关键技术研究与应用（课题三：公共数据能力可信供给与协同流通关键技术研究）,2026,课题负责人  
-[2]国家数据局数据集先行先试项目,全国作物病虫草-农药多模态植物保护数据集,2026,课题负责人  
+[1]国家数据局数据集先行先试项目,全国作物病虫草-农药多模态植物保护数据集,2026,课题负责人  
+[2]贵州省重大科技计划项目,能力化公共数据运营关键技术研究与应用,2026,课题负责人  
 [3]国家自然科学基金地区项目,基于人工智能的麦田蚜虫RNAi基因挖掘及RNAi农药设计,2026,主持  
 [4]贵州大学人才引进特岗项目,多约束小分子生成设计新方法研究,2024,主持  
-
-
-
-<span class='anchor' id='people'></span>  
-
-# 👥 团队成员
-
-<table class="cv-table"><tr>  
-    <td style="vertical-align:top; width:33%;">
-      <b>名下指导</b>  <br>
-      <a href="mailto:2509362787@qq.com">蒋俞萱</a>,25硕,RNA小分子抑制剂<br>
-      <a href="mailto:2396081899@qq.com">陈维迅</a>,25硕,智能体分子设计<br>
-    </td>
-    <td style="vertical-align:top; width:33%;">
-      <b>联培博士</b><br>
-      <a href="mailto:dongxinyu@samlab.cn">董新宇</a>¹,24博,多目标分子生成<br>
-      <a href="mailto:h397465119@163.com">黄广义</a>¹,24博,AI靶标发现<br>
-      <a href="mailto:sereinnario@gmail.com">何牧天</a>²,25博,大分子药物<br>
-      <a href="mailto:p2521371@mpu.edu.mo">王世航</a>²,25博,细胞表型学习<br>
-      <a href="mailto:gong-dh@foxmail.com">龚道宏</a>²,25博,靶向蛋白降解设计<br> 
-      <a href="mailto:1460167652@qq.com">崔金煜</a>³,25博,多肽及递送设计<br> 
-      <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>²,26博,递送系统<br>
-    </td>
-    <td style="vertical-align:top; width:33%;">
-      <b>联培硕士</b><br>
-      <a href="mailto:2118116004@qq.com">周军</a>¹,&emsp;24硕,合成规划<br>
-      <a href="mailto:3331231706@qq.com">朱磊</a>³,&emsp;24硕,抗菌肽设计<br>
-      <a href="mailto:3156785727@qq.com">谢朝阳</a>⁴,23硕,分子性质预测<br>
-      <br><b>毕业成员</b><br>
-      <a href="mailto:3272282882@qq.com">洪晖阳</a>, 22本,已前往侯廷军教授组<br>  
-    </td></tr>
-</table>
-
-
-深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、[杨文超³](https://pmc.gzu.edu.cn/2025/1104/c23019a260269/page.htm)、联培导师⁴  
-深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，深圳理工大学合成生物学院，特聘副教授，研究方向为AI合成规划  
-
-
-
 
 
 
@@ -200,6 +161,47 @@ author_profile: true
 - **[2021a]** **<font color="#ff9933">Yuquan Li</font>**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao\*. Introducing block design in graph neural networks for molecular properties prediction[J]. `Chemical Engineering Journal`, 2021, 414: 128817. [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)  
 
 **\***通讯  **<sup>†</sup>**共一  
+
+
+
+
+<span class='anchor' id='people'></span>  
+
+# 👥 团队成员
+
+<table class="cv-table"><tr>  
+    <td style="vertical-align:top; width:33%;">
+      <b>名下指导</b>  <br>
+      <a href="mailto:2509362787@qq.com">蒋俞萱</a>,25硕,RNA小分子抑制剂<br>
+      <a href="mailto:2396081899@qq.com">陈维迅</a>,25硕,智能体分子设计<br>
+    </td>
+    <td style="vertical-align:top; width:33%;">
+      <b>联培博士</b><br>
+      <a href="mailto:dongxinyu@samlab.cn">董新宇</a>¹,24博,多目标分子生成<br>
+      <a href="mailto:h397465119@163.com">黄广义</a>¹,24博,AI靶标发现<br>
+      <a href="mailto:sereinnario@gmail.com">何牧天</a>²,25博,大分子药物<br>
+      <a href="mailto:p2521371@mpu.edu.mo">王世航</a>²,25博,细胞表型学习<br>
+      <a href="mailto:gong-dh@foxmail.com">龚道宏</a>²,25博,靶向蛋白降解设计<br> 
+      <a href="mailto:1460167652@qq.com">崔金煜</a>³,25博,多肽及递送设计<br> 
+      <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>²,26博,递送系统<br>
+    </td>
+    <td style="vertical-align:top; width:33%;">
+      <b>联培硕士</b><br>
+      <a href="mailto:2118116004@qq.com">周军</a>¹,&emsp;24硕,合成规划<br>
+      <a href="mailto:3331231706@qq.com">朱磊</a>³,&emsp;24硕,抗菌肽设计<br>
+      <a href="mailto:3156785727@qq.com">谢朝阳</a>⁴,23硕,分子性质预测<br>
+      <br><b>毕业成员</b><br>
+      <a href="mailto:3272282882@qq.com">洪晖阳</a>, 22本,已前往侯廷军教授组<br>  
+    </td></tr>
+</table>
+
+
+深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、[杨文超³](https://pmc.gzu.edu.cn/2025/1104/c23019a260269/page.htm)、联培导师⁴  
+深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，深圳理工大学合成生物学院，特聘副教授，研究方向为AI合成规划  
+
+
+
+
 
 
 
