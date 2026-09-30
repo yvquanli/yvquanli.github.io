@@ -726,15 +726,13 @@ html.static .pulse-ring{opacity:.35}
         </svg>
       </div>
       <div class="col" style="flex:1.15;gap:20px;justify-content:center">
-        <div class="fig grow" style="--d:1.8"><figure class="vx-chart" data-vx-chart="bar" data-hi="5" data-unit="" style="zoom:1.6"
-          data-src="Nat Mach Intell 2022 Table 2 · ESOL RMSE（越低越好）"
-          data-json='[["GCN",1.017],["GIN",0.704],["MPNN",0.755],["AttentiveFP",0.726],["MolMapNet",0.752],["GLAM",0.592]]'></figure></div>
-        <div class="card acc rv" style="--d:2.8;padding:22px 30px;flex:none"><p style="font-size:28px">同表分类任务：BBBP AUC <b class="hot">0.932</b>、Tox21 AUC <b class="hot">0.841</b>，均高于原文表中所列<span style="white-space:nowrap">基线</span></p></div>
+        <div class="fig grow" style="--d:1.8"><figure class="vx-art" data-vx-art="flow" data-nodes="分子图|按任务学出连接|自动选配模型|性质与相互作用预测" data-hot="3" style="zoom:1.2">分子图 按任务学出连接 自动选配模型 性质与相互作用预测</figure></div>
+        <div class="card acc rv" style="--d:2.8;padding:22px 30px;flex:none"><p style="font-size:28px">同一框架覆盖<b class="hot">分子性质</b>与<b class="hot">分子间相互作用</b>两类预测任务</p></div>
       </div>
     </div>
-    <footer class="ft"><span class="src"><b>Source:</b> Li et al., Nat Mach Intell 2022, Table 2（scaffold 划分，3 次均值）</span><span class="pn">4</span></footer>
+    <footer class="ft"><span class="src"><b>Source:</b> Li et al., Nat Mach Intell 2022（共同第一作者）· An adaptive graph learning method for automated molecular interactions and properties predictions</span><span class="pn">4</span></footer>
   </div>
-  <aside class="notes">举一个代表工作，2022 年发表在 Nature Machine Intelligence 的自适应图学习。核心想法是：分子图上该看哪些原子之间的关系，不预先写死，而是让模型按任务自己学出来，左边琥珀色虚线就是模型学到的连接。右边是论文 Table 2 的结果：溶解度 ESOL 的误差低于图中所列的几种主流图神经网络，血脑屏障 BBBP 与毒性 Tox21 两项分类任务的 AUC 也高于原文表中所列基线。</aside>
+  <aside class="notes">举一个代表工作，2022 年发表在 Nature Machine Intelligence 的自适应图学习。核心想法是：分子图上该看哪些原子之间的关系，不预先写死，而是让模型按任务自己学出来，左边琥珀色虚线就是模型学到的连接。右边是这套方法的流程：按任务学出连接、自动选配模型，同一框架覆盖分子性质和分子间相互作用两类预测任务。</aside>
 </section>
 
 <!-- p5 -->
@@ -785,27 +783,31 @@ html.static .pulse-ring{opacity:.35}
     <p class="kicker rv" style="--d:0">合作</p>
     <h2 class="t rv" style="--d:0">如果手上有问题，<span class="hot">大概能这样一起做</span></h2>
     <div class="body" style="gap:36px">
-      <div class="col grow" style="--d:1;flex:0.8"><svg class="big-fig" viewBox="0 0 640 720" aria-label="以真实问题为中心的四类合作">
-          <g stroke="#e67e22" stroke-width="6" stroke-linecap="round"><line class="flow-dash" x1="320" y1="360" x2="140" y2="150"/><line class="flow-dash" x1="320" y1="360" x2="500" y2="150"/><line class="flow-dash" x1="320" y1="360" x2="140" y2="570"/><line class="flow-dash" x1="320" y1="360" x2="500" y2="570"/></g>
-          <circle class="pulse-ring" cx="320" cy="360" r="120" fill="none" stroke="#e67e22" stroke-width="5"/>
-          <circle cx="320" cy="360" r="118" fill="#1a3a6b"/>
-          <g font-family="PingFang SC,Noto Sans SC,sans-serif" text-anchor="middle">
-            <text x="320" y="350" font-size="40" font-weight="800" fill="#fff">真实</text><text x="320" y="398" font-size="40" font-weight="800" fill="#fff">问题</text>
-            <g class="rv" style="--d:1.2"><circle cx="140" cy="150" r="92" fill="#e8f1fb" stroke="#2d7dd2" stroke-width="4"/><text x="140" y="162" font-size="32" font-weight="700" fill="#1a3a6b">联合申报</text></g>
-            <g class="rv" style="--d:1.6"><circle cx="500" cy="150" r="92" fill="#fdf1e4" stroke="#e67e22" stroke-width="4"/><text x="500" y="162" font-size="32" font-weight="700" fill="#a5541a">共同发表</text></g>
-            <g class="rv" style="--d:2"><circle cx="140" cy="570" r="92" fill="#e8f1fb" stroke="#2d7dd2" stroke-width="4"/><text x="140" y="562" font-size="30" font-weight="700" fill="#1a3a6b">数据与</text><text x="140" y="598" font-size="30" font-weight="700" fill="#1a3a6b">平台共建</text></g>
-            <g class="rv" style="--d:2.4"><circle cx="500" cy="570" r="92" fill="#e8f1fb" stroke="#2d7dd2" stroke-width="4"/><text x="500" y="562" font-size="30" font-weight="700" fill="#1a3a6b">工程化</text><text x="500" y="598" font-size="30" font-weight="700" fill="#1a3a6b">落地</text></g>
+      <div class="col grow" style="--d:1;flex:0.8"><svg class="big-fig" viewBox="0 0 640 720" aria-label="带着这些问题来：输入与第一轮产出">
+          <g font-family="PingFang SC,Noto Sans SC,sans-serif">
+            <text x="0" y="44" font-size="34" font-weight="800" fill="#9a4d0b">带着这些来</text><text x="640" y="44" font-size="26" fill="#5a6b7d" text-anchor="end">第一轮能拿到</text>
+            <g class="rv" style="--d:1.2"><rect x="0" y="80" width="250" height="150" rx="18" fill="#e8f1fb" stroke="#2d7dd2" stroke-width="4"/><text x="125" y="166" font-size="30" font-weight="700" fill="#1a3a6b" text-anchor="middle">一批活性数据</text>
+            <line class="flow-dash" x1="262" y1="155" x2="352" y2="155" stroke="#e67e22" stroke-width="6" stroke-linecap="round"/><path d="M346 141 L370 155 L346 169" fill="none" stroke="#e67e22" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="382" y="80" width="258" height="150" rx="18" fill="#fdf1e4" stroke="#e67e22" stroke-width="4"/><text x="511" y="146" font-size="28" font-weight="700" fill="#a5541a" text-anchor="middle">建模与</text><text x="511" y="186" font-size="28" font-weight="700" fill="#a5541a" text-anchor="middle">活性悬崖分析</text></g>
+            <g class="rv" style="--d:1.6"><rect x="0" y="265" width="250" height="150" rx="18" fill="#e8f1fb" stroke="#2d7dd2" stroke-width="4"/><text x="125" y="351" font-size="30" font-weight="700" fill="#1a3a6b" text-anchor="middle">一个靶点</text>
+            <line class="flow-dash" x1="262" y1="340" x2="352" y2="340" stroke="#e67e22" stroke-width="6" stroke-linecap="round"/><path d="M346 326 L370 340 L346 354" fill="none" stroke="#e67e22" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="382" y="265" width="258" height="150" rx="18" fill="#fdf1e4" stroke="#e67e22" stroke-width="4"/><text x="511" y="331" font-size="28" font-weight="700" fill="#a5541a" text-anchor="middle">多约束候选与</text><text x="511" y="371" font-size="28" font-weight="700" fill="#a5541a" text-anchor="middle">可合成性评估</text></g>
+            <g class="rv" style="--d:2.0"><rect x="0" y="450" width="250" height="150" rx="18" fill="#e8f1fb" stroke="#2d7dd2" stroke-width="4"/><text x="125" y="536" font-size="30" font-weight="700" fill="#1a3a6b" text-anchor="middle">一份组学数据</text>
+            <line class="flow-dash" x1="262" y1="525" x2="352" y2="525" stroke="#e67e22" stroke-width="6" stroke-linecap="round"/><path d="M346 511 L370 525 L346 539" fill="none" stroke="#e67e22" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="382" y="450" width="258" height="150" rx="18" fill="#fdf1e4" stroke="#e67e22" stroke-width="4"/><text x="511" y="516" font-size="28" font-weight="700" fill="#a5541a" text-anchor="middle">带证据链的</text><text x="511" y="556" font-size="28" font-weight="700" fill="#a5541a" text-anchor="middle">候选关键基因</text></g>
+            
+            <g class="rv" style="--d:2.6"><rect x="0" y="640" width="640" height="72" rx="16" fill="#1a3a6b"/><text x="320" y="686" font-size="28" font-weight="700" fill="#fff" text-anchor="middle">第一步：先拿一个边界清楚的小问题试一轮</text></g>
           </g></svg></div>
       <div class="col" style="flex:1.2;gap:24px;justify-content:center">
-        <div class="card dcard" data-frag="1"><span class="ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /><path d="M14 2v5a1 1 0 0 0 1 1h5" /><path d="M10 9H8" /><path d="M16 13H8" /><path d="M16 17H8" /></svg></span><div><h3>联合申报</h3><p>对方得到：申报书里完整的 AI 方法与数据工程部分</p><p class="note" style="margin:6px 0 0;color:#5a6b7d">已有基础：主持国自然、国家数据局与省实验室课题</p></div></div>
+        <div class="card dcard" data-frag="1"><span class="ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /><path d="M14 2v5a1 1 0 0 0 1 1h5" /><path d="M10 9H8" /><path d="M16 13H8" /><path d="M16 17H8" /></svg></span><div><h3>联合申报</h3><p>对方得到：申报书里的 AI 方法与数据工程部分</p><p class="note" style="margin:6px 0 0;color:#5a6b7d">已有基础：主持国自然项目，负责国家数据局与省实验室课题</p></div></div>
         <div class="card dcard acc" data-frag="2"><span class="ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></svg></span><div><h3>共同发表</h3><p>对方得到：建模、计算与撰稿支撑，署名按贡献</p><p class="note" style="margin:6px 0 0;color:#5a6b7d">已有基础：2025.9 起署名期刊论文 14 篇</p></div></div>
         <div class="card dcard" data-frag="3"><span class="ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M3 5V19A9 3 0 0 0 21 19V5" /><path d="M3 12A9 3 0 0 0 21 12" /></svg></span><div><h3>数据与平台共建</h3><p>对方得到：数据集、知识图谱、专用模型与在线平台</p><p class="note" style="margin:6px 0 0;color:#5a6b7d">已有基础：两项数据课题在研，参与开发 CODD-Pred</p></div></div>
-        <div class="card dcard" data-frag="4"><span class="ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" /><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09" /><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z" /><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05" /></svg></span><div><h3>工程化落地</h3><p>对方得到：平台开发、部署与长期运维的对接</p><p class="note" style="margin:6px 0 0;color:#5a6b7d">已有基础：有专门承接开发、部署与运维的合作工程团队</p></div></div>
+        <div class="card dcard" data-frag="4"><span class="ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" /><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09" /><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z" /><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05" /></svg></span><div><h3>工程化落地</h3><p>对方得到：平台开发、部署与长期运维，可对接合作工程团队</p></div></div>
       </div>
     </div>
     <footer class="ft"><span class="src">合作方式（四类）</span><span class="pn">6</span></footer>
   </div>
-  <aside class="notes">如果手上有具体问题，大概有四种方式一起做：联合申报，对方出场景、样本与验证，这边补齐 AI 方法与数据工程；共同发表，这边承担建模、计算与撰稿，署名按贡献；数据与平台共建，沉淀成数据集、专用模型和在线平台；以及算法之外的平台开发与部署，可以对接工程化落地。一般先拿一个边界清楚的小问题试一轮，看到效果再定方式。（点击四次，逐张出卡）</aside>
+  <aside class="notes">左边三行是最常见的起点：一批活性数据、一个靶点或一份组学数据，第一轮分别能拿到什么；起步不需要大动作，先拿一个边界清楚的小问题试一轮。如果手上有具体问题，大概有四种方式一起做：联合申报，对方出场景、样本与验证，这边补齐 AI 方法与数据工程；共同发表，这边承担建模、计算与撰稿，署名按贡献；数据与平台共建，沉淀成数据集、专用模型和在线平台；以及算法之外的平台开发与部署，可以对接工程化落地。一般先拿一个边界清楚的小问题试一轮，看到效果再定方式。（点击四次，逐张出卡）</aside>
 </section>
 
 <!-- p7 -->
