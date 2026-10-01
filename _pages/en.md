@@ -176,6 +176,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 
 # 🌟 Honors & Awards
 <table class="cv-table">
+  <tr><td class="cv-date">2026.10</td><td>The Innovation Drug Discovery, Excellent Youth Editor Award</td></tr>
   <tr><td class="cv-date">2025.9</td><td><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a> Journal 2025 Outstanding Youth Editorial Board Member Award</td></tr>
   <tr><td class="cv-date">2024.10</td><td>Guizhou University First-class Discipline Construction Special Talent Introduction</td></tr>
 </table>

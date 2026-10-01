@@ -212,6 +212,7 @@ author_profile: true
 
 # 🌟 奖项荣誉
 <table class="cv-table">
+  <tr><td class="cv-date">2026.10</td><td>The Innovation Drug Discovery 期刊  Excellent Youth Editor Award</td></tr>
   <tr><td class="cv-date">2025.9</td><td><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>期刊  2025年度杰出青年编委奖</td></tr>
   <tr><td class="cv-date">2024.10</td><td>贵州大学一流学科建设特别引进人才</td></tr>
 </table>
