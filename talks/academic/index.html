@@ -12,7 +12,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:"PingFang SC","H
 main{max-width:960px;margin:0 auto;padding:56px 16px 48px}
 h1{font-size:clamp(26px,5vw,38px);color:var(--navy);margin:0 0 8px;letter-spacing:.02em}
 .lead{color:var(--muted);margin:0 0 32px;font-size:16px}
-.lead kbd{font-family:inherit;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 6px;font-size:14px;color:var(--ink)}
+.lead kbd,.read kbd{font-family:inherit;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 6px;font-size:14px;color:var(--ink)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
 a.card{display:block;background:var(--card);border:1px solid var(--line);border-left:5px solid var(--navy);border-radius:10px;padding:22px 22px 20px;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s}
 a.card:hover,a.card:focus-visible{transform:translateY(-2px);box-shadow:0 8px 24px rgba(26,58,107,.12);outline:none}
@@ -24,17 +24,24 @@ a.card.hi .dur{color:var(--amber)}
 .meta{font-size:14px;color:var(--navy);font-weight:600}
 footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
 footer a{color:var(--navy)}
+.read{margin:28px 0 0;padding:18px 22px;background:var(--card);border:1px solid var(--line);border-radius:10px;font-size:16px}
+.read b{color:var(--navy)}
+.read a{color:var(--navy);font-weight:600;margin-right:18px;white-space:nowrap}
+.phone{display:none;margin:0 0 24px;padding:14px 18px;background:#fdf1e4;border:1px solid #ecc9a2;border-radius:10px;color:#7a3f0c;font-size:16px}
+@media (max-width:820px) and (orientation:portrait){.phone{display:block}}
 </style>
 </head>
 <body>
 <main>
 <h1>黎育权 · 学术报告幻灯</h1>
 <p class="lead">浏览器打开即放映：<kbd>→</kbd> 翻页，<kbd>F</kbd> 全屏，<kbd>S</kbd> 演讲者视图。</p>
+<p class="phone">幻灯按 16:9 大屏排版，手机竖屏下字会很小：请把手机横过来再进入放映，或直接看下方的逐页 PDF。</p>
 <div class="grid">
 <a class="card" href="5min.html"><div class="dur">5 分钟</div><div class="kind">初次交流</div><p class="desc">简要介绍研究方向、代表成果与可合作的切入点。</p><div class="meta">7 页 · 进入放映 →</div></a>
-<a class="card hi" href="20min.html"><div class="dur">20 分钟</div><div class="kind">学术报告</div><p class="desc">AI 分子设计的方法、数据与平台，以及代表性发表。</p><div class="meta">17 页 · 进入放映 →</div></a>
-<a class="card" href="60min.html"><div class="dur">60 分钟</div><div class="kind">受邀讲座</div><p class="desc">从预测到设计：表征、生成、合成、靶标四条线的完整讲述。</p><div class="meta">32 页 · 进入放映 →</div></a>
+<a class="card hi" href="20min.html"><div class="dur">20 分钟</div><div class="kind">学术报告</div><p class="desc">AI 分子设计的方法、数据与平台，以及代表性发表。</p><div class="meta">18 页 · 进入放映 →</div></a>
+<a class="card" href="60min.html"><div class="dur">60 分钟</div><div class="kind">受邀讲座</div><p class="desc">从预测到设计：表征、生成、合成、靶标四条线的完整讲述。</p><div class="meta">33 页 · 进入放映 →</div></a>
 </div>
+<p class="read"><b>逐页阅读（PDF，可放大）：</b><a href="5min.pdf">5 分钟 · 7 页</a><a href="20min.pdf">20 分钟 · 18 页</a><a href="60min.pdf">60 分钟 · 33 页</a><br>放映时在地址后加 <kbd>?step=1</kbd> 可逐块手动点亮；加 <kbd>?static=1</kbd> 直接看每页终态。</p>
 <footer>返回 <a href="https://yuquan.li/">个人主页</a></footer>
 </main>
 </body>
