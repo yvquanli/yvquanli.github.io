@@ -188,6 +188,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 
 # 🏛️ Academic Activities
 <table class="cv-table">
+  <tr><td class="cv-date">2026.9</td><td>Invited expert participant in a digital-finance discussion meeting of the Financial Affairs Office of the CPC Guizhou Provincial Committee</td></tr>
   <tr><td class="cv-date">2026.8 - Present</td><td>Plant Protection, Inaugural Youth Editorial Board</td></tr>
   <tr><td class="cv-date">2026.8</td><td><a href="https://mp.weixin.qq.com/s/D6AHRKW6DE1VkDKPoRsqCA">AI for Science Congress 2026 (Beijing)</a>, Poster selected for on-site presentation</td></tr>
   <tr><td class="cv-date">2026.8</td><td>Invited expert consultant for AI-related meetings of the Guizhou Provincial Department of Science and Technology (×3)</td></tr>
