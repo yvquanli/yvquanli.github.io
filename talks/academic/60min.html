@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-duration-min="55">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -776,7 +776,7 @@ html.static .pfb{animation:none!important;transform:none!important}
     </div>
     <footer class="ft"><span class="src">第一部分</span><span class="pn">4</span></footer>
   </div>
-  <aside class="notes">第一部分，先把困难说清楚。说不清困难的方案，通常是在解一个不存在的问题。分子设计的困难可以归成三层：第一，能设计的分子多到近乎无限，而能拿去做实验验证的极少；第二，结构很像的分子活性可能陡变，这恰好是模型最容易出错的地方；第三，这不是靠加数据、加算力就能解决的规模问题。下面三页分别讲这三层，每一层都会落到后面某个具体的方法上。</aside>
+  <aside class="notes">第一部分，先把困难说清楚。说不清困难的方案，通常是在解一个不存在的问题。分子设计的困难可以归成三层：第一，能设计的分子多到近乎无限，而能拿去做实验验证的极少；第二，结构很像的分子活性可能陡变，这恰好是模型最容易出错的地方；第三，另有三件事单靠加数据、加算力解决不了。下面三页分别讲这三层，每一层都会落到后面某个具体的方法上。</aside>
 </section>
 
 <!-- p5 漏斗 -->
@@ -817,8 +817,8 @@ html.static .pfb{animation:none!important;transform:none!important}
     <h2 class="t rv" style="--d:0">只差一个原子，5-HT1A 活性就差近 9 倍：<span class="hot">模型最该做对的地方</span></h2>
     <div class="body" style="flex-direction:column;gap:26px">
       <div class="molpair">
-        <div class="molbox grow" style="--d:1"><canvas data-mol3d="d3_ht1a_tetralin" aria-label="四氢萘类分子三维结构">四氢萘类分子</canvas><div class="cap">四氢萘骨架 · 5-HT1A Ki 185 nM</div></div>
-        <div class="molbox grow" style="--d:1.6"><canvas data-mol3d="d3_ht1a_chromane" aria-label="色满类分子三维结构">色满类分子</canvas><div class="cap">色满骨架 · 5-HT1A Ki <span class="hot">20.7 nM</span>（CH₂ 换成 O）</div></div>
+        <div class="molbox grow" style="--d:1"><canvas data-mol3d="d3_ht1a_tetralin" data-spin="0" data-hl="19" aria-label="四氢萘类分子三维结构">四氢萘类分子</canvas><div class="cap">四氢萘骨架 · 5-HT1A Ki 185 nM</div></div>
+        <div class="molbox grow" style="--d:1.6"><canvas data-mol3d="d3_ht1a_chromane" data-spin="0" data-hl="19" aria-label="色满类分子三维结构">色满类分子</canvas><div class="cap">色满骨架 · 5-HT1A Ki <span class="hot">20.7 nM</span>（CH₂ 换成 O）</div></div>
       </div>
       <div class="rv" style="--d:2.4;display:flex;gap:30px;align-items:center;flex:none">
         <div class="fig" style="flex:1.3"><svg class="tani" viewBox="0 0 1000 150" role="img" aria-label="两分子结构相似度 Tanimoto 0.58，倍数约 8.9"><g font-family="PingFang SC,Noto Sans SC,sans-serif">
@@ -834,11 +834,11 @@ html.static .pfb{animation:none!important;transform:none!important}
   <aside class="notes">第二个难点是活性悬崖，这是全场第一个转折，讲慢一点。这两个分子来自我们 2026 年发表在 Advanced Science 的工作，原始数据是公开基准 MoleculeACE 里的 5-HT1A 受体数据集。两者只有稠环上一个亚甲基换成了氧，其余完全相同；按 RDKit 算，结构相似度是 0.58。对 5-HT1A 受体，它们的 Ki 一个是 185 纳摩尔、一个是 20.7 纳摩尔，差了近 9 倍。活性悬崖指的就是这种结构近邻之间活性陡变的情形。它带来两个后果：对模型，关键差异会被平均掉；对评测，随机划分下悬崖样本占比很低，于是"总体精度很高"和"关键地方没用"可以同时成立。</aside>
 </section>
 
-<!-- p7 不是规模问题 -->
-<section class="slide" data-ds="slide" data-ds-tone="light" data-title="不是规模问题">
+<!-- p7 规模之外的三件事 -->
+<section class="slide" data-ds="slide" data-ds-tone="light" data-title="规模之外的三件事">
   <div class="page white vx-slide">
     <p class="kicker rv" style="--d:0">一 问题 · 根源</p>
-    <h2 class="t rv" style="--d:0">卡住的不是规模，而是<span class="hot">数据少、要外推、要解释</span></h2>
+    <h2 class="t rv" style="--d:0">光靠堆规模解决不了：<span class="hot">数据少、要外推、要解释</span></h2>
     <div class="body d3-tri" style="gap:36px">
       <div class="card d3-panel grow" style="--d:1">
         <svg viewBox="0 0 520 400" aria-label="数据少示意：大空间中只有零星已标注点">
@@ -846,9 +846,9 @@ html.static .pfb{animation:none!important;transform:none!important}
           <g fill="#c9d4e0"><circle cx="60" cy="55" r="7"/><circle cx="110" cy="55" r="7"/><circle cx="160" cy="55" r="7"/><circle cx="210" cy="55" r="7"/><circle cx="260" cy="55" r="7"/><circle cx="310" cy="55" r="7"/><circle cx="360" cy="55" r="7"/><circle cx="410" cy="55" r="7"/><circle cx="460" cy="55" r="7"/><circle cx="60" cy="105" r="7"/><circle cx="110" cy="105" r="7"/><circle cx="160" cy="105" r="7"/><circle cx="210" cy="105" r="7"/><circle cx="260" cy="105" r="7"/><circle cx="310" cy="105" r="7"/><circle cx="360" cy="105" r="7"/><circle cx="410" cy="105" r="7"/><circle cx="460" cy="105" r="7"/><circle cx="60" cy="155" r="7"/><circle cx="110" cy="155" r="7"/><circle cx="160" cy="155" r="7"/><circle cx="210" cy="155" r="7"/><circle cx="260" cy="155" r="7"/><circle cx="310" cy="155" r="7"/><circle cx="360" cy="155" r="7"/><circle cx="410" cy="155" r="7"/><circle cx="460" cy="155" r="7"/><circle cx="60" cy="205" r="7"/><circle cx="110" cy="205" r="7"/><circle cx="160" cy="205" r="7"/><circle cx="210" cy="205" r="7"/><circle cx="260" cy="205" r="7"/><circle cx="310" cy="205" r="7"/><circle cx="360" cy="205" r="7"/><circle cx="410" cy="205" r="7"/><circle cx="460" cy="205" r="7"/><circle cx="60" cy="255" r="7"/><circle cx="110" cy="255" r="7"/><circle cx="160" cy="255" r="7"/><circle cx="210" cy="255" r="7"/><circle cx="260" cy="255" r="7"/><circle cx="310" cy="255" r="7"/><circle cx="360" cy="255" r="7"/><circle cx="410" cy="255" r="7"/><circle cx="460" cy="255" r="7"/><circle cx="60" cy="305" r="7"/><circle cx="110" cy="305" r="7"/><circle cx="160" cy="305" r="7"/><circle cx="210" cy="305" r="7"/><circle cx="260" cy="305" r="7"/><circle cx="310" cy="305" r="7"/><circle cx="360" cy="305" r="7"/><circle cx="410" cy="305" r="7"/><circle cx="460" cy="305" r="7"/><circle cx="60" cy="355" r="7"/><circle cx="110" cy="355" r="7"/><circle cx="160" cy="355" r="7"/><circle cx="210" cy="355" r="7"/><circle cx="260" cy="355" r="7"/><circle cx="310" cy="355" r="7"/><circle cx="360" cy="355" r="7"/><circle cx="410" cy="355" r="7"/><circle cx="460" cy="355" r="7"/></g>
           <g fill="#1a3a6b"><circle cx="130" cy="110" r="14"/><circle cx="330" cy="170" r="14"/><circle cx="210" cy="290" r="14"/><circle cx="410" cy="310" r="14"/></g>
           <g class="rv" style="--d:1.8"><circle class="pulse-ring" cx="390" cy="90" r="20" fill="none" stroke="#e67e22" stroke-width="4"/><circle cx="390" cy="90" r="14" fill="#e67e22"/></g>
-        <g class="rv" style="--d:2.2" font-family="PingFang SC,Noto Sans SC,sans-serif"><rect x="26" y="326" width="468" height="52" rx="14" fill="#fff" stroke="#c9d3de" stroke-width="2"/><text x="260" y="361" font-size="25" font-weight="700" fill="#1a3a6b" text-anchor="middle">11 个常用基准：642–9,998 个分子</text></g>
+        <g class="rv" style="--d:2.2" font-family="PingFang SC,Noto Sans SC,sans-serif"><rect x="26" y="326" width="468" height="52" rx="14" fill="#fff" stroke="#c9d3de" stroke-width="2"/><text x="260" y="361" font-size="25" font-weight="700" fill="#1a3a6b" text-anchor="middle">所列 11 个公开基准：642–9,998 个分子</text></g>
         </svg>
-        <h3>数据少</h3><p>常用基准每个只有数百到数千个带标注分子；阴性结果在文献里越来越少见</p>
+        <h3>数据少</h3><p>所列 11 个公开基准每个只有数百到数千个带标注分子；阴性结果在文献里越来越少见</p>
       </div>
       <div class="card d3-panel grow" style="--d:1.8">
         <svg viewBox="0 0 520 400" aria-label="外推示意：待预测分子落在训练分布之外">
@@ -880,7 +880,7 @@ html.static .pfb{animation:none!important;transform:none!important}
     </div>
     <footer class="ft"><span class="src"><b>Source:</b> MoleculeNet: Wu et al., Chem Sci 2018, 9:513；Commun Chem 2026, Table 6；Fanelli, Scientometrics 2012, 90:891；三幅图为概念示意</span><span class="pn">7</span></footer>
   </div>
-  <aside class="notes">那么，多堆数据、多加算力能不能解决？我的判断是不能，因为卡点不在规模。第一，数据少：常用基准数据集每个只有几百到几千个分子，页上这 11 个常用基准，最少 642 个、最多 9,998 个；而且阴性结果在文献里越来越少见，最有信息量的那部分数据恰恰缺席。第二，要外推：真正想预测的是没见过的新骨架，落在训练分布之外。第三，要解释：化学家拿到一个分数没法下手，需要知道是哪个基团在起作用。所以对模型的要求，从"预测得准"变成三条更难的：给得出理由、说得清不确定在哪、失败后知道改哪一步。</aside>
+  <aside class="notes">那么，多堆数据、多加算力能不能解决？我的判断是光靠这个不够，因为还有三件事规模解决不了。第一，数据少：页上这 11 个公开基准，最少 642 个、最多 9,998 个带标注分子，都在几百到几千这个量级；这 11 个是分子性质预测里常被引用的一批，不代表所有任务；而且阴性结果在文献里越来越少见，最有信息量的那部分数据恰恰缺席。第二，要外推：真正想预测的是没见过的新骨架，落在训练分布之外。第三，要解释：化学家拿到一个分数没法下手，需要知道是哪个基团在起作用。所以对模型的要求，从"预测得准"变成三条更难的：给得出理由、说得清不确定在哪、失败后知道改哪一步。</aside>
 </section>
 
 <!-- p8 转场 二 做法 -->
@@ -1293,7 +1293,7 @@ html.static .pfb{animation:none!important;transform:none!important}
     <h2 class="t rv" style="--d:0">数据集本身就是<span class="hot">一项科研产出</span></h2>
     <div class="body" style="flex-direction:column;gap:56px;justify-content:center">
       <div class="fig grow" style="--d:1;flex:none">
-        <figure class="vx-art" data-vx-art="flow" data-nodes="多源采集|统一治理与标注|高质量数据集|模型 · 平台 · 公开基准" data-hot="3" style="zoom:1.75">多源采集 统一治理与标注 高质量数据集 模型 平台 公开基准</figure>
+        <figure class="vx-art" data-vx-art="flow" data-nodes="多源采集|统一治理 与标注|高质量数据集|模型 · 平台 · 公开基准" data-hot="3" style="zoom:1.75">多源采集 统一治理与标注 高质量数据集 模型 平台 公开基准</figure>
       </div>
       <div style="display:flex;gap:32px;flex:none">
         <div class="card dcard rv" style="--d:2.4;flex:1"><span class="ico"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M3 5V19A9 3 0 0 0 21 19V5" /><path d="M3 12A9 3 0 0 0 21 12" /></svg></span><div><h3>国家数据局 高质量数据集课题</h3><p>先行先试 · 课题负责人<br>2025–2027</p></div></div>
@@ -1382,10 +1382,10 @@ html.static .pfb{animation:none!important;transform:none!important}
     <h2 class="t rv" style="--d:0">期刊论文 27 篇，<span class="hot">2025 年起明显加快</span></h2>
     <div class="body" style="gap:48px">
       <div class="fig grow" style="--d:1;flex:1.35"><figure class="vx-chart" data-vx-chart="bar" data-unit="篇" data-hi="6" style="zoom:1.5"
-        data-src="ORCID 公开记录＋Crossref 补 4 篇，同行评审期刊论文（含参与作者，剔除预印本），2026 截至 9 月（取数 2026-09-25）"
+        data-src="ORCID 公开记录＋Crossref 补 4 篇，同行评审期刊论文（含参与作者，剔除预印本），截至 2026-09（论文篇数取数 09-25，h-index 与被引取数 09-30）"
         data-json='[["2020",1],["2021",2],["2022",2],["2023",4],["2024",3],["2025",6],["2026",9]]'></figure></div>
       <div class="col" style="flex:1;gap:30px;justify-content:center">
-        <div class="card acc rv" style="--d:2"><p class="d3b-lead">2025–2026 年共 <b class="hot">15</b> 篇，占 2020 年以来 27 篇的 56%</p></div>
+        <div class="card acc rv" style="--d:2"><p class="d3b-lead">2025 年至 2026 年 9 月共 <b class="hot">15</b> 篇，占 2020 年以来 27 篇的 56%</p></div>
         <div class="card soft rv" style="--d:2.6;display:flex;gap:64px;padding:24px 32px">
           <div class="stat"><span class="n counter" data-to="10">10</span><span class="u">h-index</span></div>
           <div class="stat"><span class="n counter" data-to="531">531</span><span class="u">总被引</span></div>
@@ -1395,16 +1395,16 @@ html.static .pfb{animation:none!important;transform:none!important}
     </div>
     <footer class="ft"><span class="src"><b>Source:</b> ORCID 0000-0003-2756-0449＋Crossref（取数 2026-09-25）；Semantic Scholar 按 ORCID DOI 匹配（取数 2026-09-30）</span><span class="pn">24</span></footer>
   </div>
-  <aside class="notes">第五部分讲产出。左边是逐年的同行评审期刊论文，口径是 ORCID 公开记录加 Crossref 核实，含参与作者，不含预印本。从 2020 年到 2026 年 9 月一共 27 篇，其中 2025 和 2026 两年是 15 篇，占了一半以上。引用方面，按 Semantic Scholar、用 ORCID 里的 DOI 逐条匹配，h-index 是 10，总被引 531，论文篇数取数 9 月 25 日，h-index 与被引取数 9 月 30 日。</aside>
+  <aside class="notes">第五部分讲产出。左边是逐年的同行评审期刊论文，口径是 ORCID 公开记录加 Crossref 核实，含参与作者，不含预印本。从 2020 年到 2026 年 9 月一共 27 篇，其中 2025 年全年加 2026 年前 9 个月是 15 篇，占了一半以上。引用方面，按 Semantic Scholar、用 ORCID 里的 DOI 逐条匹配，h-index 是 10，总被引 531，论文篇数取数 9 月 25 日，h-index 与被引取数 9 月 30 日。</aside>
 </section>
 
 <!-- p26 合作面 -->
 <section class="slide" data-ds="slide" data-ds-tone="light" data-title="近一年合作面">
   <div class="page vx-slide">
     <p class="kicker rv" style="--d:0">五 产出与服务 · 合作面</p>
-    <h2 class="t rv" style="--d:0">近一年的 14 篇期刊论文，<span class="hot">分布在 10 种期刊</span></h2>
+    <h2 class="t rv" style="--d:0">2025.9 起的 14 篇期刊论文，<span class="hot">分布在 10 种期刊</span></h2>
     <div class="body" style="gap:40px">
-      <div class="fig" style="flex:1.5;display:flex"><svg class="vbar" viewBox="0 0 1000 640" role="img" aria-label="近一年 14 篇期刊论文按领域归并：综合类 6、化学与药物化学 5、农业与食品化学 2、人工智能 1"><g font-family="PingFang SC,Noto Sans SC,sans-serif" text-anchor="middle">
+      <div class="fig" style="flex:1.5;display:flex"><svg class="vbar" viewBox="0 0 1000 640" role="img" aria-label="2025.9 起 14 篇期刊论文按领域归并：综合类 6、化学与药物化学 5、农业与食品化学 2、人工智能 1"><g font-family="PingFang SC,Noto Sans SC,sans-serif" text-anchor="middle">
 <line x1="0" y1="550" x2="1000" y2="550" stroke="#c9d3de" stroke-width="3"/>
 <rect class="grow" style="--d:1.0;transform-box:fill-box;transform-origin:50% 100%" x="60" y="70" width="130" height="480" rx="12" fill="#2d7dd2"/>
 <text x="125" y="52" font-size="44" font-weight="800" fill="#1a3a6b">6<tspan font-size="28" font-weight="600" fill="#5a6b7d"> 篇</tspan></text>
@@ -1427,7 +1427,7 @@ html.static .pfb{animation:none!important;transform:none!important}
     </div>
     <footer class="ft"><span class="src"><b>Source:</b> Crossref 在线日期 2025-09-01 起的期刊论文 14 篇、10 种期刊，按领域归并（归类为本组整理），不含预印本（取数 2026-09-25）</span><span class="pn">25</span></footer>
   </div>
-  <aside class="notes">这一页换个角度看产出：不看数量，看合作面。过去 12 个月、从 2025 年 9 月起在线的期刊论文一共 14 篇，分布在 10 种期刊上，这里按期刊领域归并成四类，归类是我们自己整理的。这里面多数是和其他团队合作完成的，合作面覆盖化学与药物化学、农业与食品化学、人工智能等方向。预印本没有计入。</aside>
+  <aside class="notes">这一页换个角度看产出：不看数量，看合作面。窗口换成过去 12 个月、从 2025 年 9 月起在线的期刊论文，一共 14 篇，和上一页按自然年算的 15 篇不是同一个区间；这 14 篇分布在 10 种期刊上，这里按期刊领域归并成四类，归类是我们自己整理的。这里面多数是和其他团队合作完成的，合作面覆盖化学与药物化学、农业与食品化学、人工智能等方向。预印本没有计入。</aside>
 </section>
 
 <!-- p27 在研项目 -->
@@ -1706,11 +1706,11 @@ window.VX_MOLS=window.VX_MOLS||{};VX_MOLS["p_hydroxybenzoic_acid"]={"atoms":[["O
 window.MOLS=window.VX_MOLS;
 window.VX_MOLS=window.VX_MOLS||{};VX_MOLS["imatinib_desmethyl"]={"atoms":[["C",3.5054,4.2641,0.1985],["C",2.1485,3.9674,0.0827],["C",1.7304,2.65,-0.1216],["N",0.3403,2.4213,-0.2128],["C",-0.2962,1.2285,-0.5063],["O",0.232,0.1707,-0.8279],["C",-1.7841,1.289,-0.4572],["C",-2.4566,2.0351,0.519],["C",-3.8544,2.0584,0.5413],["C",-4.5945,1.3308,-0.4022],["C",-6.1106,1.357,-0.3817],["N",-6.7116,0.0178,-0.2927],["C",-6.4713,-0.6032,1.0286],["C",-7.1631,-1.9797,1.1634],["N",-8.6172,-1.899,0.9224],["C",-9.2262,-3.2248,0.9946],["C",-8.8548,-1.286,-0.3982],["C",-8.1682,0.0928,-0.5283],["C",-3.9105,0.5803,-1.3713],["C",-2.5148,0.5511,-1.3936],["C",2.6959,1.6407,-0.2018],["C",4.0729,1.9175,-0.0906],["N",4.972,0.8454,-0.1507],["C",6.351,0.7261,-0.0145],["N",7.1306,1.7726,0.2862],["C",8.4474,1.5448,0.4096],["C",9.0231,0.3113,0.2391],["C",8.1637,-0.7227,-0.0737],["C",8.6122,-2.113,-0.2796],["C",7.7622,-3.2047,-0.0402],["C",8.2053,-4.5138,-0.2291],["C",9.5045,-4.7092,-0.6605],["N",10.3633,-3.7014,-0.9142],["C",9.8947,-2.4405,-0.726],["N",6.8314,-0.516,-0.1941],["C",4.4563,3.2446,0.1162]],"bonds":[[0,1,2],[1,2,1],[2,3,1],[3,4,1],[4,5,2],[4,6,1],[6,7,2],[7,8,1],[8,9,2],[9,10,1],[10,11,1],[11,12,1],[12,13,1],[13,14,1],[14,15,1],[14,16,1],[16,17,1],[9,18,1],[18,19,2],[2,20,2],[20,21,1],[21,22,1],[22,23,1],[23,24,2],[24,25,1],[25,26,2],[26,27,1],[27,28,1],[28,29,2],[29,30,1],[30,31,2],[31,32,1],[32,33,2],[27,34,2],[21,35,2],[35,0,1],[19,6,1],[34,23,1],[17,11,1],[33,28,1]],"prov":"RDKit 2025.09.6 / ETKDGv3 seed 20260924 / MMFF94，由 SMILES 计算"};
 VX_MOLS["cliff_tetralin"]={"atoms":[["C",-7.0087,-0.7366,-0.1073],["C",-6.6238,0.5421,-0.5049],["C",-5.4698,1.1214,0.0256],["C",-4.6842,0.4268,0.9578],["C",-3.4354,1.0569,1.5377],["N",-2.1712,0.8267,0.8305],["C",-1.7521,-0.5831,0.7965],["C",-0.3514,-0.7477,0.1553],["N",-0.2913,-0.1689,-1.1886],["C",0.9202,-0.4303,-1.964],["C",2.3537,-0.1687,-1.4383],["C",2.5748,1.2174,-0.8299],["C",4.0664,1.4796,-0.6162],["C",4.7924,0.3314,0.0387],["C",6.0684,0.5527,0.5788],["C",6.7848,-0.4915,1.1629],["C",6.2364,-1.7695,1.2087],["C",4.9733,-2.0044,0.6665],["C",4.2467,-0.964,0.0671],["C",2.8658,-1.2535,-0.476],["C",-0.7344,1.232,-1.1757],["C",-2.1325,1.3917,-0.5271],["C",-5.0874,-0.8577,1.3529],["C",-6.2417,-1.4362,0.8218]],"bonds":[[0,1,2],[1,2,1],[2,3,2],[3,4,1],[4,5,1],[5,6,1],[6,7,1],[7,8,1],[8,9,1],[9,10,1],[10,11,1],[11,12,1],[12,13,1],[13,14,2],[14,15,1],[15,16,2],[16,17,1],[17,18,2],[18,19,1],[8,20,1],[20,21,1],[3,22,1],[22,23,2],[23,0,1],[21,5,1],[19,10,1],[18,13,1]],"prov":"RDKit 2025.09.6 / ETKDGv3 seed 20260924 / MMFF94，由 SMILES 计算"};
-VX_MOLS["cliff_chromane"]={"atoms":[["C",6.1391,2.5871,0.7064],["C",5.2636,2.516,-0.3753],["C",4.5634,1.3361,-0.6298],["C",4.7271,0.215,0.198],["C",3.9789,-1.07,-0.0907],["N",2.522,-0.9006,-0.1518],["C",1.9483,-0.482,1.1448],["C",0.454,-0.8519,1.3547],["N",-0.2948,-0.9299,0.0937],["C",-1.7251,-1.1818,0.3228],["C",-2.6195,-1.0454,-0.9366],["C",-2.5154,0.2968,-1.6631],["C",-3.0471,1.4205,-0.7892],["C",-4.3519,1.0188,-0.1654],["C",-5.1925,1.9957,0.3865],["C",-6.4083,1.6352,0.9692],["C",-6.7922,0.2965,1.0086],["C",-5.9556,-0.682,0.4726],["C",-4.7343,-0.3252,-0.1005],["O",-3.9829,-1.3592,-0.5918],["C",0.3229,-1.9238,-0.8079],["C",1.8548,-2.114,-0.6346],["C",5.6139,0.2982,1.2811],["C",6.3146,1.4794,1.5339]],"bonds":[[0,1,2],[1,2,1],[2,3,2],[3,4,1],[4,5,1],[5,6,1],[6,7,1],[7,8,1],[8,9,1],[9,10,1],[10,11,1],[11,12,1],[12,13,1],[13,14,2],[14,15,1],[15,16,2],[16,17,1],[17,18,2],[18,19,1],[8,20,1],[20,21,1],[3,22,1],[22,23,2],[23,0,1],[21,5,1],[19,10,1],[18,13,1]],"prov":"RDKit 2025.09.6 / ETKDGv3 seed 20260924 / MMFF94，由 SMILES 计算"};
+VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.5296,-0.5052],["C",-5.4229,1.109,0.023],["C",-4.6352,0.4145,0.9537],["C",-3.386,1.0458,1.5318],["N",-2.1213,0.8152,0.8253],["C",-1.6883,-0.5917,0.816],["C",-0.2858,-0.7624,0.1733],["N",-0.2367,-0.1981,-1.1798],["C",1.0049,-0.4684,-1.9161],["C",2.4393,-0.1421,-1.377],["C",2.5948,1.2648,-0.8164],["C",4.075,1.5476,-0.607],["C",4.7737,0.3787,0.0224],["C",6.0653,0.5494,0.5486],["C",6.7482,-0.5222,1.1257],["C",6.1505,-1.7784,1.1737],["C",4.8667,-1.9591,0.6434],["C",4.1745,-0.8859,0.0614],["O",2.9025,-1.1273,-0.4223],["C",-0.6892,1.1989,-1.1847],["C",-2.0906,1.3565,-0.5417],["C",-5.0375,-0.87,1.3493],["C",-6.1928,-1.4486,0.8206]],"bonds":[[0,1,2],[1,2,1],[2,3,2],[3,4,1],[4,5,1],[5,6,1],[6,7,1],[7,8,1],[8,9,1],[9,10,1],[10,11,1],[11,12,1],[12,13,1],[13,14,2],[14,15,1],[15,16,2],[16,17,1],[17,18,2],[18,19,1],[8,20,1],[20,21,1],[3,22,1],[22,23,2],[23,0,1],[21,5,1],[19,10,1],[18,13,1]]};
 
 </script>
 <script>/* p6 悬崖对：MoleculeACE CHEMBL214_Ki 原始 SMILES 经 mol_to_vx.py 生成（ETKDGv3 seed 20260924＋MMFF94，去氢） */
-window.MOLS_D3={"d3_ht1a_tetralin":{"atoms":[["C",-7.0087,-0.7366,-0.1073],["C",-6.6238,0.5421,-0.5049],["C",-5.4698,1.1214,0.0256],["C",-4.6842,0.4268,0.9578],["C",-3.4354,1.0569,1.5377],["N",-2.1712,0.8267,0.8305],["C",-1.7521,-0.5831,0.7965],["C",-0.3514,-0.7477,0.1553],["N",-0.2913,-0.1689,-1.1886],["C",0.9202,-0.4303,-1.964],["C",2.3537,-0.1687,-1.4383],["C",2.5748,1.2174,-0.8299],["C",4.0664,1.4796,-0.6162],["C",4.7924,0.3314,0.0387],["C",6.0684,0.5527,0.5788],["C",6.7848,-0.4915,1.1629],["C",6.2364,-1.7695,1.2087],["C",4.9733,-2.0044,0.6665],["C",4.2467,-0.964,0.0671],["C",2.8658,-1.2535,-0.476],["C",-0.7344,1.232,-1.1757],["C",-2.1325,1.3917,-0.5271],["C",-5.0874,-0.8577,1.3529],["C",-6.2417,-1.4362,0.8218]],"bonds":[[0,1,2],[1,2,1],[2,3,2],[3,4,1],[4,5,1],[5,6,1],[6,7,1],[7,8,1],[8,9,1],[9,10,1],[10,11,1],[11,12,1],[12,13,1],[13,14,2],[14,15,1],[15,16,2],[16,17,1],[17,18,2],[18,19,1],[8,20,1],[20,21,1],[3,22,1],[22,23,2],[23,0,1],[21,5,1],[19,10,1],[18,13,1]],"prov":"RDKit 2025.09.6 / ETKDGv3 seed 20260924 / MMFF94，由 SMILES 计算"},"d3_ht1a_chromane":{"atoms":[["C",6.1391,2.5871,0.7064],["C",5.2636,2.516,-0.3753],["C",4.5634,1.3361,-0.6298],["C",4.7271,0.215,0.198],["C",3.9789,-1.07,-0.0907],["N",2.522,-0.9006,-0.1518],["C",1.9483,-0.482,1.1448],["C",0.454,-0.8519,1.3547],["N",-0.2948,-0.9299,0.0937],["C",-1.7251,-1.1818,0.3228],["C",-2.6195,-1.0454,-0.9366],["C",-2.5154,0.2968,-1.6631],["C",-3.0471,1.4205,-0.7892],["C",-4.3519,1.0188,-0.1654],["C",-5.1925,1.9957,0.3865],["C",-6.4083,1.6352,0.9692],["C",-6.7922,0.2965,1.0086],["C",-5.9556,-0.682,0.4726],["C",-4.7343,-0.3252,-0.1005],["O",-3.9829,-1.3592,-0.5918],["C",0.3229,-1.9238,-0.8079],["C",1.8548,-2.114,-0.6346],["C",5.6139,0.2982,1.2811],["C",6.3146,1.4794,1.5339]],"bonds":[[0,1,2],[1,2,1],[2,3,2],[3,4,1],[4,5,1],[5,6,1],[6,7,1],[7,8,1],[8,9,1],[9,10,1],[10,11,1],[11,12,1],[12,13,1],[13,14,2],[14,15,1],[15,16,2],[16,17,1],[17,18,2],[18,19,1],[8,20,1],[20,21,1],[3,22,1],[22,23,2],[23,0,1],[21,5,1],[19,10,1],[18,13,1]],"prov":"RDKit 2025.09.6 / ETKDGv3 seed 20260924 / MMFF94，由 SMILES 计算"}};
+window.MOLS_D3={"d3_ht1a_tetralin":{"atoms":[["C",-7.0087,-0.7366,-0.1073],["C",-6.6238,0.5421,-0.5049],["C",-5.4698,1.1214,0.0256],["C",-4.6842,0.4268,0.9578],["C",-3.4354,1.0569,1.5377],["N",-2.1712,0.8267,0.8305],["C",-1.7521,-0.5831,0.7965],["C",-0.3514,-0.7477,0.1553],["N",-0.2913,-0.1689,-1.1886],["C",0.9202,-0.4303,-1.964],["C",2.3537,-0.1687,-1.4383],["C",2.5748,1.2174,-0.8299],["C",4.0664,1.4796,-0.6162],["C",4.7924,0.3314,0.0387],["C",6.0684,0.5527,0.5788],["C",6.7848,-0.4915,1.1629],["C",6.2364,-1.7695,1.2087],["C",4.9733,-2.0044,0.6665],["C",4.2467,-0.964,0.0671],["C",2.8658,-1.2535,-0.476],["C",-0.7344,1.232,-1.1757],["C",-2.1325,1.3917,-0.5271],["C",-5.0874,-0.8577,1.3529],["C",-6.2417,-1.4362,0.8218]],"bonds":[[0,1,2],[1,2,1],[2,3,2],[3,4,1],[4,5,1],[5,6,1],[6,7,1],[7,8,1],[8,9,1],[9,10,1],[10,11,1],[11,12,1],[12,13,1],[13,14,2],[14,15,1],[15,16,2],[16,17,1],[17,18,2],[18,19,1],[8,20,1],[20,21,1],[3,22,1],[22,23,2],[23,0,1],[21,5,1],[19,10,1],[18,13,1]],"prov":"RDKit 2025.09.6 / ETKDGv3 seed 20260924 / MMFF94，由 SMILES 计算"},"d3_ht1a_chromane":{"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.5296,-0.5052],["C",-5.4229,1.109,0.023],["C",-4.6352,0.4145,0.9537],["C",-3.386,1.0458,1.5318],["N",-2.1213,0.8152,0.8253],["C",-1.6883,-0.5917,0.816],["C",-0.2858,-0.7624,0.1733],["N",-0.2367,-0.1981,-1.1798],["C",1.0049,-0.4684,-1.9161],["C",2.4393,-0.1421,-1.377],["C",2.5948,1.2648,-0.8164],["C",4.075,1.5476,-0.607],["C",4.7737,0.3787,0.0224],["C",6.0653,0.5494,0.5486],["C",6.7482,-0.5222,1.1257],["C",6.1505,-1.7784,1.1737],["C",4.8667,-1.9591,0.6434],["C",4.1745,-0.8859,0.0614],["O",2.9025,-1.1273,-0.4223],["C",-0.6892,1.1989,-1.1847],["C",-2.0906,1.3565,-0.5417],["C",-5.0375,-0.87,1.3493],["C",-6.1928,-1.4486,0.8206]],"bonds":[[0,1,2],[1,2,1],[2,3,2],[3,4,1],[4,5,1],[5,6,1],[6,7,1],[7,8,1],[8,9,1],[9,10,1],[10,11,1],[11,12,1],[12,13,1],[13,14,2],[14,15,1],[15,16,2],[16,17,1],[17,18,2],[18,19,1],[8,20,1],[20,21,1],[3,22,1],[22,23,2],[23,0,1],[21,5,1],[19,10,1],[18,13,1]]}};
 window.VX_MOLS=window.VX_MOLS||{};Object.assign(window.VX_MOLS,window.MOLS_D3);</script>
 <script data-inlined="vendor/art.js">
 
@@ -2767,6 +2767,9 @@ window.VX_MOLS=window.VX_MOLS||{};Object.assign(window.VX_MOLS,window.MOLS_D3);<
     ['c', 'o', 'n', 'h', 's', 'x'].forEach(function (k) { col[k.toUpperCase()] = tok('--vx-atom-' + k); });
     var R0 = [+(cv.dataset.rx || -0.35), +(cv.dataset.ry || 0.5)], rx = R0[0], ry = R0[1];
     var drag = null, raf = 0, last = 0, visible = true, w = 0, h = 0;
+    var noSpin = cv.getAttribute('data-spin') === '0', hl = cv.hasAttribute('data-hl') ? +cv.getAttribute('data-hl') : -1, t0 = 0;
+    if (!(hl >= 0 && hl < m.atoms.length)) hl = -1;
+    function hlCol() { var cs = getComputedStyle(cv); return (cs.getPropertyValue('--amber-t') || '').trim() || (cs.getPropertyValue('--vx-accent') || '').trim() || col.X; }
     var slide = cv.closest('.slide,section[data-slide],.reveal section');
     cv.setAttribute('role', 'img'); if (!cv.getAttribute('aria-label')) cv.setAttribute('aria-label', '分子三维结构（可拖动旋转）');
     cv.style.touchAction = 'none';
@@ -2807,18 +2810,29 @@ window.VX_MOLS=window.VX_MOLS||{};Object.assign(window.VX_MOLS,window.MOLS_D3);<
         }
       });
       ctx.globalAlpha = 1;
+      if (hl >= 0) {
+        var hp = P[hl], hr = (RAD[hp.e] || 0.36) * 1.1 * k * hp.q, still = frozen || !spinOK(), dt = t0 ? performance.now() - t0 : 0;
+        if (still || dt > 800) {
+          var ph = still ? 0 : ((dt - 800) % 1400) / 1400, rr = hr * (1.55 + (still ? 0 : 0.6 * ph));
+          ctx.strokeStyle = hlCol(); ctx.lineWidth = Math.max(3, hr * 0.28); ctx.globalAlpha = still ? 0.95 : 0.95 - 0.55 * ph;
+          ctx.beginPath(); ctx.arc(hp.X, hp.Y, rr, 0, Math.PI * 2); ctx.stroke(); ctx.globalAlpha = 1;
+        }
+      }
     }
     function active() {
       if (frozen || document.hidden || !visible) return false;
       return slide ? /(^|\s)(is-active|active|present)(\s|$)/.test(slide.className) : true;
     }
-    function spin() { return !(reduceQ && reduceQ.matches); }
+    function spinOK() { return !(reduceQ && reduceQ.matches); }
+    function spin() { return !noSpin && spinOK(); }
+    function pulse() { return hl >= 0 && spinOK(); }
     function loop(t) {
-      raf = 0; if (!active()) { last = 0; return; }
+      raf = 0; if (!active()) { last = 0; t0 = 0; return; }
+      if (!t0) t0 = performance.now();
       if (last && !drag && spin()) ry += Math.min(t - last, 50) * 0.00035;
-      last = t; frame(); if (spin() || drag) raf = requestAnimationFrame(loop);
+      last = t; frame(); if (spin() || drag || pulse()) raf = requestAnimationFrame(loop);
     }
-    function sync() { if (active()) { if (!raf) raf = requestAnimationFrame(loop); } else if (raf) { cancelAnimationFrame(raf); raf = 0; last = 0; } frame(); }
+    function sync() { if (active()) { if (!raf) raf = requestAnimationFrame(loop); } else { if (raf) cancelAnimationFrame(raf); raf = 0; last = 0; t0 = 0; } frame(); }
     function reset() { rx = R0[0]; ry = R0[1]; frame(); }
     cv.addEventListener('pointerdown', function (e) { if (e.button !== 0) return; drag = { x: e.clientX, y: e.clientY, id: e.pointerId }; try { cv.setPointerCapture(e.pointerId); } catch (_) { } e.stopPropagation(); sync(); });
     cv.addEventListener('pointermove', function (e) {
@@ -3330,6 +3344,7 @@ window.VX_MOLS=window.VX_MOLS||{};Object.assign(window.VX_MOLS,window.MOLS_D3);<
       presenterWin.document.close();
     }
     function buildPresenterHTML(deckUrl, slideMeta, total, startIdx, channelName, currentTheme) {
+      var targetMin = Math.max(0, +(document.documentElement.getAttribute('data-duration-min') || 0) || 0);
       const metaJSON = JSON.stringify(slideMeta);
       const deckUrlJSON = JSON.stringify(deckUrl);
       const channelJSON = JSON.stringify(channelName);
@@ -3436,6 +3451,8 @@ window.VX_MOLS=window.VX_MOLS||{};Object.assign(window.VX_MOLS,window.MOLS_D3);<
   }
   .timer-row .label { font-size: 10px; letter-spacing: .15em; text-transform: uppercase; color: #6e7681; }
   .timer-row .val { color: #e6edf3; font-weight: 600; font-family: "SF Mono", monospace; }
+  .timer-display.is-warn, #timer-left.is-warn { color: #d29922; }
+  .timer-display.is-over, #timer-left.is-over { color: #f85149; }
   .timer-controls { display: flex; gap: 8px; flex-wrap: wrap; }
   .timer-btn {
     background: rgba(255,255,255,.06);
@@ -3526,6 +3543,12 @@ window.VX_MOLS=window.VX_MOLS||{};Object.assign(window.VX_MOLS,window.MOLS_D3);<
       <div class="timer-row">
         <span class="label">Slide</span>
         <span class="val" id="timer-count">1 / ${total}</span>
+      </div>
+      <div class="timer-row" id="timer-target-row"${targetMin ? '' : ' hidden'}>
+        <span class="label">目标</span>
+        <span class="val" id="timer-target">${targetMin} 分钟</span>
+        <span class="label">剩余</span>
+        <span class="val" id="timer-left">${targetMin ? String(targetMin).padStart(2,'0') + ':00' : '—'}</span>
       </div>
       <div class="timer-controls">
         <button class="timer-btn" id="btn-prev">← Prev</button>
@@ -3750,13 +3773,19 @@ window.VX_MOLS=window.VX_MOLS||{};Object.assign(window.VX_MOLS,window.MOLS_D3);<
   }
   /* ===== Timer ===== */
   var tStart = Date.now();
-  setInterval(function(){
+  var targetSec = ${targetMin * 60};
+  var timerLeft = document.getElementById('timer-left');
+  function fmt(s){ return String(Math.floor(s/60)).padStart(2,'0') + ':' + String(s%60).padStart(2,'0'); }
+  function tick(){
     var s = Math.floor((Date.now() - tStart) / 1000);
-    var mm = String(Math.floor(s/60)).padStart(2,'0');
-    var ss = String(s%60).padStart(2,'0');
-    timerDisplay.textContent = mm + ':' + ss;
-  }, 1000);
-  function resetTimer(){ tStart = Date.now(); timerDisplay.textContent = '00:00'; }
+    timerDisplay.textContent = fmt(s);
+    if (!targetSec || !timerLeft) return;
+    var left = targetSec - s, over = left < 0, warn = !over && left <= Math.max(60, Math.round(targetSec * 0.1));
+    timerLeft.textContent = over ? '超时 +' + fmt(-left) : fmt(left);
+    [timerDisplay, timerLeft].forEach(function(el){ el.classList.toggle('is-over', over); el.classList.toggle('is-warn', warn); });
+  }
+  setInterval(tick, 1000);
+  function resetTimer(){ tStart = Date.now(); tick(); }
   /* ===== BroadcastChannel sync ===== */
   if (bc) {
     bc.onmessage = function(e){
