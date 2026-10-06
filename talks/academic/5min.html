@@ -504,6 +504,12 @@ html.static .progress-bar{display:none}
 .coverart{width:620px;margin:40px 0 0}
 .fig > .vx-chart{flex:0 0 auto}
 html[data-preview] .deck .slide.is-active{transform:translate(-50%,-50%) scale(var(--s,1))!important}
+.v2-toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:100000;background:#1a3a6b;color:#fff;
+  font:16px/1.5 "PingFang SC","Noto Sans SC",sans-serif;padding:10px 18px;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+html.v2-fallback,html.v2-fallback body{overflow:auto!important;height:auto!important}
+html.v2-fallback .deck{position:static!important;height:auto!important;overflow:visible!important}
+html.v2-fallback .deck .slide{position:relative!important;left:auto!important;top:auto!important;inset:auto!important;transform:none!important;
+  zoom:var(--s,.5);visibility:visible!important;opacity:1!important;margin:0 auto 24px;pointer-events:auto}
 
 </style>
 <style>
@@ -3160,6 +3166,37 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
     if (e.clientX < innerWidth / 4) prev(); else next();
   });
   
+  var sw = null;
+  addEventListener('pointerdown', function (e) {
+    sw = (e.pointerType === 'touch' || e.pointerType === 'pen') ? { x: e.clientX, y: e.clientY, t: e.target } : null;
+  }, true);
+  addEventListener('pointerup', function (e) {
+    if (!sw || STATIC) { sw = null; return; }
+    var dx = e.clientX - sw.x, dy = e.clientY - sw.y, t = sw.t; sw = null;
+    if (t && t.closest && t.closest('canvas,.no-nav,.overview,.notes-overlay,input,textarea,select')) return;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.2) { if (dx < 0) next(); else prev(); }
+  }, true);
+  addEventListener('pointercancel', function () { sw = null; }, true);
+  
+  function toast(msg) {
+    var el = document.createElement('div'); el.className = 'v2-toast'; el.setAttribute('role', 'status'); el.textContent = msg;
+    document.body.appendChild(el); setTimeout(function () { el.remove(); }, 3200);
+  }
+  function fsEl() { return document.fullscreenElement || document.webkitFullscreenElement || null; }
+  function toggleFs() {
+    var el = root;
+    try {
+      if (fsEl()) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); return; }
+      var req = el.requestFullscreen || el.webkitRequestFullscreen;
+      if (!req) { toast('此浏览器不支持网页全屏，可用浏览器自身的全屏或横屏放映'); return; }
+      var r = req.call(el); if (r && r.catch) r.catch(function () { toast('全屏被浏览器拒绝，可用浏览器自身的全屏'); });
+    } catch (_) { toast('全屏被浏览器拒绝，可用浏览器自身的全屏'); }
+  }
+  addEventListener('keydown', function (e) {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key === 'f' || e.key === 'F') { e.preventDefault(); e.stopImmediatePropagation(); toggleFs(); }
+  }, true);
+  
   function prepDraw(scope) {
     scope.querySelectorAll('.draw').forEach(function (g) {
       var d = getComputedStyle(g).getPropertyValue('--d');
@@ -3209,13 +3246,18 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
     slides().forEach(function (sl) { new MutationObserver(watch).observe(sl, { attributes: true, attributeFilter: ['class'] }); });
     watch();
     if (STATIC) goStatic();
+    setTimeout(function () {
+      if (cur() || !slides().length) return;
+      root.classList.add('v2-fallback', 'static', 'vx-static'); STATIC = true; goStatic(); fit();
+    }, 3000);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { setTimeout(init, 0); });
   else setTimeout(init, 0);
-  window.DeckV2 = { next: next, prev: prev, fragState: fragState, isStatic: function () { return STATIC; } };
+  window.DeckV2 = { next: next, prev: prev, fragState: fragState, isStatic: function () { return STATIC; }, toggleFullscreen: toggleFs };
 })();
 
 </script>
 <style>.ol-hint{display:none}@media (orientation:portrait) and (max-width:900px){.ol-hint{display:flex;gap:10px;align-items:center;position:fixed;left:0;right:0;top:0;z-index:99999;padding:12px 14px;background:#1a3a6b;color:#fff;font:15px/1.5 "PingFang SC","Noto Sans SC",sans-serif}.ol-hint a{color:#f0a852;font-weight:700}.ol-hint button{margin-left:auto;flex:none;border:0;background:transparent;color:#fff;font-size:22px;line-height:1;padding:4px 8px}}</style><div class="ol-hint" role="note" onclick="event.stopPropagation()"><span>手机上建议看 <a href="5min.pdf">逐页 PDF</a>（可放大，末页邮箱与主页可点）；横屏也能放映，字仍偏小。</span><button type="button" aria-label="关闭提示" onclick="this.parentNode.remove()">×</button></div>
+<style>.ol-nav{position:fixed;right:18px;top:14px;z-index:99998;display:flex;align-items:center;gap:6px;padding:6px 8px;border-radius:14px;background:rgba(26,58,107,.88);color:#fff;font:15px/1 "PingFang SC","Noto Sans SC",sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.18);transition:opacity .4s}.ol-nav.idle{opacity:0;pointer-events:none}.ol-nav button{border:0;background:transparent;color:#fff;font:inherit;font-size:20px;min-width:40px;height:40px;border-radius:10px;cursor:pointer}.ol-nav button:hover,.ol-nav button:focus-visible{background:rgba(255,255,255,.16);outline:none}.ol-nav .pg{min-width:64px;text-align:center;font-variant-numeric:tabular-nums}.ol-nav .keys{padding:0 8px 0 4px;color:#cfe0f5;font-size:14px;white-space:nowrap}@media (max-width:900px){.ol-nav{top:auto;bottom:20px}.ol-nav .keys{display:none}}html.static .ol-nav,html.v2-fallback .ol-nav{display:none}@media print{.ol-nav{display:none}}</style><div class="ol-nav no-nav" role="navigation" aria-label="翻页"><span class="keys">← → 翻页 · F 全屏 · O 总览</span><button type="button" data-a="prev" aria-label="上一页">‹</button><span class="pg" aria-live="polite">1 / 1</span><button type="button" data-a="next" aria-label="下一页">›</button><button type="button" data-a="fs" aria-label="全屏">⛶</button></div><noscript><div style="position:fixed;inset:0;z-index:100001;display:flex;align-items:center;justify-content:center;background:#faf7f2;font:20px/1.6 sans-serif;color:#1a3a6b;padding:24px;text-align:center">此演示需要启用 JavaScript 才能放映；也可直接看 <a href="5min.pdf">逐页 PDF</a>。</div></noscript><script>(function(){var b=document.querySelector(".ol-nav");if(!b)return;var pg=b.querySelector(".pg"),t=null,sl=function(){return Array.prototype.slice.call(document.querySelectorAll(".deck .slide"))},up=function(){var a=sl(),c=document.querySelector(".deck .slide.is-active");pg.textContent=(a.indexOf(c)+1||1)+" / "+a.length},wake=function(){b.classList.remove("idle");clearTimeout(t);t=setTimeout(function(){b.classList.add("idle")},4000)};b.addEventListener("click",function(e){e.stopPropagation();var a=e.target.closest("button");if(!a||!window.DeckV2)return;var k=a.getAttribute("data-a");if(k==="next")DeckV2.next();else if(k==="prev")DeckV2.prev();else if(DeckV2.toggleFullscreen)DeckV2.toggleFullscreen();wake()});sl().forEach(function(s){new MutationObserver(up).observe(s,{attributes:true,attributeFilter:["class"]})});addEventListener("mousemove",wake,{passive:true});addEventListener("keydown",wake);addEventListener("pointerdown",wake,{passive:true});up();wake()})();</script>
 </body>
 </html>
