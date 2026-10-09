@@ -225,6 +225,7 @@ author_profile: true
 # 🏛️ 学术活动
 <table class="cv-table">
   <tr><td class="cv-date">2026.9</td><td>作为专家参与贵州省委金融办数字金融方向讨论会议</td></tr>
+  <tr><td class="cv-date">2026.9</td><td>第十五届"挑战杯"贵州省大学生创业计划竞赛，第一指导教师，省级三等奖</td></tr>
   <tr><td class="cv-date">2026.8 - 今</td><td>《植物保护》期刊，首届青年编委</td></tr>
   <tr><td class="cv-date">2026.8</td><td>参加<a href="https://mp.weixin.qq.com/s/D6AHRKW6DE1VkDKPoRsqCA">2026科学智能大会（AI for Science Congress 2026，北京）</a>，学术墙报</td></tr>
   <tr><td class="cv-date">2026.8</td><td>作为专家参与贵州省科学技术厅人工智能方面会议咨询3次</td></tr>
