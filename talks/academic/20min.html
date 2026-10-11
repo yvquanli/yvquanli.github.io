@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>黎育权 · AI 辅助分子设计：问题、方法与合作（20 分钟）</title>
+<meta name="description" content="黎育权 20 分钟学术报告：AI 分子设计面对的问题，自适应图学习、化学语义谱分解与多约束生成等方法，数据集与在线平台，以及合作方式。">
+<meta name="author" content="黎育权">
+<link rel="canonical" href="https://yuquan.li/talks/academic/20min.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="黎育权 · AI 辅助分子设计：问题、方法与合作（20 分钟）">
+<meta property="og:description" content="黎育权 20 分钟学术报告：AI 分子设计面对的问题，自适应图学习、化学语义谱分解与多约束生成等方法，数据集与在线平台，以及合作方式。">
+<meta property="og:url" content="https://yuquan.li/talks/academic/20min.html">
+<meta property="og:locale" content="zh_CN">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "PresentationDigitalDocument", "name": "黎育权 · AI 辅助分子设计：问题、方法与合作（20 分钟）", "description": "黎育权 20 分钟学术报告：AI 分子设计面对的问题，自适应图学习、化学语义谱分解与多约束生成等方法，数据集与在线平台，以及合作方式。", "url": "https://yuquan.li/talks/academic/20min.html", "inLanguage": "zh-CN", "timeRequired": "PT20M", "encodingFormat": "text/html", "author": {"@type": "Person", "name": "黎育权", "alternateName": "Yuquan Li", "url": "https://yuquan.li/", "affiliation": {"@type": "Organization", "name": "贵州省大数据实验室", "alternateName": "Guizhou Provincial Laboratory of Big Data"}}, "isPartOf": {"@type": "CollectionPage", "url": "https://yuquan.li/talks/academic/"}}</script>
 <style data-inlined="vendor/base.css">
 
 :root {
@@ -839,28 +848,29 @@ html.static .vbar,html.static .hbar{animation:none!important;transform:none!impo
     <h2 class="t rv" style="--d:0">把分子拆成<span class="hot">“骨架”与“关键改动”</span>两个频段分别看</h2>
     <div class="body" style="gap:36px">
       <div class="col grow" style="--d:1;flex:1.05">
-        <svg class="big-fig" viewBox="0 0 900 720" aria-label="信号分解示意：原始表示分解为低频骨架与高频关键改动">
-          <rect x="0" y="0" width="900" height="720" rx="28" fill="#fff"/>
-          <g font-family="PingFang SC,Noto Sans SC,sans-serif" font-size="30" font-weight="700">
-            <text x="30" y="56" fill="#1a3a6b">分子表示</text><text x="30" y="296" fill="#0072B2">低频 · 骨架（整体相似）</text><text x="30" y="536" fill="#a5541a">高频 · 关键改动（活性悬崖处）</text>
-          </g>
-          <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <g transform="translate(0,70)"><path class="draw" style="--d:1" d="M0.0 75.0 L3.8 72.8 L7.5 70.7 L11.2 68.5 L15.0 66.3 L18.8 64.2 L22.5 62.1 L26.2 60.0 L30.0 58.0 L33.8 56.0 L37.5 54.0 L41.2 52.1 L45.0 50.2 L48.8 48.3 L52.5 46.6 L56.2 44.8 L60.0 43.2 L63.8 41.6 L67.5 40.1 L71.2 38.6 L75.0 37.2 L78.8 35.9 L82.5 34.7 L86.2 33.5 L90.0 32.5 L93.8 31.5 L97.5 30.7 L101.2 30.0 L105.0 29.3 L108.8 28.7 L112.5 28.1 L116.2 27.5 L120.0 27.0 L123.8 26.6 L127.5 26.5 L131.2 26.8 L135.0 27.4 L138.8 28.2 L142.5 29.0 L146.2 29.3 L150.0 29.1 L153.8 28.3 L157.5 27.4 L161.2 27.2 L165.0 28.1 L168.8 30.6 L172.5 34.4 L176.2 38.4 L180.0 41.5 L183.8 42.5 L187.5 41.0 L191.2 37.9 L195.0 34.8 L198.8 33.6 L202.5 35.7 L206.2 41.5 L210.0 49.5 L213.8 57.4 L217.5 62.8 L221.2 63.9 L225.0 61.0 L228.8 55.8 L232.5 51.2 L236.2 49.8 L240.0 52.8 L243.8 59.8 L247.5 68.7 L251.2 76.8 L255.0 81.9 L258.8 83.2 L262.5 81.3 L266.2 78.3 L270.0 76.1 L273.8 76.2 L277.5 79.0 L281.2 83.8 L285.0 89.3 L288.8 94.0 L292.5 97.2 L296.2 98.8 L300.0 99.2 L303.8 99.3 L307.5 99.8 L311.2 101.1 L315.0 103.0 L318.8 105.4 L322.5 107.8 L326.2 109.9 L330.0 111.6 L333.8 112.9 L337.5 114.0 L341.2 115.0 L345.0 115.9 L348.8 116.9 L352.5 118.0 L356.2 119.0 L360.0 119.9 L363.8 120.6 L367.5 121.3 L371.2 121.8 L375.0 122.2 L378.8 122.6 L382.5 122.8 L386.2 122.9 L390.0 123.0 L393.8 123.0 L397.5 122.8 L401.2 122.6 L405.0 122.2 L408.8 121.8 L412.5 121.2 L416.2 120.6 L420.0 119.8 L423.8 119.0 L427.5 118.0 L431.2 117.1 L435.0 116.0 L438.8 115.0 L442.5 113.8 L446.2 112.6 L450.0 111.3 L453.8 109.8 L457.5 108.1 L461.2 106.2 L465.0 104.2 L468.8 102.1 L472.5 100.1 L476.2 98.3 L480.0 96.8 L483.8 95.5 L487.5 94.3 L491.2 93.1 L495.0 91.5 L498.8 89.3 L502.5 86.4 L506.2 82.8 L510.0 78.9 L513.8 75.0 L517.5 71.7 L521.2 69.7 L525.0 69.1 L528.8 69.7 L532.5 71.1 L536.2 72.3 L540.0 72.2 L543.8 70.0 L547.5 65.4 L551.2 58.5 L555.0 50.4 L558.8 42.8 L562.5 37.3 L566.2 35.3 L570.0 37.4 L573.8 43.0 L577.5 50.5 L581.2 57.4 L585.0 61.3 L588.8 60.2 L592.5 53.6 L596.2 42.4 L600.0 28.9 L603.8 16.3 L607.5 7.8 L611.2 5.8 L615.0 10.9 L618.8 21.8 L622.5 35.5 L626.2 48.2 L630.0 56.3 L633.8 57.3 L637.5 50.8 L641.2 38.3 L645.0 23.0 L648.8 9.0 L652.5 0.0 L656.2 -1.7 L660.0 4.0 L663.8 15.6 L667.5 29.9 L671.2 43.2 L675.0 52.1 L678.8 54.8 L682.5 51.2 L686.2 42.8 L690.0 32.5 L693.8 23.3 L697.5 17.6 L701.2 17.0 L705.0 21.4 L708.8 29.4 L712.5 39.0 L716.2 47.9 L720.0 54.3 L723.8 57.4 L727.5 57.2 L731.2 54.8 L735.0 51.5 L738.8 48.8 L742.5 47.6 L746.2 48.6 L750.0 51.6 L753.8 56.0 L757.5 61.0 L761.2 65.7 L765.0 69.5 L768.8 72.3 L772.5 74.0 L776.2 75.0 L780.0 75.7 L783.8 76.6 L787.5 77.9 L791.2 79.8 L795.0 82.1 L798.8 84.8 L802.5 87.5 L806.2 90.1 L810.0 92.6 L813.8 94.7 L817.5 96.6 L821.2 98.4 L825.0 100.0 L828.8 101.6 L832.5 103.3 L836.2 104.9 L840.0 106.6 L843.8 108.3 L847.5 109.9 L851.2 111.4 L855.0 112.8 L858.8 114.2 L862.5 115.4 L866.2 116.5 L870.0 117.5 L873.8 118.5 L877.5 119.3 L881.2 120.1 L885.0 120.8 L888.8 121.4 L892.5 121.9 L896.2 122.3 L900.0 122.7" stroke="#1c2733" stroke-width="6"/></g>
-            <g transform="translate(0,310)"><path class="draw" style="--d:2" d="M0.0 75.0 L3.8 72.8 L7.5 70.7 L11.2 68.5 L15.0 66.3 L18.8 64.2 L22.5 62.1 L26.2 60.0 L30.0 58.0 L33.8 56.0 L37.5 54.0 L41.2 52.1 L45.0 50.2 L48.8 48.3 L52.5 46.6 L56.2 44.8 L60.0 43.2 L63.8 41.6 L67.5 40.0 L71.2 38.6 L75.0 37.2 L78.8 35.9 L82.5 34.7 L86.2 33.6 L90.0 32.5 L93.8 31.5 L97.5 30.7 L101.2 29.9 L105.0 29.2 L108.8 28.6 L112.5 28.1 L116.2 27.7 L120.0 27.3 L123.8 27.1 L127.5 27.0 L131.2 27.0 L135.0 27.1 L138.8 27.3 L142.5 27.5 L146.2 27.9 L150.0 28.4 L153.8 29.0 L157.5 29.6 L161.2 30.4 L165.0 31.2 L168.8 32.2 L172.5 33.2 L176.2 34.3 L180.0 35.5 L183.8 36.8 L187.5 38.1 L191.2 39.6 L195.0 41.1 L198.8 42.6 L202.5 44.3 L206.2 46.0 L210.0 47.7 L213.8 49.6 L217.5 51.4 L221.2 53.3 L225.0 55.3 L228.8 57.3 L232.5 59.3 L236.2 61.4 L240.0 63.5 L243.8 65.6 L247.5 67.8 L251.2 69.9 L255.0 72.1 L258.8 74.3 L262.5 76.4 L266.2 78.6 L270.0 80.8 L273.8 82.9 L277.5 85.1 L281.2 87.2 L285.0 89.3 L288.8 91.3 L292.5 93.4 L296.2 95.4 L300.0 97.3 L303.8 99.2 L307.5 101.1 L311.2 102.9 L315.0 104.6 L318.8 106.3 L322.5 107.9 L326.2 109.4 L330.0 110.9 L333.8 112.3 L337.5 113.7 L341.2 114.9 L345.0 116.1 L348.8 117.2 L352.5 118.2 L356.2 119.1 L360.0 119.9 L363.8 120.6 L367.5 121.2 L371.2 121.8 L375.0 122.2 L378.8 122.6 L382.5 122.8 L386.2 123.0 L390.0 123.0 L393.8 123.0 L397.5 122.8 L401.2 122.6 L405.0 122.2 L408.8 121.8 L412.5 121.2 L416.2 120.6 L420.0 119.9 L423.8 119.1 L427.5 118.2 L431.2 117.2 L435.0 116.1 L438.8 114.9 L442.5 113.7 L446.2 112.3 L450.0 110.9 L453.8 109.4 L457.5 107.9 L461.2 106.3 L465.0 104.6 L468.8 102.9 L472.5 101.1 L476.2 99.2 L480.0 97.3 L483.8 95.4 L487.5 93.4 L491.2 91.3 L495.0 89.3 L498.8 87.2 L502.5 85.1 L506.2 82.9 L510.0 80.8 L513.8 78.6 L517.5 76.4 L521.2 74.3 L525.0 72.1 L528.8 69.9 L532.5 67.8 L536.2 65.6 L540.0 63.5 L543.8 61.4 L547.5 59.3 L551.2 57.3 L555.0 55.3 L558.8 53.3 L562.5 51.4 L566.2 49.6 L570.0 47.7 L573.8 46.0 L577.5 44.3 L581.2 42.6 L585.0 41.1 L588.8 39.6 L592.5 38.1 L596.2 36.8 L600.0 35.5 L603.8 34.3 L607.5 33.2 L611.2 32.2 L615.0 31.2 L618.8 30.4 L622.5 29.6 L626.2 29.0 L630.0 28.4 L633.8 27.9 L637.5 27.5 L641.2 27.3 L645.0 27.1 L648.8 27.0 L652.5 27.0 L656.2 27.1 L660.0 27.3 L663.8 27.7 L667.5 28.1 L671.2 28.6 L675.0 29.2 L678.8 29.9 L682.5 30.7 L686.2 31.5 L690.0 32.5 L693.8 33.6 L697.5 34.7 L701.2 35.9 L705.0 37.2 L708.8 38.6 L712.5 40.0 L716.2 41.6 L720.0 43.2 L723.8 44.8 L727.5 46.6 L731.2 48.3 L735.0 50.2 L738.8 52.1 L742.5 54.0 L746.2 56.0 L750.0 58.0 L753.8 60.0 L757.5 62.1 L761.2 64.2 L765.0 66.3 L768.8 68.5 L772.5 70.7 L776.2 72.8 L780.0 75.0 L783.8 77.2 L787.5 79.3 L791.2 81.5 L795.0 83.7 L798.8 85.8 L802.5 87.9 L806.2 90.0 L810.0 92.0 L813.8 94.0 L817.5 96.0 L821.2 97.9 L825.0 99.8 L828.8 101.7 L832.5 103.4 L836.2 105.2 L840.0 106.8 L843.8 108.4 L847.5 110.0 L851.2 111.4 L855.0 112.8 L858.8 114.1 L862.5 115.3 L866.2 116.4 L870.0 117.5 L873.8 118.5 L877.5 119.3 L881.2 120.1 L885.0 120.8 L888.8 121.4 L892.5 121.9 L896.2 122.3 L900.0 122.7" stroke="#0072B2" stroke-width="7"/></g>
-            <g transform="translate(0,550)"><path class="draw" style="--d:3" d="M0.0 75.0 L3.8 75.0 L7.5 75.0 L11.2 75.0 L15.0 75.0 L18.8 75.0 L22.5 75.0 L26.2 75.0 L30.0 75.0 L33.8 75.0 L37.5 75.0 L41.2 75.0 L45.0 75.0 L48.8 75.0 L52.5 75.0 L56.2 75.0 L60.0 75.0 L63.8 75.0 L67.5 75.0 L71.2 75.0 L75.0 75.0 L78.8 75.0 L82.5 75.0 L86.2 74.9 L90.0 74.9 L93.8 75.0 L97.5 75.1 L101.2 75.1 L105.0 75.2 L108.8 75.2 L112.5 75.1 L116.2 74.8 L120.0 74.5 L123.8 74.3 L127.5 74.3 L131.2 74.7 L135.0 75.4 L138.8 76.4 L142.5 77.0 L146.2 76.9 L150.0 75.9 L153.8 74.0 L157.5 71.9 L161.2 70.5 L165.0 70.7 L168.8 72.8 L172.5 76.6 L176.2 80.7 L180.0 83.4 L183.8 83.0 L187.5 79.1 L191.2 72.7 L195.0 66.2 L198.8 62.3 L202.5 63.0 L206.2 68.7 L210.0 77.5 L213.8 86.0 L217.5 90.9 L221.2 89.8 L225.0 82.9 L228.8 72.9 L232.5 63.6 L236.2 58.7 L240.0 60.0 L243.8 66.8 L247.5 76.3 L251.2 84.6 L255.0 88.7 L258.8 87.4 L262.5 81.9 L266.2 74.5 L270.0 68.4 L273.8 65.5 L277.5 66.5 L281.2 70.3 L285.0 75.0 L288.8 78.7 L292.5 80.4 L296.2 79.8 L300.0 77.6 L303.8 75.2 L307.5 73.3 L311.2 72.5 L315.0 72.8 L318.8 73.8 L322.5 74.9 L326.2 75.7 L330.0 76.0 L333.8 75.8 L337.5 75.5 L341.2 75.1 L345.0 74.8 L348.8 74.7 L352.5 74.7 L356.2 74.9 L360.0 75.0 L363.8 75.1 L367.5 75.1 L371.2 75.1 L375.0 75.0 L378.8 75.0 L382.5 75.0 L386.2 75.0 L390.0 75.0 L393.8 75.0 L397.5 75.0 L401.2 75.0 L405.0 75.0 L408.8 75.0 L412.5 75.0 L416.2 75.0 L420.0 74.9 L423.8 74.9 L427.5 74.8 L431.2 74.9 L435.0 74.9 L438.8 75.1 L442.5 75.2 L446.2 75.4 L450.0 75.5 L453.8 75.4 L457.5 75.2 L461.2 74.9 L465.0 74.4 L468.8 74.0 L472.5 73.7 L476.2 73.8 L480.0 74.3 L483.8 75.2 L487.5 76.4 L491.2 77.5 L495.0 78.1 L498.8 78.0 L502.5 76.9 L506.2 74.8 L510.0 72.3 L513.8 69.9 L517.5 68.4 L521.2 68.6 L525.0 70.7 L528.8 74.7 L532.5 79.6 L536.2 84.3 L540.0 87.2 L543.8 87.1 L547.5 83.4 L551.2 76.6 L555.0 68.1 L558.8 60.2 L562.5 55.2 L566.2 55.0 L570.0 60.5 L573.8 70.8 L577.5 83.7 L581.2 95.7 L585.0 103.3 L588.8 103.9 L592.5 96.7 L596.2 82.9 L600.0 65.7 L603.8 49.7 L607.5 39.5 L611.2 38.2 L615.0 46.6 L618.8 63.0 L622.5 83.2 L626.2 102.0 L630.0 114.1 L633.8 116.2 L637.5 107.6 L641.2 90.4 L645.0 69.3 L648.8 49.9 L652.5 37.2 L656.2 34.6 L660.0 42.3 L663.8 58.2 L667.5 77.6 L671.2 95.4 L675.0 107.1 L678.8 109.9 L682.5 103.7 L686.2 90.8 L690.0 75.0 L693.8 60.6 L697.5 51.1 L701.2 48.6 L705.0 52.9 L708.8 62.1 L712.5 73.5 L716.2 83.8 L720.0 90.6 L723.8 92.6 L727.5 90.0 L731.2 84.1 L735.0 76.9 L738.8 70.4 L742.5 66.1 L746.2 64.7 L750.0 66.1 L753.8 69.4 L757.5 73.4 L761.2 77.1 L765.0 79.5 L768.8 80.3 L772.5 79.6 L776.2 78.0 L780.0 76.0 L783.8 74.2 L787.5 73.0 L791.2 72.6 L795.0 72.9 L798.8 73.6 L802.5 74.5 L806.2 75.2 L810.0 75.7 L813.8 75.9 L817.5 75.9 L821.2 75.6 L825.0 75.2 L828.8 74.9 L832.5 74.8 L836.2 74.7 L840.0 74.7 L843.8 74.8 L847.5 74.9 L851.2 75.0 L855.0 75.1 L858.8 75.1 L862.5 75.1 L866.2 75.1 L870.0 75.0 L873.8 75.0 L877.5 75.0 L881.2 75.0 L885.0 75.0 L888.8 75.0 L892.5 75.0 L896.2 75.0 L900.0 75.0" stroke="#e67e22" stroke-width="7"/></g>
-          </g>
-        </svg>
+        <svg class="big-fig" viewBox="0 0 900 720" aria-label="示意计算：第 5 页那对分子的差别拆成低频与高频，低频摊到整个分子，高频集中在改动的原子">
+<rect x="0" y="0" width="900" height="720" rx="28" fill="#fff"/>
+<g font-family="PingFang SC,Noto Sans SC,sans-serif">
+<text x="28" y="50" font-size="30" font-weight="700" fill="#1a3a6b">活性悬崖那对分子：只差一个原子</text>
+<g class="rv" style="--d:1"><g stroke="#c3ccd6" stroke-width="5" stroke-linecap="round"><line x1="88" y1="95" x2="129" y2="105"/><line x1="129" y1="105" x2="140" y2="145"/><line x1="140" y1="145" x2="111" y2="175"/><line x1="111" y1="175" x2="122" y2="215"/><line x1="122" y1="215" x2="163" y2="226"/><line x1="163" y1="226" x2="174" y2="266"/><line x1="174" y1="266" x2="215" y2="276"/><line x1="215" y1="276" x2="244" y2="246"/><line x1="244" y1="246" x2="284" y2="256"/><line x1="284" y1="256" x2="314" y2="226"/><line x1="314" y1="226" x2="354" y2="236"/><line x1="354" y1="236" x2="383" y2="207"/><line x1="383" y1="207" x2="372" y2="166"/><line x1="372" y1="166" x2="401" y2="136"/><line x1="401" y1="136" x2="389" y2="96"/><line x1="389" y1="96" x2="349" y2="86"/><line x1="349" y1="86" x2="320" y2="116"/><line x1="320" y1="116" x2="331" y2="156"/><line x1="331" y1="156" x2="302" y2="186"/><line x1="244" y1="246" x2="233" y2="206"/><line x1="233" y1="206" x2="192" y2="196"/><line x1="111" y1="175" x2="71" y2="165"/><line x1="71" y1="165" x2="59" y2="125"/><line x1="59" y1="125" x2="88" y2="95"/><line x1="192" y1="196" x2="163" y2="226"/><line x1="302" y1="186" x2="314" y2="226"/><line x1="331" y1="156" x2="372" y2="166"/></g><circle cx="88" cy="95" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="129" cy="105" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="140" cy="145" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="111" cy="175" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="122" cy="215" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="163" cy="226" r="11" fill="#1a3a6b" fill-opacity="0.58" stroke="#8a99a8" stroke-width="1.5"/><circle cx="174" cy="266" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="215" cy="276" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="244" cy="246" r="11" fill="#1a3a6b" fill-opacity="0.58" stroke="#8a99a8" stroke-width="1.5"/><circle cx="284" cy="256" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="314" cy="226" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="354" cy="236" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="383" cy="207" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="372" cy="166" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="401" cy="136" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="389" cy="96" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="349" cy="86" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="320" cy="116" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="331" cy="156" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="302" cy="186" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="233" cy="206" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="192" cy="196" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="71" cy="165" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="59" cy="125" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/></g>
+<g class="rv" style="--d:1.8"><g stroke="#c3ccd6" stroke-width="5" stroke-linecap="round"><line x1="528" y1="95" x2="569" y2="105"/><line x1="569" y1="105" x2="580" y2="145"/><line x1="580" y1="145" x2="551" y2="175"/><line x1="551" y1="175" x2="562" y2="215"/><line x1="562" y1="215" x2="603" y2="226"/><line x1="603" y1="226" x2="614" y2="266"/><line x1="614" y1="266" x2="655" y2="276"/><line x1="655" y1="276" x2="684" y2="246"/><line x1="684" y1="246" x2="724" y2="256"/><line x1="724" y1="256" x2="754" y2="226"/><line x1="754" y1="226" x2="794" y2="236"/><line x1="794" y1="236" x2="823" y2="207"/><line x1="823" y1="207" x2="812" y2="166"/><line x1="812" y1="166" x2="841" y2="136"/><line x1="841" y1="136" x2="829" y2="96"/><line x1="829" y1="96" x2="789" y2="86"/><line x1="789" y1="86" x2="760" y2="116"/><line x1="760" y1="116" x2="771" y2="156"/><line x1="771" y1="156" x2="742" y2="186"/><line x1="684" y1="246" x2="673" y2="206"/><line x1="673" y1="206" x2="632" y2="196"/><line x1="551" y1="175" x2="511" y2="165"/><line x1="511" y1="165" x2="499" y2="125"/><line x1="499" y1="125" x2="528" y2="95"/><line x1="632" y1="196" x2="603" y2="226"/><line x1="742" y1="186" x2="754" y2="226"/><line x1="771" y1="156" x2="812" y2="166"/></g><circle cx="528" cy="95" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="569" cy="105" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="580" cy="145" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="551" cy="175" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="562" cy="215" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="603" cy="226" r="11" fill="#1a3a6b" fill-opacity="0.58" stroke="#8a99a8" stroke-width="1.5"/><circle cx="614" cy="266" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="655" cy="276" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="684" cy="246" r="11" fill="#1a3a6b" fill-opacity="0.58" stroke="#8a99a8" stroke-width="1.5"/><circle cx="724" cy="256" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="754" cy="226" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="794" cy="236" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="823" cy="207" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="812" cy="166" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="841" cy="136" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="829" cy="96" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="789" cy="86" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="760" cy="116" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="771" cy="156" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="742" cy="186" r="11" fill="#1a3a6b" fill-opacity="0.99" stroke="#8a99a8" stroke-width="1.5"/><circle cx="673" cy="206" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="632" cy="196" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="511" cy="165" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="499" cy="125" r="11" fill="#1a3a6b" fill-opacity="0.08" stroke="#8a99a8" stroke-width="1.5"/><circle cx="742" cy="186" r="24" fill="none" stroke="#1a3a6b" stroke-width="4" stroke-dasharray="6 5"/></g>
+<text x="230" y="320" font-size="26" fill="#5a6b7d" text-anchor="middle" class="rv" style="--d:1">四氢萘环 · CH₂</text>
+<text x="670" y="320" font-size="26" fill="#9a4d0b" font-weight="700" text-anchor="middle" class="rv" style="--d:1.8">色满环 · O（虚线圈）</text>
+<g class="rv" style="--d:3"><line x1="40" y1="352" x2="860" y2="352" stroke="#dde4ec" stroke-width="2"/><text x="28" y="396" font-size="30" font-weight="700" fill="#1a3a6b">把“两者的差别”按频段拆开</text></g>
+<g class="rv" style="--d:4.2"><g class="g" style="--d:0"><g stroke="#c3ccd6" stroke-width="5" stroke-linecap="round"><line x1="88" y1="433" x2="129" y2="443"/><line x1="129" y1="443" x2="140" y2="483"/><line x1="140" y1="483" x2="111" y2="513"/><line x1="111" y1="513" x2="122" y2="553"/><line x1="122" y1="553" x2="163" y2="564"/><line x1="163" y1="564" x2="174" y2="604"/><line x1="174" y1="604" x2="215" y2="614"/><line x1="215" y1="614" x2="244" y2="584"/><line x1="244" y1="584" x2="284" y2="594"/><line x1="284" y1="594" x2="314" y2="564"/><line x1="314" y1="564" x2="354" y2="574"/><line x1="354" y1="574" x2="383" y2="545"/><line x1="383" y1="545" x2="372" y2="504"/><line x1="372" y1="504" x2="401" y2="474"/><line x1="401" y1="474" x2="389" y2="434"/><line x1="389" y1="434" x2="349" y2="424"/><line x1="349" y1="424" x2="320" y2="454"/><line x1="320" y1="454" x2="331" y2="494"/><line x1="331" y1="494" x2="302" y2="524"/><line x1="244" y1="584" x2="233" y2="544"/><line x1="233" y1="544" x2="192" y2="534"/><line x1="111" y1="513" x2="71" y2="503"/><line x1="71" y1="503" x2="59" y2="463"/><line x1="59" y1="463" x2="88" y2="433"/><line x1="192" y1="534" x2="163" y2="564"/><line x1="302" y1="524" x2="314" y2="564"/><line x1="331" y1="494" x2="372" y2="504"/></g><circle cx="88" cy="433" r="11" fill="#0072B2" fill-opacity="0.12" stroke="#8a99a8" stroke-width="1.5"/><circle cx="129" cy="443" r="11" fill="#0072B2" fill-opacity="0.10" stroke="#8a99a8" stroke-width="1.5"/><circle cx="140" cy="483" r="11" fill="#0072B2" fill-opacity="0.10" stroke="#8a99a8" stroke-width="1.5"/><circle cx="111" cy="513" r="11" fill="#0072B2" fill-opacity="0.12" stroke="#8a99a8" stroke-width="1.5"/><circle cx="122" cy="553" r="11" fill="#0072B2" fill-opacity="0.11" stroke="#8a99a8" stroke-width="1.5"/><circle cx="163" cy="564" r="11" fill="#0072B2" fill-opacity="0.10" stroke="#8a99a8" stroke-width="1.5"/><circle cx="174" cy="604" r="11" fill="#0072B2" fill-opacity="0.12" stroke="#8a99a8" stroke-width="1.5"/><circle cx="215" cy="614" r="11" fill="#0072B2" fill-opacity="0.11" stroke="#8a99a8" stroke-width="1.5"/><circle cx="244" cy="584" r="11" fill="#0072B2" fill-opacity="0.11" stroke="#8a99a8" stroke-width="1.5"/><circle cx="284" cy="594" r="11" fill="#0072B2" fill-opacity="0.23" stroke="#8a99a8" stroke-width="1.5"/><circle cx="314" cy="564" r="11" fill="#0072B2" fill-opacity="0.29" stroke="#8a99a8" stroke-width="1.5"/><circle cx="354" cy="574" r="11" fill="#0072B2" fill-opacity="0.18" stroke="#8a99a8" stroke-width="1.5"/><circle cx="383" cy="545" r="11" fill="#0072B2" fill-opacity="0.09" stroke="#8a99a8" stroke-width="1.5"/><circle cx="372" cy="504" r="11" fill="#0072B2" fill-opacity="0.09" stroke="#8a99a8" stroke-width="1.5"/><circle cx="401" cy="474" r="11" fill="#0072B2" fill-opacity="0.19" stroke="#8a99a8" stroke-width="1.5"/><circle cx="389" cy="434" r="11" fill="#0072B2" fill-opacity="0.16" stroke="#8a99a8" stroke-width="1.5"/><circle cx="349" cy="424" r="11" fill="#0072B2" fill-opacity="0.14" stroke="#8a99a8" stroke-width="1.5"/><circle cx="320" cy="454" r="11" fill="#0072B2" fill-opacity="0.26" stroke="#8a99a8" stroke-width="1.5"/><circle cx="331" cy="494" r="11" fill="#0072B2" fill-opacity="0.27" stroke="#8a99a8" stroke-width="1.5"/><circle cx="302" cy="524" r="11" fill="#0072B2" fill-opacity="0.36" stroke="#8a99a8" stroke-width="1.5"/><circle cx="233" cy="544" r="11" fill="#0072B2" fill-opacity="0.11" stroke="#8a99a8" stroke-width="1.5"/><circle cx="192" cy="534" r="11" fill="#0072B2" fill-opacity="0.12" stroke="#8a99a8" stroke-width="1.5"/><circle cx="71" cy="503" r="11" fill="#0072B2" fill-opacity="0.10" stroke="#8a99a8" stroke-width="1.5"/><circle cx="59" cy="463" r="11" fill="#0072B2" fill-opacity="0.10" stroke="#8a99a8" stroke-width="1.5"/></g><text x="230" y="664" font-size="26" font-weight="700" fill="#0072B2" text-anchor="middle">低频：摊到全分子</text><text x="230" y="700" font-size="24" fill="#5a6b7d" text-anchor="middle">差别被摊薄，最深处只剩 30%</text></g>
+<g class="rv" style="--d:5.6"><g class="g" style="--d:0"><g stroke="#c3ccd6" stroke-width="5" stroke-linecap="round"><line x1="528" y1="433" x2="569" y2="443"/><line x1="569" y1="443" x2="580" y2="483"/><line x1="580" y1="483" x2="551" y2="513"/><line x1="551" y1="513" x2="562" y2="553"/><line x1="562" y1="553" x2="603" y2="564"/><line x1="603" y1="564" x2="614" y2="604"/><line x1="614" y1="604" x2="655" y2="614"/><line x1="655" y1="614" x2="684" y2="584"/><line x1="684" y1="584" x2="724" y2="594"/><line x1="724" y1="594" x2="754" y2="564"/><line x1="754" y1="564" x2="794" y2="574"/><line x1="794" y1="574" x2="823" y2="545"/><line x1="823" y1="545" x2="812" y2="504"/><line x1="812" y1="504" x2="841" y2="474"/><line x1="841" y1="474" x2="829" y2="434"/><line x1="829" y1="434" x2="789" y2="424"/><line x1="789" y1="424" x2="760" y2="454"/><line x1="760" y1="454" x2="771" y2="494"/><line x1="771" y1="494" x2="742" y2="524"/><line x1="684" y1="584" x2="673" y2="544"/><line x1="673" y1="544" x2="632" y2="534"/><line x1="551" y1="513" x2="511" y2="503"/><line x1="511" y1="503" x2="499" y2="463"/><line x1="499" y1="463" x2="528" y2="433"/><line x1="632" y1="534" x2="603" y2="564"/><line x1="742" y1="524" x2="754" y2="564"/><line x1="771" y1="494" x2="812" y2="504"/></g><circle cx="528" cy="433" r="11" fill="#e67e22" fill-opacity="0.12" stroke="#8a99a8" stroke-width="1.5"/><circle cx="569" cy="443" r="11" fill="#e67e22" fill-opacity="0.10" stroke="#8a99a8" stroke-width="1.5"/><circle cx="580" cy="483" r="11" fill="#e67e22" fill-opacity="0.10" stroke="#8a99a8" stroke-width="1.5"/><circle cx="551" cy="513" r="11" fill="#e67e22" fill-opacity="0.12" stroke="#8a99a8" stroke-width="1.5"/><circle cx="562" cy="553" r="11" fill="#e67e22" fill-opacity="0.11" stroke="#8a99a8" stroke-width="1.5"/><circle cx="603" cy="564" r="11" fill="#e67e22" fill-opacity="0.10" stroke="#8a99a8" stroke-width="1.5"/><circle cx="614" cy="604" r="11" fill="#e67e22" fill-opacity="0.12" stroke="#8a99a8" stroke-width="1.5"/><circle cx="655" cy="614" r="11" fill="#e67e22" fill-opacity="0.11" stroke="#8a99a8" stroke-width="1.5"/><circle cx="684" cy="584" r="11" fill="#e67e22" fill-opacity="0.11" stroke="#8a99a8" stroke-width="1.5"/><circle cx="724" cy="594" r="11" fill="#e67e22" fill-opacity="0.23" stroke="#8a99a8" stroke-width="1.5"/><circle cx="754" cy="564" r="11" fill="#e67e22" fill-opacity="0.29" stroke="#8a99a8" stroke-width="1.5"/><circle cx="794" cy="574" r="11" fill="#e67e22" fill-opacity="0.18" stroke="#8a99a8" stroke-width="1.5"/><circle cx="823" cy="545" r="11" fill="#e67e22" fill-opacity="0.09" stroke="#8a99a8" stroke-width="1.5"/><circle cx="812" cy="504" r="11" fill="#e67e22" fill-opacity="0.09" stroke="#8a99a8" stroke-width="1.5"/><circle cx="841" cy="474" r="11" fill="#e67e22" fill-opacity="0.19" stroke="#8a99a8" stroke-width="1.5"/><circle cx="829" cy="434" r="11" fill="#e67e22" fill-opacity="0.16" stroke="#8a99a8" stroke-width="1.5"/><circle cx="789" cy="424" r="11" fill="#e67e22" fill-opacity="0.14" stroke="#8a99a8" stroke-width="1.5"/><circle cx="760" cy="454" r="11" fill="#e67e22" fill-opacity="0.26" stroke="#8a99a8" stroke-width="1.5"/><circle cx="771" cy="494" r="11" fill="#e67e22" fill-opacity="0.27" stroke="#8a99a8" stroke-width="1.5"/><circle cx="742" cy="524" r="11" fill="#e67e22" fill-opacity="0.72" stroke="#8a99a8" stroke-width="1.5"/><circle cx="673" cy="544" r="11" fill="#e67e22" fill-opacity="0.11" stroke="#8a99a8" stroke-width="1.5"/><circle cx="632" cy="534" r="11" fill="#e67e22" fill-opacity="0.12" stroke="#8a99a8" stroke-width="1.5"/><circle cx="511" cy="503" r="11" fill="#e67e22" fill-opacity="0.10" stroke="#8a99a8" stroke-width="1.5"/><circle cx="499" cy="463" r="11" fill="#e67e22" fill-opacity="0.10" stroke="#8a99a8" stroke-width="1.5"/><circle cx="742" cy="524" r="24" fill="none" stroke="#e67e22" stroke-width="4" stroke-dasharray="6 5"/></g><text x="670" y="664" font-size="26" font-weight="700" fill="#9a4d0b" text-anchor="middle">高频：集中在改动处</text><text x="670" y="700" font-size="24" fill="#5a6b7d" text-anchor="middle">差别的 70% 落在这一频段</text></g>
+</g></svg>
       </div>
       <div class="col" style="flex:0.95;justify-content:center;gap:20px">
-        <div class="fig grow" style="--d:3.4"><figure class="vx-chart" data-vx-chart="bar" data-hi="4" style="zoom:1.7"
+        <div class="fig grow" style="--d:6.4"><figure class="vx-chart" data-vx-chart="bar" data-hi="4" style="zoom:1.7"
           data-src="Adv Sci 2026 TABLE 1 · FreeSolv RMSE（越低越好）"
           data-json='[["GEM",1.877],["MV-Mol",1.142],["S-CGIB",1.648],["GRAPHMSL",1.601],["PrismNet",0.654]]'></figure></div>
-        <div class="card acc rv" style="--d:4;padding:20px 28px"><p style="font-size:28px">高频通道专门盯住<b>少数原子的改动</b>，正对活性悬崖</p></div>
+        <div class="card acc rv" style="--d:7.4;padding:20px 28px"><p style="font-size:28px">高频通道专门盯住<b>少数原子的改动</b>，正对活性悬崖</p></div>
       </div>
     </div>
-    <footer class="ft"><span class="src"><b>Source:</b> Xie et al., Adv Sci 2026, TABLE 1（均值；本人为共同通讯）；左图为概念示意</span><span class="pn">8</span></footer>
+    <footer class="ft"><span class="src"><b>Source:</b> Xie et al., Adv Sci 2026, TABLE 1（均值；本人为共同通讯）；左图为示意计算，非模型输出</span><span class="pn">8</span></footer>
   </div>
-  <aside class="notes">第二个方法回到活性悬崖。思路借用信号处理：把分子表示分成两个频段，低频对应整体骨架，决定"大体像不像"；高频对应少数原子的关键改动，恰恰是活性悬崖发生的地方。这项工作 2026 年发表在 Advanced Science，在水合自由能 FreeSolv 上，误差低于图中列出的几种对比方法。</aside>
+  <aside class="notes">第二个方法回到活性悬崖。思路借用信号处理：把分子表示分成两个频段，低频对应整体骨架，决定"大体像不像"；高频对应少数原子的关键改动，恰恰是活性悬崖发生的地方。左边用的就是第 5 页那对分子，只差一个原子。把两者的差别拆开：低频这一行，差别被摊到整个分子上，最深处只剩三成，骨架层面几乎分不出来；高频这一行，差别集中在改动的那个原子上，七成落在这里。所以模型要专门留一个通道看高频。左图是按这个思路做的示意计算，不是模型内部的输出。这项工作 2026 年发表在 Advanced Science，在水合自由能 FreeSolv 上，误差低于图中列出的几种对比方法。</aside>
 </section>
 
 <!-- p10 多约束 -->
@@ -2790,7 +2800,9 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
         return {
           title: s.getAttribute('data-title') ||
             (s.querySelector('h1,h2,h3')||{}).textContent || ('Slide '+(i+1)),
-          notes: note ? note.innerHTML : ''
+          notes: note ? note.innerHTML : '',
+          chars: note ? note.textContent.replace(/\s+/g, '').length : 0,
+          sec: Math.max(0, +(s.getAttribute('data-sec') || 0) || 0)
         };
       });
       
@@ -2897,9 +2909,15 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
   .pcard-notes .empty { color: #484f58; font-style: italic; }
   /* Timer card */
   .pcard-timer .pcard-body {
-    display: flex; flex-direction: column; gap: 14px;
-    padding: 18px 20px; justify-content: center;
+    display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,1fr); gap: 10px 20px;
+    padding: 14px 20px; align-content: center;
   }
+  .timer-col { display: flex; flex-direction: column; gap: 9px; min-width: 0; }
+  #qa-log { width: 100%; flex: 1; min-height: 64px; background: #161b22; color: #e6edf3; border: 1px solid rgba(255,255,255,.12);
+    border-radius: 8px; padding: 8px 10px; font: 13px/1.45 -apple-system, "Noto Sans SC", sans-serif; resize: none; }
+  #qa-log:focus { outline: none; border-color: #58a6ff; }
+  #slide-time.is-warn, #pace-text.is-warn { color: #d29922; }
+  #slide-time.is-over, #pace-text.is-over { color: #f85149; }
   .timer-display {
     font-family: "SF Mono", "JetBrains Mono", monospace;
     font-size: 42px; font-weight: 700;
@@ -3001,6 +3019,7 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
       <span class="pcard-title">TIMER</span>
     </div>
     <div class="pcard-body">
+     <div class="timer-col">
       <div class="timer-display" id="timer-display">00:00</div>
       <div class="timer-row">
         <span class="label">Slide</span>
@@ -3012,11 +3031,26 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
         <span class="label">剩余</span>
         <span class="val" id="timer-left">${targetMin ? String(targetMin).padStart(2,'0') + ':00' : '—'}</span>
       </div>
+      <div class="timer-row">
+        <span class="label">本页</span>
+        <span class="val" id="slide-time">00:00</span>
+        <span class="label">建议</span>
+        <span class="val" id="slide-budget">—</span>
+      </div>
+      <div class="timer-row"${targetMin ? '' : ' hidden'}>
+        <span class="label">节奏</span>
+        <span class="val" id="pace-text">—</span>
+      </div>
+     </div>
+     <div class="timer-col">
+      <textarea id="qa-log" placeholder="追问记录：边讲边记，只存本机浏览器，随“导出计时”一起导出"></textarea>
       <div class="timer-controls">
         <button class="timer-btn" id="btn-prev">← Prev</button>
         <button class="timer-btn" id="btn-next">Next →</button>
         <button class="timer-btn" id="btn-reset">⏱ Reset</button>
+        <button class="timer-btn" id="btn-export">导出计时</button>
       </div>
+     </div>
     </div>
     <div class="pcard-resize" data-resize></div>
   </div>
@@ -3205,7 +3239,9 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
    */
   function update(n) {
     n = Math.max(0, Math.min(total - 1, n));
+    if (typeof accrue === 'function' && n !== idx) accrue();
     idx = n;
+    if (typeof segIdx !== 'undefined') segIdx = n;
     /* Current preview — postMessage (smooth) */
     if (iframeReady.cur) postPreviewGoto(iframeCur, n);
     curMeta.textContent = (n + 1) + '/' + total;
@@ -3246,8 +3282,63 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
     timerLeft.textContent = over ? '超时 +' + fmt(-left) : fmt(left);
     [timerDisplay, timerLeft].forEach(function(el){ el.classList.toggle('is-over', over); el.classList.toggle('is-warn', warn); });
   }
-  setInterval(tick, 1000);
-  function resetTimer(){ tStart = Date.now(); tick(); }
+  /* ===== 每页计时与节奏（只在演讲者窗口，观众屏不变） ===== */
+  var budgets = null, cum = [0];
+  if (targetSec) {
+    var fixedSec = 0, wts = [], wsum = 0;
+    slideMeta.forEach(function(m){ if (m.sec > 0) fixedSec += m.sec; });
+    slideMeta.forEach(function(m){ var x = m.sec > 0 ? 0 : Math.max(m.chars || 0, 40); wts.push(x); wsum += x; });
+    var freeSec = Math.max(0, targetSec - fixedSec);
+    budgets = slideMeta.map(function(m, i){ return m.sec > 0 ? m.sec : (wsum ? freeSec * wts[i] / wsum : 0); });
+    budgets.forEach(function(b, i){ cum.push(cum[i] + b); });
+  }
+  var spent = []; for (var si = 0; si < total; si++) spent.push(0);
+  var segStart = Date.now(), segIdx = idx;
+  function accrue(){ if (!spent) return; var now = Date.now(); spent[segIdx] += (now - segStart) / 1000; segStart = now; segIdx = idx; }
+  var slideTime = document.getElementById('slide-time'), slideBudget = document.getElementById('slide-budget'), paceText = document.getElementById('pace-text');
+  var qaLog = document.getElementById('qa-log'), QA_KEY = STORAGE_KEY + ':qa';
+  try { qaLog.value = localStorage.getItem(QA_KEY) || ''; } catch(e) {}
+  qaLog.addEventListener('input', function(){ try { localStorage.setItem(QA_KEY, qaLog.value); } catch(e) {} });
+  function tick2(){
+    var now = Date.now(), el = Math.floor((now - tStart) / 1000);
+    var st = Math.floor(spent[segIdx] + (now - segStart) / 1000);
+    slideTime.textContent = fmt(st);
+    if (!budgets) { slideBudget.textContent = '—'; return; }
+    var b = Math.round(budgets[idx]);
+    slideBudget.textContent = fmt(b);
+    slideTime.classList.toggle('is-over', st > b * 1.5 + 10);
+    slideTime.classList.toggle('is-warn', st > b && !(st > b * 1.5 + 10));
+    var p = 0; while (p < total - 1 && cum[p + 1] <= el) p++;
+    var d = idx - p, over = el > targetSec;
+    paceText.textContent = over ? '已超总时长，按计划应已讲完' : (d === 0 ? '正好（计划在第 ' + (p + 1) + ' 页）' : (d > 0 ? '超前 ' + d + ' 页' : '落后 ' + (-d) + ' 页') + '（计划在第 ' + (p + 1) + ' 页）');
+    paceText.classList.toggle('is-over', over || d <= -2);
+    paceText.classList.toggle('is-warn', !over && d === -1);
+  }
+  function timingText(){
+    accrue();
+    var rows = ['页\\t标题\\t实际\\t建议\\t超出'], sum = 0;
+    slideMeta.forEach(function(m, i){
+      var a = Math.round(spent[i]), b = budgets ? Math.round(budgets[i]) : 0; sum += a;
+      rows.push((i + 1) + '\\t' + m.title + '\\t' + fmt(a) + '\\t' + (budgets ? fmt(b) : '—') + '\\t' + (budgets && a > b ? '+' + fmt(a - b) : ''));
+    });
+    rows.push('合计\\t\\t' + fmt(sum) + '\\t' + (targetSec ? fmt(targetSec) : '—') + '\\t' + (targetSec && sum > targetSec ? '+' + fmt(sum - targetSec) : ''));
+    rows.push(''); rows.push('追问记录：'); rows.push(qaLog.value || '（无）');
+    return rows.join('\\n');
+  }
+  window.__timingLog = timingText;
+  document.getElementById('btn-export').addEventListener('click', function(){
+    var txt = timingText();
+    try { navigator.clipboard && navigator.clipboard.writeText(txt); } catch(e) {}
+    try {
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([txt], { type: 'text/plain;charset=utf-8' }));
+      var d = new Date(), pad = function(x){ return String(x).padStart(2, '0'); };
+      a.download = '汇报计时_' + d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + '_' + pad(d.getHours()) + pad(d.getMinutes()) + '.txt';
+      document.body.appendChild(a); a.click(); a.remove();
+    } catch(e) {}
+  });
+  setInterval(function(){ tick(); tick2(); }, 1000);
+  function resetTimer(){ tStart = Date.now(); for (var i = 0; i < total; i++) spent[i] = 0; segStart = Date.now(); segIdx = idx; tick(); tick2(); }
   /* ===== BroadcastChannel sync ===== */
   if (bc) {
     bc.onmessage = function(e){
@@ -3281,6 +3372,7 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
   /* ===== Keyboard ===== */
   document.addEventListener('keydown', function(e){
     if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.target && /^(TEXTAREA|INPUT)$/.test(e.target.tagName)) return;
     switch(e.key) {
       case 'ArrowRight': case ' ': case 'PageDown': go(idx + 1); e.preventDefault(); break;
       case 'ArrowLeft':  case 'PageUp':   go(idx - 1); e.preventDefault(); break;

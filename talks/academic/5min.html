@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>黎育权 · AI 辅助分子设计（5 分钟简介）</title>
+<meta name="description" content="黎育权（贵州省大数据实验室）5 分钟学术简介：AI 辅助分子设计的研究方向、代表成果与合作方式，浏览器打开即放映。">
+<meta name="author" content="黎育权">
+<link rel="canonical" href="https://yuquan.li/talks/academic/5min.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="黎育权 · AI 辅助分子设计（5 分钟简介）">
+<meta property="og:description" content="黎育权（贵州省大数据实验室）5 分钟学术简介：AI 辅助分子设计的研究方向、代表成果与合作方式，浏览器打开即放映。">
+<meta property="og:url" content="https://yuquan.li/talks/academic/5min.html">
+<meta property="og:locale" content="zh_CN">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "PresentationDigitalDocument", "name": "黎育权 · AI 辅助分子设计（5 分钟简介）", "description": "黎育权（贵州省大数据实验室）5 分钟学术简介：AI 辅助分子设计的研究方向、代表成果与合作方式，浏览器打开即放映。", "url": "https://yuquan.li/talks/academic/5min.html", "inLanguage": "zh-CN", "timeRequired": "PT5M", "encodingFormat": "text/html", "author": {"@type": "Person", "name": "黎育权", "alternateName": "Yuquan Li", "url": "https://yuquan.li/", "affiliation": {"@type": "Organization", "name": "贵州省大数据实验室", "alternateName": "Guizhou Provincial Laboratory of Big Data"}}, "isPartOf": {"@type": "CollectionPage", "url": "https://yuquan.li/talks/academic/"}}</script>
 <style data-inlined="vendor/base.css">
 
 :root {
@@ -2500,7 +2509,9 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
         return {
           title: s.getAttribute('data-title') ||
             (s.querySelector('h1,h2,h3')||{}).textContent || ('Slide '+(i+1)),
-          notes: note ? note.innerHTML : ''
+          notes: note ? note.innerHTML : '',
+          chars: note ? note.textContent.replace(/\s+/g, '').length : 0,
+          sec: Math.max(0, +(s.getAttribute('data-sec') || 0) || 0)
         };
       });
       
@@ -2607,9 +2618,15 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
   .pcard-notes .empty { color: #484f58; font-style: italic; }
   /* Timer card */
   .pcard-timer .pcard-body {
-    display: flex; flex-direction: column; gap: 14px;
-    padding: 18px 20px; justify-content: center;
+    display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,1fr); gap: 10px 20px;
+    padding: 14px 20px; align-content: center;
   }
+  .timer-col { display: flex; flex-direction: column; gap: 9px; min-width: 0; }
+  #qa-log { width: 100%; flex: 1; min-height: 64px; background: #161b22; color: #e6edf3; border: 1px solid rgba(255,255,255,.12);
+    border-radius: 8px; padding: 8px 10px; font: 13px/1.45 -apple-system, "Noto Sans SC", sans-serif; resize: none; }
+  #qa-log:focus { outline: none; border-color: #58a6ff; }
+  #slide-time.is-warn, #pace-text.is-warn { color: #d29922; }
+  #slide-time.is-over, #pace-text.is-over { color: #f85149; }
   .timer-display {
     font-family: "SF Mono", "JetBrains Mono", monospace;
     font-size: 42px; font-weight: 700;
@@ -2711,6 +2728,7 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
       <span class="pcard-title">TIMER</span>
     </div>
     <div class="pcard-body">
+     <div class="timer-col">
       <div class="timer-display" id="timer-display">00:00</div>
       <div class="timer-row">
         <span class="label">Slide</span>
@@ -2722,11 +2740,26 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
         <span class="label">剩余</span>
         <span class="val" id="timer-left">${targetMin ? String(targetMin).padStart(2,'0') + ':00' : '—'}</span>
       </div>
+      <div class="timer-row">
+        <span class="label">本页</span>
+        <span class="val" id="slide-time">00:00</span>
+        <span class="label">建议</span>
+        <span class="val" id="slide-budget">—</span>
+      </div>
+      <div class="timer-row"${targetMin ? '' : ' hidden'}>
+        <span class="label">节奏</span>
+        <span class="val" id="pace-text">—</span>
+      </div>
+     </div>
+     <div class="timer-col">
+      <textarea id="qa-log" placeholder="追问记录：边讲边记，只存本机浏览器，随“导出计时”一起导出"></textarea>
       <div class="timer-controls">
         <button class="timer-btn" id="btn-prev">← Prev</button>
         <button class="timer-btn" id="btn-next">Next →</button>
         <button class="timer-btn" id="btn-reset">⏱ Reset</button>
+        <button class="timer-btn" id="btn-export">导出计时</button>
       </div>
+     </div>
     </div>
     <div class="pcard-resize" data-resize></div>
   </div>
@@ -2915,7 +2948,9 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
    */
   function update(n) {
     n = Math.max(0, Math.min(total - 1, n));
+    if (typeof accrue === 'function' && n !== idx) accrue();
     idx = n;
+    if (typeof segIdx !== 'undefined') segIdx = n;
     /* Current preview — postMessage (smooth) */
     if (iframeReady.cur) postPreviewGoto(iframeCur, n);
     curMeta.textContent = (n + 1) + '/' + total;
@@ -2956,8 +2991,63 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
     timerLeft.textContent = over ? '超时 +' + fmt(-left) : fmt(left);
     [timerDisplay, timerLeft].forEach(function(el){ el.classList.toggle('is-over', over); el.classList.toggle('is-warn', warn); });
   }
-  setInterval(tick, 1000);
-  function resetTimer(){ tStart = Date.now(); tick(); }
+  /* ===== 每页计时与节奏（只在演讲者窗口，观众屏不变） ===== */
+  var budgets = null, cum = [0];
+  if (targetSec) {
+    var fixedSec = 0, wts = [], wsum = 0;
+    slideMeta.forEach(function(m){ if (m.sec > 0) fixedSec += m.sec; });
+    slideMeta.forEach(function(m){ var x = m.sec > 0 ? 0 : Math.max(m.chars || 0, 40); wts.push(x); wsum += x; });
+    var freeSec = Math.max(0, targetSec - fixedSec);
+    budgets = slideMeta.map(function(m, i){ return m.sec > 0 ? m.sec : (wsum ? freeSec * wts[i] / wsum : 0); });
+    budgets.forEach(function(b, i){ cum.push(cum[i] + b); });
+  }
+  var spent = []; for (var si = 0; si < total; si++) spent.push(0);
+  var segStart = Date.now(), segIdx = idx;
+  function accrue(){ if (!spent) return; var now = Date.now(); spent[segIdx] += (now - segStart) / 1000; segStart = now; segIdx = idx; }
+  var slideTime = document.getElementById('slide-time'), slideBudget = document.getElementById('slide-budget'), paceText = document.getElementById('pace-text');
+  var qaLog = document.getElementById('qa-log'), QA_KEY = STORAGE_KEY + ':qa';
+  try { qaLog.value = localStorage.getItem(QA_KEY) || ''; } catch(e) {}
+  qaLog.addEventListener('input', function(){ try { localStorage.setItem(QA_KEY, qaLog.value); } catch(e) {} });
+  function tick2(){
+    var now = Date.now(), el = Math.floor((now - tStart) / 1000);
+    var st = Math.floor(spent[segIdx] + (now - segStart) / 1000);
+    slideTime.textContent = fmt(st);
+    if (!budgets) { slideBudget.textContent = '—'; return; }
+    var b = Math.round(budgets[idx]);
+    slideBudget.textContent = fmt(b);
+    slideTime.classList.toggle('is-over', st > b * 1.5 + 10);
+    slideTime.classList.toggle('is-warn', st > b && !(st > b * 1.5 + 10));
+    var p = 0; while (p < total - 1 && cum[p + 1] <= el) p++;
+    var d = idx - p, over = el > targetSec;
+    paceText.textContent = over ? '已超总时长，按计划应已讲完' : (d === 0 ? '正好（计划在第 ' + (p + 1) + ' 页）' : (d > 0 ? '超前 ' + d + ' 页' : '落后 ' + (-d) + ' 页') + '（计划在第 ' + (p + 1) + ' 页）');
+    paceText.classList.toggle('is-over', over || d <= -2);
+    paceText.classList.toggle('is-warn', !over && d === -1);
+  }
+  function timingText(){
+    accrue();
+    var rows = ['页\\t标题\\t实际\\t建议\\t超出'], sum = 0;
+    slideMeta.forEach(function(m, i){
+      var a = Math.round(spent[i]), b = budgets ? Math.round(budgets[i]) : 0; sum += a;
+      rows.push((i + 1) + '\\t' + m.title + '\\t' + fmt(a) + '\\t' + (budgets ? fmt(b) : '—') + '\\t' + (budgets && a > b ? '+' + fmt(a - b) : ''));
+    });
+    rows.push('合计\\t\\t' + fmt(sum) + '\\t' + (targetSec ? fmt(targetSec) : '—') + '\\t' + (targetSec && sum > targetSec ? '+' + fmt(sum - targetSec) : ''));
+    rows.push(''); rows.push('追问记录：'); rows.push(qaLog.value || '（无）');
+    return rows.join('\\n');
+  }
+  window.__timingLog = timingText;
+  document.getElementById('btn-export').addEventListener('click', function(){
+    var txt = timingText();
+    try { navigator.clipboard && navigator.clipboard.writeText(txt); } catch(e) {}
+    try {
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([txt], { type: 'text/plain;charset=utf-8' }));
+      var d = new Date(), pad = function(x){ return String(x).padStart(2, '0'); };
+      a.download = '汇报计时_' + d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()) + '_' + pad(d.getHours()) + pad(d.getMinutes()) + '.txt';
+      document.body.appendChild(a); a.click(); a.remove();
+    } catch(e) {}
+  });
+  setInterval(function(){ tick(); tick2(); }, 1000);
+  function resetTimer(){ tStart = Date.now(); for (var i = 0; i < total; i++) spent[i] = 0; segStart = Date.now(); segIdx = idx; tick(); tick2(); }
   /* ===== BroadcastChannel sync ===== */
   if (bc) {
     bc.onmessage = function(e){
@@ -2991,6 +3081,7 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
   /* ===== Keyboard ===== */
   document.addEventListener('keydown', function(e){
     if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.target && /^(TEXTAREA|INPUT)$/.test(e.target.tagName)) return;
     switch(e.key) {
       case 'ArrowRight': case ' ': case 'PageDown': go(idx + 1); e.preventDefault(); break;
       case 'ArrowLeft':  case 'PageUp':   go(idx - 1); e.preventDefault(); break;
