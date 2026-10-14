@@ -125,7 +125,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 **[3]** **Li\*** et al. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction. `Advanced Science IF=14.1`
 [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
 
-**[4]** **Li\*** et al. A hierarchical interaction message net for accurate molecular property prediction. `Communications Chemistry IF=6.2`
+**[4]** **Li\*** et al. A hierarchical interaction message net for accurate molecular property prediction. `Communications Chemistry IF=6.9`
 [[HTML]](https://www.nature.com/articles/s42004-026-01922-x)  [[PDF]](https://www.nature.com/articles/s42004-026-01922-x_reference.pdf)
 
 **[5]** **Li†** et al. AI for science: Progress, challenges, and perspectives. `The Innovation IF=39.5`
