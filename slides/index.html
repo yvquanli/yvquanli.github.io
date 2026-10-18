@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>学术汇报 · 黎育权 | AI 靶标发现与分子设计</title>
+<meta name="description" content="黎育权（贵州省大数据实验室、贵州大学）的学术汇报合集：5 分钟、20 分钟、60 分钟三档可直接放映的网页幻灯，讲 AI 靶标发现与分子设计的问题、方法与合作方式，附逐页 PDF 与一键自动演示。">
+<link rel="canonical" href="https://yuquan.li/slides/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="学术汇报 · 黎育权">
+<meta property="og:description" content="AI 靶标发现与分子设计：5 / 20 / 60 分钟三档网页幻灯，可放映、可自动演示、附逐页 PDF。">
+<meta property="og:url" content="https://yuquan.li/slides/">
+<meta property="og:image" content="https://yuquan.li/talks/academic/media/v6_brand_poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"学术汇报 · 黎育权","url":"https://yuquan.li/slides/","inLanguage":"zh-CN",
+ "description":"AI 靶标发现与分子设计主题的三档学术汇报（5、20、60 分钟），网页幻灯可直接放映，附逐页 PDF。",
+ "author":{"@type":"Person","name":"黎育权","alternateName":"Yuquan Li","url":"https://yuquan.li/","affiliation":[{"@type":"Organization","name":"贵州省大数据实验室"},{"@type":"Organization","name":"贵州大学"}]},
+ "hasPart":[
+  {"@type":"PresentationDigitalDocument","name":"自我介绍与合作（5 分钟）","url":"https://yuquan.li/talks/academic/5min.html","numberOfPages":7},
+  {"@type":"PresentationDigitalDocument","name":"AI 辅助分子设计：问题、方法与合作（20 分钟）","url":"https://yuquan.li/talks/academic/20min.html","numberOfPages":18},
+  {"@type":"PresentationDigitalDocument","name":"从预测到设计：AI 靶标发现与分子设计（60 分钟）","url":"https://yuquan.li/talks/academic/60min.html","numberOfPages":33}],
+ "video":{"@type":"VideoObject","name":"片头短片：黎育权是谁、做什么、凭什么","description":"31 秒有声片头：黎育权，贵州省大数据实验室、贵州大学副教授；研究方向是 AI 靶标发现与分子设计；代表作发表于 Nature Machine Intelligence，中科院一区论文 11 篇，总被引 531 次，主持或负责在研项目 4 项，三家期刊青年编委。配音由 AI 合成。","thumbnailUrl":"https://yuquan.li/talks/academic/media/v7_brand_vo_poster.jpg","contentUrl":"https://yuquan.li/talks/academic/media/v7_brand_vo.mp4","uploadDate":"2026-10-18","duration":"PT31S"}}
+</script>
+<style>
+:root{--navy:#0d1f3a;--navy2:#16345e;--ink:#1c2733;--mute:#5a6b7d;--line:#dde4ec;--bg:#f6f8fb;--card:#fff;--acc:#e67e22;--acc2:#ffb366;--blue:#2d7dd2;
+  --font:"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,-apple-system,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#e6edf5;--mute:#9fb2c6;--line:#24384f;--bg:#0b1626;--card:#122339}}
+:root[data-theme="dark"]{--ink:#e6edf5;--mute:#9fb2c6;--line:#24384f;--bg:#0b1626;--card:#122339}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--font);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+button{font-family:inherit}
+/* 顶栏：右上角两个主按钮 */
+.top{position:sticky;top:0;z-index:50;background:rgba(13,31,58,.86);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+.top .wrap{display:flex;align-items:center;gap:20px;height:64px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;font-weight:700;font-size:17px;white-space:nowrap}
+.brand small{font-weight:500;color:#9fb2c6;font-size:14px}
+.top nav{display:flex;gap:18px;margin-left:12px;font-size:15px}
+.top nav a{text-decoration:none;color:#c9d6e4}
+.top nav a:hover{color:#fff}
+.top .act{margin-left:auto;display:flex;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:10px 18px;font-size:15px;font-weight:600;line-height:1;cursor:pointer;text-decoration:none;border:1.5px solid transparent;transition:background .2s,border-color .2s,transform .2s}
+.btn svg{width:16px;height:16px;flex:none}
+.btn.pri{background:var(--acc);color:#fff}
+.btn.pri:hover{background:#cf6d17}
+.btn.gho{border-color:rgba(255,255,255,.45);color:#fff;background:transparent}
+.btn.gho:hover{border-color:var(--acc2);color:var(--acc2)}
+.btn.line{border-color:var(--line);color:var(--ink);background:var(--card)}
+.btn.line:hover{border-color:var(--acc);color:var(--acc)}
+.btn:focus-visible{outline:3px solid var(--acc2);outline-offset:3px}
+/* 首屏 */
+.hero{background:radial-gradient(1200px 600px at 75% 30%,#16345e 0%,#0d1f3a 60%,#0a172b 100%);color:#fff;padding:64px 0 72px;position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px;align-items:center}
+.kick{color:var(--acc2);font-weight:700;letter-spacing:.12em;font-size:14px;text-transform:uppercase}
+.hero h1{font-size:52px;line-height:1.15;margin:14px 0 18px;font-weight:800;letter-spacing:-.01em}
+.hero h1 em{font-style:normal;color:var(--acc2)}
+.hero p.lead{color:#c9d6e4;font-size:18px;margin:0 0 26px;max-width:30em}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0 0 26px}
+.fact{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:14px 16px}
+.fact b{display:block;font-size:30px;line-height:1.1;color:var(--acc2);font-weight:800;font-variant-numeric:tabular-nums}
+.fact span{font-size:14px;color:#c9d6e4}
+.src{font-size:12.5px;color:#8ea3ba;margin:0}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:18px}
+.film{position:relative;border-radius:18px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.45);background:#0d1f3a;aspect-ratio:16/9;border:1px solid rgba(255,255,255,.14)}
+.film video,.film img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.film .fctl{position:absolute;left:14px;right:14px;bottom:14px;display:flex;gap:10px;align-items:center;z-index:2}
+.film .fctl .tag{margin-right:auto;font-size:13px;color:#dbe6f3;background:rgba(13,31,58,.7);padding:6px 10px;border-radius:999px}
+.film .fctl button{background:rgba(13,31,58,.78);color:#fff;border:1.5px solid rgba(255,255,255,.4);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer}
+.film .fctl button:hover{background:var(--acc);border-color:var(--acc)}
+.film .fctl button.on{background:var(--acc);border-color:var(--acc)}
+.film.broken video{display:none}
+/* 汇报卡片 */
+section{padding:72px 0}
+.sh{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:28px}
+.sh h2{font-size:34px;margin:0;line-height:1.2}
+.sh p{margin:6px 0 0;color:var(--mute)}
+.talks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.talk{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}
+.talk:hover,.talk:focus-within{transform:translateY(-4px);box-shadow:0 18px 50px rgba(13,31,58,.14)}
+.thumb{position:relative;aspect-ratio:16/9;background:#e9eef4;overflow:hidden;cursor:pointer}
+.thumb{background:linear-gradient(135deg,#16345e,#0d1f3a)}
+.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease;color:transparent;font-size:0}
+.thumb img.on{opacity:1}
+.thumb .dur{position:absolute;left:12px;top:12px;background:rgba(13,31,58,.86);color:#fff;font-weight:700;font-size:14px;padding:6px 10px;border-radius:999px;z-index:2}
+.thumb .dots{position:absolute;right:12px;bottom:12px;display:flex;gap:6px;z-index:2}
+.thumb .dots i{width:7px;height:7px;border-radius:50%;background:rgba(13,31,58,.25)}
+.thumb .dots i.on{background:var(--acc)}
+.talk .bd{padding:20px 22px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.talk h3{margin:0;font-size:20px;line-height:1.35}
+.talk .meta{font-size:14px;color:var(--mute)}
+.talk .use{font-size:15px;margin:0}
+.talk .row{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:8px}
+.talk .row .btn{padding:9px 14px;font-size:14px}
+/* 放映键位 */
+.keys{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.key{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center}
+.key kbd{display:inline-block;min-width:44px;padding:8px 10px;border-radius:10px;background:var(--bg);border:1px solid var(--line);border-bottom-width:3px;font:700 16px/1 var(--font);color:var(--ink)}
+.key p{margin:10px 0 0;font-size:14px;color:var(--mute)}
+.key.go kbd{animation:press 2.4s ease-in-out infinite}
+@keyframes press{0%,70%,100%{transform:none;border-bottom-width:3px}78%{transform:translateY(2px);border-bottom-width:1px}}
+/* 合作企业 */
+.co{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:0;background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.co .im{background:#fff;display:flex;align-items:center;justify-content:center}
+.co .im img{width:100%;height:100%;object-fit:cover;display:block}
+.co .tx{padding:34px 36px;display:flex;flex-direction:column;gap:12px}
+.co .role{display:inline-flex;align-self:flex-start;gap:8px;align-items:center;background:rgba(230,126,34,.12);color:#b85e10;font-weight:700;font-size:14px;padding:6px 12px;border-radius:999px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .co .role{color:var(--acc2)}}
+.co h3{margin:0;font-size:24px}
+.co p{margin:0;color:var(--mute)}
+.co ul{margin:4px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+.co li{display:flex;gap:10px;align-items:flex-start;font-size:15.5px}
+.co li svg{width:18px;height:18px;flex:none;margin-top:4px;color:var(--acc)}
+.co .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+footer{border-top:1px solid var(--line);padding:30px 0 40px;color:var(--mute);font-size:14.5px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+footer a{color:var(--ink)}
+.en{font-size:14px;color:var(--mute);margin-top:6px}
+/* 放映层 */
+.player{position:fixed;inset:0;z-index:200;background:#000;display:none}
+.player.on{display:block}
+.player iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#0d1f3a}
+.player .x{position:absolute;left:14px;bottom:14px;z-index:3;display:flex;gap:8px}
+.player .x button{background:rgba(13,31,58,.82);color:#fff;border:1.5px solid rgba(255,255,255,.4);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer;opacity:.35;transition:opacity .2s}
+.player .x:hover button,.player .x button:focus-visible{opacity:1}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.key.go kbd{animation:none}.thumb img{transition:none}.talk{transition:none}}
+@media (max-width:1080px){.hero .wrap{grid-template-columns:1fr}.talks{grid-template-columns:repeat(2,minmax(0,1fr))}.keys{grid-template-columns:repeat(3,minmax(0,1fr))}.co{grid-template-columns:1fr}}
+@media (max-width:720px){.wrap{padding:0 16px}.top nav{display:none}.top .act .btn span{display:none}.top .act .btn{padding:10px 12px}.brand small{display:none}
+  .hero{padding:36px 0 44px}.hero h1{font-size:34px}.facts .fact b{font-size:24px}.talks{grid-template-columns:1fr}.keys{grid-template-columns:repeat(2,minmax(0,1fr))}section{padding:48px 0}.sh h2{font-size:26px}.co .tx{padding:24px 20px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="https://yuquan.li/">黎育权 <small>学术汇报</small></a>
+    <nav aria-label="页内导航"><a href="#talks">三档汇报</a><a href="#how">怎么放映</a><a href="#partner">合作企业</a><a href="https://yuquan.li/">个人主页</a></nav>
+    <div class="act">
+      <button class="btn gho" type="button" data-open="D2" aria-label="汇报展示：全屏放映 20 分钟版"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span>汇报展示</span></button>
+      <button class="btn pri" type="button" data-auto="D2" aria-label="一键自动演示案例：有声片头加逐页自动播放"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l12-7.5z"/></svg><span>一键自动演示</span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <div class="kick">AI for Science · 学术汇报</div>
+      <h1>AI 靶标发现<br>与<em>分子设计</em></h1>
+      <p class="lead">问题、方法与合作。三档时长的网页幻灯，打开即可放映，断网版与逐页 PDF 一并提供。</p>
+      <div class="facts" aria-label="代表性数据">
+        <div class="fact"><b data-c="11">11</b><span>中科院一区论文（篇）</span></div>
+        <div class="fact"><b data-c="531">531</b><span>总被引（h-index 10）</span></div>
+        <div class="fact"><b data-c="4">4</b><span>主持或负责的在研项目</span></div>
+        <div class="fact"><b>3 刊</b><span>The Innovation · iMeta · Exploration 青年编委</span></div>
+      </div>
+      <p class="src">被引与 h-index：Semantic Scholar，2026-09-30；一区论文：本人学术台账；在研：个人主页。</p>
+    </div>
+    <div>
+      <div class="film" id="film">
+        <img src="../talks/academic/media/v6_brand_poster.jpg" alt="片头海报帧：黎育权，AI 靶标发现与分子设计" width="1920" height="1080">
+        <video id="fv" muted playsinline loop preload="metadata" poster="../talks/academic/media/v6_brand_poster.jpg" aria-label="片头短片：黎育权是谁、做什么、凭什么">
+          <source src="../talks/academic/media/v6_brand.webm" type="video/webm">
+          <source src="../talks/academic/media/v6_brand.mp4" type="video/mp4">
+          <track kind="captions" srclang="zh" label="中文" src="../talks/academic/media/v7_brand_vo.vtt">
+        </video>
+        <div class="fctl">
+          <span class="tag" id="ftag">静音片头 · 15 秒</span>
+          <button type="button" id="fsound" aria-label="播放有声片头 31 秒">▶ 有声片头 31 秒</button>
+          <button type="button" id="fpause" aria-label="暂停片头">暂停</button>
+        </div>
+      </div>
+      <p class="src" style="margin-top:10px">片头为数据驱动的示意动画，配音由 AI 合成。</p>
+    </div>
+  </div>
+</div>
+
+<section id="talks">
+  <div class="wrap">
+    <div class="sh reveal"><div><h2>三档汇报</h2><p>同一套事实源，按时长取舍。悬停卡片可预览关键页。</p></div></div>
+    <div class="talks" id="tl"></div>
+  </div>
+</section>
+
+<section id="how" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh reveal"><div><h2>怎么放映</h2><p>浏览器打开即放映；触屏左右滑动翻页。</p></div></div>
+    <div class="keys reveal">
+      <div class="key go"><kbd>→</kbd><p>翻页（空格同）</p></div>
+      <div class="key"><kbd>F</kbd><p>全屏</p></div>
+      <div class="key"><kbd>S</kbd><p>演讲者视图与计时</p></div>
+      <div class="key"><kbd>O</kbd><p>全部页总览</p></div>
+      <div class="key"><kbd>Esc</kbd><p>跳过片头 · 退出自动演示</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="partner" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh reveal"><div><h2>合作企业</h2><p>汇报里的「工程化落地」由这家公司承接。</p></div></div>
+    <div class="co reveal">
+      <div class="im"><img src="img/kway_og.webp" alt="启微智能：用人工智能启发微观物质；分子设计、科研数据平台、科研信息化" width="1200" height="630" loading="lazy"></div>
+      <div class="tx">
+        <span class="role">首席科学顾问 · 不领薪酬</span>
+        <h3>贵州启微智能科技有限公司</h3>
+        <p>定位在科研团队与工程实现之间：读得懂论文，也能把平台部署上线并交出维护手册。</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>分子设计、科研数据平台、科研信息化</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>承接合作项目中的平台开发、部署与长期运维</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>只做计算与工程，不做湿实验</li>
+        </ul>
+        <div class="row"><a class="btn line" href="https://kway.cc/" target="_blank" rel="noopener">公司官网 kway.cc ↗</a><a class="btn line" href="https://mol.kway.cc/" target="_blank" rel="noopener">分子设计平台 ↗</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>黎育权 · 贵州省大数据实验室 · 贵州大学计算机科学与技术学院<div class="en">Academic talks by Yuquan Li on AI-driven target discovery and molecular design: 5-, 20- and 60-minute web slide decks with PDFs.</div></div>
+    <div><a href="https://yuquan.li/">个人主页 yuquan.li</a> · <a href="mailto:yvquan.li@gzu.edu.cn">yvquan.li@gzu.edu.cn</a></div>
+  </div>
+</footer>
+
+<div class="player" id="player" role="dialog" aria-modal="true" aria-label="汇报放映">
+  <div class="x"><button type="button" id="px">✕ 返回目录</button></div>
+</div>
+
+<noscript><p style="text-align:center;padding:12px">本页需要 JavaScript 列出汇报。直接打开：<a href="../talks/academic/5min.html">5 分钟</a> · <a href="../talks/academic/20min.html">20 分钟</a> · <a href="../talks/academic/60min.html">60 分钟</a></p></noscript>
+
+<script>
+(function () {
+  /* 汇报清单：唯一真源。新增一份汇报只在这里加一项（缩略图放 img/，命名 <id>_pNN.webp） */
+  var BASE = '../talks/academic/';
+  var TALKS = [
+    { id: 'D1', file: '5min', min: 5, pages: 7, title: '自我介绍与合作', use: '陌生场合自我介绍、会议茶歇、初次拜访', thumbs: [1, 2, 4, 6] },
+    { id: 'D2', file: '20min', min: 20, pages: 18, title: 'AI 辅助分子设计：问题、方法与合作', use: '外单位学术报告、青年论坛、来访交流', thumbs: [1, 5, 8, 17] },
+    { id: 'D3', file: '60min', min: 60, pages: 33, title: '从预测到设计：AI 靶标发现与分子设计', use: '受邀讲座、系列报告、深度交流', thumbs: [1, 9, 20, 31] }
+  ];
+  var REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var tl = document.getElementById('tl');
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  var ICON_PLAY = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l12-7.5z"/></svg>';
+  TALKS.forEach(function (t) {
+    var el = document.createElement('article'); el.className = 'talk reveal';
+    var imgs = t.thumbs.map(function (p, i) { return '<img src="img/' + t.id + '_p' + pad(p) + '.webp" alt="' + t.title + ' 第 ' + p + ' 页" width="960" height="540"' + (i ? ' loading="lazy"' : ' class="on"') + '>'; }).join('');
+    el.innerHTML = '<div class="thumb" tabindex="0" role="button" aria-label="放映 ' + t.title + '" data-open="' + t.id + '"><span class="dur">' + t.min + ' 分钟</span>' + imgs +
+      '<span class="dots">' + t.thumbs.map(function (_, i) { return '<i' + (i ? '' : ' class="on"') + '></i>'; }).join('') + '</span></div>' +
+      '<div class="bd"><h3>' + t.title + '</h3><div class="meta">' + t.pages + ' 页 · 约 ' + t.min + ' 分钟</div><p class="use">' + t.use + '</p>' +
+      '<div class="row"><button class="btn pri" type="button" data-open="' + t.id + '">' + ICON_PLAY + '放映</button>' +
+      '<button class="btn line" type="button" data-auto="' + t.id + '">自动演示</button>' +
+      '<a class="btn line" href="' + BASE + t.file + '.pdf" target="_blank" rel="noopener">逐页 PDF</a></div></div>';
+    tl.appendChild(el);
+    /* 悬停/聚焦时轮播关键页：按时间戳换页，不累计定时器 */
+    var th = el.querySelector('.thumb'), ims = th.querySelectorAll('img'), dots = th.querySelectorAll('.dots i'), raf = 0, t0 = 0, last = 0;
+    function set(k) { ims.forEach(function (m, i) { m.classList.toggle('on', i === k); }); dots.forEach(function (d, i) { d.classList.toggle('on', i === k); }); }
+    function frame(now) { var k = Math.floor((now - t0) / 1400) % ims.length; if (k !== last) { last = k; set(k); } raf = requestAnimationFrame(frame); }
+    function startCycle() { if (REDUCED || raf) return; t0 = performance.now() - 1400; last = 0; raf = requestAnimationFrame(frame); }
+    function stopCycle() { cancelAnimationFrame(raf); raf = 0; last = 0; set(0); }
+    el.addEventListener('mouseenter', startCycle); el.addEventListener('mouseleave', stopCycle);
+    th.addEventListener('focus', startCycle); th.addEventListener('blur', stopCycle);
+  });
+  function byId(id) { for (var i = 0; i < TALKS.length; i++) if (TALKS[i].id === id) return TALKS[i]; }
+
+  /* 放映层：同源 iframe。点击即用户手势，带声自动播放可被放行；被拦则 deck 内退回静音并亮「点此开声音」 */
+  var player = document.getElementById('player'), lastFocus = null;
+  function open(id, auto) {
+    var t = byId(id); if (!t) return;
+    lastFocus = document.activeElement;
+    var f = document.createElement('iframe');
+    f.src = BASE + t.file + '.html' + (auto ? '?auto=1&sound=1' : '');
+    f.allow = 'autoplay; fullscreen'; f.setAttribute('allowfullscreen', ''); f.title = t.title;
+    player.appendChild(f); player.classList.add('on'); document.body.style.overflow = 'hidden';
+    try { if (player.requestFullscreen) player.requestFullscreen().catch(function () { }); } catch (_) { }
+    f.addEventListener('load', function () { try { f.contentWindow.focus(); } catch (_) { } });
+    history.pushState({ p: id }, '', '#play-' + t.file);
+  }
+  function close(fromPop) {
+    var f = player.querySelector('iframe'); if (f) f.remove();
+    player.classList.remove('on'); document.body.style.overflow = '';
+    if (document.fullscreenElement) document.exitFullscreen().catch(function () { });
+    if (!fromPop && /^#play-/.test(location.hash)) history.back();
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  document.addEventListener('click', function (e) {
+    var o = e.target.closest('[data-open]'), a = e.target.closest('[data-auto]');
+    if (a) { e.preventDefault(); open(a.getAttribute('data-auto'), true); }
+    else if (o) { e.preventDefault(); open(o.getAttribute('data-open'), false); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && player.classList.contains('on') && !document.fullscreenElement) close();
+    var o = e.target.closest && e.target.closest('.thumb[data-open]');
+    if (o && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); open(o.getAttribute('data-open'), false); }
+  });
+  document.getElementById('px').addEventListener('click', function () { close(); });
+  addEventListener('popstate', function () { if (player.classList.contains('on')) close(true); });
+  var m = /^#play-(5min|20min|60min)$/.exec(location.hash);
+  if (m) TALKS.forEach(function (t) { if (t.file === m[1]) open(t.id, false); });
+
+  /* 首屏片头：静音循环 15 秒版；「有声片头」换 31 秒有声版（点击即手势，可带声播放） */
+  var film = document.getElementById('film'), fv = document.getElementById('fv'), fs = document.getElementById('fsound'), fp = document.getElementById('fpause'), ftag = document.getElementById('ftag');
+  var voiced = false;
+  function broken() { film.classList.add('broken'); fp.hidden = true; }
+  fv.addEventListener('error', broken, true);
+  if (REDUCED) { fp.textContent = '播放'; } else {
+    var io0 = new IntersectionObserver(function (es) { es.forEach(function (en) { if (en.isIntersecting) { if (!fv.dataset.user) fv.play().catch(function () { }); } else if (!voiced) fv.pause(); }); }, { threshold: .3 });
+    io0.observe(film);
+  }
+  fp.addEventListener('click', function () { fv.dataset.user = 1; if (voiced && fv.ended) { fv.currentTime = 0; fv.play().catch(broken); fp.textContent = '暂停'; return; } if (fv.paused) { fv.play().catch(broken); fp.textContent = '暂停'; } else { fv.pause(); fp.textContent = '播放'; } });
+  fs.addEventListener('click', function () {
+    if (voiced) { fv.muted = !fv.muted; fs.textContent = fv.muted ? '开声音' : '静音'; return; }
+    voiced = true; film.classList.remove('broken'); fp.hidden = false;
+    while (fv.firstElementChild && fv.firstElementChild.tagName === 'SOURCE') fv.removeChild(fv.firstElementChild);
+    var tr = fv.querySelector('track');
+    [['v7_brand_vo.webm', 'video/webm'], ['v7_brand_vo.mp4', 'video/mp4']].forEach(function (s) { var e = document.createElement('source'); e.src = '../talks/academic/media/' + s[0]; e.type = s[1]; fv.insertBefore(e, tr); });
+    fv.loop = false; fv.poster = '../talks/academic/media/v7_brand_vo_poster.jpg'; fv.muted = false; fv.load();
+    fv.play().then(function () { fp.textContent = '暂停'; }).catch(function () { fv.muted = true; fv.play().catch(broken); fs.textContent = '开声音'; });
+    fs.textContent = '静音'; fs.classList.add('on'); ftag.textContent = '有声片头 · 31 秒 · AI 配音';
+  });
+  fv.addEventListener('ended', function () { if (voiced) { fp.textContent = '重播'; } });
+
+  /* 数字计数与滚动入场 */
+  var rv = document.querySelectorAll('.reveal');
+  if (REDUCED || !('IntersectionObserver' in window)) rv.forEach(function (e) { e.classList.add('in'); });
+  else { var io = new IntersectionObserver(function (es) { es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } }); }, { threshold: .12 }); rv.forEach(function (e) { io.observe(e); }); }
+  if (!REDUCED) document.querySelectorAll('.fact b[data-c]').forEach(function (b) {
+    var to = +b.getAttribute('data-c'), t0 = performance.now();
+    (function step(now) { var k = Math.min(1, (now - t0) / 1400); b.textContent = Math.round(to * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(step); })(t0);
+  });
+})();
+</script>
+</body>
+</html>

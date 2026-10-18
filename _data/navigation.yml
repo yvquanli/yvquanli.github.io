@@ -30,6 +30,9 @@ main:
   - title: "专利软著"
     url: "/#patents"
 
+  - title: "学术汇报"
+    url: "/slides/"
+
 main_en:
   - title: "About"
     url: "/en/#about-me"
@@ -49,3 +52,5 @@ main_en:
     url: "/en/#other"
   - title: "Patents & Software Copyrights"
     url: "/en/#patents"
+  - title: "Talks"
+    url: "/slides/"
