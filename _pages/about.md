@@ -115,7 +115,9 @@ author_profile: true
 **[3]** **Li\*** et al. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction. `Advanced Science IF=14.1`
 [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
 
-**[4]** **Li†** et al. AI for science: Progress, challenges, and perspectives. `The Innovation IF=39.5`
+**[4]** **Li\*** et al. Fragment-aware latent diffusion with Pareto-guided reinforcement learning enables experimentally validated multi-objective molecular design. `Advanced Science IF=14.1` 已接收
+
+**[5]** **Li†** et al. AI for science: Progress, challenges, and perspectives. `The Innovation IF=39.5`
 [[HTML]](https://doi.org/10.1016/j.xinn.2026.101530) [[PDF]](https://www.cell.com/action/showPdf?pii=S2666-6758%2826%2900277-8)
 
 
@@ -127,14 +129,14 @@ author_profile: true
 
 ### 所有论文
 
-#### 已接收与修改中
+#### 修改中
 
-- **[2026 已接收]** Kai Xu, Li Qin, Yanan Tian, Kangliang Pan, Weihong Li, Kewei Zhou, Shaolong Lin, Jieying Zang, Jianmin Wang, **<font color="#ff9933">Yuquan Li*</font>**, Huanxiang Liu\*, Xiaojun Yao\*. Fragment-aware latent diffusion with Pareto-guided reinforcement learning enables experimentally validated multi-objective molecular design[J]. `Advanced Science`, 已接收.
 - **[2026 小修]** Vinit Kumar, Melina Sarabandi, **<font color="#ff9933">Yuquan Li*</font>**, Qi Wang, Gefei Hao. Engineering proactive plant healthcare with generative biological artificial intelligence[J]. `Exploration`, 小修中.
 - **[2026 大修]** Xinyu Dong, Xiaorui Wang, Yawen Dong, Barana C. Jayawardana, Xiaojun Yao, **<font color="#ff9933">Yuquan Li*</font>**, Gefei Hao\*. SCR-DTI enables reliable drug-target prediction across data regimes through asymmetric evidence factorization[J]. `Advanced Science`, 大修中.
 
 #### 2026年度
 
+- **[2026g]** Kai Xu, Li Qin, Yanan Tian, Kangliang Pan, Weihong Li, Kewei Zhou, Shaolong Lin, Jieying Zang, Jianmin Wang, **<font color="#ff9933">Yuquan Li*</font>**, Huanxiang Liu\*, Xiaojun Yao\*. Fragment-aware latent diffusion with Pareto-guided reinforcement learning enables experimentally validated multi-objective molecular design[J]. `Advanced Science`, 2026, 已接收.
 - **[2026f]** Pengyun Li\*, Shiyang Sun, Ting Wei, Zhanhong Tang, Zhenze Qi, Xu Cai, Ziyun Zhang, Zhihui Mu, Xinna Wei, Jiatao Qi, Sihan Cui, Junhai Xiao\*, **<font color="#ff9933">Yuquan Li*</font>**, Zhibing Zheng\*, Song Li. Generative AI reshapes the PROTAC discovery paradigm: From empirical screening to rational design[J]. `The Innovation Drug Discovery`, 2026, 1(2): 100027. [[HTML]](https://www.the-innovation.org/article/doi/10.59717/j.xinn-drugdisc.2026.100027)  [[PDF]](https://www.the-innovation.org/data/article/export-pdf?id=6a300d3b4329597e80ec5d25)
 - **[2026e]** Shuo Liu, Xiang Zhang, Haixia Feng, **<font color="#ff9933">Yuquan Li</font>**, Xiaoqing Gong, Yong Liang\*, Xiaojun Yao\*, Huanxiang Liu\*. A unified hierarchical multiscale fusion framework for drug-target affinity prediction: from benchmark performance to nanomolar inhibitor discovery[J]. `Advanced Science`, 2026: e77345. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77345)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.77345)
 - **[2026d]** Yongjun Xu†, Zezhi Shao†, Xin Liu†, **<font color="#ff9933">Yuquan Li†</font>**, Zhulin An†, Chenguang Fu†, et al. AI for science: Progress, challenges, and perspectives[J]. `The Innovation`, 2026: 101530. [[HTML]](https://doi.org/10.1016/j.xinn.2026.101530)  [[PDF]](https://www.cell.com/action/showPdf?pii=S2666-6758%2826%2900277-8)
