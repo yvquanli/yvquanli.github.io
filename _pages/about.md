@@ -130,7 +130,7 @@ author_profile: true
 #### 已接收与修改中
 
 - **[2026 已接收]** Kai Xu, Li Qin, Yanan Tian, Kangliang Pan, Weihong Li, Kewei Zhou, Shaolong Lin, Jieying Zang, Jianmin Wang, **<font color="#ff9933">Yuquan Li*</font>**, Huanxiang Liu\*, Xiaojun Yao\*. Fragment-aware latent diffusion with Pareto-guided reinforcement learning enables experimentally validated multi-objective molecular design[J]. `Advanced Science`, 已接收.
-- **[2026 小修]** Vinit Kumar, Melina Sarabandi, **<font color="#ff9933">Yuquan Li</font>**, Qi Wang, Gefei Hao. Engineering proactive plant healthcare with generative biological artificial intelligence[J]. `Exploration`, 小修中.
+- **[2026 小修]** Vinit Kumar, Melina Sarabandi, **<font color="#ff9933">Yuquan Li*</font>**, Qi Wang, Gefei Hao. Engineering proactive plant healthcare with generative biological artificial intelligence[J]. `Exploration`, 小修中.
 - **[2026 大修]** Xinyu Dong, Xiaorui Wang, Yawen Dong, Barana C. Jayawardana, Xiaojun Yao, **<font color="#ff9933">Yuquan Li*</font>**, Gefei Hao\*. SCR-DTI enables reliable drug-target prediction across data regimes through asymmetric evidence factorization[J]. `Advanced Science`, 大修中.
 
 #### 2026年度
