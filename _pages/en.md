@@ -138,7 +138,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 
 #### Under Revision
 
-- **[2026 Minor Revision]** Vinit Kumar, Melina Sarabandi, **<font color="#ff9933">Yuquan Li*</font>**, Qi Wang, Gefei Hao. Engineering proactive plant healthcare with generative biological artificial intelligence[J]. `Exploration`, minor revision.
+- **[2026 Minor Revision]** Vinit Kumar, Melina Sarabandi, **<font color="#ff9933">Yuquan Li*</font>**, Qi Wang\*, Gefei Hao\*. Engineering proactive plant healthcare with generative biological artificial intelligence[J]. `Exploration`, minor revision.
 - **[2026 Major Revision]** Xinyu Dong, Xiaorui Wang, Yawen Dong, Barana C. Jayawardana, Xiaojun Yao, **<font color="#ff9933">Yuquan Li*</font>**, Gefei Hao\*. SCR-DTI enables reliable drug-target prediction across data regimes through asymmetric evidence factorization[J]. `Advanced Science`, major revision.
 
 #### 2026

@@ -131,7 +131,7 @@ author_profile: true
 
 #### 修改中
 
-- **[2026 小修]** Vinit Kumar, Melina Sarabandi, **<font color="#ff9933">Yuquan Li*</font>**, Qi Wang, Gefei Hao. Engineering proactive plant healthcare with generative biological artificial intelligence[J]. `Exploration`, 小修中.
+- **[2026 小修]** Vinit Kumar, Melina Sarabandi, **<font color="#ff9933">Yuquan Li*</font>**, Qi Wang\*, Gefei Hao\*. Engineering proactive plant healthcare with generative biological artificial intelligence[J]. `Exploration`, 小修中.
 - **[2026 大修]** Xinyu Dong, Xiaorui Wang, Yawen Dong, Barana C. Jayawardana, Xiaojun Yao, **<font color="#ff9933">Yuquan Li*</font>**, Gefei Hao\*. SCR-DTI enables reliable drug-target prediction across data regimes through asymmetric evidence factorization[J]. `Advanced Science`, 大修中.
 
 #### 2026年度
