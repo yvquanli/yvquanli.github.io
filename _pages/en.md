@@ -133,12 +133,19 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 
 ### All Publications
 
+#### Accepted & Under Revision
+
+- **[2026 Accepted]** Kai Xu, Li Qin, Yanan Tian, Kangliang Pan, Weihong Li, Kewei Zhou, Shaolong Lin, Jieying Zang, Jianmin Wang, **<font color="#ff9933">Yuquan Li*</font>**, Huanxiang Liu\*, Xiaojun Yao\*. Fragment-aware latent diffusion with Pareto-guided reinforcement learning enables experimentally validated multi-objective molecular design[J]. `Advanced Science`, accepted.
+- **[2026 Minor Revision]** Vinit Kumar, Melina Sarabandi, **<font color="#ff9933">Yuquan Li</font>**, Qi Wang, Gefei Hao. Engineering proactive plant healthcare with generative biological artificial intelligence[J]. `Exploration`, minor revision.
+- **[2026 Major Revision]** Xinyu Dong, Xiaorui Wang, Yawen Dong, Barana C. Jayawardana, Xiaojun Yao, **<font color="#ff9933">Yuquan Li*</font>**, Gefei Hao\*. SCR-DTI enables reliable drug-target prediction across data regimes through asymmetric evidence factorization[J]. `Advanced Science`, major revision.
+
 #### 2026
+- **[2026f]** Pengyun Li\*, Shiyang Sun, Ting Wei, Zhanhong Tang, Zhenze Qi, Xu Cai, Ziyun Zhang, Zhihui Mu, Xinna Wei, Jiatao Qi, Sihan Cui, Junhai Xiao\*, **<font color="#ff9933">Yuquan Li*</font>**, Zhibing Zheng\*, Song Li. Generative AI reshapes the PROTAC discovery paradigm: From empirical screening to rational design[J]. `The Innovation Drug Discovery`, 2026, 1(2): 100027. [[HTML]](https://www.the-innovation.org/article/doi/10.59717/j.xinn-drugdisc.2026.100027)  [[PDF]](https://www.the-innovation.org/data/article/export-pdf?id=6a300d3b4329597e80ec5d25)
 - **[2026e]** Shuo Liu, Xiang Zhang, Haixia Feng, **<font color="#ff9933">Yuquan Li</font>**, Xiaoqing Gong, Yong Liang\*, Xiaojun Yao\*, Huanxiang Liu\*. A unified hierarchical multiscale fusion framework for drug-target affinity prediction: from benchmark performance to nanomolar inhibitor discovery[J]. `Advanced Science`, 2026: e77345. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77345)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.77345)
 - **[2026d]** Yongjun Xu†, Zezhi Shao†, Xin Liu†, **<font color="#ff9933">Yuquan Li†</font>**, Zhulin An†, Chenguang Fu†, et al. AI for science: Progress, challenges, and perspectives[J]. `The Innovation`, 2026: 101530. [[HTML]](https://doi.org/10.1016/j.xinn.2026.101530)  [[PDF]](https://www.cell.com/action/showPdf?pii=S2666-6758%2826%2900277-8)
+- **[2026c]** Chaoyang Xie, Xiaorui Wang, Yawen Dong, Xiaojun Yao\*, Gefei Hao\*, **<font color="#ff9933">Yuquan Li*</font>**. Reshaping the drug discovery ecosystem with open science and collaborative innovation[J]. `The Innovation Drug Discovery`, 2026, 1(1): 100016. [[HTML]](https://www.the-innovation.org/article/doi/10.59717/j.xinn-drugdisc.2026.100016)  [[PDF]](https://www.the-innovation.org/data/article/export-pdf?id=69d5f87fa26741285584291b)
 - **[2026b]** Chaoyang Xie, Junhu Xu, Guangyi Huang, Shihang Wang, Mutian He, Xinyu Dong, Huiyang Hong, Xiaojun Yao, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction[J]. `Advanced Science`, 2026: e17579. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
 - **[2026a]** Huiyang Hong, Xinkai Wu, Hongyu Sun, Chaoyang Xie, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. A hierarchical interaction message net for accurate molecular property prediction[J]. `Communications Chemistry`,2026. [[HTML]](https://www.nature.com/articles/s42004-026-01922-x)  [[PDF]](https://www.nature.com/articles/s42004-026-01922-x_reference.pdf)
-- **[2026c]** Chaoyang Xie, Xiaorui Wang, Yawen Dong, Xiaojun Yao\*, Gefei Hao\*, **<font color="#ff9933">Yuquan Li*</font>**. Reshaping the drug discovery ecosystem with open science and collaborative innovation[J]. `The Innovation Drug Discovery`, 2026, 1(1): 100016. [[HTML]](https://www.the-innovation.org/article/doi/10.59717/j.xinn-drugdisc.2026.100016)  [[PDF]](https://www.the-innovation.org/data/article/export-pdf?id=69d5f87fa26741285584291b)
 
 
 #### 2025
@@ -177,6 +184,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 # 🌟 Honors & Awards
 <table class="cv-table">
   <tr><td class="cv-date">2026.10</td><td>The Innovation Drug Discovery, Excellent Youth Editor Award</td></tr>
+  <tr><td class="cv-date">2026.1</td><td>The 6th International Conference on Green Plant Protection Innovation (ICGPPI), Special Prize Speaker Award</td></tr>
   <tr><td class="cv-date">2025.9</td><td><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a> Journal 2025 Outstanding Youth Editorial Board Member Award</td></tr>
   <tr><td class="cv-date">2024.10</td><td>Guizhou University First-class Discipline Construction Special Talent Introduction</td></tr>
 </table>
