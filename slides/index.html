@@ -10,7 +10,7 @@
 <meta property="og:title" content="学术汇报 · 黎育权">
 <meta property="og:description" content="AI 靶标发现与分子设计：5 / 20 / 60 分钟三档网页幻灯，可放映、可自动演示、附逐页 PDF。">
 <meta property="og:url" content="https://yuquan.li/slides/">
-<meta property="og:image" content="https://yuquan.li/talks/academic/media/v6_brand_poster.jpg">
+<meta property="og:image" content="https://yuquan.li/talks/academic/media/v8_brand_poster.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"CollectionPage","name":"学术汇报 · 黎育权","url":"https://yuquan.li/slides/","inLanguage":"zh-CN",
@@ -20,7 +20,7 @@
   {"@type":"PresentationDigitalDocument","name":"自我介绍与合作（5 分钟）","url":"https://yuquan.li/talks/academic/5min.html","numberOfPages":7},
   {"@type":"PresentationDigitalDocument","name":"AI 辅助分子设计：问题、方法与合作（20 分钟）","url":"https://yuquan.li/talks/academic/20min.html","numberOfPages":18},
   {"@type":"PresentationDigitalDocument","name":"从预测到设计：AI 靶标发现与分子设计（60 分钟）","url":"https://yuquan.li/talks/academic/60min.html","numberOfPages":33}],
- "video":{"@type":"VideoObject","name":"片头短片：黎育权是谁、做什么、凭什么","description":"31 秒有声片头：黎育权，贵州省大数据实验室、贵州大学副教授；研究方向是 AI 靶标发现与分子设计；代表作发表于 Nature Machine Intelligence，中科院一区论文 11 篇，总被引 531 次，主持或负责在研项目 4 项，三家期刊青年编委。配音由 AI 合成。","thumbnailUrl":"https://yuquan.li/talks/academic/media/v7_brand_vo_poster.jpg","contentUrl":"https://yuquan.li/talks/academic/media/v7_brand_vo.mp4","uploadDate":"2026-10-18","duration":"PT31S"}}
+ "video":{"@type":"VideoObject","name":"品牌片：黎育权是谁、做什么、凭什么、怎么合作","description":"52 秒品牌片，字幕烧入画面：黎育权，贵州省大数据实验室、贵州大学副教授；研究方向是 AI 靶标发现与分子设计；代表作发表于 Nature Machine Intelligence，近两年以共同通讯作者在 Advanced Science 与 Communications Chemistry 发表分子性质预测新方法，参与开发的 CODD-Pred 在线预测平台已上线；中科院一区论文 11 篇，总被引 531 次（Semantic Scholar，2026-09-30），主持或负责在研项目 4 项，三家一区期刊青年编委；合作方式为联合申报、共同发表、数据与平台共建、工程化落地。配音由 AI 合成。","thumbnailUrl":"https://yuquan.li/talks/academic/media/v8_brand_poster.jpg","contentUrl":"https://yuquan.li/talks/academic/media/v8_brand.mp4","uploadDate":"2026-11-01","duration":"PT52S"}}
 </script>
 <style>
 :root{--navy:#0d1f3a;--navy2:#16345e;--ink:#1c2733;--mute:#5a6b7d;--line:#dde4ec;--bg:#f6f8fb;--card:#fff;--acc:#e67e22;--acc2:#ffb366;--blue:#2d7dd2;
@@ -66,11 +66,11 @@ button{font-family:inherit}
 .hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:18px}
 .film{position:relative;border-radius:18px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.45);background:#0d1f3a;aspect-ratio:16/9;border:1px solid rgba(255,255,255,.14)}
 .film video,.film img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.film .fctl{position:absolute;left:14px;right:14px;bottom:14px;display:flex;gap:10px;align-items:center;z-index:2}
-.film .fctl .tag{margin-right:auto;font-size:13px;color:#dbe6f3;background:rgba(13,31,58,.7);padding:6px 10px;border-radius:999px}
-.film .fctl button{background:rgba(13,31,58,.78);color:#fff;border:1.5px solid rgba(255,255,255,.4);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer}
-.film .fctl button:hover{background:var(--acc);border-color:var(--acc)}
-.film .fctl button.on{background:var(--acc);border-color:var(--acc)}
+.fctl{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.fctl .tag{margin-right:auto;font-size:13px;color:#dbe6f3;background:rgba(13,31,58,.7);padding:6px 10px;border-radius:999px}
+.fctl button{background:rgba(13,31,58,.78);color:#fff;border:1.5px solid rgba(255,255,255,.4);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer}
+.fctl button:hover{background:var(--acc);border-color:var(--acc)}
+.fctl button.on{background:var(--acc);border-color:var(--acc)}
 .film.broken video{display:none}
 /* 汇报卡片 */
 section{padding:72px 0}
@@ -162,19 +162,21 @@ footer a{color:var(--ink)}
     </div>
     <div>
       <div class="film" id="film">
-        <img src="../talks/academic/media/v6_brand_poster.jpg" alt="片头海报帧：黎育权，AI 靶标发现与分子设计" width="1920" height="1080">
-        <video id="fv" muted playsinline loop preload="metadata" poster="../talks/academic/media/v6_brand_poster.jpg" aria-label="片头短片：黎育权是谁、做什么、凭什么">
-          <source src="../talks/academic/media/v6_brand.webm" type="video/webm">
-          <source src="../talks/academic/media/v6_brand.mp4" type="video/mp4">
-          <track kind="captions" srclang="zh" label="中文" src="../talks/academic/media/v7_brand_vo.vtt">
+        <img src="../talks/academic/media/v8_brand_poster.jpg" alt="品牌片海报帧：论文原图与在线平台实拍" width="1920" height="1080">
+        <video id="fv" muted playsinline loop preload="metadata" poster="../talks/academic/media/v8_brand_poster.jpg" aria-label="品牌片 52 秒（字幕已烧入画面）：黎育权是谁、做什么、真实作品、凭什么、怎么合作">
+          <source data-wide src="../talks/academic/media/v8_brand.webm" type="video/webm">
+          <source data-wide src="../talks/academic/media/v8_brand.mp4" type="video/mp4">
+          <source src="../talks/academic/media/v8_brand_720.mp4" type="video/mp4">
+          <track kind="captions" srclang="zh" label="中文" src="../talks/academic/media/v8_brand.vtt">
         </video>
-        <div class="fctl">
-          <span class="tag" id="ftag">静音片头 · 15 秒</span>
-          <button type="button" id="fsound" aria-label="播放有声片头 31 秒">▶ 有声片头 31 秒</button>
-          <button type="button" id="fpause" aria-label="暂停片头">暂停</button>
-        </div>
       </div>
-      <p class="src" style="margin-top:10px">片头为数据驱动的示意动画，配音由 AI 合成。</p>
+      <div class="fctl">
+          <span class="tag" id="ftag">品牌片 · 52 秒 · 静音带字幕</span>
+          <button type="button" id="fsound" aria-label="从头带声音播放品牌片 52 秒">▶ 从头带声音</button>
+          <button type="button" id="fpause" aria-label="暂停片头">暂停</button>
+          <button type="button" id="ffull" aria-label="全屏观看品牌片">全屏</button>
+        </div>
+      <p class="src" style="margin-top:10px">画面含概念动画（片内已标注）与论文原图、平台实拍（逐张标出处）；配音由 AI 合成。</p>
     </div>
   </div>
 </div>
@@ -302,9 +304,10 @@ footer a{color:var(--ink)}
   var m = /^#play-(5min|20min|60min)$/.exec(location.hash);
   if (m) TALKS.forEach(function (t) { if (t.file === m[1]) open(t.id, false); });
 
-  /* 首屏片头：静音循环 15 秒版；「有声片头」换 31 秒有声版（点击即手势，可带声播放） */
+  /* 首屏品牌片（V8，52 秒，字幕烧入画面）：默认静音循环；窄屏只给 720p；「从头带声音」点击即手势，可带声播放 */
   var film = document.getElementById('film'), fv = document.getElementById('fv'), fs = document.getElementById('fsound'), fp = document.getElementById('fpause'), ftag = document.getElementById('ftag');
   var voiced = false;
+  if (innerWidth < 1000) { fv.querySelectorAll('source[data-wide]').forEach(function (e) { e.remove(); }); fv.load(); }
   function broken() { film.classList.add('broken'); fp.hidden = true; }
   fv.addEventListener('error', broken, true);
   if (REDUCED) { fp.textContent = '播放'; } else {
@@ -315,12 +318,13 @@ footer a{color:var(--ink)}
   fs.addEventListener('click', function () {
     if (voiced) { fv.muted = !fv.muted; fs.textContent = fv.muted ? '开声音' : '静音'; return; }
     voiced = true; film.classList.remove('broken'); fp.hidden = false;
-    while (fv.firstElementChild && fv.firstElementChild.tagName === 'SOURCE') fv.removeChild(fv.firstElementChild);
-    var tr = fv.querySelector('track');
-    [['v7_brand_vo.webm', 'video/webm'], ['v7_brand_vo.mp4', 'video/mp4']].forEach(function (s) { var e = document.createElement('source'); e.src = '../talks/academic/media/' + s[0]; e.type = s[1]; fv.insertBefore(e, tr); });
-    fv.loop = false; fv.poster = '../talks/academic/media/v7_brand_vo_poster.jpg'; fv.muted = false; fv.load();
+    fv.loop = false; fv.currentTime = 0; fv.muted = false;
     fv.play().then(function () { fp.textContent = '暂停'; }).catch(function () { fv.muted = true; fv.play().catch(broken); fs.textContent = '开声音'; });
-    fs.textContent = '静音'; fs.classList.add('on'); ftag.textContent = '有声片头 · 31 秒 · AI 配音';
+    fs.textContent = '静音'; fs.classList.add('on'); ftag.textContent = '品牌片 · 52 秒 · 有声 · AI 配音';
+  });
+  document.getElementById('ffull').addEventListener('click', function () {
+    fv.dataset.user = 1; if (fv.paused) fv.play().catch(function () { });
+    if (fv.requestFullscreen) fv.requestFullscreen().catch(function () { }); else if (fv.webkitEnterFullscreen) fv.webkitEnterFullscreen();
   });
   fv.addEventListener('ended', function () { if (voiced) { fp.textContent = '重播'; } });
 
