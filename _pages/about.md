@@ -241,7 +241,7 @@ author_profile: true
   <tr><td class="cv-date">2026.8</td><td>参加<a href="https://mp.weixin.qq.com/s/D6AHRKW6DE1VkDKPoRsqCA">2026科学智能大会（AI for Science Congress 2026，北京）</a>，学术墙报</td></tr>
   <tr><td class="cv-date">2026.8</td><td>作为专家参与贵州省科学技术厅人工智能方面会议咨询3次</td></tr>
   <tr><td class="cv-date">2026.7</td><td>作为专家参与贵州省大数据局大数据方面讨论会议</td></tr>
-  <tr><td class="cv-date">2026.5</td><td>聘为全国研究生教育评估监测专家库专家，进行硕士、博士学位论文评审</td></tr>
+  <tr><td class="cv-date">2026.1 - 2026.12</td><td>聘为全国研究生教育评估监测专家库专家，进行硕士、博士学位论文评审</td></tr>
   <tr><td class="cv-date">2026.5</td><td>The Innovation Drug Discovery 青年编委会</td></tr>
   <tr><td class="cv-date">2026.3</td><td>The Innovation期刊青年编委会</td></tr>
   <tr><td class="cv-date">2026.1</td><td>Exploration首届植物科学国际研讨会，负责人</td></tr>
@@ -252,7 +252,7 @@ author_profile: true
   <tr><td class="cv-date">2025.10</td><td><a href="https://www.gzu.edu.cn/2025/1029/c17516a259976/page.htm">第三届全国博士后创新创业大赛</a>揭榜领题赛，"智创新药，稻麦无忧"，银奖</td></tr>
   <tr><td class="cv-date">2025.8</td><td>中国植物保护学会青托论坛，会务秘书</td></tr>
   <tr><td class="cv-date">2025.6</td><td>第十六届蓝桥杯全国软件和信息技术专业人才大赛，第一指导教师，国家级三等奖2项、优秀奖1项</td></tr>
-  <tr><td class="cv-date">2024.9 - 今</td><td>Medicine Bulletin期刊，青年编委</td></tr>
+  <tr><td class="cv-date">2025.10 - 今</td><td>Medicine Bulletin期刊，青年编委</td></tr>
   <tr><td class="cv-date">2024.9 - 今</td><td>AI for Science期刊，青年编委</td></tr>
   <tr><td class="cv-date">2024.9 - 今</td><td>药学学报期刊，青年编委</td></tr>
   <tr><td class="cv-date">2024.8 - 今</td><td>中斯茶叶绿色防控一带一路国际联合实验室，创始建设参与</td></tr>
