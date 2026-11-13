@@ -8,7 +8,9 @@
 {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }}的个人主页</title>
+{% if page.lang == 'en' %}{% assign seo_title_default = "Yuquan Li - Homepage" %}{% else %}{% assign seo_title_default = site.title | append: "的个人主页" %}{% endif %}
+{% assign seo_title = page.seo_title | default: seo_title_default %}
+<title>{{ seo_title | escape_once }}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -29,26 +31,78 @@
 {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="en">
+<meta name="description" content="{{ seo_description }}">
+<meta name="author" content="{% if page.lang == 'en' %}Yuquan Li{% else %}黎育权{% endif %}">
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="{% if page.lang == 'en' %}en_US{% else %}zh_CN{% endif %}">
 <meta property="og:site_name" content="黎育权的个人主页 Yuquan Li Homepage">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:title" content="{{ seo_title | escape_once }}">
+<meta property="og:description" content="{{ seo_description }}">
+<meta property="og:image" content="{{ site.url }}{{ site.author.avatar }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ seo_title | escape_once }}">
+<meta name="twitter:description" content="{{ seo_description }}">
+<meta name="twitter:image" content="{{ site.url }}{{ site.author.avatar }}">
+
+{% if seo_url %}
+<link rel="canonical" href="{{ canonical_url }}">
+<meta property="og:url" content="{{ canonical_url }}">
+{% endif %}
+{% if page.url == "/" or page.url == "/en/" %}
+<link rel="alternate" hreflang="zh-CN" href="{{ site.url }}/">
+<link rel="alternate" hreflang="en" href="{{ site.url }}/en/">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
 
 <script type="application/ld+json">
 {
-  "@context" : "https://schema.org",
-  "@type" : "WebSite",
-  "name" : "黎育权的个人主页 Yuquan Li Homepage",
-  "url" : "https://yuquan.li/"
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://yuquan.li/#website",
+      "name": "黎育权的个人主页 Yuquan Li Homepage",
+      "url": "https://yuquan.li/",
+      "inLanguage": ["zh-CN", "en"]
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "{{ canonical_url }}#profilepage",
+      "url": "{{ canonical_url }}",
+      "name": {{ seo_title | jsonify }},
+      "inLanguage": "{% if page.lang == 'en' %}en{% else %}zh-CN{% endif %}",
+      "isPartOf": { "@id": "https://yuquan.li/#website" },
+      "mainEntity": { "@id": "https://yuquan.li/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://yuquan.li/#person",
+      "name": "{% if page.lang == 'en' %}Yuquan Li{% else %}黎育权{% endif %}",
+      "alternateName": "{% if page.lang == 'en' %}黎育权{% else %}Yuquan Li{% endif %}",
+      "url": "https://yuquan.li/",
+      "image": "{{ site.url }}{{ site.author.avatar }}",
+      "email": "mailto:{{ site.author.email }}",
+      "jobTitle": "{% if page.lang == 'en' %}Special-term Professor{% else %}特聘教授{% endif %}",
+      "description": {{ page.description | default: site.description | jsonify }},
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "{% if page.lang == 'en' %}Guizhou University{% else %}贵州大学{% endif %}",
+        "url": "https://www.gzu.edu.cn/"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "{% if page.lang == 'en' %}Lanzhou University{% else %}兰州大学{% endif %}" },
+        { "@type": "CollegeOrUniversity", "name": "{% if page.lang == 'en' %}Qinghai University{% else %}青海大学{% endif %}" }
+      ],
+      "knowsAbout": {% if page.lang == 'en' %}["AI for Science", "Fundamental AI research", "Foundation models", "Agents and multi-agent collaboration", "Design of targeted small molecules, peptides, proteins and small nucleic acids", "Functional materials design", "Closed-loop (dry–wet) robot scientist"]{% else %}["AI for Science", "AI 基础研究", "基础大模型研究", "智能体与群体协作", "靶向小分子/肽/蛋白/小核酸设计", "功能材料设计", "干湿闭环机器科学家"]{% endif %},
+      "sameAs": [
+        "{{ site.author.googlescholar }}",
+        "{{ site.author.orcid }}",
+        "{{ site.author.researchgate }}",
+        "https://github.com/{{ site.author.github }}"
+      ]
+    }
+  ]
 }
 </script>
-
-{% if seo_url %}
-<link rel="canonical" href="{{ page.url | prepend: seo_url | replace: " /index.html", "/" }}">
-<meta property="og:url" content="{{ page.url | prepend: seo_url | replace: " /index.html", "/" }}">
-{% endif %}
-
-{% if page.excerpt %}
-<meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
 {% if site.twitter.username %}

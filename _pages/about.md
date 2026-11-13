@@ -3,6 +3,8 @@ permalink: /
 lang: zh
 
 title: ""
+seo_title: "黎育权 - 贵州大学特聘教授 | AI for Science · AI 基础研究"
+description: "黎育权，贵州大学省大数据实验室/计算机科学与技术学院特聘教授。长期从事 AI for Science 与人工智能基础研究，方向涵盖基础大模型、智能体与群体协作，以及面向分子与材料的智能设计和干湿闭环机器科学家。"
 
 author_profile: true
 
@@ -38,10 +40,20 @@ author_profile: true
 
 
 
-长期从事 **AI for Science领域，AI靶标发现与分子设计方向**的研究工作。针对分子科学发现设计空间近乎无限、湿验证却昂贵缓慢且成功率极低的核心矛盾，研究“专家智慧+通用智能+专用工具+自动实验”四位一体协作的精准分子科学发现新范式，构建人机协同、干湿闭环的智能科研平台，推动AI从辅助计算走向落地实用的自主分子科学发现。相关工作已以主要作者身份发表于Nature Machine Intelligence、The Innovation、Advanced Science等期刊。目前研究兴趣包括: 
+长期从事 **AI for Science 与人工智能基础研究**，方向涵盖基础大模型、智能体与群体协作，以及面向分子与材料的智能设计和干湿闭环机器科学家。针对分子科学发现设计空间近乎无限、湿验证却昂贵缓慢且成功率极低的核心矛盾，研究“专家智慧+通用智能+专用工具+自动实验”四位一体协作的精准分子科学发现新范式，构建人机协同、干湿闭环的智能科研平台，推动AI从辅助计算走向落地实用的自主分子科学发现。相关工作已以主要作者身份发表于Nature Machine Intelligence、The Innovation、Advanced Science等期刊。目前研究兴趣包括: 
 
-- AI基础研究：大模型智能体与群体智能、图数据处理与图学习  
-- AI for Science研究：靶向小分子/肽/蛋白/小核酸/材料设计、干湿闭环机器科学家
+<div class="rd-map" data-rd>
+  <div class="rd-row"><span class="rd-block">AI基础研究</span><span class="rd-chips">
+    <button type="button" class="rd-chip" data-note="正在布局：团队正在转入的方向，暂无已发表成果">基础大模型研究</button>
+    <button type="button" class="rd-chip" data-note="在研：大模型智能体与多智能体协作，服务自主科学发现">智能体与群体协作</button>
+  </span></div>
+  <div class="rd-row"><span class="rd-block">AI for Science研究</span><span class="rd-chips">
+    <button type="button" class="rd-chip" data-note="已有发表成果，见下方学术论文（图学习为所用方法之一）">靶向小分子/肽/蛋白/小核酸设计</button>
+    <button type="button" class="rd-chip" data-note="在研">功能材料设计</button>
+    <button type="button" class="rd-chip" data-note="在研：构建人机协同、干湿闭环的智能科研平台">干湿闭环机器科学家</button>
+  </span></div>
+  <div class="rd-note" aria-live="polite"></div>
+</div>
 
 **交流ing**：非常希望跟各位专家和同学建立联系，碰撞新思想和合作(微信yvquanli)  
 

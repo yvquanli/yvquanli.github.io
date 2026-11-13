@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "黎育权"
-description              : "贵大特聘教授,AI for Science:智能靶标发现与分子设计"
+description              : "贵大特聘教授,AI for Science · AI 基础研究"
+description_en           : "Guizhou University, AI for Science · Fundamental AI Research"
 repository               : "yvquanli/yvquanli.github.io"
 url                      : "https://yuquan.li"
 google_scholar_stats_use_cdn : false
@@ -73,6 +74,14 @@ exclude:
   - 备忘录.md
   - 需求.md
   - 备忘录处置历史.md
+  - 工作账本和版本更新历史.md
+  - 验收
+  - .versions
+  - .archive
+  - backup
+  - _test_clustrmaps.html
+  - run_server.sh
+  - run_server.bat
   - docs
   - google_scholar_crawler
   - "*.sublime-project"

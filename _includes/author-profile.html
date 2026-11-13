@@ -22,8 +22,7 @@
     <ul class="author__urls social-icons">
       {% if site.description %}
       <li>
-        <div style="white-space: normal; margin-bottom: 1em;">{% if page.lang == 'en' %}Guizhou University{% else %}{{
-          site.description }}{% endif %}</div>
+        <div style="white-space: normal; margin-bottom: 1em;">{% if page.lang == 'en' %}{{ site.description_en }}{% else %}{{ site.description }}{% endif %}</div>
       </li>
       <br>
       {% endif %}

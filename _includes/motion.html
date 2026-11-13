@@ -1,0 +1,139 @@
+<!-- 页面动效与交互：方向图示、标题描线、论文年份时间线。正文始终可见，打印与减弱动效环境下全部静止 -->
+<style>
+  .rd-map { margin: 0 0 1.1em; }
+  .rd-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 0 0 6px; }
+  .rd-block { font-weight: bold; white-space: nowrap; }
+  .rd-block::after { content: "："; }
+  html[lang="en"] .rd-block::after { content: ":"; }
+  .rd-chips { display: inline-flex; flex-wrap: wrap; gap: 6px; min-width: 0; }
+  .rd-chip { font: inherit; font-size: .92em; line-height: 1.35; color: #224b8d; background: #f3f6fb; border: 1px solid #c9d6ea; border-radius: 4px; padding: 2px 9px; margin: 0; cursor: pointer; text-align: left; white-space: normal; transition: background-color .18s, border-color .18s, color .18s, transform .18s; }
+  .rd-chip:hover, .rd-chip:focus-visible, .rd-chip.is-on { background: #224b8d; border-color: #224b8d; color: #fff; outline: none; }
+  .rd-chip:active { transform: translateY(1px); }
+  .rd-note { font-size: .88em; color: #555; max-height: 0; overflow: hidden; opacity: 0; transition: max-height .25s ease, opacity .25s ease; }
+  .rd-note.is-on { max-height: 4.5em; opacity: 1; }
+
+  .page__content h1 { position: relative; }
+  .page__content h1::after { content: ""; position: absolute; left: 0; bottom: -1px; height: 2px; width: 100%; background: #224b8d; transform: scaleX(0); transform-origin: left center; transition: transform .7s cubic-bezier(.2, .7, .2, 1); }
+  .page__content h1.is-seen::after { transform: scaleX(.16); }
+
+  .pub-rail { display: flex; flex-wrap: wrap; gap: 6px; margin: .4em 0 1em; }
+  .pub-rail button { font: inherit; font-size: .85em; line-height: 1.3; color: #224b8d; background: #fff; border: 1px solid #c9d6ea; border-radius: 4px; padding: 3px 9px; margin: 0; cursor: pointer; transition: background-color .18s, color .18s, border-color .18s; }
+  .pub-rail button:hover, .pub-rail button:focus-visible { background: #224b8d; border-color: #224b8d; color: #fff; outline: none; }
+  .pub-rail .pub-n { display: inline-block; min-width: 1.1em; margin-left: 5px; font-weight: bold; color: #ff9933; font-variant-numeric: tabular-nums; }
+  .pub-flash { animation: pubFlash 1.6s ease-out 1; }
+  @keyframes pubFlash { 0% { background-color: rgba(255, 153, 51, .28); } 100% { background-color: transparent; } }
+
+  .site-contact { flex-wrap: wrap; }
+  @media (max-width: 600px) { .site-contact img { height: 130px !important; } .site-contact > div { flex-basis: 100% !important; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .rd-chip, .rd-note, .page__content h1::after, .pub-rail button { transition: none; }
+    .pub-flash { animation: none; }
+  }
+  @media print {
+    .pub-rail, .rd-note { display: none; }
+    .page__content h1::after { display: none; }
+    .rd-chip { color: inherit; background: none; border-color: #999; }
+  }
+</style>
+<script>
+  (function () {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var en = document.documentElement.lang === 'en';
+    var content = document.querySelector('.page__content');
+    if (!content) { return; }
+
+    // 1) 方向图示：悬停、聚焦或点按某个方向，下方显示它的现状说明
+    Array.prototype.forEach.call(content.querySelectorAll('[data-rd]'), function (map) {
+      var note = map.querySelector('.rd-note');
+      var chips = map.querySelectorAll('.rd-chip');
+      var pinned = null;
+      function show(chip) {
+        Array.prototype.forEach.call(chips, function (c) { c.classList.toggle('is-on', c === chip); });
+        if (chip) { note.textContent = chip.textContent.trim() + (en ? ': ' : '：') + chip.getAttribute('data-note'); note.classList.add('is-on'); }
+        else { note.classList.remove('is-on'); }
+      }
+      Array.prototype.forEach.call(chips, function (chip) {
+        chip.addEventListener('mouseenter', function () { show(chip); });
+        chip.addEventListener('focus', function () { show(chip); });
+        chip.addEventListener('click', function () { pinned = (pinned === chip) ? null : chip; show(pinned); });
+      });
+      map.addEventListener('mouseleave', function () { show(pinned); });
+    });
+
+    // 2) 标题描线：栏目标题进入视口时，底部强调线从左侧画出
+    var heads = content.querySelectorAll('h1');
+    if ('IntersectionObserver' in window && !reduce) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('is-seen'); io.unobserve(e.target); } });
+      }, { rootMargin: '0px 0px -8% 0px' });
+      Array.prototype.forEach.call(heads, function (h) { io.observe(h); });
+    } else {
+      Array.prototype.forEach.call(heads, function (h) { h.classList.add('is-seen'); });
+    }
+
+    // 3) 论文年份时间线：按页面上的实际条目计数，点按跳到该年并高亮
+    var all = null, node;
+    Array.prototype.forEach.call(content.querySelectorAll('h3'), function (h) {
+      if (!all && h.nextElementSibling && h.nextElementSibling.tagName === 'H4') { all = h; }
+    });
+    if (!all) { return; }
+    var groups = [];
+    for (node = all.nextElementSibling; node && node.tagName !== 'H1' && node.tagName !== 'H3'; node = node.nextElementSibling) {
+      if (node.tagName === 'H4') { groups.push({ head: node, items: 0, list: null }); }
+      else if (node.tagName === 'UL' && groups.length) {
+        var g = groups[groups.length - 1];
+        g.items += node.children.length;
+        g.list = g.list || node;
+      }
+    }
+    groups = groups.filter(function (g) { return g.items > 0; });
+    if (!groups.length) { return; }
+    var rail = document.createElement('div');
+    rail.className = 'pub-rail';
+    rail.setAttribute('role', 'navigation');
+    rail.setAttribute('aria-label', en ? 'Publications by year' : '按年份浏览论文');
+    var counters = [];
+    groups.forEach(function (g) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.appendChild(document.createTextNode(g.head.textContent.trim().replace(/年度$/, '')));
+      var n = document.createElement('span');
+      n.className = 'pub-n';
+      n.textContent = String(g.items);
+      b.appendChild(n);
+      counters.push({ el: n, to: g.items });
+      b.addEventListener('click', function () {
+        var y = g.head.getBoundingClientRect().top + window.pageYOffset - 70;
+        window.scrollTo({ top: y, behavior: reduce ? 'auto' : 'smooth' });
+        if (g.list) {
+          g.list.classList.remove('pub-flash');
+          void g.list.offsetWidth;
+          g.list.classList.add('pub-flash');
+        }
+      });
+      rail.appendChild(b);
+    });
+    all.parentNode.insertBefore(rail, all.nextSibling);
+
+    // 数字滚动：时间线进入视口时，各年条目数从 0 数到实际值
+    if ('IntersectionObserver' in window && !reduce) {
+      var io2 = new IntersectionObserver(function (entries) {
+        if (!entries.some(function (e) { return e.isIntersecting; })) { return; }
+        io2.disconnect();
+        var t0 = null, dur = 700;
+        function finish() { counters.forEach(function (c) { c.el.textContent = String(c.to); }); }
+        setTimeout(finish, dur + 300);
+        function step(t) {
+          if (t0 === null) { t0 = t; }
+          var k = Math.min(1, (t - t0) / dur);
+          k = 1 - Math.pow(1 - k, 3);
+          counters.forEach(function (c) { c.el.textContent = String(Math.round(c.to * k)); });
+          if (k < 1) { requestAnimationFrame(step); }
+        }
+        requestAnimationFrame(step);
+      });
+      io2.observe(rail);
+    }
+  })();
+</script>

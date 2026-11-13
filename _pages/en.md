@@ -3,6 +3,8 @@ permalink: /en/
 lang: en
 
 title: ""
+seo_title: "Yuquan Li - Guizhou University | AI for Science · Fundamental AI Research"
+description: "Yuquan Li, Special-term Professor at Guizhou University (Provincial Big Data Laboratory / College of Computer Science). He works on AI for Science and fundamental AI research: foundation models, agents and multi-agent collaboration, intelligent design of molecules and materials, and closed-loop (dry–wet) robot scientists."
 
 author_profile: true
 ---
@@ -18,10 +20,20 @@ author_profile: true
 
 <span class='anchor' id='about-me'></span>
 
-I have long worked on **AI for Science, with a focus on AI-driven target discovery and molecular design**. The design space of molecular science is virtually infinite, whereas wet-lab validation remains costly, slow, and burdened by an extremely low success rate. To resolve this central tension, I study a new paradigm for precise molecular-science discovery built on four-in-one collaboration—"Expert Wisdom + General Intelligence + Specialized Tools + Automated Experimentation"—and build a human–AI collaborative, dry–wet closed-loop intelligent research platform, advancing AI from a computational aid toward practical, autonomous molecular-science discovery. Representative work has appeared as lead author in journals such as [*Nature Machine Intelligence*](https://www.nature.com/articles/s42256-022-00501-8), *The Innovation*, and *Advanced Science*. Current research interests include:
+I have long worked on **AI for Science and fundamental AI research**, covering foundation models, agents and multi-agent collaboration, as well as the intelligent design of molecules and materials and closed-loop (dry–wet) robot scientists. The design space of molecular science is virtually infinite, whereas wet-lab validation remains costly, slow, and burdened by an extremely low success rate. To resolve this central tension, I study a new paradigm for precise molecular-science discovery built on four-in-one collaboration—"Expert Wisdom + General Intelligence + Specialized Tools + Automated Experimentation"—and build a human–AI collaborative, dry–wet closed-loop intelligent research platform, advancing AI from a computational aid toward practical, autonomous molecular-science discovery. Representative work has appeared as lead author in journals such as [*Nature Machine Intelligence*](https://www.nature.com/articles/s42256-022-00501-8), *The Innovation*, and *Advanced Science*. Current research interests include:
 
-- **Foundational AI**: large-model agents and swarm intelligence; graph data processing and graph learning
-- **AI for Science**: targeted design of small molecules, peptides, proteins, small nucleic acids, and materials; dry–wet closed-loop robotic scientists
+<div class="rd-map" data-rd>
+  <div class="rd-row"><span class="rd-block">Fundamental AI research</span><span class="rd-chips">
+    <button type="button" class="rd-chip" data-note="Being set up: a direction the team is moving into; no published results yet">Foundation models</button>
+    <button type="button" class="rd-chip" data-note="In progress: LLM agents and multi-agent collaboration for autonomous scientific discovery">Agents and multi-agent collaboration</button>
+  </span></div>
+  <div class="rd-row"><span class="rd-block">AI for Science</span><span class="rd-chips">
+    <button type="button" class="rd-chip" data-note="Published results, see Publications below (graph learning is one of the methods used)">Design of targeted small molecules, peptides, proteins and small nucleic acids</button>
+    <button type="button" class="rd-chip" data-note="In progress">Functional materials design</button>
+    <button type="button" class="rd-chip" data-note="In progress: building a human–AI collaborative, dry–wet closed-loop research platform">Closed-loop (dry–wet) robot scientist</button>
+  </span></div>
+  <div class="rd-note" aria-live="polite"></div>
+</div>
 
 **Let's talk**: I'm always glad to hear from fellow researchers and students—happy to exchange ideas and explore collaborations (WeChat: yvquanli).
 
@@ -43,6 +55,7 @@ I have long worked on **AI for Science, with a focus on AI-driven target discove
 <table class="cv-table">
   <tr><td class="cv-date">2024.10 - Present</td><td><a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">Guizhou University, Provincial Big Data Laboratory / College of Computer Science</a>, Special-term Professor</td></tr>
   <tr><td class="cv-date">2024.10 - Present</td><td><a href="https://cs.gzu.edu.cn/16246/list.htm">Guizhou University, State Key Laboratory of Green Pesticide</a>, Visiting Researcher</td></tr>
+  <tr><td class="cv-date">2024.10 - Present</td><td>China-Sri Lanka Belt and Road Joint Laboratory of Tea Green Prevention and Control Technology, Visiting Researcher</td></tr>
   <tr><td class="cv-date">2022.7&ensp; - 2023.4</td><td><a href="https://www.baai.ac.cn/">Beijing Academy of Artificial Intelligence (BAAI)</a> <a href="https://bigaidream.github.io/">Jie Fu's Team</a>, Research Intern</td></tr>
   <tr><td class="cv-date">2020.8&ensp; - 2022.6</td><td><a href="https://quantum.tencent.com/">Tencent Quantum Lab</a>, Joint Training (Co-supervisor: <a href="https://person.zju.edu.cn/changyuhsieh">Dr. Changyu Hsieh</a>)</td></tr>
 </table>
@@ -163,7 +176,7 @@ Close Partner: [Xiaorui Wang](https://scholar.google.com/citations?hl=zh-CN&user
 
 #### 2023
 
-- **[2023a]** Xiaorui Wang†, Chang-Yu Hsieh†, Xiaodan Yin, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou\*, Xiaojun Yao\*. Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center[J]. `Research`, 2023, 6: 0231. [[HTML]](https://doi.org/10.1101/2023.08.01.551396) [[PDF]](/pdf/paper_2023b.pdf)  
+- **[2023a]** Xiaorui Wang†, Chang-Yu Hsieh†, Xiaodan Yin, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou\*, Xiaojun Yao\*. Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center[J]. `Research`, 2023, 6: 0231. [[HTML]](https://doi.org/10.34133/research.0231) [[PDF]](/pdf/paper_2023b.pdf)  
 
 #### 2022
 
