@@ -88,7 +88,7 @@ author_profile: true
   <tr><td class="cv-date">2026.1 &ensp;- 今</td><td><a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>期刊(目标IF 25~30)，创刊筹委、学术编辑(执行)</td></tr>
   <tr><td class="cv-date">2025.8 &ensp;- 今</td><td><a href="https://www.cell.com/the-innovation/home">The Innovation</a>期刊(综合一区 IF=39.5)，青年编委</td></tr>
   <tr><td class="cv-date">2025.8 &ensp;- 今</td><td><a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>期刊(生物一区 IF=44.4)，青年编委</td></tr>
-  <tr><td class="cv-date">2024.9 &ensp;- 今</td><td><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>期刊(综合一区 IF=30.4)，青年编委、青委会植物学部副主任</td></tr>
+  <tr><td class="cv-date">2024.9 &ensp;- 今</td><td><a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>期刊(综合一区 IF=30.4)，青年编委、青委会植物科学部副主任</td></tr>
   <tr><td class="cv-date">2026.1</td><td>第六届国际绿色植保技术创新会议，组委会</td></tr>
   <tr><td class="cv-date">2025.1、2025.8</td><td>贵州省大数据局人工智能产业方向评审专家组，组长</td></tr>
 </table>
