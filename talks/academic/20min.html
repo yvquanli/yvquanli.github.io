@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>黎育权 · AI 辅助分子设计：问题、方法与合作（20 分钟）</title>
+<title>黎育权 · AI for Science 与 AI 基础研究：问题、方法与合作（20 分钟）</title>
 <meta name="description" content="黎育权 20 分钟学术报告：AI 基础研究与 AI for Science 的研究版图，分子设计面对的问题，自适应图学习、化学语义谱分解与多约束生成等方法，数据集与在线平台，以及合作方式。">
 <meta name="author" content="黎育权">
 <link rel="canonical" href="https://yuquan.li/talks/academic/20min.html">
 <meta property="og:type" content="article">
-<meta property="og:title" content="黎育权 · AI 辅助分子设计：问题、方法与合作（20 分钟）">
+<meta property="og:title" content="黎育权 · AI for Science 与 AI 基础研究：问题、方法与合作（20 分钟）">
 <meta property="og:description" content="黎育权 20 分钟学术报告：AI 基础研究与 AI for Science 的研究版图，分子设计面对的问题，自适应图学习、化学语义谱分解与多约束生成等方法，数据集与在线平台，以及合作方式。">
 <meta property="og:url" content="https://yuquan.li/talks/academic/20min.html">
 <meta property="og:locale" content="zh_CN">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "PresentationDigitalDocument", "name": "黎育权 · AI 辅助分子设计：问题、方法与合作（20 分钟）", "description": "黎育权 20 分钟学术报告：AI 基础研究与 AI for Science 的研究版图，分子设计面对的问题，自适应图学习、化学语义谱分解与多约束生成等方法，数据集与在线平台，以及合作方式。", "url": "https://yuquan.li/talks/academic/20min.html", "inLanguage": "zh-CN", "timeRequired": "PT20M", "encodingFormat": "text/html", "author": {"@type": "Person", "name": "黎育权", "alternateName": "Yuquan Li", "url": "https://yuquan.li/", "affiliation": {"@type": "Organization", "name": "贵州省大数据实验室", "alternateName": "Guizhou Provincial Laboratory of Big Data"}}, "isPartOf": {"@type": "CollectionPage", "url": "https://yuquan.li/talks/academic/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "PresentationDigitalDocument", "name": "黎育权 · AI for Science 与 AI 基础研究：问题、方法与合作（20 分钟）", "description": "黎育权 20 分钟学术报告：AI 基础研究与 AI for Science 的研究版图，分子设计面对的问题，自适应图学习、化学语义谱分解与多约束生成等方法，数据集与在线平台，以及合作方式。", "url": "https://yuquan.li/talks/academic/20min.html", "inLanguage": "zh-CN", "timeRequired": "PT20M", "encodingFormat": "text/html", "author": {"@type": "Person", "name": "黎育权", "alternateName": "Yuquan Li", "url": "https://yuquan.li/", "affiliation": {"@type": "Organization", "name": "贵州省大数据实验室", "alternateName": "Guizhou Provincial Laboratory of Big Data"}}, "isPartOf": {"@type": "CollectionPage", "url": "https://yuquan.li/talks/academic/"}}</script>
 <style data-inlined="vendor/base.css">
 
 :root {
@@ -554,19 +554,36 @@ html.static .v6g{opacity:1}
 html.static .v7-coverbar{display:none!important}
 .v7-needsound-btn{display:none;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:4;font:700 30px/1 var(--font,sans-serif);color:#fff;background:#e67e22;border:0;border-radius:999px;padding:20px 36px;cursor:pointer;box-shadow:0 10px 40px rgba(0,0,0,.35)}
 .v6-intro.v7-needsound .v7-needsound-btn{display:block}
-.v7-auto{position:fixed;left:50%;bottom:22px;transform:translate(-50%,20px);z-index:9000;display:flex;align-items:center;gap:12px;padding:10px 12px 10px 18px;border-radius:999px;
-  background:rgba(13,31,58,.86);color:#fff;font:600 15px/1 "PingFang SC","Noto Sans SC",system-ui,sans-serif;box-shadow:0 8px 30px rgba(0,0,0,.28);
-  opacity:0;visibility:hidden;transition:opacity .3s ease,transform .3s ease,visibility 0s linear .3s;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
-.v7-auto.on{opacity:1;visibility:visible;transform:translate(-50%,0);transition:opacity .3s ease,transform .3s ease}
-.v7-auto .v7-a-lab{color:#ffb366}
-.v7-auto .v7-a-n{font-variant-numeric:tabular-nums;min-width:52px;color:#dbe6f3}
-.v7-auto .v7-a-bar{width:120px;height:6px;border-radius:3px;background:rgba(255,255,255,.18);overflow:hidden}
-.v7-auto .v7-a-bar i{display:block;height:100%;background:#e67e22;transform-origin:0 50%;transform:scaleX(0)}
+.v7-auto{position:fixed;left:16px;right:16px;bottom:14px;z-index:9000;display:flex;flex-direction:column;gap:8px;padding:12px 18px 12px;border-radius:14px;
+  background:rgba(10,24,46,.9);color:#fff;font:600 15px/1.2 "PingFang SC","Noto Sans SC",system-ui,sans-serif;box-shadow:0 10px 34px rgba(0,0,0,.32);
+  opacity:0;visibility:hidden;transform:translateY(20px);transition:opacity .3s ease,transform .3s ease,visibility 0s linear .3s;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.v7-auto.on{opacity:1;visibility:visible;transform:none;transition:opacity .3s ease,transform .3s ease}
+.v7-auto .v7-a-top{display:flex;align-items:center;gap:14px;min-width:0}
+.v7-auto .v7-a-lab{color:#ffb366;white-space:nowrap}
+.v7-auto .v7-a-n{font-variant-numeric:tabular-nums;color:#fff;margin-left:4px}
+.v7-auto .v7-a-tt{flex:1;min-width:0;color:#a9bdd3;font-weight:500;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.v7-auto .v7-a-btns{display:flex;align-items:center;gap:8px;flex:none}
+.v7-auto .v7-a-sp{display:flex;align-items:center;gap:6px;color:#dbe6f3;font-size:14px}
+.v7-auto select{font:600 14px/1 inherit;font-family:inherit;color:#fff;background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.4);border-radius:999px;padding:6px 8px;cursor:pointer}
+.v7-auto select option{color:#0d1f3a}
+.v7-auto .v7-a-sub{min-height:1.5em;font:600 22px/1.45 "PingFang SC","Noto Sans SC",system-ui,sans-serif;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,.5);padding:2px 8px}
+.v7-auto .v7-a-bars{display:flex;flex-direction:column;gap:5px}
+.v7-auto .v7-a-bar,.v7-auto .v7-a-tot{display:block;height:5px;border-radius:3px;background:rgba(255,255,255,.16);overflow:hidden}
+.v7-auto .v7-a-tot{height:3px}
+.v7-auto .v7-a-bar i,.v7-auto .v7-a-tot i{display:block;height:100%;background:#e67e22;transform-origin:0 50%;transform:scaleX(0)}
+.v7-auto .v7-a-tot i{background:#56B4E9}
 .v7-auto.is-paused .v7-a-bar i{background:#9fb2c6}
-.v7-auto.is-wait [data-k="p"]{opacity:.4;pointer-events:none}
-.v7-auto button,.v7-auto-end button{font:600 14px/1 inherit;font-family:inherit;color:#fff;background:transparent;border:1.5px solid rgba(255,255,255,.4);border-radius:999px;padding:8px 14px;cursor:pointer}
-.v7-auto button:hover,.v7-auto-end button:hover{background:#e67e22;border-color:#e67e22}
-.v7-auto button:focus-visible,.v7-auto-end button:focus-visible{outline:2px solid #ffb366;outline-offset:2px}
+.v7-auto.is-wait [data-k="prev"],.v7-auto.is-wait [data-k="p"],.v7-auto.is-wait [data-k="v"],.v7-auto.is-wait .v7-a-sp{opacity:.4;pointer-events:none}
+.v7-auto button,.v7-auto-end button{font:600 14px/1 inherit;font-family:inherit;color:#fff;background:transparent;border:1.5px solid rgba(255,255,255,.4);border-radius:999px;padding:8px 14px;cursor:pointer;white-space:nowrap}
+.v7-auto button:disabled{opacity:.4;cursor:default}
+.v7-auto button.is-need{background:#e67e22;border-color:#e67e22;animation:v7pulse 1.4s ease-in-out infinite}
+@keyframes v7pulse{50%{box-shadow:0 0 0 6px rgba(230,126,34,.25)}}
+.v7-auto button:hover:not(:disabled),.v7-auto-end button:hover{background:#e67e22;border-color:#e67e22}
+.v7-auto button:focus-visible,.v7-auto select:focus-visible,.v7-auto-end button:focus-visible{outline:2px solid #ffb366;outline-offset:2px}
+html.v7-auto-on .deck .slide{top:calc((100vh - var(--v7con,0px)) / 2)}
+@media (max-width:760px){.v7-auto{left:8px;right:8px;padding:10px 10px}.v7-auto .v7-a-top{flex-wrap:wrap;gap:8px}.v7-auto .v7-a-tt{display:none}
+  .v7-auto .v7-a-btns{width:100%;flex-wrap:wrap;gap:6px}.v7-auto button{padding:7px 9px;font-size:13px}.v7-auto select{padding:5px 4px;font-size:13px}
+  .v7-auto .v7-a-sp{font-size:0;gap:0}.v7-auto .v7-a-sub{font-size:16px}}
 .v7-auto-end{position:fixed;inset:0;z-index:9001;display:none;align-items:center;justify-content:center;gap:14px;flex-direction:column;background:rgba(13,31,58,.72);color:#fff;
   font:600 16px/1.4 "PingFang SC","Noto Sans SC",system-ui,sans-serif}
 .v7-auto-end.on{display:flex}
@@ -738,7 +755,7 @@ html.static .vbar,html.static .hbar{animation:none!important;transform:none!impo
     <div class="body" style="margin-top:0;flex-direction:column;gap:18px"><div style="display:flex;gap:40px;flex:1;min-height:0">
       <div class="col" style="flex:1.35;justify-content:center;gap:0">
         <p class="kicker rv" style="--d:0">AI for Science · AI 基础研究 · 学术报告</p>
-        <h1 class="t rv" style="--d:1;font-size:76px;line-height:1.2">让机器参与决定：<br>设计哪一个分子，<br>以及<span class="hot">为什么是它</span></h1>
+        <h1 class="t rv" style="--d:1;font-size:76px;line-height:1.2">让 AI 参与科学发现：<br>从<span class="hot">设计哪一个分子</span><br>讲起</h1>
         <div class="bar-accent grow" style="--d:2"></div>
         <p class="sub rv" style="--d:2.2;font-size:34px;margin-top:26px;color:#fff;font-weight:600">黎育权　副教授（特聘教授）· 硕士生导师</p>
         <p class="sub rv" style="--d:2.5;font-size:30px;margin-top:6px">贵州省大数据实验室 · 贵州大学计算机科学与技术学院</p>
@@ -4051,27 +4068,64 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
         rep.parentNode.insertBefore(r2, rep.nextSibling); r2.addEventListener('click', function (e) { e.stopPropagation(); voOn(true); }); }
     }
     
+    var TOUR = null;
+    try { var tj = document.getElementById('v7-tour'); if (tj) TOUR = JSON.parse(tj.textContent); } catch (e) { TOUR = null; }
+    var SPEEDS = [0.5, 0.75, 1, 1.25, 1.5, 2, 3, 5];
     var on = false, paused = false, acc = 0, st = 0, page = -1, ours = false, done = false, tick = 0, waitIntro = false, sawIntro = false;
-    var ui = mk('div', 'v7-auto no-nav', '<span class="v7-a-lab">自动演示</span><span class="v7-a-n"></span>' +
-      '<span class="v7-a-bar"><i></i></span><button type="button" data-k="p">暂停</button><button type="button" data-k="x">退出</button>');
-    ui.setAttribute('role', 'region'); ui.setAttribute('aria-label', '自动演示控制');
+    var speed = 1, voice = true, needSound = false, audioBad = {};
+    var au = new Audio(); au.preload = 'auto'; au.setAttribute('playsinline', '');
+    var ui = mk('div', 'v7-auto no-nav',
+      '<div class="v7-a-top"><span class="v7-a-lab">案例演示 <b class="v7-a-n"></b></span><span class="v7-a-tt"></span>' +
+      '<span class="v7-a-btns"><button type="button" data-k="prev" aria-label="上一步">上一步</button><button type="button" data-k="p">暂停</button>' +
+      '<button type="button" data-k="next" aria-label="下一步">下一步</button><button type="button" data-k="v" aria-pressed="true">配音 开</button>' +
+      '<label class="v7-a-sp">变速 <select data-k="sp" aria-label="播放速度">' + SPEEDS.map(function (s) { return '<option value="' + s + '"' + (s === 1 ? ' selected' : '') + '>' + s + '×</option>'; }).join('') + '</select></label>' +
+      '<button type="button" data-k="x">退出</button></span></div>' +
+      '<div class="v7-a-sub" aria-live="polite"></div>' +
+      '<div class="v7-a-bars"><span class="v7-a-bar" title="本页进度"><i></i></span><span class="v7-a-tot" title="总进度"><i></i></span></div>');
+    ui.setAttribute('role', 'region'); ui.setAttribute('aria-label', '案例演示控制台');
     var endc = mk('div', 'v7-auto-end no-nav', '<p>演示结束</p><button type="button" data-k="r">从头再放一遍</button><button type="button" data-k="x">退出</button>');
     document.body.appendChild(ui); document.body.appendChild(endc);
-    function dwell(i) {
+    function tp(i) { return TOUR && TOUR.pages && TOUR.pages[i] || null; }
+    function base(i) {
       var s = slides()[i]; if (!s) return 6;
       var n = s.querySelectorAll('[data-frag]').length;
       return Math.max(6, Math.min(11, 4.5 + 0.7 * n));
     }
-    function el() { return acc + (paused || !st ? 0 : (performance.now() - st) / 1000); }
-    function restartPage() { acc = 0; st = performance.now(); page = idx(); }
+    function dwell(i) { var p = tp(i); return p ? Math.max(base(i), p.sec + 1.4) : base(i); }   
+    function el() { return acc + (paused || !st ? 0 : (performance.now() - st) / 1000 * speed); }
+    function title(i) { var s = slides()[i], h = s && s.querySelector('h1, h2'); return h ? h.textContent.replace(/\s+/g, ' ').trim() : ''; }
+    function playAudio() {
+      var p = tp(idx());
+      au.pause();
+      if (!p || !p.audio || audioBad[p.audio] || waitIntro) return;
+      if (au.getAttribute('data-src') !== p.audio) { au.src = p.audio; au.setAttribute('data-src', p.audio); }
+      try { au.currentTime = Math.min(el(), p.sec); } catch (e) {}
+      au.playbackRate = Math.min(speed, 4); au.muted = !voice || speed > 4;
+      if (paused) return;
+      var pr = au.play(); if (pr && pr.catch) pr.catch(function () { if (!au.muted) { needSound = true; au.muted = true; au.play().catch(function () {}); render(); } });
+    }
+    au.addEventListener('error', function () { var s = au.getAttribute('data-src'); if (s) audioBad[s] = 1; render(); });
+    function restartPage() { acc = 0; st = performance.now(); page = idx(); playAudio(); }
+    function caption() {
+      var p = tp(idx()); if (waitIntro) return '品牌片 · 片头放完自动进入第 1 页';
+      if (!p) return title(idx());
+      var t = el(), c = p.cues || [];
+      for (var k = 0; k < c.length; k++) if (t >= c[k][0] && t < c[k][1] + 0.25) return c[k][2];
+      return '';
+    }
     function render() {
       var N = slides().length, i = idx();
-      ui.querySelector('.v7-a-n').textContent = (i + 1) + ' / ' + N;
-      ui.querySelector('[data-k="p"]').textContent = paused ? '继续' : '暂停';
+      ui.querySelector('.v7-a-n').textContent = waitIntro ? '片头' : (i + 1) + ' / ' + N;
+      ui.querySelector('.v7-a-tt').textContent = waitIntro ? '' : title(i);
+      ui.querySelector('[data-k="p"]').textContent = paused ? '播放' : '暂停';
+      var vb = ui.querySelector('[data-k="v"]'), hasVo = !!(tp(i) && tp(i).audio && !audioBad[tp(i).audio]);
+      vb.textContent = needSound && voice ? '点此开声音' : (voice ? '配音 开' : '配音 关'); vb.setAttribute('aria-pressed', voice ? 'true' : 'false');
+      vb.disabled = !TOUR; vb.classList.toggle('is-need', needSound && voice); vb.title = TOUR ? (hasVo ? 'AI 合成配音（云扬）' : '本页配音未加载，只出字幕') : '本份未配旁白';
       var f = waitIntro ? 0 : Math.min(1, el() / dwell(i));
       ui.querySelector('.v7-a-bar i').style.transform = 'scaleX(' + f.toFixed(3) + ')';
+      ui.querySelector('.v7-a-tot i').style.transform = 'scaleX(' + (waitIntro ? 0 : Math.min(1, (i + f) / N)).toFixed(3) + ')';
+      var sub = ui.querySelector('.v7-a-sub'), cap = caption(); if (sub.textContent !== cap) sub.textContent = cap;
       ui.classList.toggle('is-paused', paused); ui.classList.toggle('is-wait', waitIntro);
-      ui.querySelector('.v7-a-lab').textContent = waitIntro ? '自动演示 · 片头' : '自动演示';
     }
     function advance() {
       var s0 = idx(), N = slides().length;
@@ -4080,45 +4134,75 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
       for (var k = 0; k < 60 && idx() === s0; k++) { if (window.DeckV2) DeckV2.next(); else break; }
       ours = false; restartPage();
     }
+    function back() {
+      var i = idx(); if (i <= 0) { restartPage(); return; }
+      ours = true; location.hash = '#/' + i; ours = false;
+      setTimeout(restartPage, 30);
+    }
+    function skipIntro() { if (I && I.close) I.close(); waitIntro = false; restartPage(); }
     function loop() {
       if (!on) return;
-      if (idx() !== page && !ours) restartPage();          
+      if (idx() !== page && !ours && !waitIntro) restartPage();          
       if (waitIntro) {
         var s = I && I.state ? I.state() : { shown: false };
         if (s.shown) sawIntro = true;
-        if (!s.shown && (sawIntro || el() > 2)) { waitIntro = false; restartPage(); acc = dwell(idx()) - 3; }   
-      } else if (!paused && el() >= dwell(idx())) advance();
-      render(); tick = setTimeout(loop, 120);
+        if (!s.shown && (sawIntro || el() > 2)) { waitIntro = false; restartPage(); }
+      } else if (!paused) {
+        var p = tp(idx());
+        if (p && !au.paused && Math.abs(au.currentTime - el()) > 0.7 && el() < p.sec) { try { au.currentTime = el(); } catch (e) {} }
+        if (el() >= dwell(idx())) advance();
+      }
+      render(); tick = setTimeout(loop, 100);
     }
     function start(withSound) {
-      if (on) return; on = true; done = false; paused = false; endc.classList.remove('on');
+      if (on) return; on = true; done = false; paused = false; needSound = false; endc.classList.remove('on');
       document.documentElement.classList.add('v7-auto-on'); ui.classList.add('on');
       var s = slides(); if (idx() !== 0 && s.length) { ours = true; location.hash = '#/1'; ours = false; }
-      restartPage(); waitIntro = false; sawIntro = false;
+      waitIntro = false; sawIntro = false;
       if (!STATIC && box && idx() === 0) {
         waitIntro = true;
         if (!(withSound && voOn(true)) && I && I.open) I.open(true);
       }
+      acc = 0; st = performance.now(); page = idx(); if (!waitIntro) playAudio();
+      setTimeout(refit, 0); setTimeout(refit, 400);
       clearTimeout(tick); loop();
     }
-    function stop() { on = false; clearTimeout(tick); ui.classList.remove('on'); endc.classList.remove('on'); document.documentElement.classList.remove('v7-auto-on'); }
+    function refit() {
+      var de = document.documentElement;
+      if (!on) { de.style.removeProperty('--v7con'); return; }
+      var h = ui.offsetHeight + 22, s = Math.min(innerWidth / 1920, Math.max(0.1, innerHeight - h) / 1080);
+      de.style.setProperty('--v7con', h + 'px'); de.style.setProperty('--s', s);
+      document.querySelectorAll('.page').forEach(function (p) { p.style.setProperty('--s', s); });
+    }
+    addEventListener('resize', function () { if (on) setTimeout(refit, 0); });
+    function stop() { on = false; clearTimeout(tick); au.pause(); refit(); dispatchEvent(new Event('resize')); ui.classList.remove('on'); endc.classList.remove('on'); document.documentElement.classList.remove('v7-auto-on'); }
     function finish() { stop(); done = true; endc.classList.add('on'); }
     function pause(force) { if (!on || waitIntro) return; var want = force != null ? force : !paused; if (want === paused) return;
-      if (want) { acc = el(); paused = true; } else { paused = false; st = performance.now(); } render(); }
-    ui.addEventListener('click', function (e) { e.stopPropagation(); var k = e.target.getAttribute && e.target.getAttribute('data-k'); if (k === 'p') pause(); if (k === 'x') stop(); });
+      if (want) { acc = el(); paused = true; au.pause(); } else { paused = false; st = performance.now(); playAudio(); } render(); }
+    function setSpeed(v) { acc = el(); st = performance.now(); speed = v; au.playbackRate = Math.min(v, 4); au.muted = !voice || v > 4; render(); }
+    ui.addEventListener('click', function (e) {
+      e.stopPropagation(); var k = e.target.getAttribute && e.target.getAttribute('data-k');
+      if (k === 'p' && !waitIntro) pause();          
+      if (k === 'x') stop();
+      if (k === 'next') { if (waitIntro) skipIntro(); else advance(); }
+      if (k === 'prev' && !waitIntro) back();
+      if (k === 'v') { if (needSound) { needSound = false; voice = true; } else voice = !voice; au.muted = !voice || speed > 4; if (voice && !paused && au.paused) playAudio(); render(); }
+    });
+    ui.querySelector('select').addEventListener('change', function (e) { e.stopPropagation(); setSpeed(parseFloat(this.value) || 1); });
+    ['keydown', 'pointerdown'].forEach(function (ev) { ui.addEventListener(ev, function (e) { e.stopPropagation(); }); });
     endc.addEventListener('click', function (e) { e.stopPropagation(); var k = e.target.getAttribute && e.target.getAttribute('data-k'); if (k === 'r') { endc.classList.remove('on'); location.hash = '#/1'; setTimeout(function () { start(true); }, 60); } if (k === 'x') stop(); });
-    document.addEventListener('visibilitychange', function () { if (!on) return; if (document.hidden) { if (!paused) { acc = el(); paused = true; ui.__autoPaused = true; } } else if (ui.__autoPaused) { ui.__autoPaused = false; paused = false; st = performance.now(); } });
+    document.addEventListener('visibilitychange', function () { if (!on) return; if (document.hidden) { if (!paused) { acc = el(); paused = true; au.pause(); ui.__autoPaused = true; } } else if (ui.__autoPaused) { ui.__autoPaused = false; paused = false; st = performance.now(); playAudio(); } });
     addEventListener('keydown', function (e) {
       if (!on) return;
       if (e.key === ' ' && !waitIntro) { e.preventDefault(); e.stopImmediatePropagation(); pause(); }
       else if (e.key === 'Escape' && !waitIntro) { e.preventDefault(); stop(); }
     }, true);
     var cover = document.querySelector('.v6-replay');
-    if (cover && !STATIC) { var ab = mk('button', 'v6-replay v7-autobtn no-nav', '▶ 自动演示'); ab.type = 'button'; ab.setAttribute('aria-label', '一键自动演示整份汇报');
+    if (cover && !STATIC) { var ab = mk('button', 'v6-replay v7-autobtn no-nav', '▶ 案例演示'); ab.type = 'button'; ab.setAttribute('aria-label', '案例演示：配音加字幕自动放完整份汇报');
       ab.addEventListener('click', function (e) { e.stopPropagation(); start(true); });
       var bar = mk('div', 'v7-coverbar no-nav'); cover.parentNode.insertBefore(bar, cover);
       [ab, cover, document.querySelector('.v7-voreplay')].forEach(function (x) { if (x) bar.appendChild(x); }); }
-    window.DeckV7 = { start: start, stop: stop, state: function () { return { on: on, paused: paused, page: idx(), waitIntro: waitIntro, elapsed: el(), dwell: dwell(idx()), done: done }; } };
+    window.DeckV7 = { start: start, stop: stop, state: function () { return { on: on, paused: paused, page: idx(), waitIntro: waitIntro, elapsed: el(), dwell: dwell(idx()), done: done, speed: speed, voice: voice, needSound: needSound, tour: !!TOUR, audio: au.getAttribute('data-src'), audioT: au.currentTime, audioPaused: au.paused, caption: caption() }; }, speed: setSpeed };
     if (AUTO && !STATIC) setTimeout(function () { start(SOUND); }, 50);
     else if (SOUND && !STATIC) setTimeout(function () { voOn(true); }, 50);
   }
@@ -4127,6 +4211,8 @@ VX_MOLS["cliff_chromane"]={"atoms":[["C",-6.9619,-0.7491,-0.1069],["C",-6.578,0.
 })();
 
 </script>
+
+<script type="application/json" id="v7-tour">{"deck":"D2","voice":"云扬（AI 合成配音）","pages":[{"p":1,"text":"黎育权，贵州省大数据实验室、贵州大学副教授。这份二十分钟的报告，讲 AI 如何参与科学发现，从“设计哪一个分子”讲起。","sec":9.8,"audio":"media/tour/D2_p01.mp3","cues":[[0.0,3.51,"黎育权，贵州省大数据实验室、贵州大学副教授。"],[3.89,7.72,"这份二十分钟的报告，讲 AI 如何参与科学发现"],[7.72,9.8,"从“设计哪一个分子”讲起。"]]},{"p":2,"text":"计算机出身，化学落地。本科在青海大学读计算机，博士在兰州大学做化学信息学，其间在腾讯量子实验室联合培养、在北京智源研究院实习，2024 年 10 月到贵州大学。","sec":14.32,"audio":"media/tour/D2_p02.mp3","cues":[[0.0,1.7,"计算机出身，化学落地。"],[2.08,4.21,"本科在青海大学读计算机"],[4.21,6.69,"博士在兰州大学做化学信息学"],[6.69,9.35,"其间在腾讯量子实验室联合培养"],[9.35,11.3,"在北京智源研究院实习"],[11.3,14.32,"2024 年 10 月到贵州大学。"]]},{"p":3,"text":"研究版图分两大块、五个方向。AI 基础研究做基础大模型、智能体与群体协作；AI for Science 做靶向分子设计、功能材料设计和干湿闭环机器科学家。已发表的积累集中在分子设计，其余在研或正在布局。","sec":17.67,"audio":"media/tour/D2_p03.mp3","cues":[[0.0,2.27,"研究版图分两大块、五个方向。"],[2.65,6.66,"AI 基础研究做基础大模型、智能体与群体协作；"],[6.94,10.32,"AI for Science 做靶向分子设计"],[10.32,12.82,"功能材料设计和干湿闭环机器科学家。"],[13.21,17.68,"已发表的积累集中在分子设计，其余在研或正在布局。"]]},{"p":4,"text":"一页说清三件事：做什么、凭什么、能怎么一起做。下面以分子设计为例展开。","sec":6.3,"audio":"media/tour/D2_p04.mp3","cues":[[0.0,3.93,"一页说清三件事：做什么、凭什么、能怎么一起做。"],[4.31,6.3,"下面以分子设计为例展开。"]]},{"p":5,"text":"问题的起点是量级：类药分子空间的常用估计在十的六十次方，每一轮能送去实验的只是极小一部分。稀缺的不是想法，是验证机会。","sec":10.62,"audio":"media/tour/D2_p05.mp3","cues":[[0.0,1.58,"问题的起点是量级"],[1.58,4.91,"类药分子空间的常用估计在十的六十次方"],[4.91,7.88,"每一轮能送去实验的只是极小一部分。"],[8.27,10.62,"稀缺的不是想法，是验证机会。"]]},{"p":6,"text":"第二个难点是活性悬崖：这一对分子只差一个原子，对 5-HT1A 受体的活性却相差近九倍。模型如果只学到“长得像就活性像”，恰恰会在这里出错。","sec":12.24,"audio":"media/tour/D2_p06.mp3","cues":[[0.0,4.03,"第二个难点是活性悬崖：这一对分子只差一个原子"],[4.03,7.71,"对 5-HT1A 受体的活性却相差近九倍。"],[8.09,10.8,"模型如果只学到“长得像就活性像”"],[10.8,12.23,"恰恰会在这里出错。"]]},{"p":7,"text":"解决思路是让设计、合成、测试、学习的闭环转起来：机器生成候选、打分排序、回流数据，研究者提出问题、决定取舍。方法、数据、平台三条线同时推进。","sec":13.71,"audio":"media/tour/D2_p07.mp3","cues":[[0.0,4.57,"解决思路是让设计、合成、测试、学习的闭环转起来"],[4.57,7.81,"机器生成候选、打分排序、回流数据"],[7.81,10.29,"研究者提出问题、决定取舍。"],[10.67,13.71,"方法、数据、平台三条线同时推进。"]]},{"p":8,"text":"方法线第一例，是 2022 年发表在 Nature Machine Intelligence 的 GLAM：把建模里靠人拍板的架构与超参选择交给流程自动完成，原文表 1 五个、表 2 八个数据集上均为表内最好。","sec":13.99,"audio":"media/tour/D2_p08.mp3","cues":[[0.0,0.93,"方法线第一例"],[0.93,7.2,"是 2022 年发表在 Nature Machine Intelligence 的 GLAM"],[7.2,10.53,"把建模里靠人拍板的架构与超参选择交给流程自动完成"],[10.53,11.73,"原文表 1 五个"],[11.73,13.99,"表 2 八个数据集上均为表内最好。"]]},{"p":9,"text":"第二例回到活性悬崖：把分子表示拆成“骨架”与“关键改动”两个频段分别看。这项工作 2026 年发表在 Advanced Science。","sec":9.69,"audio":"media/tour/D2_p09.mp3","cues":[[0.0,1.63,"第二例回到活性悬崖"],[1.63,5.86,"把分子表示拆成“骨架”与“关键改动”两个频段分别看。"],[6.24,9.69,"这项工作 2026 年发表在 Advanced Science。"]]},{"p":10,"text":"第三个问题是多约束生成：生成新分子不难，难的是同时满足活性、选择性、成药性和可合成性。这是一项在研项目的主题。","sec":10.6,"audio":"media/tour/D2_p10.mp3","cues":[[0.0,3.92,"第三个问题是多约束生成：生成新分子不难"],[3.92,8.42,"难的是同时满足活性、选择性、成药性和可合成性。"],[8.8,10.6,"这是一项在研项目的主题。"]]},{"p":11,"text":"数据线：数据集本身就是科研产出。这里是一项国家数据局高质量数据集课题，以及 2026 年 7 月起承担的省实验室重大科研项目课题。","sec":10.67,"audio":"media/tour/D2_p11.mp3","cues":[[0.0,2.79,"数据线：数据集本身就是科研产出。"],[3.17,6.08,"这里是一项国家数据局高质量数据集课题"],[6.08,10.67,"以及 2026 年 7 月起承担的省实验室重大科研项目课题。"]]},{"p":12,"text":"平台线：参与开发的在线预测平台 CODD-Pred 已经上线，输入分子、选择靶点即可得到活性预测；右侧的智能体编排还在建，目前只是架构示意。","sec":11.72,"audio":"media/tour/D2_p12.mp3","cues":[[0.0,0.64,"平台线"],[0.64,4.98,"参与开发的在线预测平台 CODD-Pred 已经上线"],[4.98,7.87,"输入分子、选择靶点即可得到活性预测；"],[8.15,11.72,"右侧的智能体编排还在建，目前只是架构示意。"]]},{"p":13,"text":"这些工作发表在 Nature Machine Intelligence 等期刊。2020 年到 2026 年 9 月，同行评审期刊论文共 27 篇，含参与作者。","sec":9.88,"audio":"media/tour/D2_p13.mp3","cues":[[0.0,3.5,"这些工作发表在 Nature Machine Intelligence 等期刊。"],[3.88,6.73,"2020 年到 2026 年 9 月"],[6.73,9.88,"同行评审期刊论文共 27 篇，含参与作者。"]]},{"p":14,"text":"目前主持或负责四项在研，分别落在方法、数据与应用三条线上。竖虚线是现在的时间点。","sec":7.55,"audio":"media/tour/D2_p14.mp3","cues":[[0.0,3.56,"目前主持或负责四项在研，分别落在方法"],[3.56,5.43,"数据与应用三条线上。"],[5.81,7.55,"竖虚线是现在的时间点。"]]},{"p":15,"text":"两年里的学术服务：担任 The Innovation、iMeta、Exploration 青年编委，在学术会议与高校做邀请报告，并获授权一项第一发明人发明专利。","sec":10.7,"audio":"media/tour/D2_p15.mp3","cues":[[0.0,1.2,"两年里的学术服务"],[1.2,4.42,"担任 The Innovation、iMeta"],[4.42,6.69,"Exploration 青年编委"],[6.69,8.56,"在学术会议与高校做邀请报告"],[8.56,10.7,"并获授权一项第一发明人发明专利。"]]},{"p":16,"text":"团队目前十二位同学在读，课题分四组，都落在 AI for Science 的分子设计这一块。","sec":6.27,"audio":"media/tour/D2_p16.mp3","cues":[[0.0,2.45,"团队目前十二位同学在读，课题分四组"],[2.45,6.27,"都落在 AI for Science 的分子设计这一块。"]]},{"p":17,"text":"一例做成的合作：谱分解这项工作由三家单位完成，投稿约三个月后在 Advanced Science 录用，分工以论文的作者贡献声明为准。","sec":10.13,"audio":"media/tour/D2_p17.mp3","cues":[[0.0,3.48,"一例做成的合作：谱分解这项工作由三家单位完成"],[3.48,7.87,"投稿约三个月后在 Advanced Science 录用"],[7.87,10.13,"分工以论文的作者贡献声明为准。"]]},{"p":18,"text":"合作可以从一个边界清楚的小问题开始：联合申报、共同发表、数据与平台共建，或由贵州启微智能科技有限公司承接工程化落地。分子设计可以直接开始，其余方向欢迎共同起步。","sec":14.22,"audio":"media/tour/D2_p18.mp3","cues":[[0.0,4.05,"合作可以从一个边界清楚的小问题开始：联合申报"],[4.05,6.34,"共同发表、数据与平台共建"],[6.34,10.21,"或由贵州启微智能科技有限公司承接工程化落地。"],[10.59,14.22,"分子设计可以直接开始，其余方向欢迎共同起步。"]]},{"p":19,"text":"感谢各资助单位、导师与合作者和课题组全体同学。论文、平台与联系方式，都在个人主页上。","sec":7.89,"audio":"media/tour/D2_p19.mp3","cues":[[0.0,4.37,"感谢各资助单位、导师与合作者和课题组全体同学。"],[4.75,7.89,"论文、平台与联系方式，都在个人主页上。"]]}]}</script>
 <style>.ol-hint{display:none}@media (orientation:portrait) and (max-width:900px){.ol-hint{display:flex;gap:10px;align-items:center;position:fixed;left:0;right:0;top:0;z-index:99999;padding:12px 14px;background:#1a3a6b;color:#fff;font:15px/1.5 "PingFang SC","Noto Sans SC",sans-serif}.ol-hint a{color:#f0a852;font-weight:700}.ol-hint button{margin-left:auto;flex:none;border:0;background:transparent;color:#fff;font-size:22px;line-height:1;padding:4px 8px}}</style><div class="ol-hint" role="note" onclick="event.stopPropagation()"><span>手机上建议看 <a href="20min.pdf">逐页 PDF</a>（可放大，末页邮箱与主页可点）；横屏也能放映，字仍偏小。</span><button type="button" aria-label="关闭提示" onclick="this.parentNode.remove()">×</button></div>
 <style>.ol-nav{position:fixed;right:18px;top:14px;z-index:99998;display:flex;align-items:center;gap:6px;padding:6px 8px;border-radius:14px;background:rgba(26,58,107,.88);color:#fff;font:15px/1 "PingFang SC","Noto Sans SC",sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.18);transition:opacity .4s}.ol-nav.idle{opacity:0;pointer-events:none}.ol-nav button{border:0;background:transparent;color:#fff;font:inherit;font-size:20px;min-width:40px;height:40px;border-radius:10px;cursor:pointer}.ol-nav button:hover,.ol-nav button:focus-visible{background:rgba(255,255,255,.16);outline:none}.ol-nav .pg{min-width:64px;text-align:center;font-variant-numeric:tabular-nums}.ol-nav .keys{padding:0 8px 0 4px;color:#cfe0f5;font-size:14px;white-space:nowrap}@media (max-width:900px){.ol-nav{top:auto;bottom:20px}.ol-nav .keys{display:none}}html.static .ol-nav,html.v2-fallback .ol-nav{display:none}@media print{.ol-nav{display:none}}</style><div class="ol-nav no-nav" role="navigation" aria-label="翻页"><span class="keys">← → 翻页 · F 全屏 · O 总览</span><button type="button" data-a="prev" aria-label="上一页">‹</button><span class="pg" aria-live="polite">1 / 1</span><button type="button" data-a="next" aria-label="下一页">›</button><button type="button" data-a="fs" aria-label="全屏">⛶</button></div><noscript><div style="position:fixed;inset:0;z-index:100001;display:flex;align-items:center;justify-content:center;background:#faf7f2;font:20px/1.6 sans-serif;color:#1a3a6b;padding:24px;text-align:center">此演示需要启用 JavaScript 才能放映；也可直接看 <a href="20min.pdf">逐页 PDF</a>。</div></noscript><script>(function(){var b=document.querySelector(".ol-nav");if(!b)return;var pg=b.querySelector(".pg"),t=null,sl=function(){return Array.prototype.slice.call(document.querySelectorAll(".deck .slide"))},up=function(){var a=sl(),c=document.querySelector(".deck .slide.is-active");pg.textContent=(a.indexOf(c)+1||1)+" / "+a.length},wake=function(){b.classList.remove("idle");clearTimeout(t);t=setTimeout(function(){b.classList.add("idle")},4000)};b.addEventListener("click",function(e){e.stopPropagation();var a=e.target.closest("button");if(!a||!window.DeckV2)return;var k=a.getAttribute("data-a");if(k==="next")DeckV2.next();else if(k==="prev")DeckV2.prev();else if(DeckV2.toggleFullscreen)DeckV2.toggleFullscreen();wake()});sl().forEach(function(s){new MutationObserver(up).observe(s,{attributes:true,attributeFilter:["class"]})});addEventListener("mousemove",wake,{passive:true});addEventListener("keydown",wake);addEventListener("pointerdown",wake,{passive:true});up();wake()})();</script>
 </body>

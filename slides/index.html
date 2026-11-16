@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>学术汇报 · 黎育权 | AI for Science · AI 基础研究</title>
-<meta name="description" content="黎育权（贵州省大数据实验室、贵州大学）的学术汇报合集：5 分钟、20 分钟、60 分钟三档可直接放映的网页幻灯，讲 AI 基础研究与 AI for Science 的研究版图、分子设计方向的已有积累与合作方式，附逐页 PDF 与一键自动演示。">
+<meta name="description" content="黎育权（贵州省大数据实验室、贵州大学）的学术汇报合集：5 分钟、20 分钟、60 分钟三档可直接放映的网页幻灯，讲 AI 基础研究与 AI for Science 的研究版图、分子设计方向的已有积累与合作方式，附逐页 PDF 与带配音字幕的案例演示。">
 <link rel="canonical" href="https://yuquan.li/slides/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="学术汇报 · 黎育权">
-<meta property="og:description" content="AI for Science · AI 基础研究：5 / 20 / 60 分钟三档网页幻灯，可放映、可自动演示、附逐页 PDF。">
+<meta property="og:description" content="AI for Science · AI 基础研究：5 / 20 / 60 分钟三档网页幻灯，可放映、带配音字幕的案例演示、附逐页 PDF。">
 <meta property="og:url" content="https://yuquan.li/slides/">
 <meta property="og:image" content="https://yuquan.li/talks/academic/media/v8_brand_poster.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -19,7 +19,7 @@
  "hasPart":[
   {"@type":"PresentationDigitalDocument","name":"自我介绍与合作（5 分钟）","url":"https://yuquan.li/talks/academic/5min.html","numberOfPages":8},
   {"@type":"PresentationDigitalDocument","name":"研究版图与分子设计：问题、方法与合作（20 分钟）","url":"https://yuquan.li/talks/academic/20min.html","numberOfPages":19},
-  {"@type":"PresentationDigitalDocument","name":"从预测到设计：让机器参与决定下一个该做哪个分子（60 分钟）","url":"https://yuquan.li/talks/academic/60min.html","numberOfPages":34}],
+  {"@type":"PresentationDigitalDocument","name":"让 AI 参与科学发现：从预测到设计（60 分钟）","url":"https://yuquan.li/talks/academic/60min.html","numberOfPages":34}],
  "video":{"@type":"VideoObject","name":"品牌片：黎育权是谁、做什么、凭什么、怎么合作","description":"60 秒品牌片，字幕烧入画面：黎育权，贵州省大数据实验室、贵州大学副教授；研究领域是 AI 基础研究与 AI for Science，基础研究做基础大模型、智能体与群体协作，AI for Science 做靶向分子与功能材料设计、干湿闭环机器科学家；已发表的工作集中在分子设计，代表作发表于 Nature Machine Intelligence，近两年以共同通讯作者在 Advanced Science 与 Communications Chemistry 发表分子性质预测新方法，参与开发的 CODD-Pred 在线预测平台已上线；中科院一区论文 11 篇，总被引 531 次（Semantic Scholar，2026-09-30），主持或负责在研项目 4 项，三家一区期刊青年编委；合作方式为联合申报、共同发表、数据与平台共建、工程化落地。配音由 AI 合成。","thumbnailUrl":"https://yuquan.li/talks/academic/media/v8_brand_poster.jpg","contentUrl":"https://yuquan.li/talks/academic/media/v8_brand.mp4","uploadDate":"2026-11-01","duration":"PT52S"}}
 </script>
 <style>
@@ -122,7 +122,7 @@ footer a{color:var(--ink)}
 .player{position:fixed;inset:0;z-index:200;background:#000;display:none}
 .player.on{display:block}
 .player iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#0d1f3a}
-.player .x{position:absolute;left:14px;bottom:14px;z-index:3;display:flex;gap:8px}
+.player .x{position:absolute;left:50%;top:10px;transform:translateX(-50%);z-index:3;display:flex;gap:8px}
 .player .x button{background:rgba(13,31,58,.82);color:#fff;border:1.5px solid rgba(255,255,255,.4);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:600;cursor:pointer;opacity:.35;transition:opacity .2s}
 .player .x:hover button,.player .x button:focus-visible{opacity:1}
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
@@ -141,7 +141,7 @@ footer a{color:var(--ink)}
     <nav aria-label="页内导航"><a href="#talks">三档汇报</a><a href="#how">怎么放映</a><a href="#partner">合作企业</a><a href="https://yuquan.li/">个人主页</a></nav>
     <div class="act">
       <button class="btn gho" type="button" data-open="D2" aria-label="汇报展示：全屏放映 20 分钟版"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span>汇报展示</span></button>
-      <button class="btn pri" type="button" data-auto="D2" aria-label="一键自动演示案例：有声片头加逐页自动播放"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l12-7.5z"/></svg><span>一键自动演示</span></button>
+      <button class="btn pri" type="button" data-auto="D2" aria-label="案例演示：有声片头加逐页配音字幕自动播放"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l12-7.5z"/></svg><span>案例演示</span></button>
     </div>
   </div>
 </header>
@@ -197,7 +197,7 @@ footer a{color:var(--ink)}
       <div class="key"><kbd>F</kbd><p>全屏</p></div>
       <div class="key"><kbd>S</kbd><p>演讲者视图与计时</p></div>
       <div class="key"><kbd>O</kbd><p>全部页总览</p></div>
-      <div class="key"><kbd>Esc</kbd><p>跳过片头 · 退出自动演示</p></div>
+      <div class="key"><kbd>Esc</kbd><p>跳过片头 · 退出案例演示</p></div>
     </div>
   </div>
 </section>
@@ -243,7 +243,7 @@ footer a{color:var(--ink)}
   var TALKS = [
     { id: 'D1', file: '5min', min: 5, pages: 8, title: '自我介绍与合作', use: '陌生场合自我介绍、会议茶歇、初次拜访', thumbs: [1, 3, 5, 7] },
     { id: 'D2', file: '20min', min: 20, pages: 19, title: '研究版图与分子设计：问题、方法与合作', use: '外单位学术报告、青年论坛、来访交流', thumbs: [1, 3, 9, 18] },
-    { id: 'D3', file: '60min', min: 60, pages: 34, title: '从预测到设计：让机器参与决定下一个该做哪个分子', use: '受邀讲座、系列报告、深度交流', thumbs: [1, 3, 21, 32] }
+    { id: 'D3', file: '60min', min: 60, pages: 34, title: '让 AI 参与科学发现：从预测到设计', use: '受邀讲座、系列报告、深度交流', thumbs: [1, 3, 21, 32] }
   ];
   var REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var tl = document.getElementById('tl');
@@ -256,7 +256,7 @@ footer a{color:var(--ink)}
       '<span class="dots">' + t.thumbs.map(function (_, i) { return '<i' + (i ? '' : ' class="on"') + '></i>'; }).join('') + '</span></div>' +
       '<div class="bd"><h3>' + t.title + '</h3><div class="meta">' + t.pages + ' 页 · 约 ' + t.min + ' 分钟</div><p class="use">' + t.use + '</p>' +
       '<div class="row"><button class="btn pri" type="button" data-open="' + t.id + '">' + ICON_PLAY + '放映</button>' +
-      '<button class="btn line" type="button" data-auto="' + t.id + '">自动演示</button>' +
+      '<button class="btn line" type="button" data-auto="' + t.id + '">案例演示</button>' +
       '<a class="btn line" href="' + BASE + t.file + '.pdf" target="_blank" rel="noopener">逐页 PDF</a></div></div>';
     tl.appendChild(el);
     /* 悬停/聚焦时轮播关键页：按时间戳换页，不累计定时器 */
