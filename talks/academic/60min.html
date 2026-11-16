@@ -581,6 +581,8 @@ html.static .v7-coverbar{display:none!important}
 .v7-auto button:hover:not(:disabled),.v7-auto-end button:hover{background:#e67e22;border-color:#e67e22}
 .v7-auto button:focus-visible,.v7-auto select:focus-visible,.v7-auto-end button:focus-visible{outline:2px solid #ffb366;outline-offset:2px}
 html.v7-auto-on .deck .slide{top:calc((100vh - var(--v7con,0px)) / 2)}
+html.v7-auto-on .ol-nav,html.v7-auto-on .ol-hint{display:none!important}
+.v7-auto button[data-k="v"][aria-pressed="false"]{opacity:.6;text-decoration:line-through}
 @media (max-width:760px){.v7-auto{left:8px;right:8px;padding:10px 10px}.v7-auto .v7-a-top{flex-wrap:wrap;gap:8px}.v7-auto .v7-a-tt{display:none}
   .v7-auto .v7-a-btns{width:100%;flex-wrap:wrap;gap:6px}.v7-auto button{padding:7px 9px;font-size:13px}.v7-auto select{padding:5px 4px;font-size:13px}
   .v7-auto .v7-a-sp{font-size:0;gap:0}.v7-auto .v7-a-sub{font-size:16px}}
@@ -4167,6 +4169,7 @@ window.VX_MOLS=window.VX_MOLS||{};Object.assign(window.VX_MOLS,window.MOLS_D3);<
   var FWD = { ArrowRight: 1, ' ': 1, PageDown: 1, Enter: 1 }, BACK = { ArrowLeft: 1, PageUp: 1, Backspace: 1 };
   addEventListener('keydown', function (e) {
     if (e.metaKey || e.ctrlKey || e.altKey || e.__v2pass) return;
+    var tg = e.target; if (tg && /^(SELECT|INPUT|TEXTAREA)$/.test(tg.tagName)) return;   
     if (FWD[e.key] && stepFwd()) { e.preventDefault(); e.stopImmediatePropagation(); }
     else if (BACK[e.key] && stepBack()) { e.preventDefault(); e.stopImmediatePropagation(); }
   }, true);
@@ -4647,9 +4650,11 @@ window.VX_MOLS=window.VX_MOLS||{};Object.assign(window.VX_MOLS,window.MOLS_D3);<
       var N = slides().length, i = idx();
       ui.querySelector('.v7-a-n').textContent = waitIntro ? '片头' : (i + 1) + ' / ' + N;
       ui.querySelector('.v7-a-tt').textContent = waitIntro ? '' : title(i);
-      ui.querySelector('[data-k="p"]').textContent = paused ? '播放' : '暂停';
+      var nar = innerWidth <= 760;   
+      ui.querySelector('[data-k="p"]').textContent = nar ? (paused ? '▶' : 'Ⅱ') : (paused ? '播放' : '暂停');
+      ui.querySelector('[data-k="prev"]').textContent = nar ? '‹' : '上一步'; ui.querySelector('[data-k="next"]').textContent = nar ? '›' : '下一步';
       var vb = ui.querySelector('[data-k="v"]'), hasVo = !!(tp(i) && tp(i).audio && !audioBad[tp(i).audio]);
-      vb.textContent = needSound && voice ? '点此开声音' : (voice ? '配音 开' : '配音 关'); vb.setAttribute('aria-pressed', voice ? 'true' : 'false');
+      vb.textContent = needSound && voice ? (nar ? '开声音' : '点此开声音') : (nar ? '配音' : (voice ? '配音 开' : '配音 关')); vb.setAttribute('aria-pressed', voice ? 'true' : 'false');
       vb.disabled = !TOUR; vb.classList.toggle('is-need', needSound && voice); vb.title = TOUR ? (hasVo ? 'AI 合成配音（云扬）' : '本页配音未加载，只出字幕') : '本份未配旁白';
       var f = waitIntro ? 0 : Math.min(1, el() / dwell(i));
       ui.querySelector('.v7-a-bar i').style.transform = 'scaleX(' + f.toFixed(3) + ')';
